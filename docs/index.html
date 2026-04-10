@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Civil Service Watch</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --border: #dee2e6;
+      --accent: #0d6efd;
+      --text: #212529;
+      --muted: #6c757d;
+      --changed: #fff3cd;
+      --changed-border: #ffc107;
+      --error: #f8d7da;
+      --error-border: #dc3545;
+      --ok: #d1e7dd;
+      --ok-border: #198754;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    header h1 { font-size: 1.4rem; }
+    header p  { font-size: 0.85rem; opacity: 0.85; margin-top: 0.2rem; }
+    .container { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem; }
+    .summary-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1.25rem;
+      min-width: 140px;
+      text-align: center;
+    }
+    .stat .val { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .stat .lbl { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .card.changed  { background: var(--changed);  border-color: var(--changed-border); }
+    .card.error    { background: var(--error);    border-color: var(--error-border); }
+    .card.ok       { background: var(--ok);       border-color: var(--ok-border); }
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .card-name { font-weight: 600; font-size: 1rem; }
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.55rem;
+      border-radius: 99px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-changed { background: #ffc107; color: #212529; }
+    .badge-error   { background: #dc3545; color: #fff; }
+    .badge-ok      { background: #198754; color: #fff; }
+    .card-meta { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
+    .card-meta a { color: var(--accent); }
+    details { margin-top: 0.6rem; }
+    details summary { cursor: pointer; font-size: 0.85rem; color: var(--accent); }
+    .tag-list { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .tag {
+      font-size: 0.72rem;
+      background: #e9ecef;
+      border-radius: 4px;
+      padding: 0.15rem 0.4rem;
+      color: var(--muted);
+    }
+    .diff-preview { font-size: 0.8rem; margin-top: 0.4rem; }
+    .diff-preview li { margin-left: 1rem; }
+    .exam-list { margin-top: 0.4rem; padding-left: 1.2rem; font-size: 0.85rem; }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+    footer a { color: var(--accent); }
+    #loading { text-align: center; padding: 3rem; color: var(--muted); }
+    #error-msg { color: #dc3545; text-align: center; padding: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>🔍 Civil Service Watch</h1>
+      <p>Automated daily monitoring of civil service exam pages and postings</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="loading">Loading latest report…</div>
+    <div id="error-msg" style="display:none"></div>
+    <div id="content" style="display:none">
+      <div class="summary-bar" id="summary-bar"></div>
+      <div id="changed-section"></div>
+      <div id="error-section"></div>
+      <div id="ok-section"></div>
+    </div>
+  </div>
+
+  <footer>
+    Powered by
+    <a href="https://github.com/frankstop/civil-service-watch" target="_blank">civil-service-watch</a>
+    · data auto-refreshes each day via GitHub Actions
+  </footer>
+
+  <script>
+    async function loadReport() {
+      try {
+        const resp = await fetch('latest.json?_=' + Date.now());
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        renderReport(data);
+      } catch (err) {
+        document.getElementById('loading').style.display = 'none';
+        const el = document.getElementById('error-msg');
+        el.style.display = '';
+        el.textContent = 'Could not load report: ' + err.message +
+          ' – the first run must complete before data is available.';
+      }
+    }
+
+    function esc(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function renderReport(data) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('content').style.display = '';
+
+      const changed = (data.sources || []).filter(s => s.changed && s.status !== 'error');
+      const errors  = (data.sources || []).filter(s => s.status === 'error');
+      const ok      = (data.sources || []).filter(s => !s.changed && s.status !== 'error');
+
+      // Summary bar
+      document.getElementById('summary-bar').innerHTML = `
+        <div class="stat"><div class="val">${esc(data.date || '–')}</div><div class="lbl">Report Date</div></div>
+        <div class="stat"><div class="val">${data.total_sources || 0}</div><div class="lbl">Sources Tracked</div></div>
+        <div class="stat"><div class="val">${data.changed_count || 0}</div><div class="lbl">Changes Found</div></div>
+        <div class="stat"><div class="val">${errors.length}</div><div class="lbl">Fetch Errors</div></div>
+      `;
+
+      // Changed
+      let changedHtml = '';
+      if (changed.length) {
+        changedHtml += '<div class="section-title">🔔 Changes Detected</div>';
+        changed.forEach(s => { changedHtml += renderCard(s, 'changed'); });
+      }
+      document.getElementById('changed-section').innerHTML = changedHtml;
+
+      // Errors
+      let errorHtml = '';
+      if (errors.length) {
+        errorHtml += '<div class="section-title">❌ Fetch Errors</div>';
+        errors.forEach(s => { errorHtml += renderCard(s, 'error'); });
+      }
+      document.getElementById('error-section').innerHTML = errorHtml;
+
+      // OK
+      let okHtml = '<div class="section-title">✅ No Changes</div>';
+      ok.forEach(s => { okHtml += renderCard(s, 'ok'); });
+      document.getElementById('ok-section').innerHTML = okHtml;
+    }
+
+    function renderCard(s, type) {
+      const badgeClass = { changed: 'badge-changed', error: 'badge-error', ok: 'badge-ok' }[type];
+      const badgeLabel = { changed: '⚡ Changed', error: '✗ Error', ok: '✓ OK' }[type];
+
+      let extras = '';
+
+      if (type === 'changed' && s.exam_titles && s.exam_titles.length) {
+        extras += `<details><summary>Exam titles (${s.exam_titles.length})</summary>
+          <ul class="exam-list">${s.exam_titles.slice(0, 8).map(t => `<li>${esc(t)}</li>`).join('')}</ul>
+        </details>`;
+      }
+      if (type === 'changed' && s.dates && s.dates.length) {
+        extras += `<div class="card-meta" style="margin-top:0.4rem">📅 ${s.dates.slice(0,5).map(esc).join(' · ')}</div>`;
+      }
+      if (s.keywords_found && s.keywords_found.length) {
+        extras += `<div class="tag-list">${s.keywords_found.map(k => `<span class="tag">${esc(k)}</span>`).join('')}</div>`;
+      }
+
+      return `
+        <div class="card ${type}">
+          <div class="card-header">
+            <span class="card-name">${esc(s.name || s.source_id)}</span>
+            <span class="badge ${badgeClass}">${badgeLabel}</span>
+          </div>
+          <div class="card-meta">
+            <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>
+            ${s.fetched_at ? ' · ' + esc(s.fetched_at) : ''}
+          </div>
+          ${extras}
+        </div>`;
+    }
+
+    loadReport();
+  </script>
+</body>
+</html>
