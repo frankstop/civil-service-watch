@@ -1,8 +1,8 @@
 """
-fetch.py – Download each source URL and save raw + normalised snapshots.
+fetch.py – Download each source URL and save raw + normalized snapshots.
 
-Raw snapshot  : data/raw/<source_id>.html
-Normalised    : data/normalized/<source_id>.json
+Raw snapshot : data/raw/<source_id>.html
+Normalized   : data/normalized/<source_id>.json
   {
     "source_id": "...",
     "url": "...",
@@ -87,8 +87,7 @@ def fetch_source(source: dict) -> dict:
         html = resp.text
 
         # Save raw HTML
-        raw_path = DATA_RAW_DIR / f"{safe_filename(sid)}.html"
-        raw_path.write_text(html, encoding="utf-8")
+        raw_path = DATA_RAW_DIR / f"{safe_filename(sid)}.html"        raw_path.write_text(html, encoding="utf-8")
 
         text = extract_visible_text(html)
         result["content_hash"] = hash_text(text)

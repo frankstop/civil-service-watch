@@ -1,5 +1,5 @@
 """
-extract.py – Parse normalised snapshots for exam titles, dates, deadlines, and links.
+extract.py – Parse normalized snapshots for exam titles, dates, deadlines, and links.
 
 Reads  : data/normalized/<source_id>.json
 Writes : data/normalized/<source_id>_extracted.json

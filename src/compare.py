@@ -1,5 +1,5 @@
 """
-compare.py – Diff today's normalised snapshot against the previous run.
+compare.py – Diff today's normalized snapshot against the previous run.
 
 Reads  : data/normalized/<source_id>.json  (current)
          history/<last_date>.json           (previous run's snapshot index)

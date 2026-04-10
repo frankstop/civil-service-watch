@@ -1,8 +1,8 @@
 """
 build_report.py – Generate daily summary reports.
 
-Reads  : history/<today>.json               (comparison results)
-         data/normalized/<id>_extracted.json (extraction results)
+Reads  : history/<today>.json                (comparison results)
+         data/normalized/<id>_extracted.json  (extraction results)
 Writes : latest_report.md
          latest_report.json
          docs/latest.json
