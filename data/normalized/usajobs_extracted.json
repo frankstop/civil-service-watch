@@ -1,0 +1,202 @@
+{
+  "source_id": "usajobs",
+  "name": "USAJOBS",
+  "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+  "extracted_at": "2026-04-10T21:23:34Z",
+  "links": [
+    {
+      "text": "Sign in",
+      "href": "https://www.usajobs.gov/applicant/profile/dashboard/"
+    },
+    {
+      "text": "My jobs",
+      "href": "https://www.usajobs.gov/applicant/profile/dashboard/"
+    },
+    {
+      "text": "Profile",
+      "href": "https://www.usajobs.gov/applicant/profile/"
+    },
+    {
+      "text": "Resumes & documents",
+      "href": "https://www.usajobs.gov/applicant/document/resumes/"
+    },
+    {
+      "text": "Search preferences",
+      "href": "https://www.usajobs.gov/applicant/searchpreference/"
+    },
+    {
+      "text": "Notifications",
+      "href": "https://www.usajobs.gov/applicant/notifications/"
+    },
+    {
+      "text": "Events",
+      "href": "https://www.usajobs.gov/Event"
+    },
+    {
+      "text": "Help Center",
+      "href": "https://help.usajobs.gov/how-to"
+    },
+    {
+      "text": "Search",
+      "href": "https://www.usajobs.gov/Search/Results"
+    },
+    {
+      "text": "Search tips",
+      "href": "https://help.usajobs.gov/how-to/search"
+    },
+    {
+      "text": "How posting dates work",
+      "href": "https://help.usajobs.gov/how-to/job-announcement/closing-types"
+    },
+    {
+      "text": "See all job alerts",
+      "href": "https://www.usajobs.gov/Applicant/Dashboard/savedsearches"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/save"
+    },
+    {
+      "text": "keywords Opens in a new window",
+      "href": "https://help.usajobs.gov/how-to/search"
+    },
+    {
+      "text": "Opens in a new window Learn more about filters",
+      "href": "https://help.usajobs.gov/how-to/search/filters"
+    },
+    {
+      "text": "Opens in a new window federal occupation titles",
+      "href": "https://help.usajobs.gov/how-to/search/filters/series"
+    },
+    {
+      "text": "Take quiz",
+      "href": "https://www.usajobs.gov/careerexplorer/"
+    },
+    {
+      "text": "Click here to search all USAJOBS.",
+      "href": "https://www.usajobs.gov/search"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/remote"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/working-in-government/appointments"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/department"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/hiring-path"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/location"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/pay"
+    },
+    {
+      "text": "General Schedule (GS) grade scale",
+      "href": "https://help.usajobs.gov/faq/pay/series-and-grade"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/security-clearance"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/series"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/travel-percentage"
+    },
+    {
+      "text": "Help",
+      "href": "https://help.usajobs.gov/how-to/search/filters/work-schedule"
+    },
+    {
+      "text": "Upload a resume",
+      "href": "https://www.usajobs.gov/applicant/resume/upload/"
+    },
+    {
+      "text": "Build a resume",
+      "href": "https://www.usajobs.gov/applicant/builder/resume/createresume/"
+    },
+    {
+      "text": "Make your resume searchable",
+      "href": "https://www.usajobs.gov/applicant/document/resumes/"
+    },
+    {
+      "text": "Answer military service questions",
+      "href": "https://www.usajobs.gov/applicant/militaryservice/bestdescribesyou/"
+    },
+    {
+      "text": "Upload SF-50",
+      "href": "https://www.usajobs.gov/applicant/document/documents/"
+    },
+    {
+      "text": "Opens in a new window United States Office of Personnel Management",
+      "href": "https://www.opm.gov"
+    },
+    {
+      "text": "(Opens in a new window) OPM on LinkedIn",
+      "href": "https://www.linkedin.com/company/usajobs"
+    },
+    {
+      "text": "(Opens in a new window) OPM YouTube channel",
+      "href": "https://www.youtube.com/playlist?list=PLuzWeT0b0ErDyLedfJgutdV1_sf9q-2rZ"
+    },
+    {
+      "text": "Opens in a new window About USAJOBS",
+      "href": "https://help.usajobs.gov/About"
+    },
+    {
+      "text": "Opens in a new window Accessibility",
+      "href": "https://help.usajobs.gov/faq/policy/accessibility-policy"
+    },
+    {
+      "text": "Opens in a new window FOIA",
+      "href": "https://www.opm.gov/information-management/freedom-of-information-act/"
+    },
+    {
+      "text": "Opens in a new window Inspector general",
+      "href": "https://www.opm.gov/our-inspector-general/"
+    },
+    {
+      "text": "Opens in a new window No Fear Act Data",
+      "href": "https://www.opm.gov/information-management/no-fear-act/"
+    },
+    {
+      "text": "Opens in a new window Privacy policy",
+      "href": "https://help.usajobs.gov/privacy"
+    },
+    {
+      "text": "Opens in a new window Reports and publications",
+      "href": "https://www.opm.gov/about-us/reports-publications/"
+    },
+    {
+      "text": "Opens in a new window Terms and conditions",
+      "href": "https://help.usajobs.gov/terms-and-conditions"
+    },
+    {
+      "text": "Opens in a new window USA.gov",
+      "href": "http://www.usa.gov/"
+    },
+    {
+      "text": "Opens in a new window Vote.gov",
+      "href": "https://vote.gov/"
+    }
+  ],
+  "exam_titles": [],
+  "dates": [],
+  "keywords_found": [
+    "schedule",
+    "posting"
+  ]
+}

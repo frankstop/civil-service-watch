@@ -1,0 +1,16 @@
+{
+  "source_id": "nyc_dcas",
+  "name": "NYC DCAS",
+  "url": "https://www.nyc.gov/site/dcas/employment/civil-service-exams.page",
+  "region": "NYC",
+  "tags": [
+    "exams",
+    "schedule",
+    "nyc"
+  ],
+  "fetched_at": "2026-04-10T21:23:13Z",
+  "status": "error",
+  "content_hash": "",
+  "text": "",
+  "error": "404 Client Error: Not Found for url: https://www.nyc.gov/site/dcas/employment/civil-service-exams.page"
+}

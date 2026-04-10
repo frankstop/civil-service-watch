@@ -1,0 +1,121 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T21:23:34Z",
+  "total_sources": 10,
+  "changed_count": 2,
+  "sources": [
+    {
+      "source_id": "nyc_dcas",
+      "name": "NYC DCAS",
+      "url": "https://www.nyc.gov/site/dcas/employment/civil-service-exams.page",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:13Z"
+    },
+    {
+      "source_id": "nys_civil_service",
+      "name": "NYS Civil Service",
+      "url": "https://www.cs.ny.gov/testing/",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:15Z"
+    },
+    {
+      "source_id": "usajobs",
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+      "status": "ok",
+      "changed": true,
+      "content_hash": "a491a0582ceb7dd5",
+      "fetched_at": "2026-04-10T21:23:18Z",
+      "exam_titles": [],
+      "dates": [],
+      "keywords_found": [
+        "schedule",
+        "posting"
+      ]
+    },
+    {
+      "source_id": "nassau_county",
+      "name": "Nassau County Civil Service",
+      "url": "https://www.nassaucountyny.gov/1462/Upcoming-Examinations",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:20Z"
+    },
+    {
+      "source_id": "suffolk_county",
+      "name": "Suffolk County Civil Service",
+      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:23Z"
+    },
+    {
+      "source_id": "westchester_county",
+      "name": "Westchester County Civil Service",
+      "url": "https://jobs.westchestergov.com/civil-service-exams",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:25Z"
+    },
+    {
+      "source_id": "rockland_county",
+      "name": "Rockland County Civil Service",
+      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:27Z"
+    },
+    {
+      "source_id": "orange_county",
+      "name": "Orange County Civil Service",
+      "url": "https://www.orangecountygov.com/631/Civil-Service",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:29Z"
+    },
+    {
+      "source_id": "ny_courts",
+      "name": "NY Courts",
+      "url": "https://www.nycourts.gov/careers/",
+      "status": "error",
+      "changed": false,
+      "content_hash": "",
+      "fetched_at": "2026-04-10T21:23:32Z"
+    },
+    {
+      "source_id": "mta",
+      "name": "MTA",
+      "url": "https://new.mta.info/careers",
+      "status": "ok",
+      "changed": true,
+      "content_hash": "a9707ef1b8958d32",
+      "fetched_at": "2026-04-10T21:23:34Z",
+      "exam_titles": [
+        "We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not work as you expect them to. We recommend updating your browser to the latest version.",
+        "Jobs that require exams",
+        "Some positions at MTA New York City Transit, MaBSTOA, MTA Bus Company, and MTA Bridges & Tunnels require applicants to sit for an examination.",
+        "Find out more about upcoming exams.",
+        "Applying to become an MTA Police Officer requires an exam, as well as a number of other steps."
+      ],
+      "dates": [
+        "March 13, 2023"
+      ],
+      "keywords_found": [
+        "exam",
+        "examination",
+        "test",
+        "schedule",
+        "posting"
+      ]
+    }
+  ]
+}

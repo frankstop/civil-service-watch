@@ -1,0 +1,16 @@
+{
+  "source_id": "suffolk_county",
+  "name": "Suffolk County Civil Service",
+  "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+  "region": "Suffolk County",
+  "tags": [
+    "exams",
+    "schedule",
+    "suffolk"
+  ],
+  "fetched_at": "2026-04-10T21:23:23Z",
+  "status": "error",
+  "content_hash": "",
+  "text": "",
+  "error": "403 Client Error: Forbidden for url: https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations"
+}

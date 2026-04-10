@@ -1,0 +1,16 @@
+{
+  "source_id": "westchester_county",
+  "name": "Westchester County Civil Service",
+  "url": "https://jobs.westchestergov.com/civil-service-exams",
+  "region": "Westchester County",
+  "tags": [
+    "exams",
+    "schedule",
+    "westchester"
+  ],
+  "fetched_at": "2026-04-10T21:23:25Z",
+  "status": "error",
+  "content_hash": "",
+  "text": "",
+  "error": "HTTPSConnectionPool(host='jobs.westchestergov.com', port=443): Max retries exceeded with url: /civil-service-exams (Caused by NameResolutionError(\"HTTPSConnection(host='jobs.westchestergov.com', port=443): Failed to resolve 'jobs.westchestergov.com' ([Errno -2] Name or service not known)\"))"
+}

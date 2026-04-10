@@ -1,0 +1,16 @@
+{
+  "source_id": "nys_civil_service",
+  "name": "NYS Civil Service",
+  "url": "https://www.cs.ny.gov/testing/",
+  "region": "NYS",
+  "tags": [
+    "exams",
+    "schedule",
+    "state"
+  ],
+  "fetched_at": "2026-04-10T21:23:15Z",
+  "status": "error",
+  "content_hash": "",
+  "text": "",
+  "error": "403 Client Error: Forbidden for url: https://www.cs.ny.gov/testing/"
+}

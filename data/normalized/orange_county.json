@@ -1,0 +1,16 @@
+{
+  "source_id": "orange_county",
+  "name": "Orange County Civil Service",
+  "url": "https://www.orangecountygov.com/631/Civil-Service",
+  "region": "Orange County",
+  "tags": [
+    "exams",
+    "schedule",
+    "orange"
+  ],
+  "fetched_at": "2026-04-10T21:23:29Z",
+  "status": "error",
+  "content_hash": "",
+  "text": "",
+  "error": "404 Client Error: Not Found for url: https://www.orangecountygov.com/631/Civil-Service"
+}
