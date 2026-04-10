@@ -87,7 +87,8 @@ def fetch_source(source: dict) -> dict:
         html = resp.text
 
         # Save raw HTML
-        raw_path = DATA_RAW_DIR / f"{safe_filename(sid)}.html"        raw_path.write_text(html, encoding="utf-8")
+        raw_path = DATA_RAW_DIR / f"{safe_filename(sid)}.html" 
+        raw_path.write_text(html, encoding="utf-8")
 
         text = extract_visible_text(html)
         result["content_hash"] = hash_text(text)
