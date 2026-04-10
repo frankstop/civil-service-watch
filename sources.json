@@ -1,0 +1,82 @@
+[
+  {
+    "id": "nyc_dcas",
+    "name": "NYC DCAS",
+    "url": "https://www.nyc.gov/site/dcas/employment/civil-service-exams.page",
+    "description": "New York City Department of Citywide Administrative Services - Civil Service Exams",
+    "region": "NYC",
+    "tags": ["exams", "schedule", "nyc"]
+  },
+  {
+    "id": "nys_civil_service",
+    "name": "NYS Civil Service",
+    "url": "https://www.cs.ny.gov/testing/",
+    "description": "New York State Department of Civil Service - Testing",
+    "region": "NYS",
+    "tags": ["exams", "schedule", "state"]
+  },
+  {
+    "id": "usajobs",
+    "name": "USAJOBS",
+    "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+    "description": "USAJOBS federal positions in New York",
+    "region": "Federal",
+    "tags": ["postings", "federal"]
+  },
+  {
+    "id": "nassau_county",
+    "name": "Nassau County Civil Service",
+    "url": "https://www.nassaucountyny.gov/1462/Upcoming-Examinations",
+    "description": "Nassau County Department of Civil Service - Upcoming Examinations",
+    "region": "Nassau County",
+    "tags": ["exams", "schedule", "nassau"]
+  },
+  {
+    "id": "suffolk_county",
+    "name": "Suffolk County Civil Service",
+    "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+    "description": "Suffolk County Department of Civil Service - Examinations",
+    "region": "Suffolk County",
+    "tags": ["exams", "schedule", "suffolk"]
+  },
+  {
+    "id": "westchester_county",
+    "name": "Westchester County Civil Service",
+    "url": "https://jobs.westchestergov.com/civil-service-exams",
+    "description": "Westchester County Civil Service - Exams",
+    "region": "Westchester County",
+    "tags": ["exams", "schedule", "westchester"]
+  },
+  {
+    "id": "rockland_county",
+    "name": "Rockland County Civil Service",
+    "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
+    "description": "Rockland County Personnel Department - Civil Service Examinations",
+    "region": "Rockland County",
+    "tags": ["exams", "schedule", "rockland"]
+  },
+  {
+    "id": "orange_county",
+    "name": "Orange County Civil Service",
+    "url": "https://www.orangecountygov.com/631/Civil-Service",
+    "description": "Orange County Department of Human Resources - Civil Service",
+    "region": "Orange County",
+    "tags": ["exams", "schedule", "orange"]
+  },
+  {
+    "id": "ny_courts",
+    "name": "NY Courts",
+    "url": "https://www.nycourts.gov/careers/",
+    "description": "New York State Unified Court System - Career Opportunities",
+    "region": "NYS Courts",
+    "tags": ["exams", "postings", "courts"]
+  },
+  {
+    "id": "mta",
+    "name": "MTA",
+    "url": "https://new.mta.info/careers",
+    "description": "Metropolitan Transportation Authority - Careers",
+    "region": "NYC Metro",
+    "tags": ["postings", "transit", "mta"]
+  }
+]
