@@ -8,9 +8,14 @@
     "schedule",
     "suffolk"
   ],
-  "fetched_at": "2026-04-11T07:53:10Z",
+  "fetched_at": "2026-04-11T23:08:38Z",
   "status": "error",
+  "status_detail": "bot_blocked",
+  "http_status": 403,
+  "resolved_url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
   "content_hash": "",
   "text": "",
-  "error": "403 Client Error: Forbidden for url: https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations"
+  "summary_note": "",
+  "record_count": 0,
+  "error": "403 response returned from source URL"
 }

@@ -1,16 +1,21 @@
 {
   "source_id": "ny_courts",
   "name": "NY Courts",
-  "url": "https://www.nycourts.gov/careers/",
+  "url": "https://ww2.nycourts.gov/careers/exams.shtml",
   "region": "NYS Courts",
   "tags": [
     "exams",
     "postings",
     "courts"
   ],
-  "fetched_at": "2026-04-11T07:53:19Z",
+  "fetched_at": "2026-04-11T23:08:48Z",
   "status": "error",
+  "status_detail": "bot_blocked",
+  "http_status": 403,
+  "resolved_url": "https://ww2.nycourts.gov/careers/exams.shtml",
   "content_hash": "",
   "text": "",
-  "error": "403 Client Error: Forbidden for url: https://www.nycourts.gov/careers/"
+  "summary_note": "",
+  "record_count": 0,
+  "error": "403 response returned from source URL"
 }

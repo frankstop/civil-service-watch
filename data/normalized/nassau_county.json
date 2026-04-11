@@ -1,16 +1,21 @@
 {
   "source_id": "nassau_county",
   "name": "Nassau County Civil Service",
-  "url": "https://www.nassaucountyny.gov/1462/Upcoming-Examinations",
+  "url": "https://www.governmentjobs.com/careers/nassaucountyny",
   "region": "Nassau County",
   "tags": [
     "exams",
     "schedule",
     "nassau"
   ],
-  "fetched_at": "2026-04-11T07:53:08Z",
-  "status": "error",
-  "content_hash": "",
-  "text": "",
-  "error": "404 Client Error: Not Found for url: https://www.nassaucountyny.gov/1462/Upcoming-Examinations"
+  "fetched_at": "2026-04-11T23:08:36Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://www.governmentjobs.com/careers/nassaucountyny",
+  "content_hash": "5bfb396fbf355c12",
+  "text": "Open competitive examination announcements are available on the linked application site.",
+  "summary_note": "Open competitive examination announcements are available on the linked application site.",
+  "record_count": 0,
+  "error": null
 }

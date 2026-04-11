@@ -1,16 +1,21 @@
 {
   "source_id": "orange_county",
   "name": "Orange County Civil Service",
-  "url": "https://www.orangecountygov.com/631/Civil-Service",
+  "url": "https://orange-portal.mycivilservice.com/post/exams",
   "region": "Orange County",
   "tags": [
     "exams",
     "schedule",
     "orange"
   ],
-  "fetched_at": "2026-04-11T07:53:17Z",
-  "status": "error",
-  "content_hash": "",
-  "text": "",
-  "error": "404 Client Error: Not Found for url: https://www.orangecountygov.com/631/Civil-Service"
+  "fetched_at": "2026-04-11T23:08:45Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://orange-portal.mycivilservice.com/post/exams",
+  "content_hash": "72a4fbe88b4948b0",
+  "text": "60062760 | PROBATION OFFICER 1 TRAINEE | OC | 04/29/2026 | 06/27/2026 | https://orange-portal.mycivilservice.com/post/exams\n60062770 | Social Welfare Examiner Trainee | OC | 04/29/2026 | 06/27/2026 | https://orange-portal.mycivilservice.com/post/exams\n61438 | Athletic Trainer | CR | https://orange-portal.mycivilservice.com/post/exams\n60048720 | CORRECTION OFFICER | CR | https://orange-portal.mycivilservice.com/post/exams\n6108 | DATA ENTRY OPERATOR II | CR | https://orange-portal.mycivilservice.com/post/exams\n002 | Emergency Medical Technician | CR | https://orange-portal.mycivilservice.com/post/exams\n60030070 | Librarian I Trainee | CR | https://orange-portal.mycivilservice.com/post/exams\n63404010 | Librarian I | CR | https://orange-portal.mycivilservice.com/post/exams\n63426010 | Librarian II | CR | https://orange-portal.mycivilservice.com/post/exams\n63430010 | Librarian II (Children's Services) | CR | https://orange-portal.mycivilservice.com/post/exams\n64270010 | Librarian III | CR | https://orange-portal.mycivilservice.com/post/exams\n86874 | LIBRARY ASSISTANT | CR | https://orange-portal.mycivilservice.com/post/exams\n86202 | LIBRARY ASST (CHILDREN'S SVCS) | CR | https://orange-portal.mycivilservice.com/post/exams\n86871 | LIBRARY ASST (SPN/ENG SPEAKING) | CR | https://orange-portal.mycivilservice.com/post/exams\n64866 | Library Director I | CR | https://orange-portal.mycivilservice.com/post/exams\n67944 | Library Director II | CR | https://orange-portal.mycivilservice.com/post/exams\n6081 | Nurse Practitioner | CR | https://orange-portal.mycivilservice.com/post/exams\n020 | Nursing Care Manager | CR | https://orange-portal.mycivilservice.com/post/exams\n021 | Nursing Care Supervisor / Nursing Care Supervisor Trainee | CR | https://orange-portal.mycivilservice.com/post/exams\n006 | Occupational Therapist | CR | https://orange-portal.mycivilservice.com/post/exams\n007 | Occupational Therapy Assistant | CR | https://orange-portal.mycivilservice.com/post/exams\n61890000 | PARAMEDIC | CR | https://orange-portal.mycivilservice.com/post/exams\n004 | Physical Therapist | CR | https://orange-portal.mycivilservice.com/post/exams\n005 | Physical Therapy Assistant | CR | https://orange-portal.mycivilservice.com/post/exams\n001 | Public Health Nurse | CR | https://orange-portal.mycivilservice.com/post/exams\n677 | Supervising Public Health Nurse | CR | https://orange-portal.mycivilservice.com/post/exams\n6117 | TELEPHONE OPERATOR II | CR | https://orange-portal.mycivilservice.com/post/exams",
+  "summary_note": "Open competitive and continuous recruitment exam listings.",
+  "record_count": 27,
+  "error": null
 }

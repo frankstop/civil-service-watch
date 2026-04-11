@@ -1,0 +1,98 @@
+{
+  "source_id": "westchester_county",
+  "name": "Westchester County Civil Service",
+  "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+  "extracted_at": "2026-04-11T23:09:23Z",
+  "links": [
+    {
+      "text": "Skip to main content",
+      "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm#exam_content1"
+    },
+    {
+      "text": "Scheduled Exams",
+      "href": "https://exams.westchestergov.com/webexam/PE/scheduledExamsHome.htm"
+    },
+    {
+      "text": "Continuous Recruitment Exams",
+      "href": "https://exams.westchestergov.com/webexam/CR/crExamsHome.htm"
+    },
+    {
+      "text": "Email Subscription",
+      "href": "https://exams.westchestergov.com/webexam/emailSubscription/subscribe.htm"
+    },
+    {
+      "text": "Login/Register",
+      "href": "https://exams.westchestergov.com/webexam/login/login.htm"
+    },
+    {
+      "text": "Home",
+      "href": "https://exams.westchestergov.com/webexam/home/welcome.htm"
+    },
+    {
+      "text": "View Cart",
+      "href": "https://exams.westchestergov.com/webexam/cart/showCart.htm"
+    },
+    {
+      "text": "Open to All",
+      "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm"
+    },
+    {
+      "text": "County/WMC Promotional",
+      "href": "https://exams.westchestergov.com/webexam/PE/listCountyWMCPromotionalExams.htm"
+    },
+    {
+      "text": "Local Promotional",
+      "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
+    },
+    {
+      "text": "Customer Service Coordinator - Student Services",
+      "href": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
+    },
+    {
+      "text": "Applying Online",
+      "href": "https://humanresources.westchestercountyny.gov/applying-online"
+    },
+    {
+      "text": "Using This Website",
+      "href": "https://humanresources.westchestercountyny.gov/using-website"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://humanresources.westchestercountyny.gov/faqs"
+    },
+    {
+      "text": "Disclaimer/Privacy Policy",
+      "href": "https://www.westchestercountyny.gov/disclaimer"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://humanresources.westchestercountyny.gov/contact-information"
+    }
+  ],
+  "records": [
+    {
+      "exam_number": "60-032780",
+      "agency": "BOCES #2",
+      "title": "Customer Service Coordinator - Student Services",
+      "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm",
+      "deadline": "04/13/2026",
+      "exam_date": "06/27/2026",
+      "salary": "According to Agreement",
+      "fee": "$50.00"
+    }
+  ],
+  "record_count": 1,
+  "record_fingerprint": "13c7523d21890eb3",
+  "summary_note": "",
+  "exam_titles": [
+    "Customer Service Coordinator - Student Services"
+  ],
+  "dates": [
+    "04/13/2026",
+    "06/27/2026"
+  ],
+  "keywords_found": [
+    "exam"
+  ],
+  "normalized_text": "60-032780 | Customer Service Coordinator - Student Services | 04/13/2026 | 06/27/2026 | BOCES #2 | According to Agreement | http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
+}

@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Civil Service Watch</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='48' font-size='48'%3E%F0%9F%94%8D%3C/text%3E%3C/svg%3E" />
   <style>
     :root {
       --bg: #f8f9fa;
@@ -104,6 +105,42 @@
     .diff-preview { font-size: 0.8rem; margin-top: 0.4rem; }
     .diff-preview li { margin-left: 1rem; }
     .exam-list { margin-top: 0.4rem; padding-left: 1.2rem; font-size: 0.85rem; }
+    .summary-note {
+      margin-top: 0.65rem;
+      font-size: 0.9rem;
+    }
+    .record-list {
+      margin-top: 0.8rem;
+      display: grid;
+      gap: 0.65rem;
+    }
+    .record {
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      padding: 0.7rem 0.85rem;
+      background: rgba(255,255,255,0.65);
+    }
+    .record-title {
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    .record-meta {
+      margin-top: 0.25rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+    .record-meta a { color: var(--accent); }
+    .error-detail {
+      margin-top: 0.7rem;
+      font-size: 0.83rem;
+      color: #7a1b24;
+      background: rgba(255,255,255,0.55);
+      border-radius: 6px;
+      padding: 0.6rem 0.75rem;
+    }
     footer {
       text-align: center;
       font-size: 0.8rem;
@@ -166,6 +203,22 @@
         .replace(/"/g, '&quot;');
     }
 
+    function renderRecord(record) {
+      const title = record.title || record.detail || record.exam_number || 'Listing';
+      const bits = [record.exam_number, record.type, record.application_period, record.deadline, record.exam_date, record.agency, record.salary]
+        .filter(Boolean)
+        .map(esc);
+      const detailUrl = record.detail_url
+        ? `<a href="${esc(record.detail_url)}" target="_blank" rel="noopener">Open source</a>`
+        : '';
+
+      return `
+        <div class="record">
+          <div class="record-title">${esc(title)}</div>
+          ${(bits.length || detailUrl) ? `<div class="record-meta">${bits.map(bit => `<span>${bit}</span>`).join('')}${detailUrl ? `<span>${detailUrl}</span>` : ''}</div>` : ''}
+        </div>`;
+    }
+
     function renderReport(data) {
       document.getElementById('loading').style.display = 'none';
       document.getElementById('content').style.display = '';
@@ -210,16 +263,27 @@
 
       let extras = '';
 
-      if (type === 'changed' && s.exam_titles && s.exam_titles.length) {
-        extras += `<details><summary>Exam titles (${s.exam_titles.length})</summary>
+      if (s.summary_note) {
+        extras += `<div class="summary-note">${esc(s.summary_note)}</div>`;
+      }
+      if (s.records && s.records.length) {
+        extras += `<div class="record-list">${s.records.slice(0, 5).map(renderRecord).join('')}</div>`;
+      } else if (type !== 'error' && s.exam_titles && s.exam_titles.length) {
+        extras += `<details><summary>Titles (${s.exam_titles.length})</summary>
           <ul class="exam-list">${s.exam_titles.slice(0, 8).map(t => `<li>${esc(t)}</li>`).join('')}</ul>
         </details>`;
       }
-      if (type === 'changed' && s.dates && s.dates.length) {
+      if (s.record_diff && (s.record_diff.added_count || s.record_diff.removed_count)) {
+        extras += `<div class="card-meta" style="margin-top:0.5rem">Added ${s.record_diff.added_count || 0} · Removed ${s.record_diff.removed_count || 0}</div>`;
+      }
+      if (s.dates && s.dates.length) {
         extras += `<div class="card-meta" style="margin-top:0.4rem">📅 ${s.dates.slice(0,5).map(esc).join(' · ')}</div>`;
       }
       if (s.keywords_found && s.keywords_found.length) {
         extras += `<div class="tag-list">${s.keywords_found.map(k => `<span class="tag">${esc(k)}</span>`).join('')}</div>`;
+      }
+      if (type === 'error') {
+        extras += `<div class="error-detail"><strong>${esc(s.status_detail || 'fetch_failed')}</strong>${s.error ? ` · ${esc(s.error)}` : ''}</div>`;
       }
 
       return `

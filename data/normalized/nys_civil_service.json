@@ -1,16 +1,21 @@
 {
   "source_id": "nys_civil_service",
   "name": "NYS Civil Service",
-  "url": "https://www.cs.ny.gov/testing/",
+  "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
   "region": "NYS",
   "tags": [
     "exams",
     "schedule",
     "state"
   ],
-  "fetched_at": "2026-04-11T07:53:03Z",
-  "status": "error",
-  "content_hash": "",
-  "text": "",
-  "error": "403 Client Error: Forbidden for url: https://www.cs.ny.gov/testing/"
+  "fetched_at": "2026-04-11T23:08:31Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+  "content_hash": "9811df28366cd73a",
+  "text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm\n*Fee may cover applications for multiple examinations. See examination announcement for details.",
+  "summary_note": "",
+  "record_count": 2,
+  "error": null
 }

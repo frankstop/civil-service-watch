@@ -7,14 +7,15 @@ Writes : history/<today>.json              (index of today's snapshots + diff)
 """
 
 import json
+import subprocess
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from source_extractors import row_signature
 from utils import (
     DATA_NORM_DIR,
     HISTORY_DIR,
-    hash_text,
     load_sources,
     now_iso,
     safe_filename,
@@ -49,10 +50,56 @@ def diff_texts(old_text: str, new_text: str) -> dict:
     }
 
 
+def read_git_json(repo_path: Path, rel_path: str) -> dict | None:
+    """Read a committed JSON file from HEAD, if present."""
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(repo_path), "show", f"HEAD:{rel_path}"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except subprocess.CalledProcessError:
+        return None
+    try:
+        return json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return None
+
+
+def build_record_index(records: list[dict]) -> dict[str, dict]:
+    """Index records by their stable signature."""
+    index = {}
+    for record in records:
+        signature = row_signature(record)
+        if signature:
+            index[signature] = record
+    return index
+
+
+def diff_records(previous: list[dict], current: list[dict]) -> dict | None:
+    """Return a compact diff between previous and current records."""
+    prev_index = build_record_index(previous)
+    curr_index = build_record_index(current)
+    if not prev_index and not curr_index:
+        return None
+
+    added = [curr_index[key] for key in curr_index.keys() - prev_index.keys()]
+    removed = [prev_index[key] for key in prev_index.keys() - curr_index.keys()]
+    return {
+        "added_count": len(added),
+        "removed_count": len(removed),
+        "added_titles": [record.get("title", record.get("exam_number", "")) for record in added[:5]],
+        "removed_titles": [record.get("title", record.get("exam_number", "")) for record in removed[:5]],
+    }
+
+
 def compare_source(source: dict, prev_index: dict | None) -> dict:
     """Compare current snapshot for *source* against previous run."""
     sid = source["id"]
     norm_path = DATA_NORM_DIR / f"{safe_filename(sid)}.json"
+    extracted_path = DATA_NORM_DIR / f"{safe_filename(sid)}_extracted.json"
+    repo_root = Path(__file__).resolve().parent.parent
 
     current = read_json(norm_path)
     if current is None:
@@ -71,8 +118,13 @@ def compare_source(source: dict, prev_index: dict | None) -> dict:
                 prev_record = entry
                 break
 
-    curr_hash = current.get("content_hash", "")
+    current_extracted = read_json(extracted_path) or {}
+    previous_extracted = read_git_json(repo_root, f"data/normalized/{safe_filename(sid)}_extracted.json") or {}
+
+    curr_hash = current_extracted.get("record_fingerprint") or current.get("content_hash", "")
     prev_hash = prev_record.get("content_hash", "") if prev_record else ""
+    if previous_extracted.get("record_fingerprint"):
+        prev_hash = previous_extracted["record_fingerprint"]
 
     changed = curr_hash != prev_hash and curr_hash != ""
 
@@ -81,13 +133,21 @@ def compare_source(source: dict, prev_index: dict | None) -> dict:
         "name": source["name"],
         "url": source["url"],
         "status": current.get("status", "unknown"),
+        "status_detail": current.get("status_detail", current.get("status", "unknown")),
+        "error": current.get("error"),
         "content_hash": curr_hash,
         "fetched_at": current.get("fetched_at", ""),
         "changed": changed,
         "diff": None,
+        "summary_note": current_extracted.get("summary_note", current.get("summary_note", "")),
+        "record_count": current_extracted.get("record_count", current.get("record_count", 0)),
+        "records": current_extracted.get("records", [])[:10],
+        "record_diff": None,
     }
 
-    if changed and prev_record and current.get("text"):
+    if changed and previous_extracted.get("records") is not None:
+        result["record_diff"] = diff_records(previous_extracted.get("records", []), current_extracted.get("records", []))
+    elif changed and prev_record and current.get("text"):
         prev_text = prev_record.get("text", "")
         curr_text = current.get("text", "")
         result["diff"] = diff_texts(prev_text, curr_text)

@@ -2,16 +2,16 @@
   {
     "id": "nyc_dcas",
     "name": "NYC DCAS",
-    "url": "https://www.nyc.gov/site/dcas/employment/civil-service-exams.page",
-    "description": "New York City Department of Citywide Administrative Services - Civil Service Exams",
+    "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
+    "description": "New York City Department of Citywide Administrative Services - Open Competitive Exams",
     "region": "NYC",
     "tags": ["exams", "schedule", "nyc"]
   },
   {
     "id": "nys_civil_service",
     "name": "NYS Civil Service",
-    "url": "https://www.cs.ny.gov/testing/",
-    "description": "New York State Department of Civil Service - Testing",
+    "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+    "description": "New York State Department of Civil Service - Examinations Open to the Public",
     "region": "NYS",
     "tags": ["exams", "schedule", "state"]
   },
@@ -26,8 +26,8 @@
   {
     "id": "nassau_county",
     "name": "Nassau County Civil Service",
-    "url": "https://www.nassaucountyny.gov/1462/Upcoming-Examinations",
-    "description": "Nassau County Department of Civil Service - Upcoming Examinations",
+    "url": "https://www.governmentjobs.com/careers/nassaucountyny",
+    "description": "Nassau County Civil Service Commission - Open Competitive Examination Announcements",
     "region": "Nassau County",
     "tags": ["exams", "schedule", "nassau"]
   },
@@ -42,8 +42,8 @@
   {
     "id": "westchester_county",
     "name": "Westchester County Civil Service",
-    "url": "https://jobs.westchestergov.com/civil-service-exams",
-    "description": "Westchester County Civil Service - Exams",
+    "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+    "description": "Westchester County Department of Human Resources - Scheduled Exams Open to All",
     "region": "Westchester County",
     "tags": ["exams", "schedule", "westchester"]
   },
@@ -58,16 +58,16 @@
   {
     "id": "orange_county",
     "name": "Orange County Civil Service",
-    "url": "https://www.orangecountygov.com/631/Civil-Service",
-    "description": "Orange County Department of Human Resources - Civil Service",
+    "url": "https://orange-portal.mycivilservice.com/post/exams",
+    "description": "Orange County Civil Service - Current Exams",
     "region": "Orange County",
     "tags": ["exams", "schedule", "orange"]
   },
   {
     "id": "ny_courts",
     "name": "NY Courts",
-    "url": "https://www.nycourts.gov/careers/",
-    "description": "New York State Unified Court System - Career Opportunities",
+    "url": "https://ww2.nycourts.gov/careers/exams.shtml",
+    "description": "New York State Unified Court System - Current Exams",
     "region": "NYS Courts",
     "tags": ["exams", "postings", "courts"]
   },

@@ -8,9 +8,14 @@
     "schedule",
     "rockland"
   ],
-  "fetched_at": "2026-04-11T07:53:14Z",
+  "fetched_at": "2026-04-11T23:08:43Z",
   "status": "error",
+  "status_detail": "forbidden",
+  "http_status": 403,
+  "resolved_url": "https://www.rocklandcountyny.gov/departments/personnel/civil-service-examinations",
   "content_hash": "",
   "text": "",
-  "error": "403 Client Error: Forbidden for url: https://www.rocklandcountyny.gov/departments/personnel/civil-service-examinations"
+  "summary_note": "",
+  "record_count": 0,
+  "error": "403 response returned from source URL"
 }
