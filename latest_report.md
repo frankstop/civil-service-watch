@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-04-10  
-**Generated:** 2026-04-10T21:23:34Z  
+**Date:** 2026-04-11  
+**Generated:** 2026-04-11T07:53:23Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 1  
 
 ---
 
@@ -11,16 +11,14 @@
 
 ### USAJOBS
 - **URL:** https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-
-### MTA
-- **URL:** https://new.mta.info/careers
-- **Exam titles found:**
-  - We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not
-  - Jobs that require exams
-  - Some positions at MTA New York City Transit, MaBSTOA, MTA Bus Company, and MTA Bridges & Tunnels require applicants to s
-  - Find out more about upcoming exams.
-  - Applying to become an MTA Police Officer requires an exam, as well as a number of other steps.
-- **Dates mentioned:** March 13, 2023
+- Lines added: 194
+- Lines removed: 0
+- **New content (preview):**
+  - `Sensitive Compartmented Information`
+  - `Add a resume to your profile`
+  - `Internal to an agency`
+  - `Show all jobs including remote`
+  - `. We may use a different job title or description than what you are searching for.`
 
 ## ❌ Fetch Errors
 
@@ -35,6 +33,7 @@
 
 ## ✅ No Changes
 
+- MTA
 
 ---
 

@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-10",
-  "generated_at": "2026-04-10T21:23:34Z",
+  "date": "2026-04-11",
+  "generated_at": "2026-04-11T07:53:23Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 1,
   "sources": [
     {
       "source_id": "nyc_dcas",
@@ -11,7 +11,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:13Z"
+      "fetched_at": "2026-04-11T07:53:01Z"
     },
     {
       "source_id": "nys_civil_service",
@@ -20,7 +20,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:15Z"
+      "fetched_at": "2026-04-11T07:53:03Z"
     },
     {
       "source_id": "usajobs",
@@ -28,8 +28,8 @@
       "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
       "status": "ok",
       "changed": true,
-      "content_hash": "a491a0582ceb7dd5",
-      "fetched_at": "2026-04-10T21:23:18Z",
+      "content_hash": "e2d2eb0647649c25",
+      "fetched_at": "2026-04-11T07:53:05Z",
       "exam_titles": [],
       "dates": [],
       "keywords_found": [
@@ -44,7 +44,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:20Z"
+      "fetched_at": "2026-04-11T07:53:08Z"
     },
     {
       "source_id": "suffolk_county",
@@ -53,7 +53,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:23Z"
+      "fetched_at": "2026-04-11T07:53:10Z"
     },
     {
       "source_id": "westchester_county",
@@ -62,7 +62,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:25Z"
+      "fetched_at": "2026-04-11T07:53:12Z"
     },
     {
       "source_id": "rockland_county",
@@ -71,7 +71,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:27Z"
+      "fetched_at": "2026-04-11T07:53:14Z"
     },
     {
       "source_id": "orange_county",
@@ -80,7 +80,7 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:29Z"
+      "fetched_at": "2026-04-11T07:53:17Z"
     },
     {
       "source_id": "ny_courts",
@@ -89,16 +89,16 @@
       "status": "error",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-10T21:23:32Z"
+      "fetched_at": "2026-04-11T07:53:19Z"
     },
     {
       "source_id": "mta",
       "name": "MTA",
       "url": "https://new.mta.info/careers",
       "status": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "a9707ef1b8958d32",
-      "fetched_at": "2026-04-10T21:23:34Z",
+      "fetched_at": "2026-04-11T07:53:21Z",
       "exam_titles": [
         "We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not work as you expect them to. We recommend updating your browser to the latest version.",
         "Jobs that require exams",
