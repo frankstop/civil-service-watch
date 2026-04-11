@@ -8,14 +8,14 @@
     "schedule",
     "state"
   ],
-  "fetched_at": "2026-04-11T23:08:31Z",
+  "fetched_at": "2026-04-11T23:25:21Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "content_hash": "9811df28366cd73a",
-  "text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm\n*Fee may cover applications for multiple examinations. See examination announcement for details.",
+  "content_hash": "da9743079afed232",
+  "text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
   "summary_note": "",
-  "record_count": 2,
+  "record_count": 1,
   "error": null
 }
