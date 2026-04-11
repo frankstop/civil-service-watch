@@ -1,16 +1,21 @@
 {
   "source_id": "westchester_county",
   "name": "Westchester County Civil Service",
-  "url": "https://jobs.westchestergov.com/civil-service-exams",
+  "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
   "region": "Westchester County",
   "tags": [
     "exams",
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-04-11T07:53:12Z",
-  "status": "error",
-  "content_hash": "",
-  "text": "",
-  "error": "HTTPSConnectionPool(host='jobs.westchestergov.com', port=443): Max retries exceeded with url: /civil-service-exams (Caused by NameResolutionError(\"HTTPSConnection(host='jobs.westchestergov.com', port=443): Failed to resolve 'jobs.westchestergov.com' ([Errno -2] Name or service not known)\"))"
+  "fetched_at": "2026-04-11T23:08:41Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+  "content_hash": "13c7523d21890eb3",
+  "text": "60-032780 | Customer Service Coordinator - Student Services | 04/13/2026 | 06/27/2026 | BOCES #2 | According to Agreement | http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm",
+  "summary_note": "",
+  "record_count": 1,
+  "error": null
 }

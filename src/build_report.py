@@ -78,23 +78,33 @@ def build_markdown(history: dict, sources_map: dict) -> str:
             url = rec.get("url", "")
             lines.append(f"### {name}")
             lines.append(f"- **URL:** {url}")
+            if rec.get("summary_note"):
+                lines.append(f"- **Summary:** {rec['summary_note']}")
+            record_diff = rec.get("record_diff")
             diff = rec.get("diff")
-            if diff:
+            if record_diff:
+                lines.append(
+                    f"- Records added: {record_diff['added_count']} · "
+                    f"removed: {record_diff['removed_count']}"
+                )
+                if record_diff.get("added_titles"):
+                    lines.append(f"- **Added titles:** {', '.join(record_diff['added_titles'])}")
+                if record_diff.get("removed_titles"):
+                    lines.append(f"- **Removed titles:** {', '.join(record_diff['removed_titles'])}")
+            elif diff:
                 lines.append(f"- Lines added: {diff['added_lines']}")
                 lines.append(f"- Lines removed: {diff['removed_lines']}")
                 if diff.get("added_preview"):
                     lines.append("- **New content (preview):**")
                     for line in diff["added_preview"][:5]:
                         lines.append(f"  - `{line[:120]}`")
-            # Extraction highlights
-            extracted = load_extraction(rec["source_id"])
-            if extracted:
-                if extracted.get("exam_titles"):
-                    lines.append("- **Exam titles found:**")
-                    for t in extracted["exam_titles"][:5]:
-                        lines.append(f"  - {t[:120]}")
-                if extracted.get("dates"):
-                    lines.append(f"- **Dates mentioned:** {', '.join(extracted['dates'][:5])}")
+            if rec.get("records"):
+                lines.append("- **Top records:**")
+                for record in rec["records"][:5]:
+                    parts = [record.get("title") or record.get("detail") or record.get("exam_number")]
+                    extras = [record.get("exam_number"), record.get("deadline"), record.get("exam_date")]
+                    parts.extend(extra for extra in extras if extra)
+                    lines.append(f"  - {' — '.join(part for part in parts if part)[:160]}")
             lines.append("")
 
     if errors:
@@ -102,7 +112,9 @@ def build_markdown(history: dict, sources_map: dict) -> str:
         lines.append("")
         for rec in errors:
             name = rec.get("name", rec["source_id"])
-            lines.append(f"- **{name}** — check URL or network access")
+            detail = rec.get("status_detail", "fetch_failed")
+            message = rec.get("error", "fetch failed")
+            lines.append(f"- **{name}** — {detail}: {message}")
         lines.append("")
 
     lines.append("## ✅ No Changes")
@@ -132,14 +144,21 @@ def build_json_report(history: dict) -> dict:
             "name": rec.get("name", ""),
             "url": rec.get("url", ""),
             "status": rec.get("status", "unknown"),
+            "status_detail": rec.get("status_detail", rec.get("status", "unknown")),
             "changed": rec.get("changed", False),
             "content_hash": rec.get("content_hash", ""),
             "fetched_at": rec.get("fetched_at", ""),
+            "error": rec.get("error"),
+            "summary_note": rec.get("summary_note", ""),
+            "record_count": rec.get("record_count", 0),
+            "record_diff": rec.get("record_diff"),
+            "records": rec.get("records", [])[:10],
         }
         if extracted:
             entry["exam_titles"] = extracted.get("exam_titles", [])[:10]
             entry["dates"] = extracted.get("dates", [])[:10]
             entry["keywords_found"] = extracted.get("keywords_found", [])
+            entry["links"] = extracted.get("links", [])[:10]
         sources_summary.append(entry)
 
     return {

@@ -1,121 +1,621 @@
 {
   "date": "2026-04-11",
-  "generated_at": "2026-04-11T07:53:23Z",
+  "generated_at": "2026-04-11T23:09:36Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 0,
   "sources": [
     {
       "source_id": "nyc_dcas",
       "name": "NYC DCAS",
-      "url": "https://www.nyc.gov/site/dcas/employment/civil-service-exams.page",
-      "status": "error",
+      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:01Z"
+      "content_hash": "c79164eb67751e47",
+      "fetched_at": "2026-04-11T23:08:29Z",
+      "error": null,
+      "summary_note": "",
+      "record_count": 18,
+      "record_diff": null,
+      "records": [
+        {
+          "title": "Administrative Horticulturist",
+          "exam_number": "6005 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Administrative Job Opportunity Specialist",
+          "exam_number": "6007",
+          "application_period": "Postponed"
+        },
+        {
+          "title": "Associate Fraud Investigator",
+          "exam_number": "6123 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266123000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Auto Body Worker",
+          "exam_number": "6024 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Auto Mechanic",
+          "exam_number": "6025 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Auto Mechanic (CUNY)",
+          "exam_number": "6026 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Auto Mechanic (Diesel)",
+          "exam_number": "6027 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266027000.pdf",
+          "application_period": "4/1/2026 – 4/21/2026"
+        },
+        {
+          "title": "Call Center Representative",
+          "exam_number": "6032",
+          "application_period": "Canceled"
+        },
+        {
+          "title": "Chemical Engineering Intern",
+          "exam_number": "6117 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266117000.pdf",
+          "application_period": "2/4/2026 – 4/21/2026"
+        },
+        {
+          "title": "City Assessor",
+          "exam_number": "6036",
+          "application_period": "Postponed"
+        }
+      ],
+      "exam_titles": [
+        "Administrative Horticulturist",
+        "Administrative Job Opportunity Specialist",
+        "Associate Fraud Investigator",
+        "Auto Body Worker",
+        "Auto Mechanic",
+        "Auto Mechanic (CUNY)",
+        "Auto Mechanic (Diesel)",
+        "Call Center Representative",
+        "Chemical Engineering Intern",
+        "City Assessor"
+      ],
+      "dates": [
+        "4/1/2026 – 4/21/2026",
+        "Postponed",
+        "Canceled",
+        "2/4/2026 – 4/21/2026",
+        "4/1/2026 – 5/29/2026",
+        "4/1/2026 – 4/14/2026"
+      ],
+      "keywords_found": [],
+      "links": [
+        {
+          "text": "311",
+          "href": "https://www.nyc.gov/311/index.page"
+        },
+        {
+          "text": "Search all NYC.gov websites",
+          "href": "https://www.nyc.gov/home/search/index.page"
+        },
+        {
+          "text": "Menu",
+          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
+        },
+        {
+          "text": "Text-Size",
+          "href": "http://www1.nyc.gov/home/text-size.page"
+        },
+        {
+          "text": "Search",
+          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
+        },
+        {
+          "text": "Home",
+          "href": "https://www.nyc.gov/site/dcas/index.page"
+        },
+        {
+          "text": "About",
+          "href": "https://www.nyc.gov/site/dcas/about/our-mission.page"
+        },
+        {
+          "text": "Employment",
+          "href": "https://www.nyc.gov/site/dcas/employment/why-you-should-work-for-the-city.page"
+        },
+        {
+          "text": "Business",
+          "href": "https://www.nyc.gov/site/dcas/business/conducting-business.page"
+        },
+        {
+          "text": "For City Agencies",
+          "href": "https://www.nyc.gov/site/dcas/agencies/for-city-agencies.page"
+        }
+      ]
     },
     {
       "source_id": "nys_civil_service",
       "name": "NYS Civil Service",
-      "url": "https://www.cs.ny.gov/testing/",
-      "status": "error",
+      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:03Z"
+      "content_hash": "da9743079afed232",
+      "fetched_at": "2026-04-11T23:08:31Z",
+      "error": null,
+      "summary_note": "",
+      "record_count": 1,
+      "record_diff": null,
+      "records": [
+        {
+          "exam_number": "21-026020",
+          "title": "Maintenance Supervisor 1 (Motor Equipment)",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
+          "salary": "See Announcement",
+          "deadline": "April 29, 2026"
+        }
+      ],
+      "exam_titles": [
+        "Maintenance Supervisor 1 (Motor Equipment)"
+      ],
+      "dates": [
+        "April 29, 2026"
+      ],
+      "keywords_found": [
+        "exam",
+        "announcement"
+      ],
+      "links": [
+        {
+          "text": "Navigation menu",
+          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
+        },
+        {
+          "text": "Department of Civil Service",
+          "href": "https://www.cs.ny.gov"
+        },
+        {
+          "text": "Online Services",
+          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
+        },
+        {
+          "text": "Account Login",
+          "href": "https://www.cs.ny.gov/home/myaccount/"
+        },
+        {
+          "text": "Apply Online",
+          "href": "https://www.cs.ny.gov/jobseeker/onlineapp/ocappinfo.cfm"
+        },
+        {
+          "text": "My Examination Applications",
+          "href": "https://www.cs.ny.gov/examannouncements/confirmation/history/index.cfm"
+        },
+        {
+          "text": "Eligible Lists (ELMS Online)",
+          "href": "https://www.cs.ny.gov/elmspublic/"
+        },
+        {
+          "text": "Job Seekers",
+          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
+        },
+        {
+          "text": "Hiring for Emergency Limited Placement (HELP) program",
+          "href": "https://www.cs.ny.gov/help/"
+        },
+        {
+          "text": "Centers for Careers in Government (CCG)",
+          "href": "https://www.cs.ny.gov/ccg/"
+        }
+      ]
     },
     {
       "source_id": "usajobs",
       "name": "USAJOBS",
       "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
       "status": "ok",
-      "changed": true,
-      "content_hash": "e2d2eb0647649c25",
-      "fetched_at": "2026-04-11T07:53:05Z",
+      "status_detail": "ok",
+      "changed": false,
+      "content_hash": "7438a1348daa0d1a",
+      "fetched_at": "2026-04-11T23:08:34Z",
+      "error": null,
+      "summary_note": "No matching USAJOBS listings found for the current search.",
+      "record_count": 0,
+      "record_diff": null,
+      "records": [],
       "exam_titles": [],
       "dates": [],
-      "keywords_found": [
-        "schedule",
-        "posting"
-      ]
+      "keywords_found": [],
+      "links": []
     },
     {
       "source_id": "nassau_county",
       "name": "Nassau County Civil Service",
-      "url": "https://www.nassaucountyny.gov/1462/Upcoming-Examinations",
-      "status": "error",
+      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:08Z"
+      "content_hash": "5bfb396fbf355c12",
+      "fetched_at": "2026-04-11T23:08:36Z",
+      "error": null,
+      "summary_note": "Open competitive examination announcements are available on the linked application site.",
+      "record_count": 0,
+      "record_diff": null,
+      "records": [],
+      "exam_titles": [],
+      "dates": [],
+      "keywords_found": [
+        "exam",
+        "examination",
+        "open competitive",
+        "announcement"
+      ],
+      "links": [
+        {
+          "text": "instructions how to enable JavaScript in your web browser",
+          "href": "http://www.enable-javascript.com"
+        },
+        {
+          "text": "Click here or press any key to continue.",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+        },
+        {
+          "text": "Menu",
+          "href": "javascript:void(0)"
+        },
+        {
+          "text": "Don't have an account? Create one .",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+        },
+        {
+          "text": "Already have an account? Sign In .",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+        },
+        {
+          "text": "Applications",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/applications/submitted"
+        },
+        {
+          "text": "Inbox",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/inbox"
+        },
+        {
+          "text": "Profile",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/profilesettings"
+        },
+        {
+          "text": "Account",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/applications/accountsettings"
+        },
+        {
+          "text": "Sign Out After clicking on this link you will be logged out and the page will be reloaded.",
+          "href": "javascript:void(0)"
+        }
+      ]
     },
     {
       "source_id": "suffolk_county",
       "name": "Suffolk County Civil Service",
       "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
       "status": "error",
+      "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:10Z"
+      "fetched_at": "2026-04-11T23:08:38Z",
+      "error": "403 response returned from source URL",
+      "summary_note": "",
+      "record_count": 0,
+      "record_diff": null,
+      "records": []
     },
     {
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
-      "url": "https://jobs.westchestergov.com/civil-service-exams",
-      "status": "error",
+      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:12Z"
+      "content_hash": "13c7523d21890eb3",
+      "fetched_at": "2026-04-11T23:08:41Z",
+      "error": null,
+      "summary_note": "",
+      "record_count": 1,
+      "record_diff": null,
+      "records": [
+        {
+          "exam_number": "60-032780",
+          "agency": "BOCES #2",
+          "title": "Customer Service Coordinator - Student Services",
+          "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm",
+          "deadline": "04/13/2026",
+          "exam_date": "06/27/2026",
+          "salary": "According to Agreement",
+          "fee": "$50.00"
+        }
+      ],
+      "exam_titles": [
+        "Customer Service Coordinator - Student Services"
+      ],
+      "dates": [
+        "04/13/2026",
+        "06/27/2026"
+      ],
+      "keywords_found": [
+        "exam"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm#exam_content1"
+        },
+        {
+          "text": "Scheduled Exams",
+          "href": "https://exams.westchestergov.com/webexam/PE/scheduledExamsHome.htm"
+        },
+        {
+          "text": "Continuous Recruitment Exams",
+          "href": "https://exams.westchestergov.com/webexam/CR/crExamsHome.htm"
+        },
+        {
+          "text": "Email Subscription",
+          "href": "https://exams.westchestergov.com/webexam/emailSubscription/subscribe.htm"
+        },
+        {
+          "text": "Login/Register",
+          "href": "https://exams.westchestergov.com/webexam/login/login.htm"
+        },
+        {
+          "text": "Home",
+          "href": "https://exams.westchestergov.com/webexam/home/welcome.htm"
+        },
+        {
+          "text": "View Cart",
+          "href": "https://exams.westchestergov.com/webexam/cart/showCart.htm"
+        },
+        {
+          "text": "Open to All",
+          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm"
+        },
+        {
+          "text": "County/WMC Promotional",
+          "href": "https://exams.westchestergov.com/webexam/PE/listCountyWMCPromotionalExams.htm"
+        },
+        {
+          "text": "Local Promotional",
+          "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
+        }
+      ]
     },
     {
       "source_id": "rockland_county",
       "name": "Rockland County Civil Service",
       "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
       "status": "error",
+      "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:14Z"
+      "fetched_at": "2026-04-11T23:08:43Z",
+      "error": "403 response returned from source URL",
+      "summary_note": "",
+      "record_count": 0,
+      "record_diff": null,
+      "records": []
     },
     {
       "source_id": "orange_county",
       "name": "Orange County Civil Service",
-      "url": "https://www.orangecountygov.com/631/Civil-Service",
-      "status": "error",
+      "url": "https://orange-portal.mycivilservice.com/post/exams",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:17Z"
+      "content_hash": "56b56e9a8df9fbeb",
+      "fetched_at": "2026-04-11T23:08:45Z",
+      "error": null,
+      "summary_note": "Open competitive and continuous recruitment exam listings.",
+      "record_count": 27,
+      "record_diff": null,
+      "records": [
+        {
+          "exam_number": "60062760",
+          "title": "PROBATION OFFICER 1 TRAINEE",
+          "type": "OC",
+          "deadline": "04/29/2026",
+          "exam_date": "06/27/2026",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60062770",
+          "title": "Social Welfare Examiner Trainee",
+          "type": "OC",
+          "deadline": "04/29/2026",
+          "exam_date": "06/27/2026",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "61438",
+          "title": "Athletic Trainer",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60048720",
+          "title": "CORRECTION OFFICER",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "6108",
+          "title": "DATA ENTRY OPERATOR II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "002",
+          "title": "Emergency Medical Technician",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60030070",
+          "title": "Librarian I Trainee",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63404010",
+          "title": "Librarian I",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63426010",
+          "title": "Librarian II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63430010",
+          "title": "Librarian II (Children's Services)",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
+      "exam_titles": [
+        "PROBATION OFFICER 1 TRAINEE",
+        "Social Welfare Examiner Trainee",
+        "Athletic Trainer",
+        "CORRECTION OFFICER",
+        "DATA ENTRY OPERATOR II",
+        "Emergency Medical Technician",
+        "Librarian I Trainee",
+        "Librarian I",
+        "Librarian II",
+        "Librarian II (Children's Services)"
+      ],
+      "dates": [
+        "04/29/2026",
+        "06/27/2026"
+      ],
+      "keywords_found": [
+        "exam",
+        "open competitive"
+      ],
+      "links": [
+        {
+          "text": "Human Resources Home",
+          "href": "https://www.orangecountygov.com/1137/Human-Resources"
+        },
+        {
+          "text": "Job Specifications",
+          "href": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "text": "County Job Specifications",
+          "href": "https://orange-portal.mycivilservice.com/main/jobs"
+        },
+        {
+          "text": "Municipal Job Specifications",
+          "href": "https://orange-portal.mycivilservice.com/main/munjobs"
+        },
+        {
+          "text": "Municipalities Served",
+          "href": "https://orange-portal.mycivilservice.com/main/munserved"
+        },
+        {
+          "text": "Employment Opportunities",
+          "href": "https://orange-portal.mycivilservice.com/post/jobopps"
+        },
+        {
+          "text": "Current Exams",
+          "href": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "text": "Info on Taking exams",
+          "href": "https://orange-portal.mycivilservice.com/main/faq"
+        },
+        {
+          "text": "Veterans Credit Information",
+          "href": "https://orange-portal.mycivilservice.com/main/vets"
+        },
+        {
+          "text": "Police/Sheriff & Corrections Videos and Info",
+          "href": "https://orange-portal.mycivilservice.com/main/police"
+        }
+      ]
     },
     {
       "source_id": "ny_courts",
       "name": "NY Courts",
-      "url": "https://www.nycourts.gov/careers/",
+      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
       "status": "error",
+      "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T07:53:19Z"
+      "fetched_at": "2026-04-11T23:08:48Z",
+      "error": "403 response returned from source URL",
+      "summary_note": "",
+      "record_count": 0,
+      "record_diff": null,
+      "records": []
     },
     {
       "source_id": "mta",
       "name": "MTA",
       "url": "https://new.mta.info/careers",
       "status": "ok",
+      "status_detail": "ok",
       "changed": false,
-      "content_hash": "a9707ef1b8958d32",
-      "fetched_at": "2026-04-11T07:53:21Z",
+      "content_hash": "93269ebd3b4bb96e",
+      "fetched_at": "2026-04-11T23:08:50Z",
+      "error": null,
+      "summary_note": "Career center links and exam-specific entry points.",
+      "record_count": 5,
+      "record_diff": null,
+      "records": [
+        {
+          "title": "Job listings",
+          "detail": "See all open MTA positions.",
+          "detail_url": "https://careers.mta.org/"
+        },
+        {
+          "title": "Exam information",
+          "detail": "Find out more about upcoming exams.",
+          "detail_url": "https://www.mta.info/careers/mta-exams"
+        },
+        {
+          "title": "Police officer process",
+          "detail": "Find out more about becoming a police officer",
+          "detail_url": "https://www.mta.info/careers/become-a-police-officer"
+        },
+        {
+          "title": "Skilled trades",
+          "detail": "See current skilled trade jobs",
+          "detail_url": "https://new.mta.info/careers/skilled-trades-positions"
+        },
+        {
+          "title": "Internships",
+          "detail": "MTA Careers site",
+          "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
+        }
+      ],
       "exam_titles": [
-        "We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not work as you expect them to. We recommend updating your browser to the latest version.",
-        "Jobs that require exams",
-        "Some positions at MTA New York City Transit, MaBSTOA, MTA Bus Company, and MTA Bridges & Tunnels require applicants to sit for an examination.",
-        "Find out more about upcoming exams.",
-        "Applying to become an MTA Police Officer requires an exam, as well as a number of other steps."
+        "Job listings",
+        "Exam information",
+        "Police officer process",
+        "Skilled trades",
+        "Internships"
       ],
-      "dates": [
-        "March 13, 2023"
-      ],
+      "dates": [],
       "keywords_found": [
-        "exam",
-        "examination",
-        "test",
-        "schedule",
-        "posting"
-      ]
+        "exam"
+      ],
+      "links": []
     }
   ]
 }

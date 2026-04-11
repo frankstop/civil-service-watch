@@ -2,192 +2,48 @@
   "source_id": "mta",
   "name": "MTA",
   "url": "https://new.mta.info/careers",
-  "extracted_at": "2026-04-11T07:53:22Z",
-  "links": [
+  "extracted_at": "2026-04-11T23:09:23Z",
+  "links": [],
+  "records": [
     {
-      "text": "Schedules",
-      "href": "https://new.mta.info/schedules"
+      "title": "Job listings",
+      "detail": "See all open MTA positions.",
+      "detail_url": "https://careers.mta.org/"
     },
     {
-      "text": "Maps",
-      "href": "https://new.mta.info/maps"
+      "title": "Exam information",
+      "detail": "Find out more about upcoming exams.",
+      "detail_url": "https://www.mta.info/careers/mta-exams"
     },
     {
-      "text": "Fares and tolls",
-      "href": "https://new.mta.info/fares-tolls"
+      "title": "Police officer process",
+      "detail": "Find out more about becoming a police officer",
+      "detail_url": "https://www.mta.info/careers/become-a-police-officer"
     },
     {
-      "text": "Planned Service Changes",
-      "href": "https://new.mta.info/planned-service-changes"
+      "title": "Skilled trades",
+      "detail": "See current skilled trade jobs",
+      "detail_url": "https://new.mta.info/careers/skilled-trades-positions"
     },
     {
-      "text": "Elevator & Escalator Status",
-      "href": "https://new.mta.info/elevator-escalator-status"
-    },
-    {
-      "text": "Accessibility",
-      "href": "https://new.mta.info/accessibility"
-    },
-    {
-      "text": "Sign up for service alerts",
-      "href": "https://new.mta.info/guides/service-alerts"
-    },
-    {
-      "text": "Guides",
-      "href": "https://new.mta.info/guides"
-    },
-    {
-      "text": "Access-A-Ride Paratransit",
-      "href": "https://new.mta.info/accessibility/access-a-ride"
-    },
-    {
-      "text": "About the MTA",
-      "href": "https://new.mta.info/about"
-    },
-    {
-      "text": "Transparency",
-      "href": "https://new.mta.info/transparency"
-    },
-    {
-      "text": "Projects",
-      "href": "https://new.mta.info/project"
-    },
-    {
-      "text": "Safety and Security",
-      "href": "https://new.mta.info/safety-and-security"
-    },
-    {
-      "text": "Careers",
-      "href": "https://new.mta.info/careers"
-    },
-    {
-      "text": "New York City Transit",
-      "href": "https://new.mta.info/agency/new-york-city-transit"
-    },
-    {
-      "text": "Bridges & Tunnels",
-      "href": "https://new.mta.info/agency/bridges-and-tunnels"
-    },
-    {
-      "text": "Long Island Rail Road",
-      "href": "https://new.mta.info/agency/long-island-rail-road"
-    },
-    {
-      "text": "Metro-North Railroad",
-      "href": "https://new.mta.info/agency/metro-north-railroad"
-    },
-    {
-      "text": "Other agencies and departments",
-      "href": "https://new.mta.info/agency"
-    },
-    {
-      "text": "Give feedback",
-      "href": "https://contact.mta.info/s/customer-feedback"
-    },
-    {
-      "text": "Contact the MTA",
-      "href": "https://new.mta.info/contact-us"
-    },
-    {
-      "text": "Media Relations",
-      "href": "https://new.mta.info/agency/media-relations"
-    },
-    {
-      "text": "Procurement and solicitations",
-      "href": "https://new.mta.info/doing-business-with-us/procurement"
-    },
-    {
-      "text": "Fares & Tolls",
-      "href": "https://new.mta.info/fares-tolls"
-    },
-    {
-      "text": "Planned Work",
-      "href": "https://new.mta.info/alerts"
-    },
-    {
-      "text": "Home",
-      "href": "https://new.mta.info/"
-    },
-    {
-      "text": "See all open MTA positions.",
-      "href": "https://careers.mta.org/"
-    },
-    {
-      "text": "Find out more about upcoming exams.",
-      "href": "https://www.mta.info/careers/mta-exams"
-    },
-    {
-      "text": "Find out more about becoming a police officer",
-      "href": "https://www.mta.info/careers/become-a-police-officer"
-    },
-    {
-      "text": "See current skilled trade jobs",
-      "href": "https://new.mta.info/careers/skilled-trades-positions"
-    },
-    {
-      "text": "MTA Careers site",
-      "href": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
-    },
-    {
-      "text": "Learn more about our benefits.",
-      "href": "https://careers.mta.org/pages/benefits"
-    },
-    {
-      "text": "Office of the Inspector General (careers at OIG)",
-      "href": "https://mtaig.ny.gov/Pages/Career-Opportunities.aspx"
-    },
-    {
-      "text": "EEO Policies",
-      "href": "https://new.mta.info/careers/eeo"
-    },
-    {
-      "text": "Contact Us",
-      "href": "https://new.mta.info/contact-us"
-    },
-    {
-      "text": "INFORMATION",
-      "href": "https://new.mta.info/"
-    },
-    {
-      "text": "Doing Business With Us",
-      "href": "https://new.mta.info/doing-business-with-us"
-    },
-    {
-      "text": "Press Releases",
-      "href": "https://new.mta.info/press-release"
-    },
-    {
-      "text": "Arts & Design",
-      "href": "https://new.mta.info/agency/arts-design"
-    },
-    {
-      "text": "NY Transit Museum & Shop",
-      "href": "https://www.nytransitmuseum.org/"
-    },
-    {
-      "text": "Terms & Conditions",
-      "href": "https://new.mta.info/terms-and-conditions"
-    },
-    {
-      "text": "Privacy Policy",
-      "href": "https://new.mta.info/privacy-policy"
+      "title": "Internships",
+      "detail": "MTA Careers site",
+      "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
     }
   ],
+  "record_count": 5,
+  "record_fingerprint": "93269ebd3b4bb96e",
+  "summary_note": "Career center links and exam-specific entry points.",
   "exam_titles": [
-    "We have detected you are using an out-of-date browser. We no longer support this browser, so parts of the site might not work as you expect them to. We recommend updating your browser to the latest version.",
-    "Jobs that require exams",
-    "Some positions at MTA New York City Transit, MaBSTOA, MTA Bus Company, and MTA Bridges & Tunnels require applicants to sit for an examination.",
-    "Find out more about upcoming exams.",
-    "Applying to become an MTA Police Officer requires an exam, as well as a number of other steps."
+    "Job listings",
+    "Exam information",
+    "Police officer process",
+    "Skilled trades",
+    "Internships"
   ],
-  "dates": [
-    "March 13, 2023"
-  ],
+  "dates": [],
   "keywords_found": [
-    "exam",
-    "examination",
-    "test",
-    "schedule",
-    "posting"
-  ]
+    "exam"
+  ],
+  "normalized_text": "Job listings | https://careers.mta.org/\nExam information | https://www.mta.info/careers/mta-exams\nPolice officer process | https://www.mta.info/careers/become-a-police-officer\nSkilled trades | https://new.mta.info/careers/skilled-trades-positions\nInternships | https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
 }

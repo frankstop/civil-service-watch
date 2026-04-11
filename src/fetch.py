@@ -21,10 +21,10 @@ import logging
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 # Allow running as a script from any working directory
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from source_extractors import extract_source_data
 from utils import (
     DATA_RAW_DIR,
     DATA_NORM_DIR,
@@ -44,22 +44,45 @@ log = logging.getLogger(__name__)
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (compatible; CivilServiceWatch/1.0; "
-        "+https://github.com/frankstop/civil-service-watch)"
-    )
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
 TIMEOUT = 30  # seconds
 DELAY_BETWEEN_REQUESTS = 2  # seconds – be polite to servers
 
 
-def extract_visible_text(html: str) -> str:
-    """Return clean visible text from raw HTML."""
-    soup = BeautifulSoup(html, "html.parser")
-    # Remove script / style / nav noise
-    for tag in soup(["script", "style", "nav", "footer", "head"]):
-        tag.decompose()
-    lines = (line.strip() for line in soup.get_text(separator="\n").splitlines())
-    return "\n".join(line for line in lines if line)
+def request_headers(source_id: str) -> dict:
+    """Return headers tuned for the requested source."""
+    if source_id == "mta":
+        return {
+            "User-Agent": (
+                "Mozilla/5.0 (compatible; CivilServiceWatch/1.0; "
+                "+https://github.com/frankstop/civil-service-watch)"
+            )
+        }
+    return HEADERS
+
+
+def classify_error(status_code: int | None, html: str, message: str) -> str:
+    """Classify an HTTP failure into a more useful status detail."""
+    body = html.lower()
+    text = message.lower()
+    if status_code == 404:
+        return "not_found"
+    if status_code == 403 and ("enable javascript and cookies to continue" in body or "just a moment" in body):
+        return "bot_blocked"
+    if status_code == 403:
+        return "forbidden"
+    if "failed to resolve" in text:
+        return "dns_error"
+    if "timed out" in text:
+        return "timeout"
+    return "fetch_failed"
 
 
 def fetch_source(source: dict) -> dict:
@@ -76,27 +99,43 @@ def fetch_source(source: dict) -> dict:
         "tags": source.get("tags", []),
         "fetched_at": now_iso(),
         "status": "ok",
+        "status_detail": "ok",
+        "http_status": None,
+        "resolved_url": url,
         "content_hash": "",
         "text": "",
+        "summary_note": "",
+        "record_count": 0,
         "error": None,
     }
 
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        resp.raise_for_status()
+        resp = requests.get(url, headers=request_headers(sid), timeout=TIMEOUT)
+        result["http_status"] = resp.status_code
+        result["resolved_url"] = resp.url
         html = resp.text
 
         # Save raw HTML
         raw_path = DATA_RAW_DIR / f"{safe_filename(sid)}.html" 
         raw_path.write_text(html, encoding="utf-8")
 
-        text = extract_visible_text(html)
-        result["content_hash"] = hash_text(text)
+        if resp.status_code >= 400:
+            result["status"] = "error"
+            result["status_detail"] = classify_error(resp.status_code, html, f"HTTP {resp.status_code}")
+            result["error"] = f"{resp.status_code} response returned from source URL"
+            return result
+
+        extracted = extract_source_data(sid, html, resp.url)
+        text = extracted["normalized_text"]
+        result["content_hash"] = hash_text(text) if text else ""
         result["text"] = text
+        result["summary_note"] = extracted.get("summary_note", "")
+        result["record_count"] = extracted.get("record_count", 0)
 
     except Exception as exc:  # noqa: BLE001
         log.warning("Error fetching %s: %s", sid, exc)
         result["status"] = "error"
+        result["status_detail"] = classify_error(None, "", str(exc))
         result["error"] = str(exc)
 
     return result

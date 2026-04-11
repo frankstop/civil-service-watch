@@ -1,0 +1,454 @@
+{
+  "source_id": "orange_county",
+  "name": "Orange County Civil Service",
+  "url": "https://orange-portal.mycivilservice.com/post/exams",
+  "extracted_at": "2026-04-11T23:09:23Z",
+  "links": [
+    {
+      "text": "Human Resources Home",
+      "href": "https://www.orangecountygov.com/1137/Human-Resources"
+    },
+    {
+      "text": "Job Specifications",
+      "href": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "text": "County Job Specifications",
+      "href": "https://orange-portal.mycivilservice.com/main/jobs"
+    },
+    {
+      "text": "Municipal Job Specifications",
+      "href": "https://orange-portal.mycivilservice.com/main/munjobs"
+    },
+    {
+      "text": "Municipalities Served",
+      "href": "https://orange-portal.mycivilservice.com/main/munserved"
+    },
+    {
+      "text": "Employment Opportunities",
+      "href": "https://orange-portal.mycivilservice.com/post/jobopps"
+    },
+    {
+      "text": "Current Exams",
+      "href": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "text": "Info on Taking exams",
+      "href": "https://orange-portal.mycivilservice.com/main/faq"
+    },
+    {
+      "text": "Veterans Credit Information",
+      "href": "https://orange-portal.mycivilservice.com/main/vets"
+    },
+    {
+      "text": "Police/Sheriff & Corrections Videos and Info",
+      "href": "https://orange-portal.mycivilservice.com/main/police"
+    },
+    {
+      "text": "Sign Up for Email Alerts",
+      "href": "https://www.orangecountygov.com/list.aspx"
+    },
+    {
+      "text": "General Information on applying for and taking exams",
+      "href": "https://orange-portal.mycivilservice.com/main/inst"
+    },
+    {
+      "text": "Alternate Test Date Policy",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6333/Alternate-Test-Date-Policy-PDF"
+    },
+    {
+      "text": "Address Change Form (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6341/Address-Change-Form-PDF"
+    },
+    {
+      "text": "Application Fee Waiver Request and Certification Form (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6334/Application-Fee-Waiver-Request-and-Certification-Form-PDF"
+    },
+    {
+      "text": "Application for Employment / Examination (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6332/Application-for-Employment--Examination-PDF"
+    },
+    {
+      "text": "Civil Service Examinations in Orange County (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6335/Civil-Service-Examinations-in-Orange-County-PDF"
+    },
+    {
+      "text": "Cross-Filer Form (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6337/Cross-Filer-Form-PDF"
+    },
+    {
+      "text": "Directions to Test Sites (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6338/Directions-to-Test-Sites-PDF"
+    },
+    {
+      "text": "Military Make-Up Examination Entitlement (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6339/Military-Make-Up-Examination-Entitlement-PDF"
+    },
+    {
+      "text": "Performance Test Waiver (PDF)",
+      "href": "https://www.orangecountygov.com/DocumentCenter/View/6340/Performance-Test-Waiver-PDF"
+    },
+    {
+      "text": "PROBATION OFFICER 1 TRAINEE",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1873"
+    },
+    {
+      "text": "Social Welfare Examiner Trainee",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1870"
+    },
+    {
+      "text": "Athletic Trainer",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/33"
+    },
+    {
+      "text": "CORRECTION OFFICER",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1608"
+    },
+    {
+      "text": "DATA ENTRY OPERATOR II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1659"
+    },
+    {
+      "text": "Emergency Medical Technician",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1103"
+    },
+    {
+      "text": "Librarian I Trainee",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1345"
+    },
+    {
+      "text": "Librarian I",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1344"
+    },
+    {
+      "text": "Librarian II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/750"
+    },
+    {
+      "text": "Librarian II (Children's Services)",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/749"
+    },
+    {
+      "text": "Librarian III",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/748"
+    },
+    {
+      "text": "LIBRARY ASSISTANT",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/700"
+    },
+    {
+      "text": "LIBRARY ASST (CHILDREN'S SVCS)",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/702"
+    },
+    {
+      "text": "LIBRARY ASST (SPN/ENG SPEAKING)",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/701"
+    },
+    {
+      "text": "Library Director I",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/26"
+    },
+    {
+      "text": "Library Director II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/27"
+    },
+    {
+      "text": "Nurse Practitioner",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/46"
+    },
+    {
+      "text": "Nursing Care Manager",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1663"
+    },
+    {
+      "text": "Nursing Care Supervisor / Nursing Care Supervisor Trainee",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1662"
+    },
+    {
+      "text": "Occupational Therapist",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/13"
+    },
+    {
+      "text": "Occupational Therapy Assistant",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/6"
+    },
+    {
+      "text": "PARAMEDIC",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1104"
+    },
+    {
+      "text": "Physical Therapist",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/17"
+    },
+    {
+      "text": "Physical Therapy Assistant",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/16"
+    },
+    {
+      "text": "Public Health Nurse",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1664"
+    },
+    {
+      "text": "Supervising Public Health Nurse",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1661"
+    },
+    {
+      "text": "TELEPHONE OPERATOR II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1667"
+    },
+    {
+      "text": "DEPUTY SHERIFF/SERGEANT",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1861"
+    },
+    {
+      "text": "POLICE SERGEANT",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1869"
+    },
+    {
+      "text": "PROBATION OFFICER 1 TRAINEE",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1872"
+    },
+    {
+      "text": "SENIOR PAYROLL CLERK",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1863"
+    },
+    {
+      "text": "SOCIAL WELFARE EXAMINER TRAINEE",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1871"
+    },
+    {
+      "text": "DATA ENTRY OPERATOR II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1660"
+    },
+    {
+      "text": "Library Director II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/48"
+    },
+    {
+      "text": "Nursing Care Manager",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/41"
+    },
+    {
+      "text": "Nursing Care Supervisor",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/49"
+    },
+    {
+      "text": "Supervising Public Health Nurse",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/47"
+    },
+    {
+      "text": "TELEPHONE OPERATOR II",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1658"
+    },
+    {
+      "text": "Send Us a Message",
+      "href": "https://www.orangecountygov.com/FormCenter/Contact-Us-9/Contact-Us-48"
+    },
+    {
+      "text": "I Agree",
+      "href": "https://orange-portal.mycivilservice.com/apply/apply/"
+    }
+  ],
+  "records": [
+    {
+      "exam_number": "60062760",
+      "title": "PROBATION OFFICER 1 TRAINEE",
+      "type": "OC",
+      "deadline": "04/29/2026",
+      "exam_date": "06/27/2026",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "60062770",
+      "title": "Social Welfare Examiner Trainee",
+      "type": "OC",
+      "deadline": "04/29/2026",
+      "exam_date": "06/27/2026",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "61438",
+      "title": "Athletic Trainer",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "60048720",
+      "title": "CORRECTION OFFICER",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "6108",
+      "title": "DATA ENTRY OPERATOR II",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "002",
+      "title": "Emergency Medical Technician",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "60030070",
+      "title": "Librarian I Trainee",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "63404010",
+      "title": "Librarian I",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "63426010",
+      "title": "Librarian II",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "63430010",
+      "title": "Librarian II (Children's Services)",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "64270010",
+      "title": "Librarian III",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "86874",
+      "title": "LIBRARY ASSISTANT",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "86202",
+      "title": "LIBRARY ASST (CHILDREN'S SVCS)",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "86871",
+      "title": "LIBRARY ASST (SPN/ENG SPEAKING)",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "64866",
+      "title": "Library Director I",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "67944",
+      "title": "Library Director II",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "6081",
+      "title": "Nurse Practitioner",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "020",
+      "title": "Nursing Care Manager",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "021",
+      "title": "Nursing Care Supervisor / Nursing Care Supervisor Trainee",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "006",
+      "title": "Occupational Therapist",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "007",
+      "title": "Occupational Therapy Assistant",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "61890000",
+      "title": "PARAMEDIC",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "004",
+      "title": "Physical Therapist",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "005",
+      "title": "Physical Therapy Assistant",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "001",
+      "title": "Public Health Nurse",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "677",
+      "title": "Supervising Public Health Nurse",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    },
+    {
+      "exam_number": "6117",
+      "title": "TELEPHONE OPERATOR II",
+      "type": "CR",
+      "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+    }
+  ],
+  "record_count": 27,
+  "record_fingerprint": "56b56e9a8df9fbeb",
+  "summary_note": "Open competitive and continuous recruitment exam listings.",
+  "exam_titles": [
+    "PROBATION OFFICER 1 TRAINEE",
+    "Social Welfare Examiner Trainee",
+    "Athletic Trainer",
+    "CORRECTION OFFICER",
+    "DATA ENTRY OPERATOR II",
+    "Emergency Medical Technician",
+    "Librarian I Trainee",
+    "Librarian I",
+    "Librarian II",
+    "Librarian II (Children's Services)",
+    "Librarian III",
+    "LIBRARY ASSISTANT",
+    "LIBRARY ASST (CHILDREN'S SVCS)",
+    "LIBRARY ASST (SPN/ENG SPEAKING)",
+    "Library Director I",
+    "Library Director II",
+    "Nurse Practitioner",
+    "Nursing Care Manager",
+    "Nursing Care Supervisor / Nursing Care Supervisor Trainee",
+    "Occupational Therapist"
+  ],
+  "dates": [
+    "04/29/2026",
+    "06/27/2026"
+  ],
+  "keywords_found": [
+    "exam",
+    "open competitive"
+  ],
+  "normalized_text": "60062760 | PROBATION OFFICER 1 TRAINEE | OC | 04/29/2026 | 06/27/2026 | https://orange-portal.mycivilservice.com/post/exams\n60062770 | Social Welfare Examiner Trainee | OC | 04/29/2026 | 06/27/2026 | https://orange-portal.mycivilservice.com/post/exams\n61438 | Athletic Trainer | CR | https://orange-portal.mycivilservice.com/post/exams\n60048720 | CORRECTION OFFICER | CR | https://orange-portal.mycivilservice.com/post/exams\n6108 | DATA ENTRY OPERATOR II | CR | https://orange-portal.mycivilservice.com/post/exams\n002 | Emergency Medical Technician | CR | https://orange-portal.mycivilservice.com/post/exams\n60030070 | Librarian I Trainee | CR | https://orange-portal.mycivilservice.com/post/exams\n63404010 | Librarian I | CR | https://orange-portal.mycivilservice.com/post/exams\n63426010 | Librarian II | CR | https://orange-portal.mycivilservice.com/post/exams\n63430010 | Librarian II (Children's Services) | CR | https://orange-portal.mycivilservice.com/post/exams\n64270010 | Librarian III | CR | https://orange-portal.mycivilservice.com/post/exams\n86874 | LIBRARY ASSISTANT | CR | https://orange-portal.mycivilservice.com/post/exams\n86202 | LIBRARY ASST (CHILDREN'S SVCS) | CR | https://orange-portal.mycivilservice.com/post/exams\n86871 | LIBRARY ASST (SPN/ENG SPEAKING) | CR | https://orange-portal.mycivilservice.com/post/exams\n64866 | Library Director I | CR | https://orange-portal.mycivilservice.com/post/exams\n67944 | Library Director II | CR | https://orange-portal.mycivilservice.com/post/exams\n6081 | Nurse Practitioner | CR | https://orange-portal.mycivilservice.com/post/exams\n020 | Nursing Care Manager | CR | https://orange-portal.mycivilservice.com/post/exams\n021 | Nursing Care Supervisor / Nursing Care Supervisor Trainee | CR | https://orange-portal.mycivilservice.com/post/exams\n006 | Occupational Therapist | CR | https://orange-portal.mycivilservice.com/post/exams\n007 | Occupational Therapy Assistant | CR | https://orange-portal.mycivilservice.com/post/exams\n61890000 | PARAMEDIC | CR | https://orange-portal.mycivilservice.com/post/exams\n004 | Physical Therapist | CR | https://orange-portal.mycivilservice.com/post/exams\n005 | Physical Therapy Assistant | CR | https://orange-portal.mycivilservice.com/post/exams\n001 | Public Health Nurse | CR | https://orange-portal.mycivilservice.com/post/exams\n677 | Supervising Public Health Nurse | CR | https://orange-portal.mycivilservice.com/post/exams\n6117 | TELEPHONE OPERATOR II | CR | https://orange-portal.mycivilservice.com/post/exams"
+}
