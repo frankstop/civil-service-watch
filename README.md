@@ -60,7 +60,7 @@ The pipeline is split into four small scripts:
   - Writes a dated entry in `history/`.
 
 - [`src/build_report.py`](src/build_report.py)
-  - Generates `latest_report.md`, `latest_report.json`, and `docs/latest.json`.
+  - Generates `latest_report.md`, `latest_report.json`, `docs/latest.json`, and `docs/history.json`.
   - These outputs drive both the repository report and the GitHub Pages dashboard.
 
 Source-aware parsing lives in [`src/source_extractors.py`](src/source_extractors.py). That module handles table extraction, Orange County’s text-based list format, MTA’s curated career links, and the general fallback logic used by the pipeline.
@@ -76,6 +76,7 @@ civil-service-watch/
 │  ├─ raw/
 │  └─ normalized/
 ├─ docs/
+│  ├─ history.json
 │  ├─ index.html
 │  └─ latest.json
 ├─ history/
@@ -129,8 +130,9 @@ The main report files are:
 - [`latest_report.md`](latest_report.md)
 - [`latest_report.json`](latest_report.json)
 - [`docs/latest.json`](docs/latest.json)
+- [`docs/history.json`](docs/history.json)
 
-The dashboard in [`docs/index.html`](docs/index.html) fetches `docs/latest.json` directly.
+The dashboard in [`docs/index.html`](docs/index.html) fetches `docs/latest.json` for the latest run and `docs/history.json` for the historical archive view.
 
 ## Dashboard Behavior
 
@@ -138,6 +140,7 @@ The GitHub Pages dashboard is designed to be readable without opening the repo:
 
 - Shows overall counts for sources, changes, and fetch errors.
 - Shows a PR-friendly source-health summary and daily delta rollup.
+- Includes a History tab with prior daily runs and per-source daily summaries.
 - Renders structured records for sources that expose exam/job rows.
 - Shows summary notes for sources where a compact summary is more useful than raw page text.
 - Preserves real error categories for failed sources instead of a generic “check URL” message.
