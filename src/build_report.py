@@ -2,13 +2,14 @@
 build_report.py – Generate daily summary reports.
 
 Reads  : history/<today>.json                (comparison results)
+         history/<date>.json                 (historical run archive)
          data/normalized/<id>_extracted.json  (extraction results)
 Writes : latest_report.md
          latest_report.json
          docs/latest.json
+         docs/history.json
 """
 
-import json
 import sys
 from collections import Counter
 from pathlib import Path
@@ -28,10 +29,23 @@ from utils import (
     write_text,
 )
 
+HISTORY_SCHEMA_VERSION = 1
+
 
 def load_today_history() -> dict | None:
     path = HISTORY_DIR / f"{today_str()}.json"
     return read_json(path)
+
+
+def load_all_history(history_dir: Path = HISTORY_DIR) -> list[dict]:
+    """Load every committed daily history snapshot sorted newest first."""
+    history_entries = []
+    for path in sorted(history_dir.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].json")):
+        payload = read_json(path)
+        if isinstance(payload, dict):
+            history_entries.append(payload)
+    history_entries.sort(key=lambda entry: entry.get("date", ""), reverse=True)
+    return history_entries
 
 
 def load_extraction(source_id: str) -> dict | None:
@@ -64,12 +78,56 @@ def build_health_summary(history: dict) -> dict:
     }
 
 
+def flatten_delta_summary(rec: dict) -> dict:
+    """Normalize source delta metadata into a compact flat shape."""
+    record_diff = rec.get("record_diff") or {}
+    diff = rec.get("diff") or {}
+    status = rec.get("status", "unknown")
+    changed = rec.get("changed", False)
+
+    if changed and record_diff:
+        delta_kind = "records"
+    elif changed and diff:
+        delta_kind = "text"
+    elif status == "error":
+        delta_kind = "restricted"
+    else:
+        delta_kind = "none"
+
+    return {
+        "delta_kind": delta_kind,
+        "added_count": record_diff.get("added_count", 0),
+        "removed_count": record_diff.get("removed_count", 0),
+        "added_lines": diff.get("added_lines", 0),
+        "removed_lines": diff.get("removed_lines", 0),
+    }
+
+
+def normalize_history_source(rec: dict) -> dict:
+    """Normalize mixed historical source shapes into one export schema."""
+    normalized = {
+        "source_id": rec.get("source_id", ""),
+        "name": rec.get("name", rec.get("source_id", "")),
+        "url": rec.get("url", ""),
+        "status": rec.get("status", "unknown"),
+        "status_detail": rec.get("status_detail", rec.get("status", "unknown")),
+        "changed": rec.get("changed", False),
+        "record_count": rec.get("record_count", 0),
+        "content_hash": rec.get("content_hash", ""),
+        "summary_note": rec.get("summary_note", ""),
+        "error": rec.get("error"),
+    }
+    normalized.update(flatten_delta_summary(rec))
+    return normalized
+
+
 def build_daily_deltas(history: dict) -> list[dict]:
     """Return per-source delta summaries optimized for PR/report consumption."""
     deltas = []
     for rec in history.get("sources", []):
         record_diff = rec.get("record_diff") or {}
         diff = rec.get("diff") or {}
+        flat_delta = flatten_delta_summary(rec)
         delta = {
             "source_id": rec["source_id"],
             "name": rec.get("name", rec["source_id"]),
@@ -79,23 +137,64 @@ def build_daily_deltas(history: dict) -> list[dict]:
             "changed": rec.get("changed", False),
             "record_count": rec.get("record_count", 0),
             "summary_note": rec.get("summary_note", ""),
-            "added_count": record_diff.get("added_count", 0),
-            "removed_count": record_diff.get("removed_count", 0),
+            "added_count": flat_delta["added_count"],
+            "removed_count": flat_delta["removed_count"],
             "added_records": record_diff.get("added_records", []),
             "removed_records": record_diff.get("removed_records", []),
-            "added_lines": diff.get("added_lines", 0),
-            "removed_lines": diff.get("removed_lines", 0),
+            "added_lines": flat_delta["added_lines"],
+            "removed_lines": flat_delta["removed_lines"],
+            "delta_kind": flat_delta["delta_kind"],
         }
-        if delta["changed"] and rec.get("record_diff"):
-            delta["delta_kind"] = "records"
-        elif delta["changed"] and rec.get("diff"):
-            delta["delta_kind"] = "text"
-        elif rec.get("status") == "error":
-            delta["delta_kind"] = "restricted"
-        else:
-            delta["delta_kind"] = "none"
         deltas.append(delta)
     return deltas
+
+
+def build_history_export(history_entries: list[dict]) -> dict:
+    """Return a machine-friendly export covering every committed run."""
+    runs_desc = sorted(history_entries, key=lambda entry: entry.get("date", ""), reverse=True)
+    runs_asc = list(reversed(runs_desc))
+    source_ids = sorted(
+        {
+            rec.get("source_id", "")
+            for entry in runs_desc
+            for rec in entry.get("sources", [])
+            if rec.get("source_id")
+        }
+    )
+
+    runs = []
+    for history_entry in runs_desc:
+        normalized_sources = [
+            normalize_history_source(rec)
+            for rec in history_entry.get("sources", [])
+        ]
+        runs.append(
+            {
+                "date": history_entry.get("date", ""),
+                "generated_at": history_entry.get("generated_at", ""),
+                "total_sources": history_entry.get("total_sources", len(normalized_sources)),
+                "changed_count": history_entry.get(
+                    "changed_count",
+                    sum(1 for rec in normalized_sources if rec.get("changed")),
+                ),
+                "health_summary": build_health_summary({"sources": normalized_sources}),
+                "sources": normalized_sources,
+            }
+        )
+
+    first_date = runs_asc[0].get("date", "") if runs_asc else ""
+    last_date = runs_desc[0].get("date", "") if runs_desc else ""
+    return {
+        "schema_version": HISTORY_SCHEMA_VERSION,
+        "generated_at": now_iso(),
+        "total_days": len(runs),
+        "date_range": {
+            "first_date": first_date,
+            "last_date": last_date,
+        },
+        "source_ids": source_ids,
+        "runs": runs,
+    }
 
 
 def build_markdown(history: dict, sources_map: dict) -> str:
@@ -303,6 +402,7 @@ def main() -> None:
     if history is None:
         print("ERROR: no history file for today – run compare.py first")
         sys.exit(1)
+    all_history = load_all_history()
 
     sources = load_sources()
     sources_map = {s["id"]: s for s in sources}
@@ -317,6 +417,7 @@ def main() -> None:
 
     # docs/latest.json (consumed by GitHub Pages dashboard)
     write_json(DOCS_DIR / "latest.json", report_json)
+    write_json(DOCS_DIR / "history.json", build_history_export(all_history))
 
     print("Report build complete.")
 

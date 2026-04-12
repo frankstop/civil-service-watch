@@ -11,6 +11,7 @@
       --card: #ffffff;
       --border: #dee2e6;
       --accent: #0d6efd;
+      --accent-soft: #dbe8ff;
       --text: #212529;
       --muted: #6c757d;
       --changed: #fff3cd;
@@ -36,8 +37,8 @@
       gap: 0.75rem;
     }
     header h1 { font-size: 1.4rem; }
-    header p  { font-size: 0.85rem; opacity: 0.85; margin-top: 0.2rem; }
-    .container { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem; }
+    header p { font-size: 0.85rem; opacity: 0.85; margin-top: 0.2rem; }
+    .container { max-width: 1080px; margin: 0 auto; padding: 1.5rem 1rem; }
     .summary-bar {
       display: flex;
       flex-wrap: wrap;
@@ -54,6 +55,29 @@
     }
     .stat .val { font-size: 2rem; font-weight: 700; color: var(--accent); }
     .stat .lbl { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .tab-bar {
+      display: inline-flex;
+      gap: 0.4rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.3rem;
+      margin-bottom: 1.25rem;
+    }
+    .tab-button {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      padding: 0.55rem 1rem;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+    .tab-button.active {
+      background: var(--accent);
+      color: #fff;
+    }
+    .view.hidden { display: none; }
     .section-title {
       font-size: 1.1rem;
       font-weight: 600;
@@ -68,9 +92,9 @@
       padding: 1rem 1.25rem;
       margin-bottom: 0.75rem;
     }
-    .card.changed  { background: var(--changed);  border-color: var(--changed-border); }
-    .card.error    { background: var(--error);    border-color: var(--error-border); }
-    .card.ok       { background: var(--ok);       border-color: var(--ok-border); }
+    .card.changed { background: var(--changed); border-color: var(--changed-border); }
+    .card.error { background: var(--error); border-color: var(--error-border); }
+    .card.ok { background: var(--ok); border-color: var(--ok-border); }
     .card-header {
       display: flex;
       align-items: center;
@@ -88,8 +112,12 @@
       letter-spacing: 0.04em;
     }
     .badge-changed { background: #ffc107; color: #212529; }
-    .badge-error   { background: #dc3545; color: #fff; }
-    .badge-ok      { background: #198754; color: #fff; }
+    .badge-error { background: #dc3545; color: #fff; }
+    .badge-ok { background: #198754; color: #fff; }
+    .badge-history {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
     .card-meta { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
     .card-meta a { color: var(--accent); }
     details { margin-top: 0.6rem; }
@@ -102,28 +130,16 @@
       padding: 0.15rem 0.4rem;
       color: var(--muted);
     }
-    .diff-preview { font-size: 0.8rem; margin-top: 0.4rem; }
-    .diff-preview li { margin-left: 1rem; }
     .exam-list { margin-top: 0.4rem; padding-left: 1.2rem; font-size: 0.85rem; }
-    .summary-note {
-      margin-top: 0.65rem;
-      font-size: 0.9rem;
-    }
-    .record-list {
-      margin-top: 0.8rem;
-      display: grid;
-      gap: 0.65rem;
-    }
+    .summary-note { margin-top: 0.65rem; font-size: 0.9rem; }
+    .record-list { margin-top: 0.8rem; display: grid; gap: 0.65rem; }
     .record {
-      border: 1px solid rgba(0,0,0,0.08);
+      border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 8px;
       padding: 0.7rem 0.85rem;
-      background: rgba(255,255,255,0.65);
+      background: rgba(255, 255, 255, 0.65);
     }
-    .record-title {
-      font-weight: 600;
-      font-size: 0.92rem;
-    }
+    .record-title { font-weight: 600; font-size: 0.92rem; }
     .record-meta {
       margin-top: 0.25rem;
       font-size: 0.8rem;
@@ -137,9 +153,53 @@
       margin-top: 0.7rem;
       font-size: 0.83rem;
       color: #7a1b24;
-      background: rgba(255,255,255,0.55);
+      background: rgba(255, 255, 255, 0.55);
       border-radius: 6px;
       padding: 0.6rem 0.75rem;
+    }
+    .history-run {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.9rem;
+    }
+    .history-run details { margin-top: 0.8rem; }
+    .history-grid {
+      display: grid;
+      gap: 0.55rem;
+      margin-top: 0.8rem;
+    }
+    .history-source {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.4fr) minmax(120px, 0.8fr) minmax(90px, 0.6fr) minmax(170px, 1fr) minmax(120px, 0.7fr);
+      gap: 0.75rem;
+      align-items: start;
+      padding: 0.7rem 0.8rem;
+      border-radius: 8px;
+      background: #f8fafc;
+      border: 1px solid #e9ecef;
+      font-size: 0.84rem;
+    }
+    .history-source a { color: var(--accent); }
+    .history-source-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      margin-bottom: 0.2rem;
+    }
+    .history-source-value {
+      font-weight: 500;
+      color: var(--text);
+      word-break: break-word;
+    }
+    .history-empty {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      color: var(--muted);
     }
     footer {
       text-align: center;
@@ -152,6 +212,11 @@
     footer a { color: var(--accent); }
     #loading { text-align: center; padding: 3rem; color: var(--muted); }
     #error-msg { color: #dc3545; text-align: center; padding: 2rem; }
+    @media (max-width: 900px) {
+      .history-source {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -166,10 +231,22 @@
     <div id="loading">Loading latest report…</div>
     <div id="error-msg" style="display:none"></div>
     <div id="content" style="display:none">
-      <div class="summary-bar" id="summary-bar"></div>
-      <div id="changed-section"></div>
-      <div id="error-section"></div>
-      <div id="ok-section"></div>
+      <div class="tab-bar" aria-label="Report views">
+        <button class="tab-button active" data-tab="latest" type="button">Latest</button>
+        <button class="tab-button" data-tab="history" type="button">History</button>
+      </div>
+
+      <section id="latest-view" class="view">
+        <div class="summary-bar" id="summary-bar"></div>
+        <div id="changed-section"></div>
+        <div id="error-section"></div>
+        <div id="ok-section"></div>
+      </section>
+
+      <section id="history-view" class="view hidden">
+        <div class="summary-bar" id="history-summary"></div>
+        <div id="history-section"></div>
+      </section>
     </div>
   </div>
 
@@ -180,27 +257,29 @@
   </footer>
 
   <script>
-    async function loadReport() {
-      try {
-        const resp = await fetch('latest.json?_=' + Date.now());
-        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        const data = await resp.json();
-        renderReport(data);
-      } catch (err) {
-        document.getElementById('loading').style.display = 'none';
-        const el = document.getElementById('error-msg');
-        el.style.display = '';
-        el.textContent = 'Could not load report: ' + err.message +
-          ' – the first run must complete before data is available.';
-      }
-    }
-
     function esc(s) {
       return String(s)
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
+    }
+
+    function restrictedCount(health) {
+      return (health.bot_blocked || 0) + (health.forbidden || 0) + (health.not_found || 0) + (health.timeout || 0);
+    }
+
+    function deltaLabel(source) {
+      if (source.delta_kind === 'records') {
+        return `records +${source.added_count || 0} / -${source.removed_count || 0}`;
+      }
+      if (source.delta_kind === 'text') {
+        return `lines +${source.added_lines || 0} / -${source.removed_lines || 0}`;
+      }
+      if (source.delta_kind === 'restricted') {
+        return source.status_detail || 'restricted';
+      }
+      return 'no change';
     }
 
     function renderRecord(record) {
@@ -217,44 +296,6 @@
           <div class="record-title">${esc(title)}</div>
           ${(bits.length || detailUrl) ? `<div class="record-meta">${bits.map(bit => `<span>${bit}</span>`).join('')}${detailUrl ? `<span>${detailUrl}</span>` : ''}</div>` : ''}
         </div>`;
-    }
-
-    function renderReport(data) {
-      document.getElementById('loading').style.display = 'none';
-      document.getElementById('content').style.display = '';
-
-      const changed = (data.sources || []).filter(s => s.changed && s.status !== 'error');
-      const errors  = (data.sources || []).filter(s => s.status === 'error');
-      const ok      = (data.sources || []).filter(s => !s.changed && s.status !== 'error');
-
-      // Summary bar
-      document.getElementById('summary-bar').innerHTML = `
-        <div class="stat"><div class="val">${esc(data.date || '–')}</div><div class="lbl">Report Date</div></div>
-        <div class="stat"><div class="val">${data.total_sources || 0}</div><div class="lbl">Sources Tracked</div></div>
-        <div class="stat"><div class="val">${data.changed_count || 0}</div><div class="lbl">Changes Found</div></div>
-        <div class="stat"><div class="val">${errors.length}</div><div class="lbl">Fetch Errors</div></div>
-      `;
-
-      // Changed
-      let changedHtml = '';
-      if (changed.length) {
-        changedHtml += '<div class="section-title">🔔 Changes Detected</div>';
-        changed.forEach(s => { changedHtml += renderCard(s, 'changed'); });
-      }
-      document.getElementById('changed-section').innerHTML = changedHtml;
-
-      // Errors
-      let errorHtml = '';
-      if (errors.length) {
-        errorHtml += '<div class="section-title">❌ Fetch Errors</div>';
-        errors.forEach(s => { errorHtml += renderCard(s, 'error'); });
-      }
-      document.getElementById('error-section').innerHTML = errorHtml;
-
-      // OK
-      let okHtml = '<div class="section-title">✅ No Changes</div>';
-      ok.forEach(s => { okHtml += renderCard(s, 'ok'); });
-      document.getElementById('ok-section').innerHTML = okHtml;
     }
 
     function renderCard(s, type) {
@@ -277,7 +318,7 @@
         extras += `<div class="card-meta" style="margin-top:0.5rem">Added ${s.record_diff.added_count || 0} · Removed ${s.record_diff.removed_count || 0}</div>`;
       }
       if (s.dates && s.dates.length) {
-        extras += `<div class="card-meta" style="margin-top:0.4rem">📅 ${s.dates.slice(0,5).map(esc).join(' · ')}</div>`;
+        extras += `<div class="card-meta" style="margin-top:0.4rem">📅 ${s.dates.slice(0, 5).map(esc).join(' · ')}</div>`;
       }
       if (s.keywords_found && s.keywords_found.length) {
         extras += `<div class="tag-list">${s.keywords_found.map(k => `<span class="tag">${esc(k)}</span>`).join('')}</div>`;
@@ -300,7 +341,167 @@
         </div>`;
     }
 
-    loadReport();
+    function renderLatest(data) {
+      const changed = (data.sources || []).filter(s => s.changed && s.status !== 'error');
+      const errors = (data.sources || []).filter(s => s.status === 'error');
+      const ok = (data.sources || []).filter(s => !s.changed && s.status !== 'error');
+
+      document.getElementById('summary-bar').innerHTML = `
+        <div class="stat"><div class="val">${esc(data.date || '–')}</div><div class="lbl">Report Date</div></div>
+        <div class="stat"><div class="val">${data.total_sources || 0}</div><div class="lbl">Sources Tracked</div></div>
+        <div class="stat"><div class="val">${data.changed_count || 0}</div><div class="lbl">Changes Found</div></div>
+        <div class="stat"><div class="val">${errors.length}</div><div class="lbl">Fetch Errors</div></div>
+      `;
+
+      let changedHtml = '';
+      if (changed.length) {
+        changedHtml += '<div class="section-title">🔔 Changes Detected</div>';
+        changed.forEach(s => { changedHtml += renderCard(s, 'changed'); });
+      }
+      document.getElementById('changed-section').innerHTML = changedHtml;
+
+      let errorHtml = '';
+      if (errors.length) {
+        errorHtml += '<div class="section-title">❌ Fetch Errors</div>';
+        errors.forEach(s => { errorHtml += renderCard(s, 'error'); });
+      }
+      document.getElementById('error-section').innerHTML = errorHtml;
+
+      let okHtml = '<div class="section-title">✅ No Changes</div>';
+      ok.forEach(s => { okHtml += renderCard(s, 'ok'); });
+      document.getElementById('ok-section').innerHTML = okHtml;
+    }
+
+    function renderHistorySource(source) {
+      const statusText = source.changed
+        ? `${source.status_detail || source.status} · changed`
+        : (source.status_detail || source.status);
+      const sourceUrl = source.url
+        ? `<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.url)}</a>`
+        : '—';
+
+      return `
+        <div class="history-source">
+          <div>
+            <div class="history-source-label">Source</div>
+            <div class="history-source-value">${esc(source.name || source.source_id)}</div>
+            <div class="card-meta">${sourceUrl}</div>
+          </div>
+          <div>
+            <div class="history-source-label">Status</div>
+            <div class="history-source-value">${esc(statusText)}</div>
+          </div>
+          <div>
+            <div class="history-source-label">Records</div>
+            <div class="history-source-value">${esc(source.record_count || 0)}</div>
+          </div>
+          <div>
+            <div class="history-source-label">Delta</div>
+            <div class="history-source-value">${esc(deltaLabel(source))}</div>
+          </div>
+          <div>
+            <div class="history-source-label">Summary</div>
+            <div class="history-source-value">${esc(source.summary_note || source.error || '—')}</div>
+          </div>
+        </div>`;
+    }
+
+    function renderHistory(data) {
+      if (!data || !data.runs || !data.runs.length) {
+        document.getElementById('history-section').innerHTML = '<div class="history-empty">No historical runs are available yet.</div>';
+        return;
+      }
+
+      const range = data.date_range || {};
+      document.getElementById('history-summary').innerHTML = `
+        <div class="stat"><div class="val">${data.total_days || 0}</div><div class="lbl">Days Archived</div></div>
+        <div class="stat"><div class="val">${(data.source_ids || []).length}</div><div class="lbl">Unique Sources</div></div>
+        <div class="stat"><div class="val">${esc(range.first_date || '–')}</div><div class="lbl">First Run</div></div>
+        <div class="stat"><div class="val">${esc(range.last_date || '–')}</div><div class="lbl">Latest Run</div></div>
+      `;
+
+      const runsHtml = data.runs.map(run => {
+        const health = run.health_summary || {};
+        const restricted = restrictedCount(health);
+        return `
+          <div class="history-run">
+            <div class="card-header">
+              <span class="card-name">${esc(run.date || 'Unknown date')}</span>
+              <span class="badge badge-history">${esc((run.changed_count || 0) + ' changed')}</span>
+            </div>
+            <div class="card-meta">
+              ${esc(run.total_sources || 0)} sources ·
+              ${esc(health.error || 0)} fetch errors ·
+              ${esc(health.ok || 0)} accessible ·
+              ${esc(restricted)} restricted
+            </div>
+            <details>
+              <summary>View ${esc((run.sources || []).length)} source snapshots</summary>
+              <div class="history-grid">
+                ${(run.sources || []).map(renderHistorySource).join('')}
+              </div>
+            </details>
+          </div>`;
+      }).join('');
+
+      document.getElementById('history-section').innerHTML =
+        '<div class="section-title">Archive</div>' + runsHtml;
+    }
+
+    function setActiveTab(tab) {
+      document.querySelectorAll('.tab-button').forEach(button => {
+        button.classList.toggle('active', button.dataset.tab === tab);
+      });
+      document.getElementById('latest-view').classList.toggle('hidden', tab !== 'latest');
+      document.getElementById('history-view').classList.toggle('hidden', tab !== 'history');
+    }
+
+    async function loadLatest() {
+      const resp = await fetch('latest.json?_=' + Date.now());
+      if (!resp.ok) {
+        throw new Error(`latest.json HTTP ${resp.status}`);
+      }
+      return resp.json();
+    }
+
+    async function loadHistory() {
+      const resp = await fetch('history.json?_=' + Date.now());
+      if (!resp.ok) {
+        throw new Error(`history.json HTTP ${resp.status}`);
+      }
+      return resp.json();
+    }
+
+    async function loadDashboard() {
+      try {
+        const latest = await loadLatest();
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('content').style.display = '';
+        renderLatest(latest);
+      } catch (err) {
+        document.getElementById('loading').style.display = 'none';
+        const el = document.getElementById('error-msg');
+        el.style.display = '';
+        el.textContent = 'Could not load report: ' + err.message + ' – the first run must complete before data is available.';
+        return;
+      }
+
+      try {
+        const history = await loadHistory();
+        renderHistory(history);
+      } catch (err) {
+        document.getElementById('history-summary').innerHTML = '';
+        document.getElementById('history-section').innerHTML =
+          `<div class="history-empty">Could not load historical archive: ${esc(err.message)}</div>`;
+      }
+    }
+
+    document.querySelectorAll('.tab-button').forEach(button => {
+      button.addEventListener('click', () => setActiveTab(button.dataset.tab));
+    });
+
+    setActiveTab('latest');
+    loadDashboard();
   </script>
 </body>
 </html>
