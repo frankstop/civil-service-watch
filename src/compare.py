@@ -40,8 +40,8 @@ def diff_texts(old_text: str, new_text: str) -> dict:
     """
     old_lines = set(old_text.splitlines())
     new_lines = set(new_text.splitlines())
-    added = [l for l in new_lines - old_lines if l.strip()]
-    removed = [l for l in old_lines - new_lines if l.strip()]
+    added = sorted(l for l in new_lines - old_lines if l.strip())
+    removed = sorted(l for l in old_lines - new_lines if l.strip())
     return {
         "added_lines": len(added),
         "removed_lines": len(removed),
@@ -77,6 +77,31 @@ def build_record_index(records: list[dict]) -> dict[str, dict]:
     return index
 
 
+def summarize_record(record: dict) -> dict:
+    """Return a compact, PR-friendly record summary."""
+    summary = {}
+    for key in (
+        "source_record_id",
+        "job_id",
+        "exam_number",
+        "title",
+        "department",
+        "agency",
+        "type",
+        "job_type",
+        "deadline",
+        "closing_text",
+        "exam_date",
+        "salary",
+        "detail_url",
+    ):
+        value = record.get(key)
+        if value in ("", None, [], {}):
+            continue
+        summary[key] = value
+    return summary
+
+
 def diff_records(previous: list[dict], current: list[dict]) -> dict | None:
     """Return a compact diff between previous and current records."""
     prev_index = build_record_index(previous)
@@ -84,13 +109,17 @@ def diff_records(previous: list[dict], current: list[dict]) -> dict | None:
     if not prev_index and not curr_index:
         return None
 
-    added = [curr_index[key] for key in curr_index.keys() - prev_index.keys()]
-    removed = [prev_index[key] for key in prev_index.keys() - curr_index.keys()]
+    added_keys = sorted(curr_index.keys() - prev_index.keys())
+    removed_keys = sorted(prev_index.keys() - curr_index.keys())
+    added = [curr_index[key] for key in added_keys]
+    removed = [prev_index[key] for key in removed_keys]
     return {
         "added_count": len(added),
         "removed_count": len(removed),
         "added_titles": [record.get("title", record.get("exam_number", "")) for record in added[:5]],
         "removed_titles": [record.get("title", record.get("exam_number", "")) for record in removed[:5]],
+        "added_records": [summarize_record(record) for record in added[:5]],
+        "removed_records": [summarize_record(record) for record in removed[:5]],
     }
 
 

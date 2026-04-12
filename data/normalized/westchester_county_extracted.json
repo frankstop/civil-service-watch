@@ -2,7 +2,7 @@
   "source_id": "westchester_county",
   "name": "Westchester County Civil Service",
   "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "extracted_at": "2026-04-11T23:25:41Z",
+  "extracted_at": "2026-04-12T02:12:00Z",
   "links": [
     {
       "text": "Skip to main content",
@@ -78,11 +78,23 @@
       "deadline": "04/13/2026",
       "exam_date": "06/27/2026",
       "salary": "According to Agreement",
-      "fee": "$50.00"
+      "fee": "$50.00",
+      "salary_text": "According to Agreement"
     }
   ],
   "record_count": 1,
-  "record_fingerprint": "13c7523d21890eb3",
+  "record_fields_present": [
+    "exam_number",
+    "agency",
+    "title",
+    "detail_url",
+    "deadline",
+    "exam_date",
+    "salary",
+    "fee",
+    "salary_text"
+  ],
+  "record_fingerprint": "927f86d904cd6d5e",
   "summary_note": "",
   "exam_titles": [
     "Customer Service Coordinator - Student Services"
@@ -94,5 +106,5 @@
   "keywords_found": [
     "exam"
   ],
-  "normalized_text": "60-032780 | Customer Service Coordinator - Student Services | 04/13/2026 | 06/27/2026 | BOCES #2 | According to Agreement | http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
+  "normalized_text": "60-032780 | Customer Service Coordinator - Student Services | 04/13/2026 | 06/27/2026 | BOCES #2 | According to Agreement | $50.00 | http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
 }

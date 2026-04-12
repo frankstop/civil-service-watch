@@ -2,7 +2,7 @@
   "source_id": "nys_civil_service",
   "name": "NYS Civil Service",
   "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "extracted_at": "2026-04-11T23:25:41Z",
+  "extracted_at": "2026-04-12T02:11:59Z",
   "links": [
     {
       "text": "Navigation menu",
@@ -283,11 +283,22 @@
       "title": "Maintenance Supervisor 1 (Motor Equipment)",
       "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
       "salary": "See Announcement",
-      "deadline": "April 29, 2026"
+      "deadline": "April 29, 2026",
+      "fee": "$0",
+      "salary_text": "See Announcement"
     }
   ],
   "record_count": 1,
-  "record_fingerprint": "da9743079afed232",
+  "record_fields_present": [
+    "exam_number",
+    "title",
+    "detail_url",
+    "salary",
+    "deadline",
+    "fee",
+    "salary_text"
+  ],
+  "record_fingerprint": "0e1287a29e86098d",
   "summary_note": "",
   "exam_titles": [
     "Maintenance Supervisor 1 (Motor Equipment)"
@@ -299,5 +310,5 @@
     "exam",
     "announcement"
   ],
-  "normalized_text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+  "normalized_text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
 }

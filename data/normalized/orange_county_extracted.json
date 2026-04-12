@@ -2,7 +2,7 @@
   "source_id": "orange_county",
   "name": "Orange County Civil Service",
   "url": "https://orange-portal.mycivilservice.com/post/exams",
-  "extracted_at": "2026-04-11T23:25:41Z",
+  "extracted_at": "2026-04-12T02:12:00Z",
   "links": [
     {
       "text": "Human Resources Home",
@@ -418,6 +418,14 @@
     }
   ],
   "record_count": 27,
+  "record_fields_present": [
+    "exam_number",
+    "title",
+    "type",
+    "deadline",
+    "exam_date",
+    "detail_url"
+  ],
   "record_fingerprint": "56b56e9a8df9fbeb",
   "summary_note": "Open competitive and continuous recruitment exam listings.",
   "exam_titles": [

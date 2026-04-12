@@ -19,6 +19,7 @@ import time
 import json
 import logging
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -85,6 +86,26 @@ def classify_error(status_code: int | None, html: str, message: str) -> str:
     return "fetch_failed"
 
 
+def fetch_nassau_listing_html(source_url: str) -> str:
+    """Fetch Nassau's first-party listing XHR response."""
+    agency = urlparse(source_url).path.rstrip("/").split("/")[-1]
+    response = requests.get(
+        "https://www.governmentjobs.com/careers/home/index",
+        params={
+            "agency": agency,
+            "sort": "PositionTitle",
+            "isDescendingSort": "false",
+        },
+        headers={
+            **request_headers("nassau_county"),
+            "X-Requested-With": "XMLHttpRequest",
+        },
+        timeout=TIMEOUT,
+    )
+    response.raise_for_status()
+    return response.text
+
+
 def fetch_source(source: dict) -> dict:
     """Fetch a single source and return a normalised record."""
     sid = source["id"]
@@ -125,7 +146,17 @@ def fetch_source(source: dict) -> dict:
             result["error"] = f"{resp.status_code} response returned from source URL"
             return result
 
-        extracted = extract_source_data(sid, html, resp.url)
+        extraction_html = html
+        if sid == "nassau_county":
+            listing_path = DATA_RAW_DIR / f"{safe_filename(sid)}_listings.html"
+            try:
+                extraction_html = fetch_nassau_listing_html(resp.url)
+                listing_path.write_text(extraction_html, encoding="utf-8")
+            except Exception as exc:  # noqa: BLE001
+                log.warning("Unable to fetch Nassau listing payload: %s", exc)
+                listing_path.write_text("", encoding="utf-8")
+
+        extracted = extract_source_data(sid, extraction_html, resp.url)
         text = extracted["normalized_text"]
         result["content_hash"] = hash_text(text) if text else ""
         result["text"] = text

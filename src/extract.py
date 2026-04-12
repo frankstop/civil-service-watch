@@ -16,6 +16,21 @@ from utils import (
 )
 
 
+def load_html_for_extraction(source_id: str) -> str:
+    """Load the preferred raw HTML snapshot for extraction."""
+    preferred_paths = [
+        DATA_RAW_DIR / f"{safe_filename(source_id)}_listings.html",
+        DATA_RAW_DIR / f"{safe_filename(source_id)}.html",
+    ]
+    for path in preferred_paths:
+        if not path.exists():
+            continue
+        html = path.read_text(encoding="utf-8")
+        if html.strip():
+            return html
+    return ""
+
+
 def extract_source(source: dict) -> dict | None:
     """Run extraction on one source; return result dict or None on skip."""
     sid = source["id"]
@@ -35,7 +50,7 @@ def extract_source(source: dict) -> dict | None:
     else:
         norm = {"url": source["url"]}
 
-    html = html_path.read_text(encoding="utf-8") if html_path.exists() else ""
+    html = load_html_for_extraction(sid)
     extracted = extract_source_data(sid, html, norm.get("resolved_url") or source["url"])
 
     result = {
@@ -46,6 +61,7 @@ def extract_source(source: dict) -> dict | None:
         "links": extracted.get("links", []),
         "records": extracted.get("records", []),
         "record_count": extracted.get("record_count", 0),
+        "record_fields_present": extracted.get("record_fields_present", []),
         "record_fingerprint": extracted.get("record_fingerprint", ""),
         "summary_note": extracted.get("summary_note", ""),
         "exam_titles": extracted.get("exam_titles", []),

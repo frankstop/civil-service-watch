@@ -1,8 +1,258 @@
 {
-  "date": "2026-04-11",
-  "generated_at": "2026-04-11T23:25:42Z",
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T02:12:00Z",
   "total_sources": 10,
-  "changed_count": 0,
+  "changed_count": 4,
+  "health_summary": {
+    "ok": 7,
+    "error": 3,
+    "changed": 4,
+    "unchanged": 6,
+    "bot_blocked": 2,
+    "forbidden": 1,
+    "not_found": 0,
+    "timeout": 0
+  },
+  "daily_deltas": [
+    {
+      "source_id": "nyc_dcas",
+      "name": "NYC DCAS",
+      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": false,
+      "record_count": 18,
+      "summary_note": "",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "none"
+    },
+    {
+      "source_id": "nys_civil_service",
+      "name": "NYS Civil Service",
+      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
+      "record_count": 1,
+      "summary_note": "",
+      "added_count": 1,
+      "removed_count": 1,
+      "added_records": [
+        {
+          "exam_number": "21-026020",
+          "title": "Maintenance Supervisor 1 (Motor Equipment)",
+          "deadline": "April 29, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+        }
+      ],
+      "removed_records": [
+        {
+          "exam_number": "21-026020",
+          "title": "Maintenance Supervisor 1 (Motor Equipment)",
+          "deadline": "April 29, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+        }
+      ],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "records"
+    },
+    {
+      "source_id": "usajobs",
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": false,
+      "record_count": 0,
+      "summary_note": "No matching USAJOBS listings found for the current search.",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "none"
+    },
+    {
+      "source_id": "nassau_county",
+      "name": "Nassau County Civil Service",
+      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
+      "record_count": 10,
+      "summary_note": "10 Nassau County open competitive announcements currently listed.",
+      "added_count": 10,
+      "removed_count": 0,
+      "added_records": [
+        {
+          "source_record_id": "3412730",
+          "job_id": "3412730",
+          "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+        },
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+        },
+        {
+          "source_record_id": "3412898",
+          "job_id": "3412898",
+          "title": "MEDICAL TECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "salary": "$79,212 - $91,619",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
+        },
+        {
+          "source_record_id": "3413083",
+          "job_id": "3413083",
+          "title": "CYTOTECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "salary": "$74,114 - $99,744",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
+        },
+        {
+          "source_record_id": "3413138",
+          "job_id": "3413138",
+          "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
+        }
+      ],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "records"
+    },
+    {
+      "source_id": "suffolk_county",
+      "name": "Suffolk County Civil Service",
+      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+      "status": "error",
+      "status_detail": "bot_blocked",
+      "changed": false,
+      "record_count": 0,
+      "summary_note": "",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "restricted"
+    },
+    {
+      "source_id": "westchester_county",
+      "name": "Westchester County Civil Service",
+      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
+      "record_count": 1,
+      "summary_note": "",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "records"
+    },
+    {
+      "source_id": "rockland_county",
+      "name": "Rockland County Civil Service",
+      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
+      "status": "error",
+      "status_detail": "forbidden",
+      "changed": false,
+      "record_count": 0,
+      "summary_note": "",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "restricted"
+    },
+    {
+      "source_id": "orange_county",
+      "name": "Orange County Civil Service",
+      "url": "https://orange-portal.mycivilservice.com/post/exams",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": false,
+      "record_count": 27,
+      "summary_note": "Open competitive and continuous recruitment exam listings.",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "none"
+    },
+    {
+      "source_id": "ny_courts",
+      "name": "NY Courts",
+      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
+      "status": "error",
+      "status_detail": "bot_blocked",
+      "changed": false,
+      "record_count": 0,
+      "summary_note": "",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "restricted"
+    },
+    {
+      "source_id": "mta",
+      "name": "MTA",
+      "url": "https://new.mta.info/careers",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
+      "record_count": 5,
+      "summary_note": "Career center links and exam-specific entry points.",
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
+      "added_lines": 0,
+      "removed_lines": 0,
+      "delta_kind": "records"
+    }
+  ],
+  "policy_notes": {
+    "restricted_sources": "Blocked or forbidden sources are reported as-is. No alternate endpoints or browser-assisted fetching are used; source links remain for manual follow-up."
+  },
   "sources": [
     {
       "source_id": "nyc_dcas",
@@ -12,7 +262,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "c79164eb67751e47",
-      "fetched_at": "2026-04-11T23:25:19Z",
+      "fetched_at": "2026-04-12T02:11:32Z",
       "error": null,
       "summary_note": "",
       "record_count": 18,
@@ -94,7 +344,11 @@
         "Canceled",
         "2/4/2026 – 4/21/2026",
         "4/1/2026 – 5/29/2026",
-        "4/1/2026 – 4/14/2026"
+        "4/1/2026 – 4/14/2026",
+        "4/1/2026",
+        "4/21/2026",
+        "2/4/2026",
+        "5/29/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -138,6 +392,12 @@
           "text": "For City Agencies",
           "href": "https://www.nyc.gov/site/dcas/agencies/for-city-agencies.page"
         }
+      ],
+      "record_fields_present": [
+        "title",
+        "exam_number",
+        "detail_url",
+        "application_period"
       ]
     },
     {
@@ -146,20 +406,49 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "da9743079afed232",
-      "fetched_at": "2026-04-11T23:25:21Z",
+      "changed": true,
+      "content_hash": "0e1287a29e86098d",
+      "fetched_at": "2026-04-12T02:11:34Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
-      "record_diff": null,
+      "record_diff": {
+        "added_count": 1,
+        "removed_count": 1,
+        "added_titles": [
+          "Maintenance Supervisor 1 (Motor Equipment)"
+        ],
+        "removed_titles": [
+          "Maintenance Supervisor 1 (Motor Equipment)"
+        ],
+        "added_records": [
+          {
+            "exam_number": "21-026020",
+            "title": "Maintenance Supervisor 1 (Motor Equipment)",
+            "deadline": "April 29, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+          }
+        ],
+        "removed_records": [
+          {
+            "exam_number": "21-026020",
+            "title": "Maintenance Supervisor 1 (Motor Equipment)",
+            "deadline": "April 29, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+          }
+        ]
+      },
       "records": [
         {
           "exam_number": "21-026020",
           "title": "Maintenance Supervisor 1 (Motor Equipment)",
           "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
           "salary": "See Announcement",
-          "deadline": "April 29, 2026"
+          "deadline": "April 29, 2026",
+          "fee": "$0",
+          "salary_text": "See Announcement"
         }
       ],
       "exam_titles": [
@@ -213,6 +502,15 @@
           "text": "Centers for Careers in Government (CCG)",
           "href": "https://www.cs.ny.gov/ccg/"
         }
+      ],
+      "record_fields_present": [
+        "exam_number",
+        "title",
+        "detail_url",
+        "salary",
+        "deadline",
+        "fee",
+        "salary_text"
       ]
     },
     {
@@ -223,7 +521,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-04-11T23:25:23Z",
+      "fetched_at": "2026-04-12T02:11:37Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -232,7 +530,8 @@
       "exam_titles": [],
       "dates": [],
       "keywords_found": [],
-      "links": []
+      "links": [],
+      "record_fields_present": []
     },
     {
       "source_id": "nassau_county",
@@ -240,63 +539,314 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "5bfb396fbf355c12",
-      "fetched_at": "2026-04-11T23:25:25Z",
+      "changed": true,
+      "content_hash": "82d9103947e1b074",
+      "fetched_at": "2026-04-12T02:11:39Z",
       "error": null,
-      "summary_note": "Open competitive examination announcements are available on the linked application site.",
-      "record_count": 0,
-      "record_diff": null,
-      "records": [],
-      "exam_titles": [],
-      "dates": [],
+      "summary_note": "10 Nassau County open competitive announcements currently listed.",
+      "record_count": 10,
+      "record_diff": {
+        "added_count": 10,
+        "removed_count": 0,
+        "added_titles": [
+          "OCCUPATIONAL THERAPIST ASSISTANT",
+          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "MEDICAL TECHNOLOGIST I",
+          "CYTOTECHNOLOGIST I",
+          "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "source_record_id": "3412730",
+            "job_id": "3412730",
+            "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+          },
+          {
+            "source_record_id": "3412822",
+            "job_id": "3412822",
+            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+          },
+          {
+            "source_record_id": "3412898",
+            "job_id": "3412898",
+            "title": "MEDICAL TECHNOLOGIST I",
+            "agency": "NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "$79,212 - $91,619",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
+          },
+          {
+            "source_record_id": "3413083",
+            "job_id": "3413083",
+            "title": "CYTOTECHNOLOGIST I",
+            "agency": "NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "$74,114 - $99,744",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
+          },
+          {
+            "source_record_id": "3413138",
+            "job_id": "3413138",
+            "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
+          }
+        ],
+        "removed_records": []
+      },
+      "records": [
+        {
+          "source_record_id": "3413083",
+          "job_id": "3413083",
+          "title": "CYTOTECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$74,114 - $99,744",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $74,114 - $99,744 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$74,114 - $99,744",
+          "salary_min": 74114,
+          "salary_max": 99744
+        },
+        {
+          "source_record_id": "3415116",
+          "job_id": "3415116",
+          "title": "CYTOTECHNOLOGIST II",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$83,915 - $118,479",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $83,915 - $118,479 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$83,915 - $118,479",
+          "salary_min": 83915,
+          "salary_max": 118479
+        },
+        {
+          "source_record_id": "3415142",
+          "job_id": "3415142",
+          "title": "CYTOTECHNOLOGIST III",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$106,880 - $144,480",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $106,880 - $144,480 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$106,880 - $144,480",
+          "salary_min": 106880,
+          "salary_max": 144480
+        },
+        {
+          "source_record_id": "3416204",
+          "job_id": "3416204",
+          "title": "LIBRARIAN I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3416233",
+          "job_id": "3416233",
+          "title": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained in...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3412898",
+          "job_id": "3412898",
+          "title": "MEDICAL TECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$79,212 - $91,619",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $79,212 - $91,619 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$79,212 - $91,619",
+          "salary_min": 79212,
+          "salary_max": 91619
+        },
+        {
+          "source_record_id": "3413138",
+          "job_id": "3413138",
+          "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+          "announcement_text": "EXAMINATION NO. 9016CR(D) - NURSE PRACTITIONER I (ACUTE CARE) EXAMINATION NO. 9017CR(D) - NURSE PRACTITIONER I (ADULT HEALTH) EXAMINATION NO. 9018CR(D) - NURSE PRACTITIONER I (COMMUNITY HEALTH) EXAMINATION NO. 9019CR(D) - NURSE PRACTITIONER I (FAMILY HEALTH) EXAMINATION NO. 9020CR(D) - NURSE PRACTITIONER I (GERONTOLOGY) EXAMINATION NO. 9021CR(D) - NURSE PRACTITIONER I (NEONATOLOGY) EXAMINATION NO. 9022CR(D) - NURSE PRACTITIONER I (OBSTETRICS/GYNECOLOGY) EXAMINATION NO. 9023CR(D) - NURSE PRACTITIONER I (ONCOLOGY) EXAMINATION NO. 9024CR(D) - NURSE PRACTITIONER I (PALLIATIVE CARE) EXAMINATION NO. 9025CR(D) - NURSE PRACTITIONER I (PEDIATRICS) EXAMINATION NO....",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below",
+          "type": "Open Competitive",
+          "status": "continuous"
+        },
+        {
+          "source_record_id": "3412730",
+          "job_id": "3412730",
+          "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+          "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise SALARY: SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "salary_min": 43176,
+          "salary_max": 81760
+        },
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "salary_min": 63872,
+          "salary_max": 97339
+        },
+        {
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$102,320 - $128,481",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$102,320 - $128,481",
+          "salary_min": 102320,
+          "salary_max": 128481
+        }
+      ],
+      "exam_titles": [
+        "CYTOTECHNOLOGIST I",
+        "CYTOTECHNOLOGIST II",
+        "CYTOTECHNOLOGIST III",
+        "LIBRARIAN I",
+        "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
+        "MEDICAL TECHNOLOGIST I",
+        "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+        "OCCUPATIONAL THERAPIST ASSISTANT",
+        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+        "PHARMACIST I"
+      ],
+      "dates": [
+        "4/29/25",
+        "2/13/26",
+        "5/23/25",
+        "3/16/23",
+        "3/27/25"
+      ],
       "keywords_found": [
         "exam",
         "examination",
+        "schedule",
+        "filing",
+        "deadline",
         "open competitive",
+        "eligible list",
         "announcement"
       ],
       "links": [
         {
-          "text": "instructions how to enable JavaScript in your web browser",
-          "href": "http://www.enable-javascript.com"
+          "text": "CYTOTECHNOLOGIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
         },
         {
-          "text": "Click here or press any key to continue.",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+          "text": "CYTOTECHNOLOGIST II",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii"
         },
         {
-          "text": "Menu",
-          "href": "javascript:void(0)"
+          "text": "CYTOTECHNOLOGIST III",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
         },
         {
-          "text": "Don't have an account? Create one .",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+          "text": "LIBRARIAN I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
         },
         {
-          "text": "Already have an account? Sign In .",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny"
+          "text": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking"
         },
         {
-          "text": "Applications",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/applications/submitted"
+          "text": "MEDICAL TECHNOLOGIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
         },
         {
-          "text": "Inbox",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/inbox"
+          "text": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
         },
         {
-          "text": "Profile",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/profilesettings"
+          "text": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
         },
         {
-          "text": "Account",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/applications/accountsettings"
+          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         },
         {
-          "text": "Sign Out After clicking on this link you will be logged out and the page will be reloaded.",
-          "href": "javascript:void(0)"
+          "text": "PHARMACIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
+      ],
+      "record_fields_present": [
+        "source_record_id",
+        "job_id",
+        "title",
+        "agency",
+        "salary",
+        "announcement_text",
+        "posted_text",
+        "closing_text",
+        "detail_url",
+        "type",
+        "status",
+        "salary_text",
+        "salary_min",
+        "salary_max"
       ]
     },
     {
@@ -307,7 +857,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T23:25:28Z",
+      "fetched_at": "2026-04-12T02:11:42Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -320,13 +870,20 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "13c7523d21890eb3",
-      "fetched_at": "2026-04-11T23:25:30Z",
+      "changed": true,
+      "content_hash": "927f86d904cd6d5e",
+      "fetched_at": "2026-04-12T02:11:45Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
-      "record_diff": null,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added_titles": [],
+        "removed_titles": [],
+        "added_records": [],
+        "removed_records": []
+      },
       "records": [
         {
           "exam_number": "60-032780",
@@ -336,7 +893,8 @@
           "deadline": "04/13/2026",
           "exam_date": "06/27/2026",
           "salary": "According to Agreement",
-          "fee": "$50.00"
+          "fee": "$50.00",
+          "salary_text": "According to Agreement"
         }
       ],
       "exam_titles": [
@@ -390,6 +948,17 @@
           "text": "Local Promotional",
           "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
         }
+      ],
+      "record_fields_present": [
+        "exam_number",
+        "agency",
+        "title",
+        "detail_url",
+        "deadline",
+        "exam_date",
+        "salary",
+        "fee",
+        "salary_text"
       ]
     },
     {
@@ -400,7 +969,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T23:25:33Z",
+      "fetched_at": "2026-04-12T02:11:47Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -415,7 +984,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "56b56e9a8df9fbeb",
-      "fetched_at": "2026-04-11T23:25:35Z",
+      "fetched_at": "2026-04-12T02:11:49Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 27,
@@ -547,6 +1116,14 @@
           "text": "Police/Sheriff & Corrections Videos and Info",
           "href": "https://orange-portal.mycivilservice.com/main/police"
         }
+      ],
+      "record_fields_present": [
+        "exam_number",
+        "title",
+        "type",
+        "deadline",
+        "exam_date",
+        "detail_url"
       ]
     },
     {
@@ -557,7 +1134,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-11T23:25:38Z",
+      "fetched_at": "2026-04-12T02:11:52Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -570,13 +1147,20 @@
       "url": "https://new.mta.info/careers",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "93269ebd3b4bb96e",
-      "fetched_at": "2026-04-11T23:25:40Z",
+      "changed": true,
+      "content_hash": "8317c1592724480b",
+      "fetched_at": "2026-04-12T02:11:54Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
-      "record_diff": null,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 0,
+        "added_titles": [],
+        "removed_titles": [],
+        "added_records": [],
+        "removed_records": []
+      },
       "records": [
         {
           "title": "Job listings",
@@ -615,7 +1199,12 @@
       "keywords_found": [
         "exam"
       ],
-      "links": []
+      "links": [],
+      "record_fields_present": [
+        "title",
+        "detail",
+        "detail_url"
+      ]
     }
   ]
 }

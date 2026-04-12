@@ -8,13 +8,13 @@
     "schedule",
     "state"
   ],
-  "fetched_at": "2026-04-11T23:25:21Z",
+  "fetched_at": "2026-04-12T02:11:34Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "content_hash": "da9743079afed232",
-  "text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
+  "content_hash": "0e1287a29e86098d",
+  "text": "21-026020 | Maintenance Supervisor 1 (Motor Equipment) | April 29, 2026 | See Announcement | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
   "summary_note": "",
   "record_count": 1,
   "error": null
