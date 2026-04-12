@@ -10,6 +10,7 @@ Writes : latest_report.md
 
 import json
 import sys
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -46,6 +47,57 @@ def status_emoji(record: dict) -> str:
     return "✅"
 
 
+def build_health_summary(history: dict) -> dict:
+    """Return compact source-health counts for reports."""
+    sources = history.get("sources", [])
+    status_counts = Counter(rec.get("status", "unknown") for rec in sources)
+    detail_counts = Counter(rec.get("status_detail", rec.get("status", "unknown")) for rec in sources)
+    return {
+        "ok": status_counts.get("ok", 0),
+        "error": status_counts.get("error", 0),
+        "changed": sum(1 for rec in sources if rec.get("changed")),
+        "unchanged": sum(1 for rec in sources if not rec.get("changed")),
+        "bot_blocked": detail_counts.get("bot_blocked", 0),
+        "forbidden": detail_counts.get("forbidden", 0),
+        "not_found": detail_counts.get("not_found", 0),
+        "timeout": detail_counts.get("timeout", 0),
+    }
+
+
+def build_daily_deltas(history: dict) -> list[dict]:
+    """Return per-source delta summaries optimized for PR/report consumption."""
+    deltas = []
+    for rec in history.get("sources", []):
+        record_diff = rec.get("record_diff") or {}
+        diff = rec.get("diff") or {}
+        delta = {
+            "source_id": rec["source_id"],
+            "name": rec.get("name", rec["source_id"]),
+            "url": rec.get("url", ""),
+            "status": rec.get("status", "unknown"),
+            "status_detail": rec.get("status_detail", rec.get("status", "unknown")),
+            "changed": rec.get("changed", False),
+            "record_count": rec.get("record_count", 0),
+            "summary_note": rec.get("summary_note", ""),
+            "added_count": record_diff.get("added_count", 0),
+            "removed_count": record_diff.get("removed_count", 0),
+            "added_records": record_diff.get("added_records", []),
+            "removed_records": record_diff.get("removed_records", []),
+            "added_lines": diff.get("added_lines", 0),
+            "removed_lines": diff.get("removed_lines", 0),
+        }
+        if delta["changed"] and rec.get("record_diff"):
+            delta["delta_kind"] = "records"
+        elif delta["changed"] and rec.get("diff"):
+            delta["delta_kind"] = "text"
+        elif rec.get("status") == "error":
+            delta["delta_kind"] = "restricted"
+        else:
+            delta["delta_kind"] = "none"
+        deltas.append(delta)
+    return deltas
+
+
 def build_markdown(history: dict, sources_map: dict) -> str:
     date = history.get("date", today_str())
     generated_at = history.get("generated_at", now_iso())
@@ -63,6 +115,49 @@ def build_markdown(history: dict, sources_map: dict) -> str:
         f"---",
         f"",
     ]
+
+    health = build_health_summary(history)
+    restricted = [
+        r
+        for r in history["sources"]
+        if r.get("status_detail") in {"bot_blocked", "forbidden", "not_found", "timeout"}
+    ]
+
+    lines.append("## Source Health")
+    lines.append("")
+    lines.append(f"- Accessible sources: {health['ok']}")
+    lines.append(f"- Sources with fetch errors: {health['error']}")
+    lines.append(f"- Sources changed today: {health['changed']}")
+    lines.append(f"- Sources unchanged today: {health['unchanged']}")
+    lines.append(f"- Bot-blocked sources: {health['bot_blocked']}")
+    lines.append(f"- Forbidden sources: {health['forbidden']}")
+    if restricted:
+        lines.append(
+            "- Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up."
+        )
+        for rec in restricted:
+            lines.append(f"- {rec.get('name', rec['source_id'])} — {rec.get('status_detail', rec.get('status', 'unknown'))} — {rec.get('url', '')}")
+    lines.append("")
+
+    lines.append("## Daily Deltas")
+    lines.append("")
+    for delta in build_daily_deltas(history):
+        name = delta["name"]
+        url = delta["url"]
+        status_detail = delta["status_detail"]
+        if delta["delta_kind"] == "records":
+            lines.append(
+                f"- **{name}** — records `+{delta['added_count']}` / `-{delta['removed_count']}` — {url}"
+            )
+        elif delta["delta_kind"] == "text":
+            lines.append(
+                f"- **{name}** — lines `+{delta['added_lines']}` / `-{delta['removed_lines']}` — {url}"
+            )
+        elif delta["status"] == "error":
+            lines.append(f"- **{name}** — {status_detail} — {url}")
+        else:
+            lines.append(f"- **{name}** — no change — {url}")
+    lines.append("")
 
     # Changed sources first
     changed = [r for r in history["sources"] if r.get("changed")]
@@ -91,6 +186,26 @@ def build_markdown(history: dict, sources_map: dict) -> str:
                     lines.append(f"- **Added titles:** {', '.join(record_diff['added_titles'])}")
                 if record_diff.get("removed_titles"):
                     lines.append(f"- **Removed titles:** {', '.join(record_diff['removed_titles'])}")
+                for added_record in record_diff.get("added_records", [])[:3]:
+                    record_title = added_record.get("title", added_record.get("exam_number", "Record"))
+                    record_bits = [
+                        added_record.get("source_record_id") or added_record.get("exam_number", ""),
+                        added_record.get("department", ""),
+                        added_record.get("agency", ""),
+                        added_record.get("deadline", "") or added_record.get("closing_text", ""),
+                    ]
+                    detail = " — ".join(bit for bit in record_bits if bit)
+                    lines.append(f"- Added record: {record_title}" + (f" — {detail}" if detail else ""))
+                for removed_record in record_diff.get("removed_records", [])[:3]:
+                    record_title = removed_record.get("title", removed_record.get("exam_number", "Record"))
+                    record_bits = [
+                        removed_record.get("source_record_id") or removed_record.get("exam_number", ""),
+                        removed_record.get("department", ""),
+                        removed_record.get("agency", ""),
+                        removed_record.get("deadline", "") or removed_record.get("closing_text", ""),
+                    ]
+                    detail = " — ".join(bit for bit in record_bits if bit)
+                    lines.append(f"- Removed record: {record_title}" + (f" — {detail}" if detail else ""))
             elif diff:
                 lines.append(f"- Lines added: {diff['added_lines']}")
                 lines.append(f"- Lines removed: {diff['removed_lines']}")
@@ -121,7 +236,7 @@ def build_markdown(history: dict, sources_map: dict) -> str:
     lines.append("")
     for rec in unchanged:
         name = rec.get("name", rec["source_id"])
-        lines.append(f"- {name}")
+        lines.append(f"- {name} — {rec.get('url', '')}")
     lines.append("")
 
     lines.append("---")
@@ -136,6 +251,8 @@ def build_markdown(history: dict, sources_map: dict) -> str:
 
 
 def build_json_report(history: dict) -> dict:
+    health_summary = build_health_summary(history)
+    daily_deltas = build_daily_deltas(history)
     sources_summary = []
     for rec in history.get("sources", []):
         extracted = load_extraction(rec["source_id"])
@@ -155,10 +272,14 @@ def build_json_report(history: dict) -> dict:
             "records": rec.get("records", [])[:10],
         }
         if extracted:
+            entry["summary_note"] = extracted.get("summary_note", entry["summary_note"])
+            entry["record_count"] = extracted.get("record_count", entry["record_count"])
+            entry["records"] = extracted.get("records", entry["records"])[:10]
             entry["exam_titles"] = extracted.get("exam_titles", [])[:10]
             entry["dates"] = extracted.get("dates", [])[:10]
             entry["keywords_found"] = extracted.get("keywords_found", [])
             entry["links"] = extracted.get("links", [])[:10]
+            entry["record_fields_present"] = extracted.get("record_fields_present", [])
         sources_summary.append(entry)
 
     return {
@@ -166,6 +287,11 @@ def build_json_report(history: dict) -> dict:
         "generated_at": history.get("generated_at", now_iso()),
         "total_sources": history.get("total_sources", 0),
         "changed_count": history.get("changed_count", 0),
+        "health_summary": health_summary,
+        "daily_deltas": daily_deltas,
+        "policy_notes": {
+            "restricted_sources": "Blocked or forbidden sources are reported as-is. No alternate endpoints or browser-assisted fetching are used; source links remain for manual follow-up."
+        },
         "sources": sources_summary,
     }
 

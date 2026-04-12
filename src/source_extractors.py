@@ -39,6 +39,7 @@ DATE_RE = re.compile(
     r")\b",
     re.IGNORECASE,
 )
+SALARY_AMOUNT_RE = re.compile(r"\$[\d,]+(?:\.\d{2})?")
 
 
 def clean_text(text: str) -> str:
@@ -79,14 +80,24 @@ def find_keywords(text: str) -> list[str]:
 def row_signature(record: dict) -> str:
     """Build a stable record signature for comparisons and hashing."""
     important = [
+        record.get("source_record_id", "") or record.get("job_id", ""),
         record.get("exam_number", ""),
         record.get("title", ""),
+        record.get("department", ""),
         record.get("type", ""),
+        record.get("job_type", ""),
         record.get("application_period", ""),
         record.get("deadline", ""),
+        record.get("closing_text", ""),
         record.get("exam_date", ""),
+        record.get("posted_date", ""),
+        record.get("posted_text", ""),
         record.get("agency", ""),
+        record.get("location", ""),
         record.get("salary", ""),
+        record.get("fee", ""),
+        record.get("status", ""),
+        record.get("announcement_text", "") or record.get("detail", ""),
         record.get("detail_url", ""),
     ]
     return " | ".join(clean_text(value) for value in important if value)
@@ -119,28 +130,141 @@ def generic_links(soup: BeautifulSoup, base_url: str) -> list[dict]:
     return links[:100]
 
 
+def extract_labeled_value(text: str, label: str, stop_labels: list[str]) -> str:
+    """Extract text following *label* until one of *stop_labels* appears."""
+    normalized = clean_text(text)
+    upper = normalized.upper()
+    label_upper = label.upper()
+    start = upper.find(label_upper)
+    if start == -1:
+        return ""
+
+    remainder = normalized[start + len(label) :].strip(" :-|")
+    if not remainder:
+        return ""
+
+    stop_at = len(remainder)
+    upper_remainder = remainder.upper()
+    for stop_label in stop_labels:
+        idx = upper_remainder.find(stop_label.upper())
+        if idx != -1:
+            stop_at = min(stop_at, idx)
+
+    return clean_text(remainder[:stop_at].strip(" :-|"))
+
+
+def parse_salary_text(text: str) -> dict:
+    """Return normalized salary fields parsed from free text."""
+    salary_text = clean_text(text)
+    if not salary_text:
+        return {}
+
+    amounts = []
+    for match in SALARY_AMOUNT_RE.findall(salary_text):
+        try:
+            amounts.append(int(match.replace("$", "").replace(",", "").split(".")[0]))
+        except ValueError:
+            continue
+
+    result = {"salary_text": salary_text}
+    if amounts:
+        result["salary_min"] = amounts[0]
+        if len(amounts) > 1:
+            result["salary_max"] = amounts[1]
+    return result
+
+
+def normalize_record(record: dict) -> dict:
+    """Remove empty values and add derived normalized fields."""
+    normalized = {}
+    for key, value in record.items():
+        if value is None:
+            continue
+        if isinstance(value, str):
+            value = clean_text(value)
+        if value in ("", [], {}):
+            continue
+        normalized[key] = value
+
+    if normalized.get("job_id") and not normalized.get("source_record_id"):
+        normalized["source_record_id"] = normalized["job_id"]
+
+    salary_text = normalized.get("salary") or normalized.get("salary_text", "")
+    if salary_text:
+        normalized.setdefault("salary", salary_text)
+        for key, value in parse_salary_text(salary_text).items():
+            normalized.setdefault(key, value)
+
+    return normalized
+
+
+def record_fields_present(records: list[dict]) -> list[str]:
+    """Return the ordered union of keys present across extracted records."""
+    fields: list[str] = []
+    seen = set()
+    for record in records:
+        for key in record:
+            if key in seen:
+                continue
+            seen.add(key)
+            fields.append(key)
+    return fields
+
+
 def map_header(header: str) -> str | None:
     """Map a source table header to a normalized record key."""
     normalized = clean_text(header).lower()
     mapping = {
+        "title": "title",
         "title of exam": "title",
         "exam title": "title",
+        "job title": "title",
+        "position title": "title",
+        "job name": "title",
         "exam no.": "exam_number",
         "exam no": "exam_number",
         "exam number": "exam_number",
+        "examination number": "exam_number",
+        "job id": "job_id",
+        "posting id": "source_record_id",
+        "job number": "source_record_id",
         "application period": "application_period",
         "last date to apply": "deadline",
         "deadline": "deadline",
+        "closing date": "deadline",
+        "date posted": "posted_date",
+        "posted": "posted_date",
+        "posting date": "posted_date",
         "exam date": "exam_date",
         "test date": "exam_date",
         "salary": "salary",
+        "salary range": "salary",
+        "annual salary": "salary",
+        "minimum salary": "salary_min",
+        "maximum salary": "salary_max",
+        "salary grade": "salary_grade",
         "jurisdiction or agency": "agency",
         "agency": "agency",
+        "department": "department",
+        "location": "location",
         "type": "type",
+        "exam type": "type",
+        "job type": "job_type",
+        "status": "status",
+        "description": "detail",
         "non-refundable processing fee": "fee",
         "processing fee": "fee",
+        "fee": "fee",
     }
-    return mapping.get(normalized)
+    if normalized in mapping:
+        return mapping[normalized]
+    if "processing" in normalized and "fee" in normalized:
+        return "fee"
+    if "date" in normalized and "apply" in normalized:
+        return "deadline"
+    if "exam" in normalized and "title" in normalized:
+        return "title"
+    return None
 
 
 def extract_table_records(soup: BeautifulSoup, base_url: str) -> list[dict]:
@@ -180,7 +304,7 @@ def extract_table_records(soup: BeautifulSoup, base_url: str) -> list[dict]:
                     record.setdefault("detail_url", absolutize(base_url, link["href"]))
             exam_number = record.get("exam_number", "")
             if record.get("title") or (exam_number and len(exam_number) <= 20):
-                all_records.append(record)
+                all_records.append(normalize_record(record))
 
         if all_records:
             break
@@ -292,6 +416,83 @@ def parse_mta(soup: BeautifulSoup, _text: str, base_url: str) -> dict:
     }
 
 
+def parse_nassau_listings(soup: BeautifulSoup, base_url: str) -> dict:
+    """Extract Nassau County's listing cards returned by the first-party XHR."""
+    records = []
+    links = []
+
+    for item in soup.select("li.list-item[data-job-id]"):
+        anchor = item.select_one("a.item-details-link[href]")
+        if not anchor:
+            continue
+
+        title = clean_text(anchor.get_text(" ", strip=True))
+        announcement_text = clean_text(item.select_one(".list-entry").get_text(" ", strip=True)) if item.select_one(".list-entry") else ""
+        posted_text = clean_text(item.select_one(".list-entry-starts").get_text(" ", strip=True)) if item.select_one(".list-entry-starts") else ""
+        closing_text = clean_text(item.select_one(".list-entry-ends").get_text(" ", strip=True)) if item.select_one(".list-entry-ends") else ""
+        detail_url = absolutize(base_url, anchor["href"])
+
+        salary_text = extract_labeled_value(
+            announcement_text,
+            "SALARY",
+            [
+                "REISSUED ANNOUNCEMENT",
+                "THIS EXAMINATION",
+                "APPLICATIONS WILL",
+                "NAMES OF SUCCESSFUL",
+                "CANDIDATES MAY",
+            ],
+        ).strip(":")
+        agency = extract_labeled_value(
+            announcement_text,
+            "ANNOUNCED FOR",
+            [
+                "SALARY",
+                "REISSUED ANNOUNCEMENT",
+                "THIS EXAMINATION",
+            ],
+        ).strip(":")
+
+        record = normalize_record(
+            {
+                "source_record_id": item.get("data-job-id", ""),
+                "job_id": item.get("data-job-id", ""),
+                "title": title,
+                "department": anchor.get("data-department-name", ""),
+                "agency": agency,
+                "salary": salary_text,
+                "announcement_text": announcement_text,
+                "posted_text": posted_text,
+                "closing_text": closing_text,
+                "detail_url": detail_url,
+                "type": "Open Competitive",
+                "status": "continuous" if closing_text.lower() == "continuous" else "",
+            }
+        )
+        if record.get("department", "").lower() == "see below":
+            record.pop("department", None)
+        if closing_text and closing_text.lower() != "continuous":
+            closing_dates = find_dates(closing_text)
+            if closing_dates:
+                record["deadline"] = closing_dates[0]
+
+        if not record.get("title"):
+            continue
+
+        links.append({"text": title[:200], "href": detail_url[:500]})
+        records.append(record)
+
+    summary_note = ""
+    if records:
+        summary_note = f"{len(records)} Nassau County open competitive announcements currently listed."
+
+    return {
+        "records": records[:100],
+        "summary_note": summary_note,
+        "links": links[:100],
+    }
+
+
 def parse_generic_page(soup: BeautifulSoup, text: str, base_url: str) -> dict:
     """Use table extraction first, then fall back to page links and summary text."""
     records = extract_table_records(soup, base_url)
@@ -318,6 +519,8 @@ def extract_source_data(source_id: str, html: str, base_url: str) -> dict:
         parsed = parse_usajobs(soup, text, base_url)
     elif source_id == "mta":
         parsed = parse_mta(soup, text, base_url)
+    elif source_id == "nassau_county" and soup.select("li.list-item[data-job-id]"):
+        parsed = parse_nassau_listings(soup, base_url)
     elif source_id == "orange_county":
         parsed = {
             "records": parse_orange_text(text, base_url),
@@ -333,22 +536,27 @@ def extract_source_data(source_id: str, html: str, base_url: str) -> dict:
 
     exam_titles = dedupe([record.get("title", "") for record in records])[:20]
     record_dates = []
+    record_fragments = []
     for record in records:
-        for key in ("application_period", "deadline", "exam_date"):
+        for key in ("application_period", "deadline", "exam_date", "posted_date", "opening_date"):
             if record.get(key):
                 record_dates.append(record[key])
-    dates = dedupe(record_dates + find_dates(summary_note))[:30]
+        for key, value in record.items():
+            if isinstance(value, str) and key != "detail_url":
+                record_fragments.append(value)
+    dates = dedupe(record_dates + find_dates("\n".join(record_fragments + [summary_note])))[:30]
 
     if records:
         normalized_text = "\n".join(row_signature(record) for record in records if row_signature(record))
     else:
         normalized_text = summary_note or text[:2000]
 
-    keywords_found = find_keywords("\n".join([normalized_text, summary_note]))
+    keywords_found = find_keywords("\n".join([normalized_text, summary_note, "\n".join(record_fragments)]))
     return {
         "links": links[:100],
         "records": records[:100],
         "record_count": len(records),
+        "record_fields_present": record_fields_present(records),
         "exam_titles": exam_titles,
         "dates": dates,
         "keywords_found": keywords_found,

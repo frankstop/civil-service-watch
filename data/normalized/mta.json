@@ -8,13 +8,13 @@
     "transit",
     "mta"
   ],
-  "fetched_at": "2026-04-11T23:25:40Z",
+  "fetched_at": "2026-04-12T02:11:54Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://www.mta.info/careers",
-  "content_hash": "291ec4bd65eab38f",
-  "text": "Job listings | https://careers.mta.org/\nExam information | https://www.mta.info/careers/mta-exams\nPolice officer process | https://www.mta.info/careers/become-a-police-officer\nSkilled trades | https://new.mta.info/careers/skilled-trades-positions\nInternships | https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship",
+  "content_hash": "a5e7c6151caca897",
+  "text": "Job listings | See all open MTA positions. | https://careers.mta.org/\nExam information | Find out more about upcoming exams. | https://www.mta.info/careers/mta-exams\nPolice officer process | Find out more about becoming a police officer | https://www.mta.info/careers/become-a-police-officer\nSkilled trades | See current skilled trade jobs | https://new.mta.info/careers/skilled-trades-positions\nInternships | MTA Careers site | https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship",
   "summary_note": "Career center links and exam-specific entry points.",
   "record_count": 5,
   "error": null
