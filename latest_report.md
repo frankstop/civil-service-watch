@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-04-13  
-**Generated:** 2026-04-13T09:03:50Z  
+**Date:** 2026-04-14  
+**Generated:** 2026-04-14T08:27:48Z  
 **Sources checked:** 10  
-**Changes detected:** 0  
+**Changes detected:** 1  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 7
 - Sources with fetch errors: 3
-- Sources changed today: 0
-- Sources unchanged today: 10
+- Sources changed today: 1
+- Sources unchanged today: 9
 - Bot-blocked sources: 2
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -27,11 +27,20 @@
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - **Nassau County Civil Service** — no change — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — bot_blocked — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
-- **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- **Westchester County Civil Service** — records `+0` / `-1` — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
 - **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — bot_blocked — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
+
+## 🔔 Changes Detected
+
+### Westchester County Civil Service
+- **URL:** http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- **Summary:** Civil service exam information is available on this source page.
+- Records added: 0 · removed: 1
+- **Removed titles:** Customer Service Coordinator - Student Services
+- Removed record: Customer Service Coordinator - Student Services — 60-032780 — BOCES #2 — 04/13/2026
 
 ## ❌ Fetch Errors
 
@@ -45,7 +54,6 @@
 - NYS Civil Service — https://www.cs.ny.gov/examannouncements/types/oc/
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
-- Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
 

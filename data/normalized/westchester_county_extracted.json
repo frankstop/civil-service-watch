@@ -2,7 +2,7 @@
   "source_id": "westchester_county",
   "name": "Westchester County Civil Service",
   "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "extracted_at": "2026-04-13T09:03:50Z",
+  "extracted_at": "2026-04-14T08:27:48Z",
   "links": [
     {
       "text": "Skip to main content",
@@ -45,10 +45,6 @@
       "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
     },
     {
-      "text": "Customer Service Coordinator - Student Services",
-      "href": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
-    },
-    {
       "text": "Applying Online",
       "href": "https://humanresources.westchestercountyny.gov/applying-online"
     },
@@ -69,42 +65,16 @@
       "href": "https://humanresources.westchestercountyny.gov/contact-information"
     }
   ],
-  "records": [
-    {
-      "exam_number": "60-032780",
-      "agency": "BOCES #2",
-      "title": "Customer Service Coordinator - Student Services",
-      "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm",
-      "deadline": "04/13/2026",
-      "exam_date": "06/27/2026",
-      "salary": "According to Agreement",
-      "fee": "$50.00",
-      "salary_text": "According to Agreement"
-    }
-  ],
-  "record_count": 1,
-  "record_fields_present": [
-    "exam_number",
-    "agency",
-    "title",
-    "detail_url",
-    "deadline",
-    "exam_date",
-    "salary",
-    "fee",
-    "salary_text"
-  ],
-  "record_fingerprint": "927f86d904cd6d5e",
-  "summary_note": "",
-  "exam_titles": [
-    "Customer Service Coordinator - Student Services"
-  ],
-  "dates": [
-    "04/13/2026",
-    "06/27/2026"
-  ],
+  "records": [],
+  "record_count": 0,
+  "record_fields_present": [],
+  "record_fingerprint": "453facc75df89a03",
+  "summary_note": "Civil service exam information is available on this source page.",
+  "exam_titles": [],
+  "dates": [],
   "keywords_found": [
-    "exam"
+    "exam",
+    "civil service"
   ],
-  "normalized_text": "60-032780 | Customer Service Coordinator - Student Services | 04/13/2026 | 06/27/2026 | BOCES #2 | According to Agreement | $50.00 | http://www.westchestergov.com/hr/onlineexam/PE/OC/60032780.htm"
+  "normalized_text": "Civil service exam information is available on this source page."
 }
