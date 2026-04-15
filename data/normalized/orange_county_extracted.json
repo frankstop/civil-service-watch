@@ -2,7 +2,7 @@
   "source_id": "orange_county",
   "name": "Orange County Civil Service",
   "url": "https://orange-portal.mycivilservice.com/post/exams",
-  "extracted_at": "2026-04-14T08:27:48Z",
+  "extracted_at": "2026-04-15T08:46:55Z",
   "links": [
     {
       "text": "Human Resources Home",
@@ -239,6 +239,18 @@
     {
       "text": "TELEPHONE OPERATOR II",
       "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1658"
+    },
+    {
+      "text": "QIE questionnaire",
+      "href": "https://orange-portal.mycivilservice.com/QIE-employee-questionnaire-form.pdf"
+    },
+    {
+      "text": "CURRENT MUNICIPAL HELP EMPLOYEE QIE",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1889"
+    },
+    {
+      "text": "CURRENT ORANGE COUNTY HELP EMPLOYEE QIE",
+      "href": "https://orange-portal.mycivilservice.com/main/show_announcement/1890"
     },
     {
       "text": "Send Us a Message",
