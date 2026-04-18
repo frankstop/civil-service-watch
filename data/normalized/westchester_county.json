@@ -8,14 +8,14 @@
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-04-17T08:27:37Z",
+  "fetched_at": "2026-04-18T08:01:22Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "content_hash": "453facc75df89a03",
-  "text": "Civil service exam information is available on this source page.",
-  "summary_note": "Civil service exam information is available on this source page.",
-  "record_count": 0,
+  "content_hash": "a9b68d0053e8dc4c",
+  "text": "60-062550 | Assistant Business Manager | 05/06/2026 | 06/13/2026 | School Districts | Varies with School District | $50.00 | http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm",
+  "summary_note": "",
+  "record_count": 1,
   "error": null
 }
