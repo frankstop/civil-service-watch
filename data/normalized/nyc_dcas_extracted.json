@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-04-29T09:13:02Z",
+  "extracted_at": "2026-04-30T09:17:47Z",
   "links": [
     {
       "text": "311",
@@ -85,64 +85,8 @@
       "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-exams-questions-contact-us.page"
     },
     {
-      "text": "6005",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf"
-    },
-    {
-      "text": "6123",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266123000.pdf"
-    },
-    {
-      "text": "6024",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf"
-    },
-    {
-      "text": "6025",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf"
-    },
-    {
-      "text": "6026",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf"
-    },
-    {
-      "text": "6027",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266027000.pdf"
-    },
-    {
-      "text": "6117",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266117000.pdf"
-    },
-    {
-      "text": "6116",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266116000.pdf"
-    },
-    {
       "text": "6303",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
-    },
-    {
-      "text": "6047",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266047000.pdf"
-    },
-    {
-      "text": "6118",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266118000.pdf"
-    },
-    {
-      "text": "6305",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266305000.pdf"
-    },
-    {
-      "text": "6075",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266075000.pdf"
-    },
-    {
-      "text": "6320",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266320000.pdf"
-    },
-    {
-      "text": "6108",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266108000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -203,153 +147,29 @@
   ],
   "records": [
     {
-      "title": "Administrative Horticulturist",
-      "exam_number": "6005 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Administrative Job Opportunity Specialist",
-      "exam_number": "6007",
-      "application_period": "Postponed"
-    },
-    {
-      "title": "Associate Fraud Investigator",
-      "exam_number": "6123 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266123000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Auto Body Worker",
-      "exam_number": "6024 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Auto Mechanic",
-      "exam_number": "6025 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Auto Mechanic (CUNY)",
-      "exam_number": "6026 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Auto Mechanic (Diesel)",
-      "exam_number": "6027 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266027000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Call Center Representative",
-      "exam_number": "6032",
-      "application_period": "Canceled"
-    },
-    {
-      "title": "Chemical Engineering Intern",
-      "exam_number": "6117 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266117000.pdf",
-      "application_period": "2/4/2026 – 4/21/2026"
-    },
-    {
-      "title": "City Assessor",
-      "exam_number": "6036",
-      "application_period": "Postponed"
-    },
-    {
-      "title": "Civil Engineering Intern",
-      "exam_number": "6116 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266116000.pdf",
-      "application_period": "2/4/2026 – 4/21/2026"
-    },
-    {
       "title": "Correction Officer",
       "exam_number": "6303 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
       "application_period": "4/1/2026 – 5/29/2026"
-    },
-    {
-      "title": "Electrical Engineering Intern",
-      "exam_number": "6047 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266047000.pdf",
-      "application_period": "2/4/2026 – 4/21/2026"
-    },
-    {
-      "title": "Environmental Engineering Intern",
-      "exam_number": "6118 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266118000.pdf",
-      "application_period": "2/4/2026 – 4/21/2026"
-    },
-    {
-      "title": "Environmental Police Officer",
-      "exam_number": "6305 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266305000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
-    },
-    {
-      "title": "Mechanical Engineering Intern",
-      "exam_number": "6075 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266075000.pdf",
-      "application_period": "2/4/2026 – 4/21/2026"
-    },
-    {
-      "title": "Police Officer",
-      "exam_number": "6320 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266320000.pdf",
-      "application_period": "4/1/2026 – 4/14/2026"
-    },
-    {
-      "title": "Taxi and Limousine Inspector",
-      "exam_number": "6108 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266108000.pdf",
-      "application_period": "4/1/2026 – 4/21/2026"
     }
   ],
-  "record_count": 18,
+  "record_count": 1,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "c79164eb67751e47",
+  "record_fingerprint": "a033efedd742cad1",
   "summary_note": "",
   "exam_titles": [
-    "Administrative Horticulturist",
-    "Administrative Job Opportunity Specialist",
-    "Associate Fraud Investigator",
-    "Auto Body Worker",
-    "Auto Mechanic",
-    "Auto Mechanic (CUNY)",
-    "Auto Mechanic (Diesel)",
-    "Call Center Representative",
-    "Chemical Engineering Intern",
-    "City Assessor",
-    "Civil Engineering Intern",
-    "Correction Officer",
-    "Electrical Engineering Intern",
-    "Environmental Engineering Intern",
-    "Environmental Police Officer",
-    "Mechanical Engineering Intern",
-    "Police Officer",
-    "Taxi and Limousine Inspector"
+    "Correction Officer"
   ],
   "dates": [
-    "4/1/2026 – 4/21/2026",
-    "Postponed",
-    "Canceled",
-    "2/4/2026 – 4/21/2026",
     "4/1/2026 – 5/29/2026",
-    "4/1/2026 – 4/14/2026",
     "4/1/2026",
-    "4/21/2026",
-    "2/4/2026",
-    "5/29/2026",
-    "4/14/2026"
+    "5/29/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "6005 (pdf) | Administrative Horticulturist | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf\n6007 | Administrative Job Opportunity Specialist | Postponed\n6123 (pdf) | Associate Fraud Investigator | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266123000.pdf\n6024 (pdf) | Auto Body Worker | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf\n6025 (pdf) | Auto Mechanic | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf\n6026 (pdf) | Auto Mechanic (CUNY) | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf\n6027 (pdf) | Auto Mechanic (Diesel) | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266027000.pdf\n6032 | Call Center Representative | Canceled\n6117 (pdf) | Chemical Engineering Intern | 2/4/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266117000.pdf\n6036 | City Assessor | Postponed\n6116 (pdf) | Civil Engineering Intern | 2/4/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266116000.pdf\n6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6047 (pdf) | Electrical Engineering Intern | 2/4/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266047000.pdf\n6118 (pdf) | Environmental Engineering Intern | 2/4/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266118000.pdf\n6305 (pdf) | Environmental Police Officer | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266305000.pdf\n6075 (pdf) | Mechanical Engineering Intern | 2/4/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266075000.pdf\n6320 (pdf) | Police Officer | 4/1/2026 – 4/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266320000.pdf\n6108 (pdf) | Taxi and Limousine Inspector | 4/1/2026 – 4/21/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266108000.pdf"
+  "normalized_text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
 }

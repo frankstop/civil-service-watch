@@ -1,13 +1,13 @@
 {
-  "date": "2026-04-29",
-  "generated_at": "2026-04-29T09:13:03Z",
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T09:17:48Z",
   "total_sources": 10,
-  "changed_count": 0,
+  "changed_count": 3,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 0,
-    "unchanged": 10,
+    "changed": 3,
+    "unchanged": 7,
     "bot_blocked": 2,
     "forbidden": 1,
     "not_found": 0,
@@ -20,16 +20,41 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 18,
+      "changed": true,
+      "record_count": 1,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 17,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "6005 (pdf)",
+          "title": "Administrative Horticulturist",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf"
+        },
+        {
+          "exam_number": "6007",
+          "title": "Administrative Job Opportunity Specialist"
+        },
+        {
+          "exam_number": "6024 (pdf)",
+          "title": "Auto Body Worker",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf"
+        },
+        {
+          "exam_number": "6025 (pdf)",
+          "title": "Auto Mechanic",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf"
+        },
+        {
+          "exam_number": "6026 (pdf)",
+          "title": "Auto Mechanic (CUNY)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
@@ -37,16 +62,24 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 1,
+      "changed": true,
+      "record_count": 0,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "21-026020",
+          "title": "Maintenance Supervisor 1 (Motor Equipment)",
+          "deadline": "April 29, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "usajobs",
@@ -139,16 +172,33 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 27,
+      "changed": true,
+      "record_count": 25,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 2,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "60062760",
+          "title": "PROBATION OFFICER 1 TRAINEE",
+          "type": "OC",
+          "deadline": "04/29/2026",
+          "exam_date": "06/27/2026",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60062770",
+          "title": "Social Welfare Examiner Trainee",
+          "type": "OC",
+          "deadline": "04/29/2026",
+          "exam_date": "06/27/2026",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "ny_courts",
@@ -195,94 +245,65 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "c79164eb67751e47",
-      "fetched_at": "2026-04-29T09:12:39Z",
+      "changed": true,
+      "content_hash": "a033efedd742cad1",
+      "fetched_at": "2026-04-30T09:17:20Z",
       "error": null,
       "summary_note": "",
-      "record_count": 18,
-      "record_diff": null,
+      "record_count": 1,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 17,
+        "added_titles": [],
+        "removed_titles": [
+          "Administrative Horticulturist",
+          "Administrative Job Opportunity Specialist",
+          "Auto Body Worker",
+          "Auto Mechanic",
+          "Auto Mechanic (CUNY)"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "6005 (pdf)",
+            "title": "Administrative Horticulturist",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf"
+          },
+          {
+            "exam_number": "6007",
+            "title": "Administrative Job Opportunity Specialist"
+          },
+          {
+            "exam_number": "6024 (pdf)",
+            "title": "Auto Body Worker",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf"
+          },
+          {
+            "exam_number": "6025 (pdf)",
+            "title": "Auto Mechanic",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf"
+          },
+          {
+            "exam_number": "6026 (pdf)",
+            "title": "Auto Mechanic (CUNY)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf"
+          }
+        ]
+      },
       "records": [
         {
-          "title": "Administrative Horticulturist",
-          "exam_number": "6005 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Administrative Job Opportunity Specialist",
-          "exam_number": "6007",
-          "application_period": "Postponed"
-        },
-        {
-          "title": "Associate Fraud Investigator",
-          "exam_number": "6123 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266123000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Auto Body Worker",
-          "exam_number": "6024 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Auto Mechanic",
-          "exam_number": "6025 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Auto Mechanic (CUNY)",
-          "exam_number": "6026 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Auto Mechanic (Diesel)",
-          "exam_number": "6027 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266027000.pdf",
-          "application_period": "4/1/2026 – 4/21/2026"
-        },
-        {
-          "title": "Call Center Representative",
-          "exam_number": "6032",
-          "application_period": "Canceled"
-        },
-        {
-          "title": "Chemical Engineering Intern",
-          "exam_number": "6117 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266117000.pdf",
-          "application_period": "2/4/2026 – 4/21/2026"
-        },
-        {
-          "title": "City Assessor",
-          "exam_number": "6036",
-          "application_period": "Postponed"
+          "title": "Correction Officer",
+          "exam_number": "6303 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
+          "application_period": "4/1/2026 – 5/29/2026"
         }
       ],
       "exam_titles": [
-        "Administrative Horticulturist",
-        "Administrative Job Opportunity Specialist",
-        "Associate Fraud Investigator",
-        "Auto Body Worker",
-        "Auto Mechanic",
-        "Auto Mechanic (CUNY)",
-        "Auto Mechanic (Diesel)",
-        "Call Center Representative",
-        "Chemical Engineering Intern",
-        "City Assessor"
+        "Correction Officer"
       ],
       "dates": [
-        "4/1/2026 – 4/21/2026",
-        "Postponed",
-        "Canceled",
-        "2/4/2026 – 4/21/2026",
         "4/1/2026 – 5/29/2026",
-        "4/1/2026 – 4/14/2026",
         "4/1/2026",
-        "4/21/2026",
-        "2/4/2026",
         "5/29/2026"
       ],
       "keywords_found": [],
@@ -341,32 +362,39 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "0e1287a29e86098d",
-      "fetched_at": "2026-04-29T09:12:42Z",
+      "changed": true,
+      "content_hash": "17375ded7a2a6d45",
+      "fetched_at": "2026-04-30T09:17:23Z",
       "error": null,
       "summary_note": "",
-      "record_count": 1,
-      "record_diff": null,
-      "records": [
-        {
-          "exam_number": "21-026020",
-          "title": "Maintenance Supervisor 1 (Motor Equipment)",
-          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm",
-          "salary": "See Announcement",
-          "deadline": "April 29, 2026",
-          "fee": "$0",
-          "salary_text": "See Announcement"
-        }
-      ],
-      "exam_titles": [
-        "Maintenance Supervisor 1 (Motor Equipment)"
-      ],
-      "dates": [
-        "April 29, 2026"
-      ],
+      "record_count": 0,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 1,
+        "added_titles": [],
+        "removed_titles": [
+          "Maintenance Supervisor 1 (Motor Equipment)"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "21-026020",
+            "title": "Maintenance Supervisor 1 (Motor Equipment)",
+            "deadline": "April 29, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
+          }
+        ]
+      },
+      "records": [],
+      "exam_titles": [],
+      "dates": [],
       "keywords_found": [
         "exam",
+        "examination",
+        "schedule",
+        "eligible list",
+        "civil service",
         "announcement"
       ],
       "links": [
@@ -411,15 +439,7 @@
           "href": "https://www.cs.ny.gov/ccg/"
         }
       ],
-      "record_fields_present": [
-        "exam_number",
-        "title",
-        "detail_url",
-        "salary",
-        "deadline",
-        "fee",
-        "salary_text"
-      ]
+      "record_fields_present": []
     },
     {
       "source_id": "usajobs",
@@ -429,7 +449,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-04-29T09:12:44Z",
+      "fetched_at": "2026-04-30T09:17:25Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -449,7 +469,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-04-29T09:12:47Z",
+      "fetched_at": "2026-04-30T09:17:27Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -703,7 +723,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-29T09:12:49Z",
+      "fetched_at": "2026-04-30T09:17:30Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -718,7 +738,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "a9b68d0053e8dc4c",
-      "fetched_at": "2026-04-29T09:12:51Z",
+      "fetched_at": "2026-04-30T09:17:33Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -808,7 +828,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-29T09:12:54Z",
+      "fetched_at": "2026-04-30T09:17:35Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -821,30 +841,41 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "56b56e9a8df9fbeb",
-      "fetched_at": "2026-04-29T09:12:56Z",
+      "changed": true,
+      "content_hash": "b057c42cca8eb6aa",
+      "fetched_at": "2026-04-30T09:17:38Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "record_count": 27,
-      "record_diff": null,
+      "record_count": 25,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 2,
+        "added_titles": [],
+        "removed_titles": [
+          "PROBATION OFFICER 1 TRAINEE",
+          "Social Welfare Examiner Trainee"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "60062760",
+            "title": "PROBATION OFFICER 1 TRAINEE",
+            "type": "OC",
+            "deadline": "04/29/2026",
+            "exam_date": "06/27/2026",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          },
+          {
+            "exam_number": "60062770",
+            "title": "Social Welfare Examiner Trainee",
+            "type": "OC",
+            "deadline": "04/29/2026",
+            "exam_date": "06/27/2026",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          }
+        ]
+      },
       "records": [
-        {
-          "exam_number": "60062760",
-          "title": "PROBATION OFFICER 1 TRAINEE",
-          "type": "OC",
-          "deadline": "04/29/2026",
-          "exam_date": "06/27/2026",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "60062770",
-          "title": "Social Welfare Examiner Trainee",
-          "type": "OC",
-          "deadline": "04/29/2026",
-          "exam_date": "06/27/2026",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
         {
           "exam_number": "61438",
           "title": "Athletic Trainer",
@@ -892,11 +923,21 @@
           "title": "Librarian II (Children's Services)",
           "type": "CR",
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "64270010",
+          "title": "Librarian III",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "86874",
+          "title": "LIBRARY ASSISTANT",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         }
       ],
       "exam_titles": [
-        "PROBATION OFFICER 1 TRAINEE",
-        "Social Welfare Examiner Trainee",
         "Athletic Trainer",
         "CORRECTION OFFICER",
         "DATA ENTRY OPERATOR II",
@@ -904,12 +945,11 @@
         "Librarian I Trainee",
         "Librarian I",
         "Librarian II",
-        "Librarian II (Children's Services)"
+        "Librarian II (Children's Services)",
+        "Librarian III",
+        "LIBRARY ASSISTANT"
       ],
-      "dates": [
-        "04/29/2026",
-        "06/27/2026"
-      ],
+      "dates": [],
       "keywords_found": [
         "exam",
         "open competitive"
@@ -960,8 +1000,6 @@
         "exam_number",
         "title",
         "type",
-        "deadline",
-        "exam_date",
         "detail_url"
       ]
     },
@@ -973,7 +1011,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-29T09:13:00Z",
+      "fetched_at": "2026-04-30T09:17:41Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -988,7 +1026,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-04-29T09:13:02Z",
+      "fetched_at": "2026-04-30T09:17:43Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
