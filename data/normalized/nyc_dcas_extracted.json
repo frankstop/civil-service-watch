@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-04-30T09:17:47Z",
+  "extracted_at": "2026-05-01T09:04:43Z",
   "links": [
     {
       "text": "311",
@@ -89,6 +89,10 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
     },
     {
+      "text": "6321",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
+    },
+    {
       "text": "nyc.gov home",
       "href": "https://www.nyc.gov/main"
     },
@@ -151,25 +155,35 @@
       "exam_number": "6303 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
       "application_period": "4/1/2026 – 5/29/2026"
+    },
+    {
+      "title": "Police Officer",
+      "exam_number": "6321 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
+      "application_period": "5/1/2026 – 5/14/2026"
     }
   ],
-  "record_count": 1,
+  "record_count": 2,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "a033efedd742cad1",
+  "record_fingerprint": "2c8d14e90b05b444",
   "summary_note": "",
   "exam_titles": [
-    "Correction Officer"
+    "Correction Officer",
+    "Police Officer"
   ],
   "dates": [
     "4/1/2026 – 5/29/2026",
+    "5/1/2026 – 5/14/2026",
     "4/1/2026",
-    "5/29/2026"
+    "5/29/2026",
+    "5/1/2026",
+    "5/14/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
+  "normalized_text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6321 (pdf) | Police Officer | 5/1/2026 – 5/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
 }

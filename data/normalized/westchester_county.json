@@ -8,14 +8,14 @@
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-04-30T09:17:33Z",
-  "status": "ok",
-  "status_detail": "ok",
-  "http_status": 200,
-  "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "content_hash": "a9b68d0053e8dc4c",
-  "text": "60-062550 | Assistant Business Manager | 05/06/2026 | 06/13/2026 | School Districts | Varies with School District | $50.00 | http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm",
+  "fetched_at": "2026-05-01T09:04:02Z",
+  "status": "error",
+  "status_detail": "timeout",
+  "http_status": null,
+  "resolved_url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+  "content_hash": "",
+  "text": "",
   "summary_note": "",
-  "record_count": 1,
-  "error": null
+  "record_count": 0,
+  "error": "HTTPConnectionPool(host='exams.westchestergov.com', port=80): Max retries exceeded with url: /webexam/PE/listOpenToAllExams.htm (Caused by ConnectTimeoutError(<HTTPConnection(host='exams.westchestergov.com', port=80) at 0x7fba3615ef30>, 'Connection to exams.westchestergov.com timed out. (connect timeout=30)'))"
 }

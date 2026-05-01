@@ -8,14 +8,14 @@
     "schedule",
     "nyc"
   ],
-  "fetched_at": "2026-04-30T09:17:20Z",
+  "fetched_at": "2026-05-01T09:03:50Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "content_hash": "a033efedd742cad1",
-  "text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
+  "content_hash": "2c8d14e90b05b444",
+  "text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6321 (pdf) | Police Officer | 5/1/2026 – 5/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
   "summary_note": "",
-  "record_count": 1,
+  "record_count": 2,
   "error": null
 }

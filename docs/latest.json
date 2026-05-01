@@ -1,17 +1,17 @@
 {
-  "date": "2026-04-30",
-  "generated_at": "2026-04-30T09:17:48Z",
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T09:04:43Z",
   "total_sources": 10,
-  "changed_count": 3,
+  "changed_count": 2,
   "health_summary": {
-    "ok": 7,
-    "error": 3,
-    "changed": 3,
-    "unchanged": 7,
+    "ok": 6,
+    "error": 4,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 2,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 0
+    "timeout": 1
   },
   "daily_deltas": [
     {
@@ -21,37 +21,18 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "record_count": 1,
+      "record_count": 2,
       "summary_note": "",
-      "added_count": 0,
-      "removed_count": 17,
-      "added_records": [],
-      "removed_records": [
+      "added_count": 1,
+      "removed_count": 0,
+      "added_records": [
         {
-          "exam_number": "6005 (pdf)",
-          "title": "Administrative Horticulturist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf"
-        },
-        {
-          "exam_number": "6007",
-          "title": "Administrative Job Opportunity Specialist"
-        },
-        {
-          "exam_number": "6024 (pdf)",
-          "title": "Auto Body Worker",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf"
-        },
-        {
-          "exam_number": "6025 (pdf)",
-          "title": "Auto Mechanic",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf"
-        },
-        {
-          "exam_number": "6026 (pdf)",
-          "title": "Auto Mechanic (CUNY)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf"
+          "exam_number": "6321 (pdf)",
+          "title": "Police Officer",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
         }
       ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
       "delta_kind": "records"
@@ -66,20 +47,12 @@
       "record_count": 0,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "added_records": [],
-      "removed_records": [
-        {
-          "exam_number": "21-026020",
-          "title": "Maintenance Supervisor 1 (Motor Equipment)",
-          "deadline": "April 29, 2026",
-          "salary": "See Announcement",
-          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
-        }
-      ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "usajobs",
@@ -136,8 +109,8 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "ok",
-      "status_detail": "ok",
+      "status": "error",
+      "status_detail": "timeout",
       "changed": false,
       "record_count": 1,
       "summary_note": "",
@@ -147,7 +120,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "restricted"
     },
     {
       "source_id": "rockland_county",
@@ -172,33 +145,16 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 25,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "added_count": 0,
-      "removed_count": 2,
+      "removed_count": 0,
       "added_records": [],
-      "removed_records": [
-        {
-          "exam_number": "60062760",
-          "title": "PROBATION OFFICER 1 TRAINEE",
-          "type": "OC",
-          "deadline": "04/29/2026",
-          "exam_date": "06/27/2026",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "60062770",
-          "title": "Social Welfare Examiner Trainee",
-          "type": "OC",
-          "deadline": "04/29/2026",
-          "exam_date": "06/27/2026",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        }
-      ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "ny_courts",
@@ -246,49 +202,26 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "a033efedd742cad1",
-      "fetched_at": "2026-04-30T09:17:20Z",
+      "content_hash": "2c8d14e90b05b444",
+      "fetched_at": "2026-05-01T09:03:50Z",
       "error": null,
       "summary_note": "",
-      "record_count": 1,
+      "record_count": 2,
       "record_diff": {
-        "added_count": 0,
-        "removed_count": 17,
-        "added_titles": [],
-        "removed_titles": [
-          "Administrative Horticulturist",
-          "Administrative Job Opportunity Specialist",
-          "Auto Body Worker",
-          "Auto Mechanic",
-          "Auto Mechanic (CUNY)"
+        "added_count": 1,
+        "removed_count": 0,
+        "added_titles": [
+          "Police Officer"
         ],
-        "added_records": [],
-        "removed_records": [
+        "removed_titles": [],
+        "added_records": [
           {
-            "exam_number": "6005 (pdf)",
-            "title": "Administrative Horticulturist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266005000.pdf"
-          },
-          {
-            "exam_number": "6007",
-            "title": "Administrative Job Opportunity Specialist"
-          },
-          {
-            "exam_number": "6024 (pdf)",
-            "title": "Auto Body Worker",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266024000.pdf"
-          },
-          {
-            "exam_number": "6025 (pdf)",
-            "title": "Auto Mechanic",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266025000.pdf"
-          },
-          {
-            "exam_number": "6026 (pdf)",
-            "title": "Auto Mechanic (CUNY)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266026000.pdf"
+            "exam_number": "6321 (pdf)",
+            "title": "Police Officer",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
           }
-        ]
+        ],
+        "removed_records": []
       },
       "records": [
         {
@@ -296,15 +229,25 @@
           "exam_number": "6303 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
           "application_period": "4/1/2026 – 5/29/2026"
+        },
+        {
+          "title": "Police Officer",
+          "exam_number": "6321 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
+          "application_period": "5/1/2026 – 5/14/2026"
         }
       ],
       "exam_titles": [
-        "Correction Officer"
+        "Correction Officer",
+        "Police Officer"
       ],
       "dates": [
         "4/1/2026 – 5/29/2026",
+        "5/1/2026 – 5/14/2026",
         "4/1/2026",
-        "5/29/2026"
+        "5/29/2026",
+        "5/1/2026",
+        "5/14/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -363,29 +306,12 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "17375ded7a2a6d45",
-      "fetched_at": "2026-04-30T09:17:23Z",
+      "content_hash": "69b2d4715553e08e",
+      "fetched_at": "2026-05-01T09:03:52Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": {
-        "added_count": 0,
-        "removed_count": 1,
-        "added_titles": [],
-        "removed_titles": [
-          "Maintenance Supervisor 1 (Motor Equipment)"
-        ],
-        "added_records": [],
-        "removed_records": [
-          {
-            "exam_number": "21-026020",
-            "title": "Maintenance Supervisor 1 (Motor Equipment)",
-            "deadline": "April 29, 2026",
-            "salary": "See Announcement",
-            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-026020.cfm"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [],
       "exam_titles": [],
       "dates": [],
@@ -449,7 +375,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-04-30T09:17:25Z",
+      "fetched_at": "2026-05-01T09:03:55Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -469,7 +395,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-04-30T09:17:27Z",
+      "fetched_at": "2026-05-01T09:03:57Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -723,7 +649,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-30T09:17:30Z",
+      "fetched_at": "2026-05-01T09:04:00Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -734,12 +660,12 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "ok",
-      "status_detail": "ok",
+      "status": "error",
+      "status_detail": "timeout",
       "changed": false,
       "content_hash": "a9b68d0053e8dc4c",
-      "fetched_at": "2026-04-30T09:17:33Z",
-      "error": null,
+      "fetched_at": "2026-05-01T09:04:02Z",
+      "error": "HTTPConnectionPool(host='exams.westchestergov.com', port=80): Max retries exceeded with url: /webexam/PE/listOpenToAllExams.htm (Caused by ConnectTimeoutError(<HTTPConnection(host='exams.westchestergov.com', port=80) at 0x7fba3615ef30>, 'Connection to exams.westchestergov.com timed out. (connect timeout=30)'))",
       "summary_note": "",
       "record_count": 1,
       "record_diff": null,
@@ -828,7 +754,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-30T09:17:35Z",
+      "fetched_at": "2026-05-01T09:04:34Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -841,40 +767,13 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-04-30T09:17:38Z",
+      "fetched_at": "2026-05-01T09:04:37Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
-      "record_diff": {
-        "added_count": 0,
-        "removed_count": 2,
-        "added_titles": [],
-        "removed_titles": [
-          "PROBATION OFFICER 1 TRAINEE",
-          "Social Welfare Examiner Trainee"
-        ],
-        "added_records": [],
-        "removed_records": [
-          {
-            "exam_number": "60062760",
-            "title": "PROBATION OFFICER 1 TRAINEE",
-            "type": "OC",
-            "deadline": "04/29/2026",
-            "exam_date": "06/27/2026",
-            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-          },
-          {
-            "exam_number": "60062770",
-            "title": "Social Welfare Examiner Trainee",
-            "type": "OC",
-            "deadline": "04/29/2026",
-            "exam_date": "06/27/2026",
-            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "exam_number": "61438",
@@ -1011,7 +910,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-04-30T09:17:41Z",
+      "fetched_at": "2026-05-01T09:04:40Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1026,7 +925,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-04-30T09:17:43Z",
+      "fetched_at": "2026-05-01T09:04:42Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
