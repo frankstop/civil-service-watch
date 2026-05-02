@@ -1,17 +1,17 @@
 {
-  "date": "2026-05-01",
-  "generated_at": "2026-05-01T09:04:43Z",
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T08:22:42Z",
   "total_sources": 10,
   "changed_count": 2,
   "health_summary": {
-    "ok": 6,
-    "error": 4,
+    "ok": 7,
+    "error": 3,
     "changed": 2,
     "unchanged": 8,
     "bot_blocked": 2,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 1
+    "timeout": 0
   },
   "daily_deltas": [
     {
@@ -20,22 +20,16 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 2,
       "summary_note": "",
-      "added_count": 1,
+      "added_count": 0,
       "removed_count": 0,
-      "added_records": [
-        {
-          "exam_number": "6321 (pdf)",
-          "title": "Police Officer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
-        }
-      ],
+      "added_records": [],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "nys_civil_service",
@@ -109,8 +103,8 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "record_count": 1,
       "summary_note": "",
@@ -120,7 +114,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "restricted"
+      "delta_kind": "none"
     },
     {
       "source_id": "rockland_county",
@@ -145,16 +139,41 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 25,
+      "changed": true,
+      "record_count": 28,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "added_count": 0,
+      "added_count": 3,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "62400017",
+          "title": "PUBLIC HEALTH TECHNICIAN TRAINEE",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "62400026",
+          "title": "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "62400035",
+          "title": "PUBLIC HEALTH TECHNICIAN",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "ny_courts",
@@ -201,28 +220,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "2c8d14e90b05b444",
-      "fetched_at": "2026-05-01T09:03:50Z",
+      "fetched_at": "2026-05-02T08:22:20Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 0,
-        "added_titles": [
-          "Police Officer"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "exam_number": "6321 (pdf)",
-            "title": "Police Officer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
-          }
-        ],
-        "removed_records": []
-      },
+      "record_diff": null,
       "records": [
         {
           "title": "Correction Officer",
@@ -306,8 +310,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "69b2d4715553e08e",
-      "fetched_at": "2026-05-01T09:03:52Z",
+      "content_hash": "17f0206cf99038ab",
+      "fetched_at": "2026-05-02T08:22:22Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -375,7 +379,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-05-01T09:03:55Z",
+      "fetched_at": "2026-05-02T08:22:24Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -395,7 +399,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-05-01T09:03:57Z",
+      "fetched_at": "2026-05-02T08:22:26Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -649,7 +653,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-01T09:04:00Z",
+      "fetched_at": "2026-05-02T08:22:29Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -660,12 +664,12 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "content_hash": "a9b68d0053e8dc4c",
-      "fetched_at": "2026-05-01T09:04:02Z",
-      "error": "HTTPConnectionPool(host='exams.westchestergov.com', port=80): Max retries exceeded with url: /webexam/PE/listOpenToAllExams.htm (Caused by ConnectTimeoutError(<HTTPConnection(host='exams.westchestergov.com', port=80) at 0x7fba3615ef30>, 'Connection to exams.westchestergov.com timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-05-02T08:22:31Z",
+      "error": null,
       "summary_note": "",
       "record_count": 1,
       "record_diff": null,
@@ -754,7 +758,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-01T09:04:34Z",
+      "fetched_at": "2026-05-02T08:22:34Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -767,14 +771,74 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-05-01T09:04:37Z",
+      "changed": true,
+      "content_hash": "92ec8a3800475b8a",
+      "fetched_at": "2026-05-02T08:22:36Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "record_count": 25,
-      "record_diff": null,
+      "record_count": 28,
+      "record_diff": {
+        "added_count": 3,
+        "removed_count": 0,
+        "added_titles": [
+          "PUBLIC HEALTH TECHNICIAN TRAINEE",
+          "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
+          "PUBLIC HEALTH TECHNICIAN"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "62400017",
+            "title": "PUBLIC HEALTH TECHNICIAN TRAINEE",
+            "type": "OC",
+            "deadline": "05/20/2026",
+            "exam_date": "N/A",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          },
+          {
+            "exam_number": "62400026",
+            "title": "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
+            "type": "OC",
+            "deadline": "05/20/2026",
+            "exam_date": "N/A",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          },
+          {
+            "exam_number": "62400035",
+            "title": "PUBLIC HEALTH TECHNICIAN",
+            "type": "OC",
+            "deadline": "05/20/2026",
+            "exam_date": "N/A",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
+        {
+          "exam_number": "62400035",
+          "title": "PUBLIC HEALTH TECHNICIAN",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "62400017",
+          "title": "PUBLIC HEALTH TECHNICIAN TRAINEE",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "62400026",
+          "title": "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
+          "type": "OC",
+          "deadline": "05/20/2026",
+          "exam_date": "N/A",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
         {
           "exam_number": "61438",
           "title": "Athletic Trainer",
@@ -816,39 +880,24 @@
           "title": "Librarian II",
           "type": "CR",
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "63430010",
-          "title": "Librarian II (Children's Services)",
-          "type": "CR",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "64270010",
-          "title": "Librarian III",
-          "type": "CR",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "86874",
-          "title": "LIBRARY ASSISTANT",
-          "type": "CR",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         }
       ],
       "exam_titles": [
+        "PUBLIC HEALTH TECHNICIAN",
+        "PUBLIC HEALTH TECHNICIAN TRAINEE",
+        "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
         "Athletic Trainer",
         "CORRECTION OFFICER",
         "DATA ENTRY OPERATOR II",
         "Emergency Medical Technician",
         "Librarian I Trainee",
         "Librarian I",
-        "Librarian II",
-        "Librarian II (Children's Services)",
-        "Librarian III",
-        "LIBRARY ASSISTANT"
+        "Librarian II"
       ],
-      "dates": [],
+      "dates": [
+        "05/20/2026",
+        "N/A"
+      ],
       "keywords_found": [
         "exam",
         "open competitive"
@@ -899,6 +948,8 @@
         "exam_number",
         "title",
         "type",
+        "deadline",
+        "exam_date",
         "detail_url"
       ]
     },
@@ -910,7 +961,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-01T09:04:40Z",
+      "fetched_at": "2026-05-02T08:22:39Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -925,7 +976,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-05-01T09:04:42Z",
+      "fetched_at": "2026-05-02T08:22:41Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
