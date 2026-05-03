@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-05-02  
-**Generated:** 2026-05-02T08:22:42Z  
+**Date:** 2026-05-03  
+**Generated:** 2026-05-03T08:49:55Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 1  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 7
 - Sources with fetch errors: 3
-- Sources changed today: 2
-- Sources unchanged today: 8
+- Sources changed today: 1
+- Sources unchanged today: 9
 - Bot-blocked sources: 2
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -29,7 +29,7 @@
 - **Suffolk County Civil Service** — bot_blocked — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- **Orange County Civil Service** — records `+3` / `-0` — https://orange-portal.mycivilservice.com/post/exams
+- **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — bot_blocked — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
 
@@ -37,21 +37,6 @@
 
 ### NYS Civil Service
 - **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
-
-### Orange County Civil Service
-- **URL:** https://orange-portal.mycivilservice.com/post/exams
-- **Summary:** Open competitive and continuous recruitment exam listings.
-- Records added: 3 · removed: 0
-- **Added titles:** PUBLIC HEALTH TECHNICIAN TRAINEE, PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG), PUBLIC HEALTH TECHNICIAN
-- Added record: PUBLIC HEALTH TECHNICIAN TRAINEE — 62400017 — 05/20/2026
-- Added record: PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG) — 62400026 — 05/20/2026
-- Added record: PUBLIC HEALTH TECHNICIAN — 62400035 — 05/20/2026
-- **Top records:**
-  - PUBLIC HEALTH TECHNICIAN — 62400035 — 05/20/2026 — N/A
-  - PUBLIC HEALTH TECHNICIAN TRAINEE — 62400017 — 05/20/2026 — N/A
-  - PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG) — 62400026 — 05/20/2026 — N/A
-  - Athletic Trainer — 61438
-  - CORRECTION OFFICER — 60048720
 
 ## ❌ Fetch Errors
 
@@ -65,6 +50,7 @@
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
 
 ---
