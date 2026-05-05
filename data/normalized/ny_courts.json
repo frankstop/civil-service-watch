@@ -8,11 +8,11 @@
     "postings",
     "courts"
   ],
-  "fetched_at": "2026-05-04T09:24:40Z",
+  "fetched_at": "2026-05-05T09:09:55Z",
   "status": "error",
   "status_detail": "bot_blocked",
   "http_status": 403,
-  "resolved_url": "https://ww2.nycourts.gov/careers/exams.shtml",
+  "resolved_url": "https://www.nycourts.gov/careers/exams.shtml",
   "content_hash": "",
   "text": "",
   "summary_note": "",
