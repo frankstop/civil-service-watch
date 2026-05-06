@@ -3,191 +3,6 @@
   "generated_at": "2026-05-06T09:27:38Z",
   "total_sources": 10,
   "changed_count": 1,
-  "health_summary": {
-    "ok": 7,
-    "error": 3,
-    "changed": 1,
-    "unchanged": 9,
-    "bot_blocked": 2,
-    "forbidden": 1,
-    "not_found": 0,
-    "timeout": 0
-  },
-  "daily_deltas": [
-    {
-      "source_id": "nyc_dcas",
-      "name": "NYC DCAS",
-      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 2,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "nys_civil_service",
-      "name": "NYS Civil Service",
-      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": true,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "usajobs",
-      "name": "USAJOBS",
-      "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "No matching USAJOBS listings found for the current search.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "nassau_county",
-      "name": "Nassau County Civil Service",
-      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 10,
-      "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "suffolk_county",
-      "name": "Suffolk County Civil Service",
-      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
-      "status": "error",
-      "status_detail": "bot_blocked",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "westchester_county",
-      "name": "Westchester County Civil Service",
-      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 1,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "rockland_county",
-      "name": "Rockland County Civil Service",
-      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
-      "status": "error",
-      "status_detail": "forbidden",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "orange_county",
-      "name": "Orange County Civil Service",
-      "url": "https://orange-portal.mycivilservice.com/post/exams",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 28,
-      "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "ny_courts",
-      "name": "NY Courts",
-      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
-      "status": "error",
-      "status_detail": "bot_blocked",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "mta",
-      "name": "MTA",
-      "url": "https://new.mta.info/careers",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 5,
-      "summary_note": "Career center links and exam-specific entry points.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    }
-  ],
-  "policy_notes": {
-    "restricted_sources": "Blocked or forbidden sources are reported as-is. No alternate endpoints or browser-assisted fetching are used; source links remain for manual follow-up."
-  },
   "sources": [
     {
       "source_id": "nyc_dcas",
@@ -195,13 +10,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "2c8d14e90b05b444",
       "fetched_at": "2026-05-06T09:27:15Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 2,
-      "record_diff": null,
       "records": [
         {
           "title": "Correction Officer",
@@ -216,67 +31,7 @@
           "application_period": "5/1/2026 – 5/14/2026"
         }
       ],
-      "exam_titles": [
-        "Correction Officer",
-        "Police Officer"
-      ],
-      "dates": [
-        "4/1/2026 – 5/29/2026",
-        "5/1/2026 – 5/14/2026",
-        "4/1/2026",
-        "5/29/2026",
-        "5/1/2026",
-        "5/14/2026"
-      ],
-      "keywords_found": [],
-      "links": [
-        {
-          "text": "311",
-          "href": "https://www.nyc.gov/311/index.page"
-        },
-        {
-          "text": "Search all NYC.gov websites",
-          "href": "https://www.nyc.gov/home/search/index.page"
-        },
-        {
-          "text": "Menu",
-          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
-        },
-        {
-          "text": "Text-Size",
-          "href": "http://www1.nyc.gov/home/text-size.page"
-        },
-        {
-          "text": "Search",
-          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
-        },
-        {
-          "text": "Home",
-          "href": "https://www.nyc.gov/site/dcas/index.page"
-        },
-        {
-          "text": "About",
-          "href": "https://www.nyc.gov/site/dcas/about/our-mission.page"
-        },
-        {
-          "text": "Employment",
-          "href": "https://www.nyc.gov/site/dcas/employment/why-you-should-work-for-the-city.page"
-        },
-        {
-          "text": "Business",
-          "href": "https://www.nyc.gov/site/dcas/business/conducting-business.page"
-        },
-        {
-          "text": "For City Agencies",
-          "href": "https://www.nyc.gov/site/dcas/agencies/for-city-agencies.page"
-        }
-      ],
-      "record_fields_present": [
-        "title",
-        "exam_number",
-        "detail_url",
-        "application_period"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "nys_civil_service",
@@ -284,67 +39,15 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "error": null,
       "content_hash": "79f922622b7ad56b",
       "fetched_at": "2026-05-06T09:27:17Z",
-      "error": null,
+      "changed": true,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
       "records": [],
-      "exam_titles": [],
-      "dates": [],
-      "keywords_found": [
-        "exam",
-        "examination",
-        "schedule",
-        "eligible list",
-        "civil service",
-        "announcement"
-      ],
-      "links": [
-        {
-          "text": "Navigation menu",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Department of Civil Service",
-          "href": "https://www.cs.ny.gov"
-        },
-        {
-          "text": "Online Services",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Account Login",
-          "href": "https://www.cs.ny.gov/home/myaccount/"
-        },
-        {
-          "text": "Apply Online",
-          "href": "https://www.cs.ny.gov/jobseeker/onlineapp/ocappinfo.cfm"
-        },
-        {
-          "text": "My Examination Applications",
-          "href": "https://www.cs.ny.gov/examannouncements/confirmation/history/index.cfm"
-        },
-        {
-          "text": "Eligible Lists (ELMS Online)",
-          "href": "https://www.cs.ny.gov/elmspublic/"
-        },
-        {
-          "text": "Job Seekers",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Hiring for Emergency Limited Placement (HELP) program",
-          "href": "https://www.cs.ny.gov/help/"
-        },
-        {
-          "text": "Centers for Careers in Government (CCG)",
-          "href": "https://www.cs.ny.gov/ccg/"
-        }
-      ],
-      "record_fields_present": []
+      "record_diff": null
     },
     {
       "source_id": "usajobs",
@@ -352,19 +55,15 @@
       "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "7438a1348daa0d1a",
       "fetched_at": "2026-05-06T09:27:19Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
-      "record_diff": null,
       "records": [],
-      "exam_titles": [],
-      "dates": [],
-      "keywords_found": [],
-      "links": [],
-      "record_fields_present": []
+      "record_diff": null
     },
     {
       "source_id": "nassau_county",
@@ -372,13 +71,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "82d9103947e1b074",
       "fetched_at": "2026-05-06T09:27:21Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": null,
       "records": [
         {
           "source_record_id": "3413083",
@@ -532,93 +231,7 @@
           "salary_max": 128481
         }
       ],
-      "exam_titles": [
-        "CYTOTECHNOLOGIST I",
-        "CYTOTECHNOLOGIST II",
-        "CYTOTECHNOLOGIST III",
-        "LIBRARIAN I",
-        "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
-        "MEDICAL TECHNOLOGIST I",
-        "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-        "OCCUPATIONAL THERAPIST ASSISTANT",
-        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-        "PHARMACIST I"
-      ],
-      "dates": [
-        "4/29/25",
-        "2/13/26",
-        "5/23/25",
-        "3/16/23",
-        "3/27/25"
-      ],
-      "keywords_found": [
-        "exam",
-        "examination",
-        "schedule",
-        "filing",
-        "deadline",
-        "open competitive",
-        "eligible list",
-        "announcement"
-      ],
-      "links": [
-        {
-          "text": "CYTOTECHNOLOGIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
-        },
-        {
-          "text": "CYTOTECHNOLOGIST II",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii"
-        },
-        {
-          "text": "CYTOTECHNOLOGIST III",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
-        },
-        {
-          "text": "LIBRARIAN I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
-        },
-        {
-          "text": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking"
-        },
-        {
-          "text": "MEDICAL TECHNOLOGIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
-        },
-        {
-          "text": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
-        },
-        {
-          "text": "OCCUPATIONAL THERAPIST ASSISTANT",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
-        },
-        {
-          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
-        },
-        {
-          "text": "PHARMACIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
-        }
-      ],
-      "record_fields_present": [
-        "source_record_id",
-        "job_id",
-        "title",
-        "agency",
-        "salary",
-        "announcement_text",
-        "posted_text",
-        "closing_text",
-        "detail_url",
-        "type",
-        "status",
-        "salary_text",
-        "salary_min",
-        "salary_max"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "suffolk_county",
@@ -626,14 +239,15 @@
       "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
       "status": "error",
       "status_detail": "bot_blocked",
-      "changed": false,
+      "error": "403 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-05-06T09:27:24Z",
-      "error": "403 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
-      "records": []
+      "records": [],
+      "record_diff": null
     },
     {
       "source_id": "westchester_county",
@@ -641,13 +255,13 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "a9b68d0053e8dc4c",
       "fetched_at": "2026-05-06T09:27:26Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 1,
-      "record_diff": null,
       "records": [
         {
           "exam_number": "60-062550",
@@ -661,69 +275,7 @@
           "salary_text": "Varies with School District"
         }
       ],
-      "exam_titles": [
-        "Assistant Business Manager"
-      ],
-      "dates": [
-        "05/06/2026",
-        "06/13/2026"
-      ],
-      "keywords_found": [
-        "exam"
-      ],
-      "links": [
-        {
-          "text": "Skip to main content",
-          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm#exam_content1"
-        },
-        {
-          "text": "Scheduled Exams",
-          "href": "https://exams.westchestergov.com/webexam/PE/scheduledExamsHome.htm"
-        },
-        {
-          "text": "Continuous Recruitment Exams",
-          "href": "https://exams.westchestergov.com/webexam/CR/crExamsHome.htm"
-        },
-        {
-          "text": "Email Subscription",
-          "href": "https://exams.westchestergov.com/webexam/emailSubscription/subscribe.htm"
-        },
-        {
-          "text": "Login/Register",
-          "href": "https://exams.westchestergov.com/webexam/login/login.htm"
-        },
-        {
-          "text": "Home",
-          "href": "https://exams.westchestergov.com/webexam/home/welcome.htm"
-        },
-        {
-          "text": "View Cart",
-          "href": "https://exams.westchestergov.com/webexam/cart/showCart.htm"
-        },
-        {
-          "text": "Open to All",
-          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm"
-        },
-        {
-          "text": "County/WMC Promotional",
-          "href": "https://exams.westchestergov.com/webexam/PE/listCountyWMCPromotionalExams.htm"
-        },
-        {
-          "text": "Local Promotional",
-          "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
-        }
-      ],
-      "record_fields_present": [
-        "exam_number",
-        "agency",
-        "title",
-        "detail_url",
-        "deadline",
-        "exam_date",
-        "salary",
-        "fee",
-        "salary_text"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "rockland_county",
@@ -731,14 +283,15 @@
       "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
       "status": "error",
       "status_detail": "forbidden",
-      "changed": false,
+      "error": "403 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-05-06T09:27:29Z",
-      "error": "403 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
-      "records": []
+      "records": [],
+      "record_diff": null
     },
     {
       "source_id": "orange_county",
@@ -746,13 +299,13 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "92ec8a3800475b8a",
       "fetched_at": "2026-05-06T09:27:31Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 28,
-      "record_diff": null,
       "records": [
         {
           "exam_number": "62400035",
@@ -821,76 +374,7 @@
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         }
       ],
-      "exam_titles": [
-        "PUBLIC HEALTH TECHNICIAN",
-        "PUBLIC HEALTH TECHNICIAN TRAINEE",
-        "PUBLIC HEALTH TECHNICIAN TRAINEE (SPN/ENG)",
-        "Athletic Trainer",
-        "CORRECTION OFFICER",
-        "DATA ENTRY OPERATOR II",
-        "Emergency Medical Technician",
-        "Librarian I Trainee",
-        "Librarian I",
-        "Librarian II"
-      ],
-      "dates": [
-        "05/20/2026",
-        "N/A"
-      ],
-      "keywords_found": [
-        "exam",
-        "open competitive"
-      ],
-      "links": [
-        {
-          "text": "Human Resources Home",
-          "href": "https://www.orangecountygov.com/1137/Human-Resources"
-        },
-        {
-          "text": "Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "text": "County Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/main/jobs"
-        },
-        {
-          "text": "Municipal Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/main/munjobs"
-        },
-        {
-          "text": "Municipalities Served",
-          "href": "https://orange-portal.mycivilservice.com/main/munserved"
-        },
-        {
-          "text": "Employment Opportunities",
-          "href": "https://orange-portal.mycivilservice.com/post/jobopps"
-        },
-        {
-          "text": "Current Exams",
-          "href": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "text": "Info on Taking exams",
-          "href": "https://orange-portal.mycivilservice.com/main/faq"
-        },
-        {
-          "text": "Veterans Credit Information",
-          "href": "https://orange-portal.mycivilservice.com/main/vets"
-        },
-        {
-          "text": "Police/Sheriff & Corrections Videos and Info",
-          "href": "https://orange-portal.mycivilservice.com/main/police"
-        }
-      ],
-      "record_fields_present": [
-        "exam_number",
-        "title",
-        "type",
-        "deadline",
-        "exam_date",
-        "detail_url"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "ny_courts",
@@ -898,14 +382,15 @@
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
       "status": "error",
       "status_detail": "bot_blocked",
-      "changed": false,
+      "error": "403 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-05-06T09:27:34Z",
-      "error": "403 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
-      "records": []
+      "records": [],
+      "record_diff": null
     },
     {
       "source_id": "mta",
@@ -913,13 +398,13 @@
       "url": "https://new.mta.info/careers",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "8317c1592724480b",
       "fetched_at": "2026-05-06T09:27:36Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
-      "record_diff": null,
       "records": [
         {
           "title": "Job listings",
@@ -947,23 +432,7 @@
           "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
         }
       ],
-      "exam_titles": [
-        "Job listings",
-        "Exam information",
-        "Police officer process",
-        "Skilled trades",
-        "Internships"
-      ],
-      "dates": [],
-      "keywords_found": [
-        "exam"
-      ],
-      "links": [],
-      "record_fields_present": [
-        "title",
-        "detail",
-        "detail_url"
-      ]
+      "record_diff": null
     }
   ]
 }
