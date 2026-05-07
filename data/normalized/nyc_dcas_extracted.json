@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-05-06T09:27:37Z",
+  "extracted_at": "2026-05-07T09:37:10Z",
   "links": [
     {
       "text": "311",
@@ -85,12 +85,32 @@
       "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-exams-questions-contact-us.page"
     },
     {
+      "text": "6009",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+    },
+    {
+      "text": "6040",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf"
+    },
+    {
       "text": "6303",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
     },
     {
+      "text": "6065",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf"
+    },
+    {
+      "text": "6329",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
+    },
+    {
       "text": "6321",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
+    },
+    {
+      "text": "6326",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -151,39 +171,81 @@
   ],
   "records": [
     {
+      "title": "Administrative Real Property Manager",
+      "exam_number": "6009 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf",
+      "application_period": "5/7/2026 – 5/27/2026"
+    },
+    {
+      "title": "Construction Project Manager",
+      "exam_number": "6040 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf",
+      "application_period": "5/7/2026 – 5/27/2026"
+    },
+    {
       "title": "Correction Officer",
       "exam_number": "6303 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
       "application_period": "4/1/2026 – 5/29/2026"
     },
     {
+      "title": "Inspector (Consumer and Worker Protection)",
+      "exam_number": "6065 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf",
+      "application_period": "5/7/2026 – 5/27/2026"
+    },
+    {
+      "title": "Police Communications Technician",
+      "exam_number": "6329 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
+      "application_period": "5/7/2026 – 6/30/2026"
+    },
+    {
       "title": "Police Officer",
       "exam_number": "6321 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
       "application_period": "5/1/2026 – 5/14/2026"
+    },
+    {
+      "title": "School Safety Agent",
+      "exam_number": "6326 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
+      "application_period": "5/7/2026 – 6/2/2026"
     }
   ],
-  "record_count": 2,
+  "record_count": 7,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "2c8d14e90b05b444",
+  "record_fingerprint": "41f8924108b7ffab",
   "summary_note": "",
   "exam_titles": [
+    "Administrative Real Property Manager",
+    "Construction Project Manager",
     "Correction Officer",
-    "Police Officer"
+    "Inspector (Consumer and Worker Protection)",
+    "Police Communications Technician",
+    "Police Officer",
+    "School Safety Agent"
   ],
   "dates": [
+    "5/7/2026 – 5/27/2026",
     "4/1/2026 – 5/29/2026",
+    "5/7/2026 – 6/30/2026",
     "5/1/2026 – 5/14/2026",
+    "5/7/2026 – 6/2/2026",
+    "5/7/2026",
+    "5/27/2026",
     "4/1/2026",
     "5/29/2026",
+    "6/30/2026",
     "5/1/2026",
-    "5/14/2026"
+    "5/14/2026",
+    "6/2/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6321 (pdf) | Police Officer | 5/1/2026 – 5/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
+  "normalized_text": "6009 (pdf) | Administrative Real Property Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf\n6040 (pdf) | Construction Project Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf\n6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6321 (pdf) | Police Officer | 5/1/2026 – 5/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
 }

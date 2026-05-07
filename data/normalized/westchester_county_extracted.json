@@ -2,7 +2,7 @@
   "source_id": "westchester_county",
   "name": "Westchester County Civil Service",
   "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "extracted_at": "2026-05-06T09:27:37Z",
+  "extracted_at": "2026-05-07T09:37:10Z",
   "links": [
     {
       "text": "Skip to main content",
@@ -45,10 +45,6 @@
       "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
     },
     {
-      "text": "Assistant Business Manager",
-      "href": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm"
-    },
-    {
       "text": "Applying Online",
       "href": "https://humanresources.westchestercountyny.gov/applying-online"
     },
@@ -69,42 +65,16 @@
       "href": "https://humanresources.westchestercountyny.gov/contact-information"
     }
   ],
-  "records": [
-    {
-      "exam_number": "60-062550",
-      "agency": "School Districts",
-      "title": "Assistant Business Manager",
-      "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm",
-      "deadline": "05/06/2026",
-      "exam_date": "06/13/2026",
-      "salary": "Varies with School District",
-      "fee": "$50.00",
-      "salary_text": "Varies with School District"
-    }
-  ],
-  "record_count": 1,
-  "record_fields_present": [
-    "exam_number",
-    "agency",
-    "title",
-    "detail_url",
-    "deadline",
-    "exam_date",
-    "salary",
-    "fee",
-    "salary_text"
-  ],
-  "record_fingerprint": "a9b68d0053e8dc4c",
-  "summary_note": "",
-  "exam_titles": [
-    "Assistant Business Manager"
-  ],
-  "dates": [
-    "05/06/2026",
-    "06/13/2026"
-  ],
+  "records": [],
+  "record_count": 0,
+  "record_fields_present": [],
+  "record_fingerprint": "453facc75df89a03",
+  "summary_note": "Civil service exam information is available on this source page.",
+  "exam_titles": [],
+  "dates": [],
   "keywords_found": [
-    "exam"
+    "exam",
+    "civil service"
   ],
-  "normalized_text": "60-062550 | Assistant Business Manager | 05/06/2026 | 06/13/2026 | School Districts | Varies with School District | $50.00 | http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm"
+  "normalized_text": "Civil service exam information is available on this source page."
 }

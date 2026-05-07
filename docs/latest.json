@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-06",
-  "generated_at": "2026-05-06T09:27:38Z",
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T09:37:10Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 3,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 1,
-    "unchanged": 9,
+    "changed": 3,
+    "unchanged": 7,
     "bot_blocked": 2,
     "forbidden": 1,
     "not_found": 0,
@@ -20,16 +20,42 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 2,
+      "changed": true,
+      "record_count": 7,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 5,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "6009 (pdf)",
+          "title": "Administrative Real Property Manager",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+        },
+        {
+          "exam_number": "6040 (pdf)",
+          "title": "Construction Project Manager",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf"
+        },
+        {
+          "exam_number": "6065 (pdf)",
+          "title": "Inspector (Consumer and Worker Protection)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf"
+        },
+        {
+          "exam_number": "6326 (pdf)",
+          "title": "School Safety Agent",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
+        },
+        {
+          "exam_number": "6329 (pdf)",
+          "title": "Police Communications Technician",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
@@ -105,16 +131,26 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 1,
-      "summary_note": "",
+      "changed": true,
+      "record_count": 0,
+      "summary_note": "Civil service exam information is available on this source page.",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "60-062550",
+          "title": "Assistant Business Manager",
+          "agency": "School Districts",
+          "deadline": "05/06/2026",
+          "exam_date": "06/13/2026",
+          "salary": "Varies with School District",
+          "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "rockland_county",
@@ -195,14 +231,65 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "2c8d14e90b05b444",
-      "fetched_at": "2026-05-06T09:27:15Z",
+      "changed": true,
+      "content_hash": "41f8924108b7ffab",
+      "fetched_at": "2026-05-07T09:36:48Z",
       "error": null,
       "summary_note": "",
-      "record_count": 2,
-      "record_diff": null,
+      "record_count": 7,
+      "record_diff": {
+        "added_count": 5,
+        "removed_count": 0,
+        "added_titles": [
+          "Administrative Real Property Manager",
+          "Construction Project Manager",
+          "Inspector (Consumer and Worker Protection)",
+          "School Safety Agent",
+          "Police Communications Technician"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "6009 (pdf)",
+            "title": "Administrative Real Property Manager",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+          },
+          {
+            "exam_number": "6040 (pdf)",
+            "title": "Construction Project Manager",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf"
+          },
+          {
+            "exam_number": "6065 (pdf)",
+            "title": "Inspector (Consumer and Worker Protection)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf"
+          },
+          {
+            "exam_number": "6326 (pdf)",
+            "title": "School Safety Agent",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
+          },
+          {
+            "exam_number": "6329 (pdf)",
+            "title": "Police Communications Technician",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
+        {
+          "title": "Administrative Real Property Manager",
+          "exam_number": "6009 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Construction Project Manager",
+          "exam_number": "6040 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
         {
           "title": "Correction Officer",
           "exam_number": "6303 (pdf)",
@@ -210,23 +297,50 @@
           "application_period": "4/1/2026 – 5/29/2026"
         },
         {
+          "title": "Inspector (Consumer and Worker Protection)",
+          "exam_number": "6065 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Police Communications Technician",
+          "exam_number": "6329 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
+          "application_period": "5/7/2026 – 6/30/2026"
+        },
+        {
           "title": "Police Officer",
           "exam_number": "6321 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
           "application_period": "5/1/2026 – 5/14/2026"
+        },
+        {
+          "title": "School Safety Agent",
+          "exam_number": "6326 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
+          "application_period": "5/7/2026 – 6/2/2026"
         }
       ],
       "exam_titles": [
+        "Administrative Real Property Manager",
+        "Construction Project Manager",
         "Correction Officer",
-        "Police Officer"
+        "Inspector (Consumer and Worker Protection)",
+        "Police Communications Technician",
+        "Police Officer",
+        "School Safety Agent"
       ],
       "dates": [
+        "5/7/2026 – 5/27/2026",
         "4/1/2026 – 5/29/2026",
+        "5/7/2026 – 6/30/2026",
         "5/1/2026 – 5/14/2026",
+        "5/7/2026 – 6/2/2026",
+        "5/7/2026",
+        "5/27/2026",
         "4/1/2026",
         "5/29/2026",
-        "5/1/2026",
-        "5/14/2026"
+        "6/30/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -285,8 +399,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "79f922622b7ad56b",
-      "fetched_at": "2026-05-06T09:27:17Z",
+      "content_hash": "4e9aa7eeb6aafa0d",
+      "fetched_at": "2026-05-07T09:36:50Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -354,7 +468,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-05-06T09:27:19Z",
+      "fetched_at": "2026-05-07T09:36:53Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -374,7 +488,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-05-06T09:27:21Z",
+      "fetched_at": "2026-05-07T09:36:55Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -628,7 +742,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-06T09:27:24Z",
+      "fetched_at": "2026-05-07T09:36:58Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -641,35 +755,38 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "a9b68d0053e8dc4c",
-      "fetched_at": "2026-05-06T09:27:26Z",
+      "changed": true,
+      "content_hash": "453facc75df89a03",
+      "fetched_at": "2026-05-07T09:37:00Z",
       "error": null,
-      "summary_note": "",
-      "record_count": 1,
-      "record_diff": null,
-      "records": [
-        {
-          "exam_number": "60-062550",
-          "agency": "School Districts",
-          "title": "Assistant Business Manager",
-          "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm",
-          "deadline": "05/06/2026",
-          "exam_date": "06/13/2026",
-          "salary": "Varies with School District",
-          "fee": "$50.00",
-          "salary_text": "Varies with School District"
-        }
-      ],
-      "exam_titles": [
-        "Assistant Business Manager"
-      ],
-      "dates": [
-        "05/06/2026",
-        "06/13/2026"
-      ],
+      "summary_note": "Civil service exam information is available on this source page.",
+      "record_count": 0,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 1,
+        "added_titles": [],
+        "removed_titles": [
+          "Assistant Business Manager"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "60-062550",
+            "title": "Assistant Business Manager",
+            "agency": "School Districts",
+            "deadline": "05/06/2026",
+            "exam_date": "06/13/2026",
+            "salary": "Varies with School District",
+            "detail_url": "http://www.westchestergov.com/hr/onlineexam/PE/OC/60062550.htm"
+          }
+        ]
+      },
+      "records": [],
+      "exam_titles": [],
+      "dates": [],
       "keywords_found": [
-        "exam"
+        "exam",
+        "civil service"
       ],
       "links": [
         {
@@ -713,17 +830,7 @@
           "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
         }
       ],
-      "record_fields_present": [
-        "exam_number",
-        "agency",
-        "title",
-        "detail_url",
-        "deadline",
-        "exam_date",
-        "salary",
-        "fee",
-        "salary_text"
-      ]
+      "record_fields_present": []
     },
     {
       "source_id": "rockland_county",
@@ -733,7 +840,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-06T09:27:29Z",
+      "fetched_at": "2026-05-07T09:37:03Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -748,7 +855,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "92ec8a3800475b8a",
-      "fetched_at": "2026-05-06T09:27:31Z",
+      "fetched_at": "2026-05-07T09:37:05Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 28,
@@ -900,7 +1007,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-06T09:27:34Z",
+      "fetched_at": "2026-05-07T09:37:07Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -915,7 +1022,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-05-06T09:27:36Z",
+      "fetched_at": "2026-05-07T09:37:10Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
