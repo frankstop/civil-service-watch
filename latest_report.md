@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-05-08  
-**Generated:** 2026-05-08T08:23:08Z  
+**Date:** 2026-05-09  
+**Generated:** 2026-05-09T08:43:53Z  
 **Sources checked:** 10  
 **Changes detected:** 3  
 
@@ -22,7 +22,7 @@
 
 ## Daily Deltas
 
-- **NYC DCAS** — records `+8` / `-0` — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
+- **NYC DCAS** — records `+5` / `-0` — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - **Nassau County Civil Service** — records `+2` / `-2` — https://www.governmentjobs.com/careers/nassaucountyny
@@ -37,17 +37,17 @@
 
 ### NYC DCAS
 - **URL:** https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- Records added: 8 · removed: 0
-- **Added titles:** Administrative Inspector (Housing), Administrative Supervisor of Building Maintenance, Certified IT Administrator (Database), Deckhand, High Pressure Plant Tender
-- Added record: Administrative Inspector (Housing) — 6006 (pdf)
-- Added record: Administrative Supervisor of Building Maintenance — 6010 (pdf)
-- Added record: Certified IT Administrator (Database) — 6033 (pdf)
+- Records added: 5 · removed: 0
+- **Added titles:** Administrative Public Health Nurse, Associate Inspector (Electrical), Call Center Representative, Forensic Mortuary Technician, Thermostat Repairer (NYC H+H)
+- Added record: Administrative Public Health Nurse — 6008
+- Added record: Associate Inspector (Electrical) — 6020
+- Added record: Call Center Representative — 6032
 - **Top records:**
   - Administrative Inspector (Housing) — 6006 (pdf)
+  - Administrative Public Health Nurse — 6008
   - Administrative Real Property Manager — 6009 (pdf)
   - Administrative Supervisor of Building Maintenance — 6010 (pdf)
-  - Certified IT Administrator (Database) — 6033 (pdf)
-  - Construction Project Manager — 6040 (pdf)
+  - Associate Inspector (Electrical) — 6020
 
 ### NYS Civil Service
 - **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
@@ -57,11 +57,11 @@
 - **Summary:** 10 Nassau County open competitive announcements currently listed.
 - Records added: 2 · removed: 2
 - **Added titles:** CLERK-TYPIST I / TYPIST-CLERK, CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
-- **Removed titles:** OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I, PHARMACIST I
+- **Removed titles:** CLERK-TYPIST I / TYPIST-CLERK, CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
 - Added record: CLERK-TYPIST I / TYPIST-CLERK — 5305608 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - Added record: CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING) — 5313511 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
-- Removed record: OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I — 3412822 — NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES — Continuous
-- Removed record: PHARMACIST I — 3413191 — NASSAU HEALTH CARE CORPORATION — Continuous
+- Removed record: CLERK-TYPIST I / TYPIST-CLERK — 5305608 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
+- Removed record: CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING) — 5313511 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - **Top records:**
   - CLERK-TYPIST I / TYPIST-CLERK
   - CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
