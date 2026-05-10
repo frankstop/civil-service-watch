@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-05-09  
-**Generated:** 2026-05-09T08:43:53Z  
+**Date:** 2026-05-10  
+**Generated:** 2026-05-10T08:57:43Z  
 **Sources checked:** 10  
-**Changes detected:** 3  
+**Changes detected:** 2  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 7
 - Sources with fetch errors: 3
-- Sources changed today: 3
-- Sources unchanged today: 7
+- Sources changed today: 2
+- Sources unchanged today: 8
 - Bot-blocked sources: 2
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -22,7 +22,7 @@
 
 ## Daily Deltas
 
-- **NYC DCAS** — records `+5` / `-0` — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
+- **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - **Nassau County Civil Service** — records `+2` / `-2` — https://www.governmentjobs.com/careers/nassaucountyny
@@ -34,20 +34,6 @@
 - **MTA** — no change — https://new.mta.info/careers
 
 ## 🔔 Changes Detected
-
-### NYC DCAS
-- **URL:** https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- Records added: 5 · removed: 0
-- **Added titles:** Administrative Public Health Nurse, Associate Inspector (Electrical), Call Center Representative, Forensic Mortuary Technician, Thermostat Repairer (NYC H+H)
-- Added record: Administrative Public Health Nurse — 6008
-- Added record: Associate Inspector (Electrical) — 6020
-- Added record: Call Center Representative — 6032
-- **Top records:**
-  - Administrative Inspector (Housing) — 6006 (pdf)
-  - Administrative Public Health Nurse — 6008
-  - Administrative Real Property Manager — 6009 (pdf)
-  - Administrative Supervisor of Building Maintenance — 6010 (pdf)
-  - Associate Inspector (Electrical) — 6020
 
 ### NYS Civil Service
 - **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
@@ -77,6 +63,7 @@
 
 ## ✅ No Changes
 
+- NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
