@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-05-14  
-**Generated:** 2026-05-14T09:37:01Z  
+**Date:** 2026-05-15  
+**Generated:** 2026-05-15T09:50:06Z  
 **Sources checked:** 10  
 **Changes detected:** 2  
 
@@ -25,7 +25,7 @@
 - **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-- **Nassau County Civil Service** — records `+2` / `-2` — https://www.governmentjobs.com/careers/nassaucountyny
+- **Nassau County Civil Service** — records `+1` / `-1` — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — bot_blocked — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
@@ -41,19 +41,17 @@
 ### Nassau County Civil Service
 - **URL:** https://www.governmentjobs.com/careers/nassaucountyny
 - **Summary:** 10 Nassau County open competitive announcements currently listed.
-- Records added: 2 · removed: 2
-- **Added titles:** CLERK-TYPIST I / TYPIST-CLERK, CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
-- **Removed titles:** CLERK-TYPIST I / TYPIST-CLERK, CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
-- Added record: CLERK-TYPIST I / TYPIST-CLERK — 5305608 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 1 week
-- Added record: CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING) — 5313511 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION — Closes in 1 week
-- Removed record: CLERK-TYPIST I / TYPIST-CLERK — 5305608 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
-- Removed record: CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING) — 5313511 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
+- Records added: 1 · removed: 1
+- **Added titles:** ACCOUNTING ASSISTANT I /ACCOUNT CLERK
+- **Removed titles:** OCCUPATIONAL THERAPIST ASSISTANT
+- Added record: ACCOUNTING ASSISTANT I /ACCOUNT CLERK — 5315323 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
+- Removed record: OCCUPATIONAL THERAPIST ASSISTANT — 3412730 — NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise — Continuous
 - **Top records:**
+  - ACCOUNTING ASSISTANT I /ACCOUNT CLERK
   - CLERK-TYPIST I / TYPIST-CLERK
   - CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)
   - CYTOTECHNOLOGIST I
   - CYTOTECHNOLOGIST II
-  - CYTOTECHNOLOGIST III
 
 ## ❌ Fetch Errors
 
