@@ -2,7 +2,7 @@
   "source_id": "nys_civil_service",
   "name": "NYS Civil Service",
   "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "extracted_at": "2026-05-21T10:41:36Z",
+  "extracted_at": "2026-05-22T10:26:17Z",
   "links": [
     {
       "text": "Navigation menu",
@@ -161,6 +161,10 @@
       "href": "https://www.cs.ny.gov/examannouncements/types/oc/appinfo.cfm#Fee"
     },
     {
+      "text": "DHSES Program Administrator 3",
+      "href": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
+    },
+    {
       "text": "Subscribe to this page",
       "href": "https://www.cs.ny.gov/examannouncements/rss/open-competitive.xml"
     },
@@ -273,20 +277,40 @@
       "href": "https://www.ny.gov/services/register-vote"
     }
   ],
-  "records": [],
-  "record_count": 0,
-  "record_fields_present": [],
-  "record_fingerprint": "",
+  "records": [
+    {
+      "exam_number": "21-024020",
+      "title": "DHSES Program Administrator 3",
+      "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm",
+      "salary": "$96,336",
+      "deadline": "June 24, 2026",
+      "fee": "$0",
+      "salary_text": "$96,336",
+      "salary_min": 96336
+    }
+  ],
+  "record_count": 1,
+  "record_fields_present": [
+    "exam_number",
+    "title",
+    "detail_url",
+    "salary",
+    "deadline",
+    "fee",
+    "salary_text",
+    "salary_min"
+  ],
+  "record_fingerprint": "0a977ab146786d9c",
   "summary_note": "",
-  "exam_titles": [],
-  "dates": [],
+  "exam_titles": [
+    "DHSES Program Administrator 3"
+  ],
+  "dates": [
+    "June 24, 2026"
+  ],
   "keywords_found": [
     "exam",
-    "examination",
-    "schedule",
-    "eligible list",
-    "civil service",
     "announcement"
   ],
-  "normalized_text": "Navigation menu\nDepartment of Civil Service\nOnline Services\nAccount Login\nApply Online\nMy Examination Applications\nEligible Lists (ELMS Online)\nJob Seekers\nHiring for Emergency Limited Placement (HELP) program\nCenters for Careers in Government (CCG)\nState Examinations\nLocal Examinations\nVeterans & Individuals With Disabilities\nStudent Internships\nStateJobsNY\nNew York State Fellowship Programs\nState Employees\nState Examinations\nHealth Benefits\nResources\nPaid Family Leave\nPaid Parental Leave\nCareer Mobility Office\nRetirees\nHealth Benefits\nResources\nRetirement Benefits\nWorking After Retirement\nHR Professionals\nState Government\nLocal Government\nCivil Service Institute\nAbout Us\nAbout Us\nFrequently Asked Questions (FAQs)\nExaminations Open to the Public\nOpen-competitive examinations are open to anyone who meets the qualifications listed on the examination announcement. You can apply for open-competitive examinations online. Each examination title listed below will take you to the relevant examination announcement, which provides information on how and where to apply.\nAdditional opportunities that do not require an examination may be available through the New York Hiring for Emergency Limited Placement Statewide (NY HELPS) Program. Information on the NY HELPS program is available on our website at:\nNY Hiring for Emergency Limited Placement Statewide\n. Candidates may find jobs filled through the NY HELPS program at\nStateJobsNY\n; to narrow your search for NY HELPS jobs, click on \"For the General Public\". Select \"YES\" in the NY HELPS field. Press submit. This will bring up all of the NY HELPS jobs that are available.\nContinuous Recruitment Examinations\n— applications for most continuous recruitment examinations are accepted anytime.\nTentative Examination Schedule\n— tentative schedule of upcoming examinations.\nAnnouncements as of May 21, 2026\nExam Number\nExam Title\nSalary\nLast Date to Apply\nNon−Refundable Processing Fee (Waivers available)\nCurrently, there are no examination an"
+  "normalized_text": "21-024020 | DHSES Program Administrator 3 | June 24, 2026 | $96,336 | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
 }
