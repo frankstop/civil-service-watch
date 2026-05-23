@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-22",
-  "generated_at": "2026-05-22T10:26:18Z",
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T09:04:32Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 1,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 2,
-    "unchanged": 8,
+    "changed": 1,
+    "unchanged": 9,
     "bot_blocked": 2,
     "forbidden": 1,
     "not_found": 0,
@@ -37,24 +37,16 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 1,
       "summary_note": "",
-      "added_count": 1,
+      "added_count": 0,
       "removed_count": 0,
-      "added_records": [
-        {
-          "exam_number": "21-024020",
-          "title": "DHSES Program Administrator 3",
-          "deadline": "June 24, 2026",
-          "salary": "$96,336",
-          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
-        }
-      ],
+      "added_records": [],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "usajobs",
@@ -91,7 +83,7 @@
           "title": "CLERK-TYPIST I / TYPIST-CLERK",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
         },
@@ -101,7 +93,7 @@
           "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
         }
@@ -113,7 +105,7 @@
           "title": "CLERK-TYPIST I / TYPIST-CLERK",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
         },
@@ -123,7 +115,7 @@
           "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
         }
@@ -247,7 +239,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "564676f4c63b9187",
-      "fetched_at": "2026-05-22T10:25:53Z",
+      "fetched_at": "2026-05-23T09:04:08Z",
       "error": null,
       "summary_note": "",
       "record_count": 20,
@@ -391,30 +383,13 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-05-22T10:25:56Z",
+      "fetched_at": "2026-05-23T09:04:10Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 0,
-        "added_titles": [
-          "DHSES Program Administrator 3"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "exam_number": "21-024020",
-            "title": "DHSES Program Administrator 3",
-            "deadline": "June 24, 2026",
-            "salary": "$96,336",
-            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
-          }
-        ],
-        "removed_records": []
-      },
+      "record_diff": null,
       "records": [
         {
           "exam_number": "21-024020",
@@ -498,7 +473,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-05-22T10:25:58Z",
+      "fetched_at": "2026-05-23T09:04:13Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -517,8 +492,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "ef463d4b2a5970cb",
-      "fetched_at": "2026-05-22T10:26:01Z",
+      "content_hash": "3f810b4d666018c5",
+      "fetched_at": "2026-05-23T09:04:15Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -540,7 +515,7 @@
             "title": "CLERK-TYPIST I / TYPIST-CLERK",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
           },
@@ -550,7 +525,7 @@
             "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
           }
@@ -562,7 +537,7 @@
             "title": "CLERK-TYPIST I / TYPIST-CLERK",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 6 days",
+            "closing_text": "Closes in 5 days",
             "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
           },
@@ -572,7 +547,7 @@
             "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 6 days",
+            "closing_text": "Closes in 5 days",
             "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
           }
@@ -602,7 +577,7 @@
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for this examination date, you may be assigned to either the morning testing session or the afternoon testing session. Your admission notice will tell you where and when you are scheduled to appear.",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
@@ -617,7 +592,7 @@
           "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for this examination date, you may be assigned to either the morning testing session or the afternoon testing session. Your admission notice will tell you where and when you are scheduled to appear.",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
@@ -823,7 +798,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-22T10:26:03Z",
+      "fetched_at": "2026-05-23T09:04:18Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -838,7 +813,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-05-22T10:26:06Z",
+      "fetched_at": "2026-05-23T09:04:20Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -902,7 +877,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-22T10:26:09Z",
+      "fetched_at": "2026-05-23T09:04:23Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -917,7 +892,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-05-22T10:26:11Z",
+      "fetched_at": "2026-05-23T09:04:26Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1058,7 +1033,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-05-22T10:26:14Z",
+      "fetched_at": "2026-05-23T09:04:28Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1073,7 +1048,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-05-22T10:26:16Z",
+      "fetched_at": "2026-05-23T09:04:31Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
