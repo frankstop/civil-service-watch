@@ -8,7 +8,7 @@
     "postings",
     "courts"
   ],
-  "fetched_at": "2026-05-24T09:23:13Z",
+  "fetched_at": "2026-05-25T11:13:33Z",
   "status": "error",
   "status_detail": "bot_blocked",
   "http_status": 403,

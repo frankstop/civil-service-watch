@@ -1,0 +1,528 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T11:13:36Z",
+  "total_sources": 10,
+  "changed_count": 1,
+  "sources": [
+    {
+      "source_id": "nyc_dcas",
+      "name": "NYC DCAS",
+      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "564676f4c63b9187",
+      "fetched_at": "2026-05-25T11:13:13Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 20,
+      "records": [
+        {
+          "title": "Administrative Inspector (Housing)",
+          "exam_number": "6006 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Administrative Public Health Nurse",
+          "exam_number": "6008",
+          "application_period": "Canceled"
+        },
+        {
+          "title": "Administrative Real Property Manager",
+          "exam_number": "6009 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Administrative Supervisor of Building Maintenance",
+          "exam_number": "6010 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Associate Inspector (Electrical)",
+          "exam_number": "6020",
+          "application_period": "Postponed"
+        },
+        {
+          "title": "Call Center Representative",
+          "exam_number": "6032",
+          "application_period": "Canceled"
+        },
+        {
+          "title": "Certified IT Administrator (Database)",
+          "exam_number": "6033 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Construction Project Manager",
+          "exam_number": "6040 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        },
+        {
+          "title": "Correction Officer",
+          "exam_number": "6303 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
+          "application_period": "4/1/2026 – 5/29/2026"
+        },
+        {
+          "title": "Deckhand",
+          "exam_number": "6044 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf",
+          "application_period": "5/7/2026 – 5/27/2026"
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "nys_civil_service",
+      "name": "NYS Civil Service",
+      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "0a977ab146786d9c",
+      "fetched_at": "2026-05-25T11:13:15Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 1,
+      "records": [
+        {
+          "exam_number": "21-024020",
+          "title": "DHSES Program Administrator 3",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm",
+          "salary": "$96,336",
+          "deadline": "June 24, 2026",
+          "fee": "$0",
+          "salary_text": "$96,336",
+          "salary_min": 96336
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "usajobs",
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "7438a1348daa0d1a",
+      "fetched_at": "2026-05-25T11:13:17Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "No matching USAJOBS listings found for the current search.",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "nassau_county",
+      "name": "Nassau County Civil Service",
+      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "4edd1a1c662b2444",
+      "fetched_at": "2026-05-25T11:13:20Z",
+      "changed": true,
+      "diff": null,
+      "summary_note": "10 Nassau County open competitive announcements currently listed.",
+      "record_count": 10,
+      "records": [
+        {
+          "source_record_id": "5315323",
+          "job_id": "5315323",
+          "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
+          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+          "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
+          "posted_text": "Posted 1 week ago",
+          "closing_text": "Closes in 1 week",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk",
+          "type": "Open Competitive",
+          "salary_text": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
+          "salary_min": 32630,
+          "salary_max": 64906
+        },
+        {
+          "source_record_id": "5305608",
+          "job_id": "5305608",
+          "title": "CLERK-TYPIST I / TYPIST-CLERK",
+          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+          "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for this examination date, you may be assigned to either the morning testing session or the afternoon testing session. Your admission notice will tell you where and when you are scheduled to appear.",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 2 days",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk",
+          "type": "Open Competitive",
+          "salary_text": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+          "salary_min": 30185,
+          "salary_max": 58098
+        },
+        {
+          "source_record_id": "5313511",
+          "job_id": "5313511",
+          "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
+          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
+          "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for this examination date, you may be assigned to either the morning testing session or the afternoon testing session. Your admission notice will tell you where and when you are scheduled to appear.",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 2 days",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe",
+          "type": "Open Competitive",
+          "salary_text": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+          "salary_min": 30185,
+          "salary_max": 58098
+        },
+        {
+          "source_record_id": "3413083",
+          "job_id": "3413083",
+          "title": "CYTOTECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$74,114 - $99,744",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $74,114 - $99,744 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$74,114 - $99,744",
+          "salary_min": 74114,
+          "salary_max": 99744
+        },
+        {
+          "source_record_id": "3415116",
+          "job_id": "3415116",
+          "title": "CYTOTECHNOLOGIST II",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$83,915 - $118,479",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $83,915 - $118,479 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$83,915 - $118,479",
+          "salary_min": 83915,
+          "salary_max": 118479
+        },
+        {
+          "source_record_id": "3415142",
+          "job_id": "3415142",
+          "title": "CYTOTECHNOLOGIST III",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$106,880 - $144,480",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $106,880 - $144,480 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$106,880 - $144,480",
+          "salary_min": 106880,
+          "salary_max": 144480
+        },
+        {
+          "source_record_id": "3416204",
+          "job_id": "3416204",
+          "title": "LIBRARIAN I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3416233",
+          "job_id": "3416233",
+          "title": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained in...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3412898",
+          "job_id": "3412898",
+          "title": "MEDICAL TECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$79,212 - $91,619",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $79,212 - $91,619 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$79,212 - $91,619",
+          "salary_min": 79212,
+          "salary_max": 91619
+        },
+        {
+          "source_record_id": "3413138",
+          "job_id": "3413138",
+          "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+          "announcement_text": "EXAMINATION NO. 9016CR(D) - NURSE PRACTITIONER I (ACUTE CARE) EXAMINATION NO. 9017CR(D) - NURSE PRACTITIONER I (ADULT HEALTH) EXAMINATION NO. 9018CR(D) - NURSE PRACTITIONER I (COMMUNITY HEALTH) EXAMINATION NO. 9019CR(D) - NURSE PRACTITIONER I (FAMILY HEALTH) EXAMINATION NO. 9020CR(D) - NURSE PRACTITIONER I (GERONTOLOGY) EXAMINATION NO. 9021CR(D) - NURSE PRACTITIONER I (NEONATOLOGY) EXAMINATION NO. 9022CR(D) - NURSE PRACTITIONER I (OBSTETRICS/GYNECOLOGY) EXAMINATION NO. 9023CR(D) - NURSE PRACTITIONER I (ONCOLOGY) EXAMINATION NO. 9024CR(D) - NURSE PRACTITIONER I (PALLIATIVE CARE) EXAMINATION NO. 9025CR(D) - NURSE PRACTITIONER I (PEDIATRICS) EXAMINATION NO....",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below",
+          "type": "Open Competitive",
+          "status": "continuous"
+        }
+      ],
+      "record_diff": {
+        "added_count": 2,
+        "removed_count": 2,
+        "added_titles": [
+          "CLERK-TYPIST I / TYPIST-CLERK",
+          "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)"
+        ],
+        "removed_titles": [
+          "CLERK-TYPIST I / TYPIST-CLERK",
+          "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)"
+        ],
+        "added_records": [
+          {
+            "source_record_id": "5305608",
+            "job_id": "5305608",
+            "title": "CLERK-TYPIST I / TYPIST-CLERK",
+            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 2 days",
+            "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
+          },
+          {
+            "source_record_id": "5313511",
+            "job_id": "5313511",
+            "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
+            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 2 days",
+            "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
+          }
+        ],
+        "removed_records": [
+          {
+            "source_record_id": "5305608",
+            "job_id": "5305608",
+            "title": "CLERK-TYPIST I / TYPIST-CLERK",
+            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 3 days",
+            "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5305608/clerk-typist-i-typist-clerk"
+          },
+          {
+            "source_record_id": "5313511",
+            "job_id": "5313511",
+            "title": "CLERK-TYPIST I, BILINGUAL (SPANISH SPEAKING)/TYPIST-CLERK, BILINGUAL (SPANISH SPEAKING)",
+            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, SPECIAL DISTRICTS, VILLAGES AND NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 3 days",
+            "salary": "Varies: County: $30,185 - $58,098 (under the current collective bargaining agreement) NHCC: $35,980 - $46,283 * Due to the size of the candidate population for",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5313511/clerk-typist-i-bilingual-spanish-speaking-typist-clerk-bilingual-spanish-spe"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "suffolk_county",
+      "name": "Suffolk County Civil Service",
+      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+      "status": "error",
+      "status_detail": "bot_blocked",
+      "error": "403 response returned from source URL",
+      "content_hash": "",
+      "fetched_at": "2026-05-25T11:13:23Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "westchester_county",
+      "name": "Westchester County Civil Service",
+      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "453facc75df89a03",
+      "fetched_at": "2026-05-25T11:13:25Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "Civil service exam information is available on this source page.",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "rockland_county",
+      "name": "Rockland County Civil Service",
+      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
+      "status": "error",
+      "status_detail": "forbidden",
+      "error": "403 response returned from source URL",
+      "content_hash": "",
+      "fetched_at": "2026-05-25T11:13:27Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "orange_county",
+      "name": "Orange County Civil Service",
+      "url": "https://orange-portal.mycivilservice.com/post/exams",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "b057c42cca8eb6aa",
+      "fetched_at": "2026-05-25T11:13:30Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "Open competitive and continuous recruitment exam listings.",
+      "record_count": 25,
+      "records": [
+        {
+          "exam_number": "61438",
+          "title": "Athletic Trainer",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60048720",
+          "title": "CORRECTION OFFICER",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "6108",
+          "title": "DATA ENTRY OPERATOR II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "002",
+          "title": "Emergency Medical Technician",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60030070",
+          "title": "Librarian I Trainee",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63404010",
+          "title": "Librarian I",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63426010",
+          "title": "Librarian II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63430010",
+          "title": "Librarian II (Children's Services)",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "64270010",
+          "title": "Librarian III",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "86874",
+          "title": "LIBRARY ASSISTANT",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "ny_courts",
+      "name": "NY Courts",
+      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
+      "status": "error",
+      "status_detail": "bot_blocked",
+      "error": "403 response returned from source URL",
+      "content_hash": "",
+      "fetched_at": "2026-05-25T11:13:33Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "mta",
+      "name": "MTA",
+      "url": "https://new.mta.info/careers",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "8317c1592724480b",
+      "fetched_at": "2026-05-25T11:13:35Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "Career center links and exam-specific entry points.",
+      "record_count": 5,
+      "records": [
+        {
+          "title": "Job listings",
+          "detail": "See all open MTA positions.",
+          "detail_url": "https://careers.mta.org/"
+        },
+        {
+          "title": "Exam information",
+          "detail": "Find out more about upcoming exams.",
+          "detail_url": "https://www.mta.info/careers/mta-exams"
+        },
+        {
+          "title": "Police officer process",
+          "detail": "Find out more about becoming a police officer",
+          "detail_url": "https://www.mta.info/careers/become-a-police-officer"
+        },
+        {
+          "title": "Skilled trades",
+          "detail": "See current skilled trade jobs",
+          "detail_url": "https://new.mta.info/careers/skilled-trades-positions"
+        },
+        {
+          "title": "Internships",
+          "detail": "MTA Careers site",
+          "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
+        }
+      ],
+      "record_diff": null
+    }
+  ]
+}
