@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-05-27T10:57:31Z",
+  "extracted_at": "2026-05-28T10:58:50Z",
   "links": [
     {
       "text": "311",
@@ -127,10 +127,6 @@
     {
       "text": "6329",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
-    },
-    {
-      "text": "6321",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf"
     },
     {
       "text": "6326",
@@ -280,19 +276,13 @@
       "title": "Inspector (Consumer and Worker Protection)",
       "exam_number": "6065 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
+      "application_period": "5/7/2026 – 6/23/2026"
     },
     {
       "title": "Police Communications Technician",
       "exam_number": "6329 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
       "application_period": "5/7/2026 – 6/30/2026"
-    },
-    {
-      "title": "Police Officer",
-      "exam_number": "6321 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf",
-      "application_period": "5/1/2026 – 5/14/2026"
     },
     {
       "title": "School Safety Agent",
@@ -318,14 +308,14 @@
       "application_period": "Canceled"
     }
   ],
-  "record_count": 20,
+  "record_count": 19,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "564676f4c63b9187",
+  "record_fingerprint": "2bae911d89ff1d67",
   "summary_note": "",
   "exam_titles": [
     "Administrative Inspector (Housing)",
@@ -343,7 +333,6 @@
     "High Pressure Plant Tender (CUNY)",
     "Inspector (Consumer and Worker Protection)",
     "Police Communications Technician",
-    "Police Officer",
     "School Safety Agent",
     "Thermostat Repairer",
     "Thermostat Repairer (CUNY)",
@@ -354,18 +343,17 @@
     "Canceled",
     "Postponed",
     "4/1/2026 – 5/29/2026",
+    "5/7/2026 – 6/23/2026",
     "5/7/2026 – 6/30/2026",
-    "5/1/2026 – 5/14/2026",
     "5/7/2026 – 6/2/2026",
     "5/7/2026",
     "5/27/2026",
     "4/1/2026",
     "5/29/2026",
+    "6/23/2026",
     "6/30/2026",
-    "5/1/2026",
-    "5/14/2026",
     "6/2/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "6006 (pdf) | Administrative Inspector (Housing) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf\n6008 | Administrative Public Health Nurse | Canceled\n6009 (pdf) | Administrative Real Property Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf\n6010 (pdf) | Administrative Supervisor of Building Maintenance | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf\n6020 | Associate Inspector (Electrical) | Postponed\n6032 | Call Center Representative | Canceled\n6033 (pdf) | Certified IT Administrator (Database) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf\n6040 (pdf) | Construction Project Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf\n6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6044 (pdf) | Deckhand | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf\n6057 | Forensic Mortuary Technician | Postponed\n6059 (pdf) | High Pressure Plant Tender | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266059000.pdf\n6060 (pdf) | High Pressure Plant Tender (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266060000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6321 (pdf) | Police Officer | 5/1/2026 – 5/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266321000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf\n6110 (pdf) | Thermostat Repairer | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266110000.pdf\n6111 (pdf) | Thermostat Repairer (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266111000.pdf\n6112 | Thermostat Repairer (NYC H+H) | Canceled"
+  "normalized_text": "6006 (pdf) | Administrative Inspector (Housing) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf\n6008 | Administrative Public Health Nurse | Canceled\n6009 (pdf) | Administrative Real Property Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf\n6010 (pdf) | Administrative Supervisor of Building Maintenance | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf\n6020 | Associate Inspector (Electrical) | Postponed\n6032 | Call Center Representative | Canceled\n6033 (pdf) | Certified IT Administrator (Database) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf\n6040 (pdf) | Construction Project Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf\n6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6044 (pdf) | Deckhand | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf\n6057 | Forensic Mortuary Technician | Postponed\n6059 (pdf) | High Pressure Plant Tender | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266059000.pdf\n6060 (pdf) | High Pressure Plant Tender (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266060000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf\n6110 (pdf) | Thermostat Repairer | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266110000.pdf\n6111 (pdf) | Thermostat Repairer (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266111000.pdf\n6112 | Thermostat Repairer (NYC H+H) | Canceled"
 }
