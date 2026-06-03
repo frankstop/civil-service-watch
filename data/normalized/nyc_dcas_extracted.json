@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-06-02T11:21:17Z",
+  "extracted_at": "2026-06-03T11:59:18Z",
   "links": [
     {
       "text": "311",
@@ -85,40 +85,24 @@
       "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-exams-questions-contact-us.page"
     },
     {
-      "text": "6006",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf"
+      "text": "6004",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
     },
     {
-      "text": "6009",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+      "text": "6020",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
     },
     {
-      "text": "6010",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf"
+      "text": "6124",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf"
     },
     {
-      "text": "6033",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf"
+      "text": "6055",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
     },
     {
-      "text": "6040",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf"
-    },
-    {
-      "text": "6303",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf"
-    },
-    {
-      "text": "6044",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf"
-    },
-    {
-      "text": "6059",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266059000.pdf"
-    },
-    {
-      "text": "6060",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266060000.pdf"
+      "text": "6056",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
     },
     {
       "text": "6065",
@@ -129,16 +113,16 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
     },
     {
+      "text": "6322",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf"
+    },
+    {
+      "text": "6093",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
+    },
+    {
       "text": "6326",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
-    },
-    {
-      "text": "6110",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266110000.pdf"
-    },
-    {
-      "text": "6111",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266111000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -199,78 +183,34 @@
   ],
   "records": [
     {
-      "title": "Administrative Inspector (Housing)",
-      "exam_number": "6006 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Administrative Public Health Nurse",
-      "exam_number": "6008",
-      "application_period": "Canceled"
-    },
-    {
-      "title": "Administrative Real Property Manager",
-      "exam_number": "6009 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Administrative Supervisor of Building Maintenance",
-      "exam_number": "6010 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
+      "title": "Administrative Energy Conservation Specialist",
+      "exam_number": "6004 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
     },
     {
       "title": "Associate Inspector (Electrical)",
-      "exam_number": "6020",
-      "application_period": "Postponed"
+      "exam_number": "6020 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
     },
     {
-      "title": "Call Center Representative",
-      "exam_number": "6032",
-      "application_period": "Canceled"
+      "title": "Consultant (Early Childhood Education)",
+      "exam_number": "6124 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
     },
     {
-      "title": "Certified IT Administrator (Database)",
-      "exam_number": "6033 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
+      "title": "Energy Conservation Specialist",
+      "exam_number": "6055 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
     },
     {
-      "title": "Construction Project Manager",
-      "exam_number": "6040 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Correction Officer",
-      "exam_number": "6303 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
-      "application_period": "4/1/2026 – 5/29/2026"
-    },
-    {
-      "title": "Deckhand",
-      "exam_number": "6044 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Forensic Mortuary Technician",
-      "exam_number": "6057",
-      "application_period": "Postponed"
-    },
-    {
-      "title": "High Pressure Plant Tender",
-      "exam_number": "6059 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266059000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "High Pressure Plant Tender (CUNY)",
-      "exam_number": "6060 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266060000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
+      "title": "Environmental Engineer",
+      "exam_number": "6056 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
     },
     {
       "title": "Inspector (Consumer and Worker Protection)",
@@ -285,75 +225,58 @@
       "application_period": "5/7/2026 – 6/30/2026"
     },
     {
+      "title": "Police Officer",
+      "exam_number": "6322 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf",
+      "application_period": "6/2/2026 – 6/15/2026"
+    },
+    {
+      "title": "Radio Repair Mechanic",
+      "exam_number": "6093 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
+    },
+    {
       "title": "School Safety Agent",
       "exam_number": "6326 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
       "application_period": "5/7/2026 – 6/2/2026"
-    },
-    {
-      "title": "Thermostat Repairer",
-      "exam_number": "6110 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266110000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Thermostat Repairer (CUNY)",
-      "exam_number": "6111 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266111000.pdf",
-      "application_period": "5/7/2026 – 5/27/2026"
-    },
-    {
-      "title": "Thermostat Repairer (NYC H+H)",
-      "exam_number": "6112",
-      "application_period": "Canceled"
     }
   ],
-  "record_count": 19,
+  "record_count": 10,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "2bae911d89ff1d67",
+  "record_fingerprint": "86763b9857f4ad0c",
   "summary_note": "",
   "exam_titles": [
-    "Administrative Inspector (Housing)",
-    "Administrative Public Health Nurse",
-    "Administrative Real Property Manager",
-    "Administrative Supervisor of Building Maintenance",
+    "Administrative Energy Conservation Specialist",
     "Associate Inspector (Electrical)",
-    "Call Center Representative",
-    "Certified IT Administrator (Database)",
-    "Construction Project Manager",
-    "Correction Officer",
-    "Deckhand",
-    "Forensic Mortuary Technician",
-    "High Pressure Plant Tender",
-    "High Pressure Plant Tender (CUNY)",
+    "Consultant (Early Childhood Education)",
+    "Energy Conservation Specialist",
+    "Environmental Engineer",
     "Inspector (Consumer and Worker Protection)",
     "Police Communications Technician",
-    "School Safety Agent",
-    "Thermostat Repairer",
-    "Thermostat Repairer (CUNY)",
-    "Thermostat Repairer (NYC H+H)"
+    "Police Officer",
+    "Radio Repair Mechanic",
+    "School Safety Agent"
   ],
   "dates": [
-    "5/7/2026 – 5/27/2026",
-    "Canceled",
-    "Postponed",
-    "4/1/2026 – 5/29/2026",
+    "6/3/2026 – 6/23/2026",
     "5/7/2026 – 6/23/2026",
     "5/7/2026 – 6/30/2026",
+    "6/2/2026 – 6/15/2026",
     "5/7/2026 – 6/2/2026",
-    "5/7/2026",
-    "5/27/2026",
-    "4/1/2026",
-    "5/29/2026",
+    "6/3/2026",
     "6/23/2026",
+    "5/7/2026",
     "6/30/2026",
-    "6/2/2026"
+    "6/2/2026",
+    "6/15/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "6006 (pdf) | Administrative Inspector (Housing) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf\n6008 | Administrative Public Health Nurse | Canceled\n6009 (pdf) | Administrative Real Property Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf\n6010 (pdf) | Administrative Supervisor of Building Maintenance | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf\n6020 | Associate Inspector (Electrical) | Postponed\n6032 | Call Center Representative | Canceled\n6033 (pdf) | Certified IT Administrator (Database) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf\n6040 (pdf) | Construction Project Manager | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf\n6303 (pdf) | Correction Officer | 4/1/2026 – 5/29/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf\n6044 (pdf) | Deckhand | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf\n6057 | Forensic Mortuary Technician | Postponed\n6059 (pdf) | High Pressure Plant Tender | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266059000.pdf\n6060 (pdf) | High Pressure Plant Tender (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266060000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf\n6110 (pdf) | Thermostat Repairer | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266110000.pdf\n6111 (pdf) | Thermostat Repairer (CUNY) | 5/7/2026 – 5/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266111000.pdf\n6112 | Thermostat Repairer (NYC H+H) | Canceled"
+  "normalized_text": "6004 (pdf) | Administrative Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf\n6020 (pdf) | Associate Inspector (Electrical) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf\n6124 (pdf) | Consultant (Early Childhood Education) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf\n6055 (pdf) | Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf\n6056 (pdf) | Environmental Engineer | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6322 (pdf) | Police Officer | 6/2/2026 – 6/15/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf\n6093 (pdf) | Radio Repair Mechanic | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
 }

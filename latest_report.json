@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-02",
-  "generated_at": "2026-06-02T11:21:17Z",
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T11:59:18Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 3,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 1,
-    "unchanged": 9,
-    "bot_blocked": 2,
+    "changed": 3,
+    "unchanged": 7,
+    "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 0
+    "timeout": 1
   },
   "daily_deltas": [
     {
@@ -20,23 +20,73 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 19,
+      "changed": true,
+      "record_count": 10,
       "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
+      "added_count": 7,
+      "removed_count": 16,
+      "added_records": [
+        {
+          "exam_number": "6004 (pdf)",
+          "title": "Administrative Energy Conservation Specialist",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
+        },
+        {
+          "exam_number": "6020 (pdf)",
+          "title": "Associate Inspector (Electrical)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
+        },
+        {
+          "exam_number": "6055 (pdf)",
+          "title": "Energy Conservation Specialist",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
+        },
+        {
+          "exam_number": "6056 (pdf)",
+          "title": "Environmental Engineer",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
+        },
+        {
+          "exam_number": "6093 (pdf)",
+          "title": "Radio Repair Mechanic",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
+        }
+      ],
+      "removed_records": [
+        {
+          "exam_number": "6006 (pdf)",
+          "title": "Administrative Inspector (Housing)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf"
+        },
+        {
+          "exam_number": "6008",
+          "title": "Administrative Public Health Nurse"
+        },
+        {
+          "exam_number": "6009 (pdf)",
+          "title": "Administrative Real Property Manager",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+        },
+        {
+          "exam_number": "6010 (pdf)",
+          "title": "Administrative Supervisor of Building Maintenance",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf"
+        },
+        {
+          "exam_number": "6020",
+          "title": "Associate Inspector (Electrical)"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
       "name": "NYS Civil Service",
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "ok",
-      "status_detail": "ok",
+      "status": "error",
+      "status_detail": "timeout",
       "changed": false,
       "record_count": 1,
       "summary_note": "",
@@ -46,7 +96,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "restricted"
     },
     {
       "source_id": "usajobs",
@@ -83,7 +133,7 @@
           "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
         }
@@ -95,7 +145,7 @@
           "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 2 days",
+          "closing_text": "Closes in 1 day",
           "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
         }
@@ -176,18 +226,18 @@
       "source_id": "ny_courts",
       "name": "NY Courts",
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
-      "status": "error",
-      "status_detail": "bot_blocked",
-      "changed": false,
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
       "record_count": 0,
       "summary_note": "",
       "added_count": 0,
       "removed_count": 0,
       "added_records": [],
       "removed_records": [],
-      "added_lines": 0,
+      "added_lines": 39,
       "removed_lines": 0,
-      "delta_kind": "restricted"
+      "delta_kind": "text"
     },
     {
       "source_id": "mta",
@@ -217,95 +267,167 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "2bae911d89ff1d67",
-      "fetched_at": "2026-06-02T11:20:55Z",
+      "changed": true,
+      "content_hash": "86763b9857f4ad0c",
+      "fetched_at": "2026-06-03T11:58:24Z",
       "error": null,
       "summary_note": "",
-      "record_count": 19,
-      "record_diff": null,
+      "record_count": 10,
+      "record_diff": {
+        "added_count": 7,
+        "removed_count": 16,
+        "added_titles": [
+          "Administrative Energy Conservation Specialist",
+          "Associate Inspector (Electrical)",
+          "Energy Conservation Specialist",
+          "Environmental Engineer",
+          "Radio Repair Mechanic"
+        ],
+        "removed_titles": [
+          "Administrative Inspector (Housing)",
+          "Administrative Public Health Nurse",
+          "Administrative Real Property Manager",
+          "Administrative Supervisor of Building Maintenance",
+          "Associate Inspector (Electrical)"
+        ],
+        "added_records": [
+          {
+            "exam_number": "6004 (pdf)",
+            "title": "Administrative Energy Conservation Specialist",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
+          },
+          {
+            "exam_number": "6020 (pdf)",
+            "title": "Associate Inspector (Electrical)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
+          },
+          {
+            "exam_number": "6055 (pdf)",
+            "title": "Energy Conservation Specialist",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
+          },
+          {
+            "exam_number": "6056 (pdf)",
+            "title": "Environmental Engineer",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
+          },
+          {
+            "exam_number": "6093 (pdf)",
+            "title": "Radio Repair Mechanic",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
+          }
+        ],
+        "removed_records": [
+          {
+            "exam_number": "6006 (pdf)",
+            "title": "Administrative Inspector (Housing)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf"
+          },
+          {
+            "exam_number": "6008",
+            "title": "Administrative Public Health Nurse"
+          },
+          {
+            "exam_number": "6009 (pdf)",
+            "title": "Administrative Real Property Manager",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
+          },
+          {
+            "exam_number": "6010 (pdf)",
+            "title": "Administrative Supervisor of Building Maintenance",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf"
+          },
+          {
+            "exam_number": "6020",
+            "title": "Associate Inspector (Electrical)"
+          }
+        ]
+      },
       "records": [
         {
-          "title": "Administrative Inspector (Housing)",
-          "exam_number": "6006 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
-        },
-        {
-          "title": "Administrative Public Health Nurse",
-          "exam_number": "6008",
-          "application_period": "Canceled"
-        },
-        {
-          "title": "Administrative Real Property Manager",
-          "exam_number": "6009 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
-        },
-        {
-          "title": "Administrative Supervisor of Building Maintenance",
-          "exam_number": "6010 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
+          "title": "Administrative Energy Conservation Specialist",
+          "exam_number": "6004 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
         },
         {
           "title": "Associate Inspector (Electrical)",
-          "exam_number": "6020",
-          "application_period": "Postponed"
+          "exam_number": "6020 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
         },
         {
-          "title": "Call Center Representative",
-          "exam_number": "6032",
-          "application_period": "Canceled"
+          "title": "Consultant (Early Childhood Education)",
+          "exam_number": "6124 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
         },
         {
-          "title": "Certified IT Administrator (Database)",
-          "exam_number": "6033 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266033000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
+          "title": "Energy Conservation Specialist",
+          "exam_number": "6055 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
         },
         {
-          "title": "Construction Project Manager",
-          "exam_number": "6040 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266040000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
+          "title": "Environmental Engineer",
+          "exam_number": "6056 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
         },
         {
-          "title": "Correction Officer",
-          "exam_number": "6303 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266303000.pdf",
-          "application_period": "4/1/2026 – 5/29/2026"
+          "title": "Inspector (Consumer and Worker Protection)",
+          "exam_number": "6065 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf",
+          "application_period": "5/7/2026 – 6/23/2026"
         },
         {
-          "title": "Deckhand",
-          "exam_number": "6044 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266044000.pdf",
-          "application_period": "5/7/2026 – 5/27/2026"
+          "title": "Police Communications Technician",
+          "exam_number": "6329 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
+          "application_period": "5/7/2026 – 6/30/2026"
+        },
+        {
+          "title": "Police Officer",
+          "exam_number": "6322 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf",
+          "application_period": "6/2/2026 – 6/15/2026"
+        },
+        {
+          "title": "Radio Repair Mechanic",
+          "exam_number": "6093 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
+        },
+        {
+          "title": "School Safety Agent",
+          "exam_number": "6326 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
+          "application_period": "5/7/2026 – 6/2/2026"
         }
       ],
       "exam_titles": [
-        "Administrative Inspector (Housing)",
-        "Administrative Public Health Nurse",
-        "Administrative Real Property Manager",
-        "Administrative Supervisor of Building Maintenance",
+        "Administrative Energy Conservation Specialist",
         "Associate Inspector (Electrical)",
-        "Call Center Representative",
-        "Certified IT Administrator (Database)",
-        "Construction Project Manager",
-        "Correction Officer",
-        "Deckhand"
+        "Consultant (Early Childhood Education)",
+        "Energy Conservation Specialist",
+        "Environmental Engineer",
+        "Inspector (Consumer and Worker Protection)",
+        "Police Communications Technician",
+        "Police Officer",
+        "Radio Repair Mechanic",
+        "School Safety Agent"
       ],
       "dates": [
-        "5/7/2026 – 5/27/2026",
-        "Canceled",
-        "Postponed",
-        "4/1/2026 – 5/29/2026",
+        "6/3/2026 – 6/23/2026",
         "5/7/2026 – 6/23/2026",
         "5/7/2026 – 6/30/2026",
+        "6/2/2026 – 6/15/2026",
         "5/7/2026 – 6/2/2026",
+        "6/3/2026",
+        "6/23/2026",
         "5/7/2026",
-        "5/27/2026",
-        "4/1/2026"
+        "6/30/2026",
+        "6/2/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -361,12 +483,12 @@
       "source_id": "nys_civil_service",
       "name": "NYS Civil Service",
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "ok",
-      "status_detail": "ok",
+      "status": "error",
+      "status_detail": "timeout",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-02T11:20:57Z",
-      "error": null,
+      "fetched_at": "2026-06-03T11:58:26Z",
+      "error": "HTTPSConnectionPool(host='www.cs.ny.gov', port=443): Max retries exceeded with url: /examannouncements/types/oc/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cs.ny.gov', port=443) at 0x7f9f348f9340>, 'Connection to www.cs.ny.gov timed out. (connect timeout=30)'))",
       "summary_note": "",
       "record_count": 1,
       "record_diff": null,
@@ -453,7 +575,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-02T11:21:00Z",
+      "fetched_at": "2026-06-03T11:58:59Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -472,8 +594,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "9e08e0f6752ee92b",
-      "fetched_at": "2026-06-02T11:21:02Z",
+      "content_hash": "8d09b11f41ab2f34",
+      "fetched_at": "2026-06-03T11:59:01Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -493,7 +615,7 @@
             "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 15 hours",
             "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
           }
@@ -505,7 +627,7 @@
             "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 2 days",
+            "closing_text": "Closes in 1 day",
             "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
           }
@@ -520,7 +642,7 @@
           "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
@@ -759,7 +881,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-02T11:21:04Z",
+      "fetched_at": "2026-06-03T11:59:04Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -774,7 +896,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-06-02T11:21:06Z",
+      "fetched_at": "2026-06-03T11:59:06Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -838,7 +960,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-02T11:21:09Z",
+      "fetched_at": "2026-06-03T11:59:09Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -853,7 +975,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-02T11:21:12Z",
+      "fetched_at": "2026-06-03T11:59:11Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -990,16 +1112,67 @@
       "source_id": "ny_courts",
       "name": "NY Courts",
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
-      "status": "error",
-      "status_detail": "bot_blocked",
-      "changed": false,
-      "content_hash": "",
-      "fetched_at": "2026-06-02T11:21:15Z",
-      "error": "403 response returned from source URL",
+      "status": "ok",
+      "status_detail": "ok",
+      "changed": true,
+      "content_hash": "227a3efd2eed7c7f",
+      "fetched_at": "2026-06-03T11:59:14Z",
+      "error": null,
       "summary_note": "",
       "record_count": 0,
       "record_diff": null,
-      "records": []
+      "records": [],
+      "exam_titles": [],
+      "dates": [],
+      "keywords_found": [
+        "exam",
+        "examination",
+        "test",
+        "filing"
+      ],
+      "links": [
+        {
+          "text": "Skip to main content",
+          "href": "https://www.nycourts.gov/careers/exams#main-content"
+        },
+        {
+          "text": "Find a Court",
+          "href": "https://www.nycourts.gov/find-court"
+        },
+        {
+          "text": "Topics A - Z",
+          "href": "https://www.nycourts.gov/topics-a-z"
+        },
+        {
+          "text": "New York State Unified Court System",
+          "href": "https://www.nycourts.gov/"
+        },
+        {
+          "text": "Litigant / Self-Represented",
+          "href": "https://www.nycourts.gov/help/courthelp"
+        },
+        {
+          "text": "Judge",
+          "href": "https://www.nycourts.gov/judges"
+        },
+        {
+          "text": "Legal Professional",
+          "href": "https://www.nycourts.gov/legal-professional"
+        },
+        {
+          "text": "Juror",
+          "href": "https://www.nycourts.gov/juror"
+        },
+        {
+          "text": "Member of the Media",
+          "href": "https://www.nycourts.gov/public-information"
+        },
+        {
+          "text": "Job Seeker",
+          "href": "https://www.nycourts.gov/careers/current-job-opportunities"
+        }
+      ],
+      "record_fields_present": []
     },
     {
       "source_id": "mta",
@@ -1009,7 +1182,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-02T11:21:17Z",
+      "fetched_at": "2026-06-03T11:59:17Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,

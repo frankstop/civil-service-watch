@@ -1,0 +1,330 @@
+{
+  "source_id": "ny_courts",
+  "name": "NY Courts",
+  "url": "https://ww2.nycourts.gov/careers/exams.shtml",
+  "extracted_at": "2026-06-03T11:59:18Z",
+  "links": [
+    {
+      "text": "Skip to main content",
+      "href": "https://www.nycourts.gov/careers/exams#main-content"
+    },
+    {
+      "text": "Find a Court",
+      "href": "https://www.nycourts.gov/find-court"
+    },
+    {
+      "text": "Topics A - Z",
+      "href": "https://www.nycourts.gov/topics-a-z"
+    },
+    {
+      "text": "New York State Unified Court System",
+      "href": "https://www.nycourts.gov/"
+    },
+    {
+      "text": "Litigant / Self-Represented",
+      "href": "https://www.nycourts.gov/help/courthelp"
+    },
+    {
+      "text": "Judge",
+      "href": "https://www.nycourts.gov/judges"
+    },
+    {
+      "text": "Legal Professional",
+      "href": "https://www.nycourts.gov/legal-professional"
+    },
+    {
+      "text": "Juror",
+      "href": "https://www.nycourts.gov/juror"
+    },
+    {
+      "text": "Member of the Media",
+      "href": "https://www.nycourts.gov/public-information"
+    },
+    {
+      "text": "Job Seeker",
+      "href": "https://www.nycourts.gov/careers/current-job-opportunities"
+    },
+    {
+      "text": "Supplier Looking for Bid Opportunities",
+      "href": "https://www.nycourts.gov/grants-contracts-procurement"
+    },
+    {
+      "text": "Looking for Divorce Resources...",
+      "href": "https://www.nycourts.gov/divorce"
+    },
+    {
+      "text": "The Courts",
+      "href": "https://www.nycourts.gov/courts"
+    },
+    {
+      "text": "New York City Courts",
+      "href": "https://www.nycourts.gov/new-york-city-courts"
+    },
+    {
+      "text": "Long Island Courts",
+      "href": "https://www.nycourts.gov/long-island-courts"
+    },
+    {
+      "text": "Upstate Courts",
+      "href": "https://www.nycourts.gov/upstate-courts"
+    },
+    {
+      "text": "Specialized Courts",
+      "href": "https://www.nycourts.gov/specialized-courts"
+    },
+    {
+      "text": "Appellate Courts",
+      "href": "https://www.nycourts.gov/appellate-courts"
+    },
+    {
+      "text": "Rules",
+      "href": "https://www.nycourts.gov/rules"
+    },
+    {
+      "text": "Town & Village Justice Courts",
+      "href": "https://www.nycourts.gov/town-and-village-justice-courts"
+    },
+    {
+      "text": "County Clerks, (NYC)",
+      "href": "https://www.nycourts.gov/new-york-city-courts/new-york-city-county-clerks"
+    },
+    {
+      "text": "eCourts: eFile (NYSCEF), eTrack, Pay Online & more...",
+      "href": "https://www.nycourts.gov/e-courts"
+    },
+    {
+      "text": "Forms",
+      "href": "https://www.nycourts.gov/statewide-forms"
+    },
+    {
+      "text": "CourtHelp",
+      "href": "https://www.nycourts.gov/help/courthelp"
+    },
+    {
+      "text": "DIY Forms",
+      "href": "https://www.nycourts.gov/help/diy-forms"
+    },
+    {
+      "text": "Safety & Violence",
+      "href": "https://www.nycourts.gov/help/safety-violence"
+    },
+    {
+      "text": "Problems with Money",
+      "href": "https://www.nycourts.gov/help/problems-money"
+    },
+    {
+      "text": "Guardianship",
+      "href": "https://www.nycourts.gov/help/guardianship"
+    },
+    {
+      "text": "Families & Children",
+      "href": "https://www.nycourts.gov/help/family-issues-divorce"
+    },
+    {
+      "text": "Criminal",
+      "href": "https://www.nycourts.gov/help/criminal"
+    },
+    {
+      "text": "After the Case Is Over",
+      "href": "https://www.nycourts.gov/help/after-case-over"
+    },
+    {
+      "text": "Homes & Evictions",
+      "href": "https://www.nycourts.gov/help/homes-evictions"
+    },
+    {
+      "text": "When Someone Dies",
+      "href": "https://www.nycourts.gov/help/when-someone-dies"
+    },
+    {
+      "text": "Small Claims",
+      "href": "https://www.nycourts.gov/help/small-claims"
+    },
+    {
+      "text": "Getting Help at the Courthouse",
+      "href": "https://www.nycourts.gov/help/representing-yourself-court/getting-help-courthouse"
+    },
+    {
+      "text": "Name Change and/or Sex Designation Change",
+      "href": "https://www.nycourts.gov/help/name-change-andor-sex-designation-change"
+    },
+    {
+      "text": "About Us",
+      "href": "https://www.nycourts.gov/about-us"
+    },
+    {
+      "text": "Administration",
+      "href": "https://www.nycourts.gov/about-us/administration"
+    },
+    {
+      "text": "AMICI Podcast Series",
+      "href": "https://www.nycourts.gov/amici-podcast-series"
+    },
+    {
+      "text": "Careers",
+      "href": "https://www.nycourts.gov/careers"
+    },
+    {
+      "text": "Civic Engagement",
+      "href": "https://www.nycourts.gov/civic-engagement"
+    },
+    {
+      "text": "Contact Us",
+      "href": "https://www.nycourts.gov/about-us/contact-us"
+    },
+    {
+      "text": "OCA Support Units",
+      "href": "https://www.nycourts.gov/about-us/oca-support-units"
+    },
+    {
+      "text": "Publications",
+      "href": "https://www.nycourts.gov/publications"
+    },
+    {
+      "text": "Public Information",
+      "href": "https://www.nycourts.gov/public-information"
+    },
+    {
+      "text": "Special Events",
+      "href": "https://www.nycourts.gov/special-events"
+    },
+    {
+      "text": "Bias & Misconduct Complaints",
+      "href": "https://www.nycourts.gov/about-us/bias-misconduct-complaints"
+    },
+    {
+      "text": "Terms of Court Calendar & Holidays",
+      "href": "https://www.nycourts.gov/about-us/terms-court-calendar-holidays"
+    },
+    {
+      "text": "Court Leadership",
+      "href": "https://www.nycourts.gov/about-us/court-leadership"
+    },
+    {
+      "text": "Programs & Services",
+      "href": "https://www.nycourts.gov/programs-and-services"
+    },
+    {
+      "text": "Home",
+      "href": "https://www.nycourts.gov/"
+    },
+    {
+      "text": "General Info & FAQs",
+      "href": "https://www.nycourts.gov/careers/exams/general-exam-information-frequently-asked-questions-faqs"
+    },
+    {
+      "text": "Study Guides",
+      "href": "https://www.nycourts.gov/careers/exams/exam-study-guides-resources"
+    },
+    {
+      "text": "Exam Results Notices",
+      "href": "https://www.nycourts.gov/careers/exams/exam-results-notices"
+    },
+    {
+      "text": "FAQs for Court Officer-Trainees",
+      "href": "https://www.nycourts.gov/careers/exams/nys-court-officer-trainee-exam-statewide-faqs"
+    },
+    {
+      "text": "Pending Exams",
+      "href": "https://www.nycourts.gov/careers/pending-exams"
+    },
+    {
+      "text": "Future Exams",
+      "href": "https://www.nycourts.gov/careers/future-exams"
+    },
+    {
+      "text": "Court Officer Trainee Recruitment",
+      "href": "https://www.nycourts.gov/nys-court-officer-candidates"
+    },
+    {
+      "text": "NYS Court Officer-Trainee #45-843 - List of Passers",
+      "href": "https://www.nycourts.gov/careers/exams/results-2025-nys-court-officer-trainee-exam"
+    },
+    {
+      "text": "NYS Court Officer-Trainee (Downstate NY) - Exam Information",
+      "href": "https://publicredesign2025prod.prod.acquia-sites.com/exams/nys-court-officer-trainee-exam-jg-16"
+    },
+    {
+      "text": "Per Diem Court Interpreter - Exam Information",
+      "href": "https://www.nycourts.gov/language-access-court-interpreters/exam-information"
+    },
+    {
+      "text": "[email protected]",
+      "href": "https://www.nycourts.gov/cdn-cgi/l/email-protection#711e1d100114031518141c05140205311f08121e040305025f161e07"
+    },
+    {
+      "text": "[email protected]",
+      "href": "https://www.nycourts.gov/cdn-cgi/l/email-protection#91f2fee4e3e5e3f4e1fee3e5f4e3e3f4f2e3e4f8e5d1ffe8f2fee4e3e5e2bff6fee7"
+    },
+    {
+      "text": "View Court Reporter Qualifications",
+      "href": "https://www.nycourts.gov/careers/court-reporter"
+    },
+    {
+      "text": "Español",
+      "href": "https://www.nycourts.gov/languages/informacion-en-espanol"
+    },
+    {
+      "text": "中文(简体)",
+      "href": "https://www.nycourts.gov/languages/zhongwen-information-chinese"
+    },
+    {
+      "text": "Français",
+      "href": "https://www.nycourts.gov/languages/francais-information-french"
+    },
+    {
+      "text": "한국어",
+      "href": "https://www.nycourts.gov/languages/hangugeo-information-korean"
+    },
+    {
+      "text": "Русский",
+      "href": "https://www.nycourts.gov/languages/russkiy-information-russian"
+    },
+    {
+      "text": "Làkk",
+      "href": "https://www.nycourts.gov/languages/lakk-information-wolof"
+    },
+    {
+      "text": "العربية",
+      "href": "https://www.nycourts.gov/languages/alrb-information-arabic"
+    },
+    {
+      "text": "Kreyòl Ayisyen",
+      "href": "https://www.nycourts.gov/languages/kreyol-ayisyen-information-haitian-creole"
+    },
+    {
+      "text": "język polski",
+      "href": "https://www.nycourts.gov/languages/jezyk-polski-information-polish"
+    },
+    {
+      "text": "Sign Up for Emergency Alerts",
+      "href": "https://www.nycourts.gov/emergency-notice/sign-emergency-alerts"
+    },
+    {
+      "text": "File a Complaint",
+      "href": "https://www.nycourts.gov/about-us/bias-misconduct-complaints"
+    },
+    {
+      "text": "Privacy Policy",
+      "href": "https://www.nycourts.gov/about-us/internet-web-site-privacy-policy"
+    },
+    {
+      "text": "Americans With Disabilities (ADA)",
+      "href": "https://www.nycourts.gov/accessibility"
+    }
+  ],
+  "records": [],
+  "record_count": 0,
+  "record_fields_present": [],
+  "record_fingerprint": "",
+  "summary_note": "",
+  "exam_titles": [],
+  "dates": [],
+  "keywords_found": [
+    "exam",
+    "examination",
+    "test",
+    "filing"
+  ],
+  "normalized_text": "Skip to main content\nNew York State\nUnified Court System\nCareers\nExams\nEnsuring a fair, competitive, and objective hiring process.\nIn This Section\nGeneral Info & FAQs\nStudy Guides\nExam Results Notices\nFAQs for Court Officer-Trainees\nPending Exams\nFuture Exams\nAdditional Resources\nCourt Officer Trainee Recruitment\nOpen for Filing\nOpen to\n- Any -\nOpen to General Public\nOpen to Court Employees Only\nNo results found.\nNYS Court Officer-Trainee\nNYS Court Officer-Trainee #45-843 - List of Passers\nThis is a list arranged by name and zip code of applicants who\npassed\nthe NYS Court Officer-Trainee 45-843 examination, which was administered in Downstate New York from September 10, 2025 to October 31, 2025.\nApplicants who did not receive a passing grade do not appear on this list.\nNYS Court Officer-Trainee (Downstate NY) - Exam Information\nPer Diem Court Interpreter\nPer Diem Court Interpreter - Exam Information\n2026 Per Diem Court Interpreter daily rates:\n- $300 half day (up to 4 hours)\n- $500 full day\nAll test-related inquiries regarding the Per Diem Court Interpreter written and oral exams should be e-mailed to\n[email protected]\n.\nCourt Reporter\nCourt Reporter positions available. Send your resume, school or professional certification, and your associate degree if applicable, to the following email address:\n[email protected]\n.\nView Court Reporter Qualifications"
+}

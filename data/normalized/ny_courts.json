@@ -8,14 +8,14 @@
     "postings",
     "courts"
   ],
-  "fetched_at": "2026-06-02T11:21:15Z",
-  "status": "error",
-  "status_detail": "bot_blocked",
-  "http_status": 403,
-  "resolved_url": "https://www.nycourts.gov/careers/exams.shtml",
-  "content_hash": "",
-  "text": "",
+  "fetched_at": "2026-06-03T11:59:14Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://www.nycourts.gov/careers/exams",
+  "content_hash": "227a3efd2eed7c7f",
+  "text": "Skip to main content\nNew York State\nUnified Court System\nCareers\nExams\nEnsuring a fair, competitive, and objective hiring process.\nIn This Section\nGeneral Info & FAQs\nStudy Guides\nExam Results Notices\nFAQs for Court Officer-Trainees\nPending Exams\nFuture Exams\nAdditional Resources\nCourt Officer Trainee Recruitment\nOpen for Filing\nOpen to\n- Any -\nOpen to General Public\nOpen to Court Employees Only\nNo results found.\nNYS Court Officer-Trainee\nNYS Court Officer-Trainee #45-843 - List of Passers\nThis is a list arranged by name and zip code of applicants who\npassed\nthe NYS Court Officer-Trainee 45-843 examination, which was administered in Downstate New York from September 10, 2025 to October 31, 2025.\nApplicants who did not receive a passing grade do not appear on this list.\nNYS Court Officer-Trainee (Downstate NY) - Exam Information\nPer Diem Court Interpreter\nPer Diem Court Interpreter - Exam Information\n2026 Per Diem Court Interpreter daily rates:\n- $300 half day (up to 4 hours)\n- $500 full day\nAll test-related inquiries regarding the Per Diem Court Interpreter written and oral exams should be e-mailed to\n[email protected]\n.\nCourt Reporter\nCourt Reporter positions available. Send your resume, school or professional certification, and your associate degree if applicable, to the following email address:\n[email protected]\n.\nView Court Reporter Qualifications",
   "summary_note": "",
   "record_count": 0,
-  "error": "403 response returned from source URL"
+  "error": null
 }
