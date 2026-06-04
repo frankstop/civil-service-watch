@@ -8,14 +8,14 @@
     "schedule",
     "state"
   ],
-  "fetched_at": "2026-06-03T11:58:26Z",
-  "status": "error",
-  "status_detail": "timeout",
-  "http_status": null,
+  "fetched_at": "2026-06-04T10:40:07Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
   "resolved_url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "content_hash": "",
-  "text": "",
+  "content_hash": "0a977ab146786d9c",
+  "text": "21-024020 | DHSES Program Administrator 3 | June 24, 2026 | $96,336 | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm",
   "summary_note": "",
-  "record_count": 0,
-  "error": "HTTPSConnectionPool(host='www.cs.ny.gov', port=443): Max retries exceeded with url: /examannouncements/types/oc/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cs.ny.gov', port=443) at 0x7f9f348f9340>, 'Connection to www.cs.ny.gov timed out. (connect timeout=30)'))"
+  "record_count": 1,
+  "error": null
 }

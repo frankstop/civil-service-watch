@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-03",
-  "generated_at": "2026-06-03T11:59:18Z",
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T10:40:29Z",
   "total_sources": 10,
-  "changed_count": 3,
+  "changed_count": 2,
   "health_summary": {
-    "ok": 7,
-    "error": 3,
-    "changed": 3,
-    "unchanged": 7,
+    "ok": 8,
+    "error": 2,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 1
+    "timeout": 0
   },
   "daily_deltas": [
     {
@@ -21,60 +21,32 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "record_count": 10,
+      "record_count": 12,
       "summary_note": "",
-      "added_count": 7,
-      "removed_count": 16,
+      "added_count": 3,
+      "removed_count": 1,
       "added_records": [
         {
-          "exam_number": "6004 (pdf)",
-          "title": "Administrative Energy Conservation Specialist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
+          "exam_number": "6036 (pdf)",
+          "title": "City Assessor",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
         },
         {
-          "exam_number": "6020 (pdf)",
-          "title": "Associate Inspector (Electrical)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
+          "exam_number": "6072 (pdf)",
+          "title": "Management Auditor Trainee",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf"
         },
         {
-          "exam_number": "6055 (pdf)",
-          "title": "Energy Conservation Specialist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
-        },
-        {
-          "exam_number": "6056 (pdf)",
-          "title": "Environmental Engineer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
-        },
-        {
-          "exam_number": "6093 (pdf)",
-          "title": "Radio Repair Mechanic",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
+          "exam_number": "6977 (pdf)",
+          "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf"
         }
       ],
       "removed_records": [
         {
-          "exam_number": "6006 (pdf)",
-          "title": "Administrative Inspector (Housing)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf"
-        },
-        {
-          "exam_number": "6008",
-          "title": "Administrative Public Health Nurse"
-        },
-        {
-          "exam_number": "6009 (pdf)",
-          "title": "Administrative Real Property Manager",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
-        },
-        {
-          "exam_number": "6010 (pdf)",
-          "title": "Administrative Supervisor of Building Maintenance",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf"
-        },
-        {
-          "exam_number": "6020",
-          "title": "Associate Inspector (Electrical)"
+          "exam_number": "6326 (pdf)",
+          "title": "School Safety Agent",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
         }
       ],
       "added_lines": 0,
@@ -85,8 +57,8 @@
       "source_id": "nys_civil_service",
       "name": "NYS Civil Service",
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "record_count": 1,
       "summary_note": "",
@@ -96,7 +68,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "restricted"
+      "delta_kind": "none"
     },
     {
       "source_id": "usajobs",
@@ -128,14 +100,14 @@
       "removed_count": 1,
       "added_records": [
         {
-          "source_record_id": "5315323",
-          "job_id": "5315323",
-          "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 15 hours",
-          "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
+          "closing_text": "Continuous",
+          "salary": "$102,320 - $128,481",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "removed_records": [
@@ -145,7 +117,7 @@
           "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
         }
@@ -228,16 +200,16 @@
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 0,
       "summary_note": "",
       "added_count": 0,
       "removed_count": 0,
       "added_records": [],
       "removed_records": [],
-      "added_lines": 39,
+      "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "text"
+      "delta_kind": "none"
     },
     {
       "source_id": "mta",
@@ -268,78 +240,44 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "86763b9857f4ad0c",
-      "fetched_at": "2026-06-03T11:58:24Z",
+      "content_hash": "6f4ee15bdba562cb",
+      "fetched_at": "2026-06-04T10:40:04Z",
       "error": null,
       "summary_note": "",
-      "record_count": 10,
+      "record_count": 12,
       "record_diff": {
-        "added_count": 7,
-        "removed_count": 16,
+        "added_count": 3,
+        "removed_count": 1,
         "added_titles": [
-          "Administrative Energy Conservation Specialist",
-          "Associate Inspector (Electrical)",
-          "Energy Conservation Specialist",
-          "Environmental Engineer",
-          "Radio Repair Mechanic"
+          "City Assessor",
+          "Management Auditor Trainee",
+          "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541"
         ],
         "removed_titles": [
-          "Administrative Inspector (Housing)",
-          "Administrative Public Health Nurse",
-          "Administrative Real Property Manager",
-          "Administrative Supervisor of Building Maintenance",
-          "Associate Inspector (Electrical)"
+          "School Safety Agent"
         ],
         "added_records": [
           {
-            "exam_number": "6004 (pdf)",
-            "title": "Administrative Energy Conservation Specialist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
+            "exam_number": "6036 (pdf)",
+            "title": "City Assessor",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
           },
           {
-            "exam_number": "6020 (pdf)",
-            "title": "Associate Inspector (Electrical)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
+            "exam_number": "6072 (pdf)",
+            "title": "Management Auditor Trainee",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf"
           },
           {
-            "exam_number": "6055 (pdf)",
-            "title": "Energy Conservation Specialist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
-          },
-          {
-            "exam_number": "6056 (pdf)",
-            "title": "Environmental Engineer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
-          },
-          {
-            "exam_number": "6093 (pdf)",
-            "title": "Radio Repair Mechanic",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
+            "exam_number": "6977 (pdf)",
+            "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf"
           }
         ],
         "removed_records": [
           {
-            "exam_number": "6006 (pdf)",
-            "title": "Administrative Inspector (Housing)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266006000.pdf"
-          },
-          {
-            "exam_number": "6008",
-            "title": "Administrative Public Health Nurse"
-          },
-          {
-            "exam_number": "6009 (pdf)",
-            "title": "Administrative Real Property Manager",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266009000.pdf"
-          },
-          {
-            "exam_number": "6010 (pdf)",
-            "title": "Administrative Supervisor of Building Maintenance",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266010000.pdf"
-          },
-          {
-            "exam_number": "6020",
-            "title": "Associate Inspector (Electrical)"
+            "exam_number": "6326 (pdf)",
+            "title": "School Safety Agent",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
           }
         ]
       },
@@ -354,6 +292,12 @@
           "title": "Associate Inspector (Electrical)",
           "exam_number": "6020 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
+        },
+        {
+          "title": "City Assessor",
+          "exam_number": "6036 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf",
           "application_period": "6/3/2026 – 6/23/2026"
         },
         {
@@ -381,55 +325,51 @@
           "application_period": "5/7/2026 – 6/23/2026"
         },
         {
+          "title": "Management Auditor Trainee",
+          "exam_number": "6072 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
+        },
+        {
+          "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
+          "exam_number": "6977 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf",
+          "application_period": "6/3/2026 – 6/23/2026"
+        },
+        {
           "title": "Police Communications Technician",
           "exam_number": "6329 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
           "application_period": "5/7/2026 – 6/30/2026"
-        },
-        {
-          "title": "Police Officer",
-          "exam_number": "6322 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf",
-          "application_period": "6/2/2026 – 6/15/2026"
-        },
-        {
-          "title": "Radio Repair Mechanic",
-          "exam_number": "6093 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf",
-          "application_period": "6/3/2026 – 6/23/2026"
-        },
-        {
-          "title": "School Safety Agent",
-          "exam_number": "6326 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
-          "application_period": "5/7/2026 – 6/2/2026"
         }
       ],
       "exam_titles": [
         "Administrative Energy Conservation Specialist",
         "Associate Inspector (Electrical)",
+        "City Assessor",
         "Consultant (Early Childhood Education)",
         "Energy Conservation Specialist",
         "Environmental Engineer",
         "Inspector (Consumer and Worker Protection)",
-        "Police Communications Technician",
-        "Police Officer",
-        "Radio Repair Mechanic",
-        "School Safety Agent"
+        "Management Auditor Trainee",
+        "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
+        "Police Communications Technician"
       ],
       "dates": [
         "6/3/2026 – 6/23/2026",
         "5/7/2026 – 6/23/2026",
         "5/7/2026 – 6/30/2026",
         "6/2/2026 – 6/15/2026",
-        "5/7/2026 – 6/2/2026",
         "6/3/2026",
         "6/23/2026",
         "5/7/2026",
         "6/30/2026",
-        "6/2/2026"
+        "6/2/2026",
+        "6/15/2026"
       ],
-      "keywords_found": [],
+      "keywords_found": [
+        "exam"
+      ],
       "links": [
         {
           "text": "311",
@@ -483,12 +423,12 @@
       "source_id": "nys_civil_service",
       "name": "NYS Civil Service",
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-03T11:58:26Z",
-      "error": "HTTPSConnectionPool(host='www.cs.ny.gov', port=443): Max retries exceeded with url: /examannouncements/types/oc/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cs.ny.gov', port=443) at 0x7f9f348f9340>, 'Connection to www.cs.ny.gov timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-06-04T10:40:07Z",
+      "error": null,
       "summary_note": "",
       "record_count": 1,
       "record_diff": null,
@@ -575,7 +515,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-03T11:58:59Z",
+      "fetched_at": "2026-06-04T10:40:09Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -594,8 +534,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "8d09b11f41ab2f34",
-      "fetched_at": "2026-06-03T11:59:01Z",
+      "content_hash": "82d9103947e1b074",
+      "fetched_at": "2026-06-04T10:40:11Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -603,12 +543,24 @@
         "added_count": 1,
         "removed_count": 1,
         "added_titles": [
-          "ACCOUNTING ASSISTANT I /ACCOUNT CLERK"
+          "PHARMACIST I"
         ],
         "removed_titles": [
           "ACCOUNTING ASSISTANT I /ACCOUNT CLERK"
         ],
         "added_records": [
+          {
+            "source_record_id": "3413191",
+            "job_id": "3413191",
+            "title": "PHARMACIST I",
+            "agency": "NASSAU HEALTH CARE CORPORATION",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "$102,320 - $128,481",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
+          }
+        ],
+        "removed_records": [
           {
             "source_record_id": "5315323",
             "job_id": "5315323",
@@ -619,36 +571,9 @@
             "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
           }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5315323",
-            "job_id": "5315323",
-            "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
-            "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
-          }
         ]
       },
       "records": [
-        {
-          "source_record_id": "5315323",
-          "job_id": "5315323",
-          "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-          "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 15 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk",
-          "type": "Open Competitive",
-          "salary_text": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-          "salary_min": 32630,
-          "salary_max": 64906
-        },
         {
           "source_record_id": "3413083",
           "job_id": "3413083",
@@ -783,10 +708,25 @@
           "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
           "salary_min": 63872,
           "salary_max": 97339
+        },
+        {
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$102,320 - $128,481",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$102,320 - $128,481",
+          "salary_min": 102320,
+          "salary_max": 128481
         }
       ],
       "exam_titles": [
-        "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
         "CYTOTECHNOLOGIST I",
         "CYTOTECHNOLOGIST II",
         "CYTOTECHNOLOGIST III",
@@ -795,7 +735,8 @@
         "MEDICAL TECHNOLOGIST I",
         "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
         "OCCUPATIONAL THERAPIST ASSISTANT",
-        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I"
+        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+        "PHARMACIST I"
       ],
       "dates": [
         "4/29/25",
@@ -815,10 +756,6 @@
         "announcement"
       ],
       "links": [
-        {
-          "text": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
-        },
         {
           "text": "CYTOTECHNOLOGIST I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
@@ -854,6 +791,10 @@
         {
           "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+        },
+        {
+          "text": "PHARMACIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "record_fields_present": [
@@ -867,10 +808,10 @@
         "closing_text",
         "detail_url",
         "type",
+        "status",
         "salary_text",
         "salary_min",
-        "salary_max",
-        "status"
+        "salary_max"
       ]
     },
     {
@@ -881,7 +822,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-03T11:59:04Z",
+      "fetched_at": "2026-06-04T10:40:14Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -896,7 +837,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-06-03T11:59:06Z",
+      "fetched_at": "2026-06-04T10:40:16Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -960,7 +901,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-03T11:59:09Z",
+      "fetched_at": "2026-06-04T10:40:19Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -975,7 +916,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-03T11:59:11Z",
+      "fetched_at": "2026-06-04T10:40:21Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1114,9 +1055,9 @@
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-03T11:59:14Z",
+      "fetched_at": "2026-06-04T10:40:24Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1182,7 +1123,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-03T11:59:17Z",
+      "fetched_at": "2026-06-04T10:40:27Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,

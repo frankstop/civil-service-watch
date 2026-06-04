@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-06-03T11:59:18Z",
+  "extracted_at": "2026-06-04T10:40:28Z",
   "links": [
     {
       "text": "311",
@@ -93,6 +93,10 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
     },
     {
+      "text": "6036",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
+    },
+    {
       "text": "6124",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf"
     },
@@ -109,6 +113,14 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf"
     },
     {
+      "text": "6072",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf"
+    },
+    {
+      "text": "6977",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf"
+    },
+    {
       "text": "6329",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
     },
@@ -119,10 +131,6 @@
     {
       "text": "6093",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
-    },
-    {
-      "text": "6326",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -195,6 +203,12 @@
       "application_period": "6/3/2026 – 6/23/2026"
     },
     {
+      "title": "City Assessor",
+      "exam_number": "6036 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
+    },
+    {
       "title": "Consultant (Early Childhood Education)",
       "exam_number": "6124 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf",
@@ -219,6 +233,18 @@
       "application_period": "5/7/2026 – 6/23/2026"
     },
     {
+      "title": "Management Auditor Trainee",
+      "exam_number": "6072 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
+    },
+    {
+      "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
+      "exam_number": "6977 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf",
+      "application_period": "6/3/2026 – 6/23/2026"
+    },
+    {
       "title": "Police Communications Technician",
       "exam_number": "6329 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
@@ -235,41 +261,36 @@
       "exam_number": "6093 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf",
       "application_period": "6/3/2026 – 6/23/2026"
-    },
-    {
-      "title": "School Safety Agent",
-      "exam_number": "6326 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf",
-      "application_period": "5/7/2026 – 6/2/2026"
     }
   ],
-  "record_count": 10,
+  "record_count": 12,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "86763b9857f4ad0c",
+  "record_fingerprint": "6f4ee15bdba562cb",
   "summary_note": "",
   "exam_titles": [
     "Administrative Energy Conservation Specialist",
     "Associate Inspector (Electrical)",
+    "City Assessor",
     "Consultant (Early Childhood Education)",
     "Energy Conservation Specialist",
     "Environmental Engineer",
     "Inspector (Consumer and Worker Protection)",
+    "Management Auditor Trainee",
+    "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
     "Police Communications Technician",
     "Police Officer",
-    "Radio Repair Mechanic",
-    "School Safety Agent"
+    "Radio Repair Mechanic"
   ],
   "dates": [
     "6/3/2026 – 6/23/2026",
     "5/7/2026 – 6/23/2026",
     "5/7/2026 – 6/30/2026",
     "6/2/2026 – 6/15/2026",
-    "5/7/2026 – 6/2/2026",
     "6/3/2026",
     "6/23/2026",
     "5/7/2026",
@@ -277,6 +298,8 @@
     "6/2/2026",
     "6/15/2026"
   ],
-  "keywords_found": [],
-  "normalized_text": "6004 (pdf) | Administrative Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf\n6020 (pdf) | Associate Inspector (Electrical) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf\n6124 (pdf) | Consultant (Early Childhood Education) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf\n6055 (pdf) | Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf\n6056 (pdf) | Environmental Engineer | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6322 (pdf) | Police Officer | 6/2/2026 – 6/15/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf\n6093 (pdf) | Radio Repair Mechanic | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf\n6326 (pdf) | School Safety Agent | 5/7/2026 – 6/2/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
+  "keywords_found": [
+    "exam"
+  ],
+  "normalized_text": "6004 (pdf) | Administrative Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf\n6020 (pdf) | Associate Inspector (Electrical) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf\n6036 (pdf) | City Assessor | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf\n6124 (pdf) | Consultant (Early Childhood Education) | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266124000.pdf\n6055 (pdf) | Energy Conservation Specialist | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf\n6056 (pdf) | Environmental Engineer | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf\n6065 (pdf) | Inspector (Consumer and Worker Protection) | 5/7/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf\n6072 (pdf) | Management Auditor Trainee | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf\n6977 (pdf) | NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541 | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf\n6329 (pdf) | Police Communications Technician | 5/7/2026 – 6/30/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf\n6322 (pdf) | Police Officer | 6/2/2026 – 6/15/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266322000.pdf\n6093 (pdf) | Radio Repair Mechanic | 6/3/2026 – 6/23/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266093000.pdf"
 }
