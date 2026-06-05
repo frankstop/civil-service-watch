@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-04",
-  "generated_at": "2026-06-04T10:40:29Z",
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T10:50:54Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 1,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 2,
-    "unchanged": 8,
+    "changed": 1,
+    "unchanged": 9,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -21,34 +21,17 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "record_count": 12,
+      "record_count": 13,
       "summary_note": "",
-      "added_count": 3,
-      "removed_count": 1,
+      "added_count": 1,
+      "removed_count": 0,
       "added_records": [
         {
-          "exam_number": "6036 (pdf)",
-          "title": "City Assessor",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
-        },
-        {
-          "exam_number": "6072 (pdf)",
-          "title": "Management Auditor Trainee",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf"
-        },
-        {
-          "exam_number": "6977 (pdf)",
-          "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf"
+          "exam_number": "6121",
+          "title": "Automotive Service Worker"
         }
       ],
-      "removed_records": [
-        {
-          "exam_number": "6326 (pdf)",
-          "title": "School Safety Agent",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
-        }
-      ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
       "delta_kind": "records"
@@ -93,38 +76,16 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 1,
-      "removed_count": 1,
-      "added_records": [
-        {
-          "source_record_id": "3413191",
-          "job_id": "3413191",
-          "title": "PHARMACIST I",
-          "agency": "NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Continuous",
-          "salary": "$102,320 - $128,481",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
-        }
-      ],
-      "removed_records": [
-        {
-          "source_record_id": "5315323",
-          "job_id": "5315323",
-          "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 15 hours",
-          "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "suffolk_county",
@@ -240,46 +201,25 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "6f4ee15bdba562cb",
-      "fetched_at": "2026-06-04T10:40:04Z",
+      "content_hash": "b9ae2149e3a55f77",
+      "fetched_at": "2026-06-05T10:50:29Z",
       "error": null,
       "summary_note": "",
-      "record_count": 12,
+      "record_count": 13,
       "record_diff": {
-        "added_count": 3,
-        "removed_count": 1,
+        "added_count": 1,
+        "removed_count": 0,
         "added_titles": [
-          "City Assessor",
-          "Management Auditor Trainee",
-          "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541"
+          "Automotive Service Worker"
         ],
-        "removed_titles": [
-          "School Safety Agent"
-        ],
+        "removed_titles": [],
         "added_records": [
           {
-            "exam_number": "6036 (pdf)",
-            "title": "City Assessor",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
-          },
-          {
-            "exam_number": "6072 (pdf)",
-            "title": "Management Auditor Trainee",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf"
-          },
-          {
-            "exam_number": "6977 (pdf)",
-            "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf"
+            "exam_number": "6121",
+            "title": "Automotive Service Worker"
           }
         ],
-        "removed_records": [
-          {
-            "exam_number": "6326 (pdf)",
-            "title": "School Safety Agent",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266326000.pdf"
-          }
-        ]
+        "removed_records": []
       },
       "records": [
         {
@@ -293,6 +233,11 @@
           "exam_number": "6020 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf",
           "application_period": "6/3/2026 – 6/23/2026"
+        },
+        {
+          "title": "Automotive Service Worker",
+          "exam_number": "6121",
+          "application_period": "Canceled"
         },
         {
           "title": "City Assessor",
@@ -335,28 +280,23 @@
           "exam_number": "6977 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf",
           "application_period": "6/3/2026 – 6/23/2026"
-        },
-        {
-          "title": "Police Communications Technician",
-          "exam_number": "6329 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
-          "application_period": "5/7/2026 – 6/30/2026"
         }
       ],
       "exam_titles": [
         "Administrative Energy Conservation Specialist",
         "Associate Inspector (Electrical)",
+        "Automotive Service Worker",
         "City Assessor",
         "Consultant (Early Childhood Education)",
         "Energy Conservation Specialist",
         "Environmental Engineer",
         "Inspector (Consumer and Worker Protection)",
         "Management Auditor Trainee",
-        "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
-        "Police Communications Technician"
+        "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541"
       ],
       "dates": [
         "6/3/2026 – 6/23/2026",
+        "Canceled",
         "5/7/2026 – 6/23/2026",
         "5/7/2026 – 6/30/2026",
         "6/2/2026 – 6/15/2026",
@@ -364,8 +304,7 @@
         "6/23/2026",
         "5/7/2026",
         "6/30/2026",
-        "6/2/2026",
-        "6/15/2026"
+        "6/2/2026"
       ],
       "keywords_found": [
         "exam"
@@ -427,7 +366,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-04T10:40:07Z",
+      "fetched_at": "2026-06-05T10:50:31Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -515,7 +454,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-04T10:40:09Z",
+      "fetched_at": "2026-06-05T10:50:34Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -533,46 +472,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-06-04T10:40:11Z",
+      "fetched_at": "2026-06-05T10:50:36Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 1,
-        "added_titles": [
-          "PHARMACIST I"
-        ],
-        "removed_titles": [
-          "ACCOUNTING ASSISTANT I /ACCOUNT CLERK"
-        ],
-        "added_records": [
-          {
-            "source_record_id": "3413191",
-            "job_id": "3413191",
-            "title": "PHARMACIST I",
-            "agency": "NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Continuous",
-            "salary": "$102,320 - $128,481",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
-          }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5315323",
-            "job_id": "5315323",
-            "title": "ACCOUNTING ASSISTANT I /ACCOUNT CLERK",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 15 hours",
-            "salary": "Varies: County: $32,630 - $64,906 (under the current collective bargaining agreement) NHCC: $38,802 - $51, 706",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5315323/accounting-assistant-i-account-clerk"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "source_record_id": "3413083",
@@ -822,7 +728,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-04T10:40:14Z",
+      "fetched_at": "2026-06-05T10:50:39Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -837,7 +743,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-06-04T10:40:16Z",
+      "fetched_at": "2026-06-05T10:50:41Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -901,7 +807,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-04T10:40:19Z",
+      "fetched_at": "2026-06-05T10:50:44Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -916,7 +822,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-04T10:40:21Z",
+      "fetched_at": "2026-06-05T10:50:46Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1057,7 +963,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-04T10:40:24Z",
+      "fetched_at": "2026-06-05T10:50:49Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1123,7 +1029,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-04T10:40:27Z",
+      "fetched_at": "2026-06-05T10:50:52Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
