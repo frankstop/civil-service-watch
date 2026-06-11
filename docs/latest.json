@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-10",
-  "generated_at": "2026-06-10T10:58:34Z",
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T11:24:37Z",
   "total_sources": 10,
-  "changed_count": 0,
+  "changed_count": 1,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 0,
-    "unchanged": 10,
+    "changed": 1,
+    "unchanged": 9,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -105,16 +105,35 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "Civil service exam information is available on this source page.",
-      "added_count": 0,
+      "changed": true,
+      "record_count": 2,
+      "summary_note": "",
+      "added_count": 2,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "60-057470",
+          "title": "Associate Engineer (Construction)",
+          "agency": "Westchester County",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "$110,705 - $144,365",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm"
+        },
+        {
+          "exam_number": "60-067310",
+          "title": "Assistant Civil Engineer",
+          "agency": "Towns, Villages, Cities of Peekskill and Rye",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "Varies with jurisdiction",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "rockland_county",
@@ -197,7 +216,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b9ae2149e3a55f77",
-      "fetched_at": "2026-06-10T10:58:12Z",
+      "fetched_at": "2026-06-11T11:24:12Z",
       "error": null,
       "summary_note": "",
       "record_count": 13,
@@ -347,7 +366,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-10T10:58:14Z",
+      "fetched_at": "2026-06-11T11:24:14Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -435,7 +454,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-10T10:58:16Z",
+      "fetched_at": "2026-06-11T11:24:17Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -455,7 +474,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "82d9103947e1b074",
-      "fetched_at": "2026-06-10T10:58:18Z",
+      "fetched_at": "2026-06-11T11:24:19Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -709,7 +728,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-10T10:58:21Z",
+      "fetched_at": "2026-06-11T11:24:22Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -722,19 +741,78 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-06-10T10:58:23Z",
+      "changed": true,
+      "content_hash": "23da74e9ce3c275f",
+      "fetched_at": "2026-06-11T11:24:24Z",
       "error": null,
-      "summary_note": "Civil service exam information is available on this source page.",
-      "record_count": 0,
-      "record_diff": null,
-      "records": [],
-      "exam_titles": [],
-      "dates": [],
+      "summary_note": "",
+      "record_count": 2,
+      "record_diff": {
+        "added_count": 2,
+        "removed_count": 0,
+        "added_titles": [
+          "Associate Engineer (Construction)",
+          "Assistant Civil Engineer"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "60-057470",
+            "title": "Associate Engineer (Construction)",
+            "agency": "Westchester County",
+            "deadline": "07/08/2026",
+            "exam_date": "09/19/2026",
+            "salary": "$110,705 - $144,365",
+            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm"
+          },
+          {
+            "exam_number": "60-067310",
+            "title": "Assistant Civil Engineer",
+            "agency": "Towns, Villages, Cities of Peekskill and Rye",
+            "deadline": "07/08/2026",
+            "exam_date": "09/19/2026",
+            "salary": "Varies with jurisdiction",
+            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm"
+          }
+        ],
+        "removed_records": []
+      },
+      "records": [
+        {
+          "exam_number": "60-067310",
+          "agency": "Towns, Villages, Cities of Peekskill and Rye",
+          "title": "Assistant Civil Engineer",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "Varies with jurisdiction",
+          "fee": "$50.00",
+          "salary_text": "Varies with jurisdiction"
+        },
+        {
+          "exam_number": "60-057470",
+          "agency": "Westchester County",
+          "title": "Associate Engineer (Construction)",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "$110,705 - $144,365",
+          "fee": "$50.00",
+          "salary_text": "$110,705 - $144,365",
+          "salary_min": 110705,
+          "salary_max": 144365
+        }
+      ],
+      "exam_titles": [
+        "Assistant Civil Engineer",
+        "Associate Engineer (Construction)"
+      ],
+      "dates": [
+        "07/08/2026",
+        "09/19/2026"
+      ],
       "keywords_found": [
-        "exam",
-        "civil service"
+        "exam"
       ],
       "links": [
         {
@@ -778,7 +856,19 @@
           "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
         }
       ],
-      "record_fields_present": []
+      "record_fields_present": [
+        "exam_number",
+        "agency",
+        "title",
+        "detail_url",
+        "deadline",
+        "exam_date",
+        "salary",
+        "fee",
+        "salary_text",
+        "salary_min",
+        "salary_max"
+      ]
     },
     {
       "source_id": "rockland_county",
@@ -788,7 +878,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-10T10:58:26Z",
+      "fetched_at": "2026-06-11T11:24:27Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -803,7 +893,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-10T10:58:28Z",
+      "fetched_at": "2026-06-11T11:24:29Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -944,7 +1034,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-10T10:58:31Z",
+      "fetched_at": "2026-06-11T11:24:33Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1010,7 +1100,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-10T10:58:34Z",
+      "fetched_at": "2026-06-11T11:24:36Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
