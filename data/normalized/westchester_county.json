@@ -8,14 +8,14 @@
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-06-12T11:03:51Z",
-  "status": "error",
-  "status_detail": "timeout",
-  "http_status": null,
-  "resolved_url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "content_hash": "",
-  "text": "",
+  "fetched_at": "2026-06-13T09:57:25Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
+  "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+  "content_hash": "23da74e9ce3c275f",
+  "text": "60-067310 | Assistant Civil Engineer | 07/08/2026 | 09/19/2026 | Towns, Villages, Cities of Peekskill and Rye | Varies with jurisdiction | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm\n60-057470 | Associate Engineer (Construction) | 07/08/2026 | 09/19/2026 | Westchester County | $110,705 - $144,365 | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm",
   "summary_note": "",
-  "record_count": 0,
-  "error": "HTTPSConnectionPool(host='exams.westchestergov.com', port=443): Max retries exceeded with url: /webexam/PE/listOpenToAllExams.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='exams.westchestergov.com', port=443) at 0x7f69c0067860>, 'Connection to exams.westchestergov.com timed out. (connect timeout=30)'))"
+  "record_count": 2,
+  "error": null
 }

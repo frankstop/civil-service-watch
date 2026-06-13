@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12T11:04:32Z",
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T09:57:38Z",
   "total_sources": 10,
   "changed_count": 1,
   "health_summary": {
-    "ok": 7,
-    "error": 3,
+    "ok": 8,
+    "error": 2,
     "changed": 1,
     "unchanged": 9,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 1
+    "timeout": 0
   },
   "daily_deltas": [
     {
@@ -100,24 +100,24 @@
       ],
       "removed_records": [
         {
-          "source_record_id": "3412822",
-          "job_id": "3412822",
-          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "source_record_id": "5338780",
+          "job_id": "5338780",
+          "title": "CUSTODIAN",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "type": "Open Competitive",
-          "closing_text": "Continuous",
-          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+          "closing_text": "Closes in 2 weeks",
+          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
         },
         {
-          "source_record_id": "3413191",
-          "job_id": "3413191",
-          "title": "PHARMACIST I",
-          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "5349269",
+          "job_id": "5349269",
+          "title": "ASSISTANT LIBRARY DIRECTOR",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "type": "Open Competitive",
-          "closing_text": "Continuous",
-          "salary": "$102,320 - $128,481",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
+          "closing_text": "Closes in 2 weeks",
+          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
         }
       ],
       "added_lines": 0,
@@ -145,8 +145,8 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "record_count": 2,
       "summary_note": "",
@@ -156,7 +156,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "restricted"
+      "delta_kind": "none"
     },
     {
       "source_id": "rockland_county",
@@ -239,7 +239,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b9ae2149e3a55f77",
-      "fetched_at": "2026-06-12T11:03:38Z",
+      "fetched_at": "2026-06-13T09:57:13Z",
       "error": null,
       "summary_note": "",
       "record_count": 13,
@@ -389,7 +389,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-12T11:03:40Z",
+      "fetched_at": "2026-06-13T09:57:16Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -477,7 +477,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-12T11:03:43Z",
+      "fetched_at": "2026-06-13T09:57:19Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -496,8 +496,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "3c5fbf1bc3f204b7",
-      "fetched_at": "2026-06-12T11:03:45Z",
+      "content_hash": "4cd41f66cf9060ae",
+      "fetched_at": "2026-06-13T09:57:21Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -509,8 +509,8 @@
           "ASSISTANT LIBRARY DIRECTOR"
         ],
         "removed_titles": [
-          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "PHARMACIST I"
+          "CUSTODIAN",
+          "ASSISTANT LIBRARY DIRECTOR"
         ],
         "added_records": [
           {
@@ -536,24 +536,24 @@
         ],
         "removed_records": [
           {
-            "source_record_id": "3412822",
-            "job_id": "3412822",
-            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+            "source_record_id": "5338780",
+            "job_id": "5338780",
+            "title": "CUSTODIAN",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
             "type": "Open Competitive",
-            "closing_text": "Continuous",
-            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+            "closing_text": "Closes in 2 weeks",
+            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
           },
           {
-            "source_record_id": "3413191",
-            "job_id": "3413191",
-            "title": "PHARMACIST I",
-            "agency": "NASSAU HEALTH CARE CORPORATION",
+            "source_record_id": "5349269",
+            "job_id": "5349269",
+            "title": "ASSISTANT LIBRARY DIRECTOR",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
             "type": "Open Competitive",
-            "closing_text": "Continuous",
-            "salary": "$102,320 - $128,481",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
+            "closing_text": "Closes in 2 weeks",
+            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
           }
         ]
       },
@@ -565,7 +565,7 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "posted_text": "Posted 1 day ago",
+          "posted_text": "Posted 2 days ago",
           "closing_text": "Closes in 2 weeks",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
           "type": "Open Competitive",
@@ -580,7 +580,7 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "posted_text": "Posted 1 day ago",
+          "posted_text": "Posted 2 days ago",
           "closing_text": "Closes in 2 weeks",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
           "type": "Open Competitive",
@@ -803,7 +803,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-12T11:03:48Z",
+      "fetched_at": "2026-06-13T09:57:23Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -814,12 +814,12 @@
       "source_id": "westchester_county",
       "name": "Westchester County Civil Service",
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "content_hash": "23da74e9ce3c275f",
-      "fetched_at": "2026-06-12T11:03:51Z",
-      "error": "HTTPSConnectionPool(host='exams.westchestergov.com', port=443): Max retries exceeded with url: /webexam/PE/listOpenToAllExams.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='exams.westchestergov.com', port=443) at 0x7f69c0067860>, 'Connection to exams.westchestergov.com timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-06-13T09:57:25Z",
+      "error": null,
       "summary_note": "",
       "record_count": 2,
       "record_diff": null,
@@ -924,7 +924,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-12T11:04:23Z",
+      "fetched_at": "2026-06-13T09:57:29Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -939,7 +939,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-12T11:04:25Z",
+      "fetched_at": "2026-06-13T09:57:31Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1080,7 +1080,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-12T11:04:28Z",
+      "fetched_at": "2026-06-13T09:57:34Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1146,7 +1146,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-12T11:04:31Z",
+      "fetched_at": "2026-06-13T09:57:37Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
