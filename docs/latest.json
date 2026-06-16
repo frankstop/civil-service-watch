@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-15",
-  "generated_at": "2026-06-15T13:19:48Z",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T12:13:34Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 2,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 1,
-    "unchanged": 9,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -20,16 +20,27 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 13,
+      "changed": true,
+      "record_count": 15,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 2,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "6125 (pdf)",
+          "title": "Emergency Medical Specialist",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf"
+        },
+        {
+          "exam_number": "6126 (pdf)",
+          "title": "Emergency Medical Specialist Trainee",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
@@ -237,13 +248,34 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "b9ae2149e3a55f77",
-      "fetched_at": "2026-06-15T13:19:24Z",
+      "changed": true,
+      "content_hash": "0d2591ef3a0c522e",
+      "fetched_at": "2026-06-16T12:13:11Z",
       "error": null,
       "summary_note": "",
-      "record_count": 13,
-      "record_diff": null,
+      "record_count": 15,
+      "record_diff": {
+        "added_count": 2,
+        "removed_count": 0,
+        "added_titles": [
+          "Emergency Medical Specialist",
+          "Emergency Medical Specialist Trainee"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "6125 (pdf)",
+            "title": "Emergency Medical Specialist",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf"
+          },
+          {
+            "exam_number": "6126 (pdf)",
+            "title": "Emergency Medical Specialist Trainee",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
         {
           "title": "Administrative Energy Conservation Specialist",
@@ -275,6 +307,18 @@
           "application_period": "6/3/2026 – 6/23/2026"
         },
         {
+          "title": "Emergency Medical Specialist",
+          "exam_number": "6125 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf",
+          "application_period": "6/15/2026 – 8/7/2026"
+        },
+        {
+          "title": "Emergency Medical Specialist Trainee",
+          "exam_number": "6126 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf",
+          "application_period": "6/15/2026 – 8/7/2026"
+        },
+        {
           "title": "Energy Conservation Specialist",
           "exam_number": "6055 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf",
@@ -291,18 +335,6 @@
           "exam_number": "6065 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266065000.pdf",
           "application_period": "5/7/2026 – 6/23/2026"
-        },
-        {
-          "title": "Management Auditor Trainee",
-          "exam_number": "6072 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266072000.pdf",
-          "application_period": "6/3/2026 – 6/23/2026"
-        },
-        {
-          "title": "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541",
-          "exam_number": "6977 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266977000.pdf",
-          "application_period": "6/3/2026 – 6/23/2026"
         }
       ],
       "exam_titles": [
@@ -311,23 +343,23 @@
         "Automotive Service Worker",
         "City Assessor",
         "Consultant (Early Childhood Education)",
+        "Emergency Medical Specialist",
+        "Emergency Medical Specialist Trainee",
         "Energy Conservation Specialist",
         "Environmental Engineer",
-        "Inspector (Consumer and Worker Protection)",
-        "Management Auditor Trainee",
-        "NYC Bridge Exam Child Protective Specialist - 6300 Clerical Associate - 6128 Clerical Associate (NYC H+H) - 6129 Maintenance Worker - 6069 Secretary - 6095 Secretary (NYC H+H) - 6096 Secretary (Prom) - 6541"
+        "Inspector (Consumer and Worker Protection)"
       ],
       "dates": [
         "6/3/2026 – 6/23/2026",
         "Canceled",
+        "6/15/2026 – 8/7/2026",
         "5/7/2026 – 6/23/2026",
         "5/7/2026 – 6/30/2026",
         "6/2/2026 – 6/15/2026",
         "6/3/2026",
         "6/23/2026",
-        "5/7/2026",
-        "6/30/2026",
-        "6/2/2026"
+        "6/15/2026",
+        "8/7/2026"
       ],
       "keywords_found": [
         "exam"
@@ -389,7 +421,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-15T13:19:26Z",
+      "fetched_at": "2026-06-16T12:13:13Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -477,7 +509,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-15T13:19:28Z",
+      "fetched_at": "2026-06-16T12:13:15Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -496,8 +528,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "ffb60ce113c3a090",
-      "fetched_at": "2026-06-15T13:19:30Z",
+      "content_hash": "337d4d5fe4bfc23b",
+      "fetched_at": "2026-06-16T12:13:17Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -565,7 +597,7 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "posted_text": "Posted 4 days ago",
+          "posted_text": "Posted 5 days ago",
           "closing_text": "Closes in 2 weeks",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
           "type": "Open Competitive",
@@ -580,7 +612,7 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "posted_text": "Posted 4 days ago",
+          "posted_text": "Posted 5 days ago",
           "closing_text": "Closes in 2 weeks",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
           "type": "Open Competitive",
@@ -803,7 +835,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-15T13:19:34Z",
+      "fetched_at": "2026-06-16T12:13:20Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -818,7 +850,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "23da74e9ce3c275f",
-      "fetched_at": "2026-06-15T13:19:36Z",
+      "fetched_at": "2026-06-16T12:13:23Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
@@ -924,7 +956,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-15T13:19:38Z",
+      "fetched_at": "2026-06-16T12:13:25Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -939,7 +971,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-15T13:19:41Z",
+      "fetched_at": "2026-06-16T12:13:28Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1080,7 +1112,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-15T13:19:44Z",
+      "fetched_at": "2026-06-16T12:13:30Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1146,7 +1178,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-15T13:19:47Z",
+      "fetched_at": "2026-06-16T12:13:33Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
