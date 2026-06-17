@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-06-16  
-**Generated:** 2026-06-16T12:13:34Z  
+**Date:** 2026-06-17  
+**Generated:** 2026-06-17T11:52:35Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 1  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 8
 - Sources with fetch errors: 2
-- Sources changed today: 2
-- Sources unchanged today: 8
+- Sources changed today: 1
+- Sources unchanged today: 9
 - Bot-blocked sources: 1
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -21,7 +21,7 @@
 
 ## Daily Deltas
 
-- **NYC DCAS** — records `+2` / `-0` — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
+- **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - **Nassau County Civil Service** — records `+2` / `-2` — https://www.governmentjobs.com/careers/nassaucountyny
@@ -33,19 +33,6 @@
 - **MTA** — no change — https://new.mta.info/careers
 
 ## 🔔 Changes Detected
-
-### NYC DCAS
-- **URL:** https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- Records added: 2 · removed: 0
-- **Added titles:** Emergency Medical Specialist, Emergency Medical Specialist Trainee
-- Added record: Emergency Medical Specialist — 6125 (pdf)
-- Added record: Emergency Medical Specialist Trainee — 6126 (pdf)
-- **Top records:**
-  - Administrative Energy Conservation Specialist — 6004 (pdf)
-  - Associate Inspector (Electrical) — 6020 (pdf)
-  - Automotive Service Worker — 6121
-  - City Assessor — 6036 (pdf)
-  - Consultant (Early Childhood Education) — 6124 (pdf)
 
 ### Nassau County Civil Service
 - **URL:** https://www.governmentjobs.com/careers/nassaucountyny
@@ -71,6 +58,7 @@
 
 ## ✅ No Changes
 
+- NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - NYS Civil Service — https://www.cs.ny.gov/examannouncements/types/oc/
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
