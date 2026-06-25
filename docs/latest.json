@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-24",
-  "generated_at": "2026-06-24T10:24:51Z",
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T10:16:50Z",
   "total_sources": 10,
-  "changed_count": 0,
+  "changed_count": 2,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 0,
-    "unchanged": 10,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -37,16 +37,24 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 1,
+      "changed": true,
+      "record_count": 0,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "21-024020",
+          "title": "DHSES Program Administrator 3",
+          "deadline": "June 24, 2026",
+          "salary": "$96,336",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "usajobs",
@@ -71,16 +79,58 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "changed": true,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
+      "added_count": 2,
+      "removed_count": 2,
+      "added_records": [
+        {
+          "source_record_id": "5338780",
+          "job_id": "5338780",
+          "title": "CUSTODIAN",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+          "type": "Open Competitive",
+          "closing_text": "Closes in 6 days",
+          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+        },
+        {
+          "source_record_id": "5349269",
+          "job_id": "5349269",
+          "title": "ASSISTANT LIBRARY DIRECTOR",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "type": "Open Competitive",
+          "closing_text": "Closes in 6 days",
+          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+        }
+      ],
+      "removed_records": [
+        {
+          "source_record_id": "5338780",
+          "job_id": "5338780",
+          "title": "CUSTODIAN",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+          "type": "Open Competitive",
+          "closing_text": "Closes in 1 week",
+          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+        },
+        {
+          "source_record_id": "5349269",
+          "job_id": "5349269",
+          "title": "ASSISTANT LIBRARY DIRECTOR",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "type": "Open Competitive",
+          "closing_text": "Closes in 1 week",
+          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "suffolk_county",
@@ -197,7 +247,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "0d2591ef3a0c522e",
-      "fetched_at": "2026-06-24T10:24:26Z",
+      "fetched_at": "2026-06-25T10:16:27Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
@@ -345,33 +395,39 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "0a977ab146786d9c",
-      "fetched_at": "2026-06-24T10:24:28Z",
+      "changed": true,
+      "content_hash": "09e9969efea07154",
+      "fetched_at": "2026-06-25T10:16:29Z",
       "error": null,
       "summary_note": "",
-      "record_count": 1,
-      "record_diff": null,
-      "records": [
-        {
-          "exam_number": "21-024020",
-          "title": "DHSES Program Administrator 3",
-          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm",
-          "salary": "$96,336",
-          "deadline": "June 24, 2026",
-          "fee": "$0",
-          "salary_text": "$96,336",
-          "salary_min": 96336
-        }
-      ],
-      "exam_titles": [
-        "DHSES Program Administrator 3"
-      ],
-      "dates": [
-        "June 24, 2026"
-      ],
+      "record_count": 0,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 1,
+        "added_titles": [],
+        "removed_titles": [
+          "DHSES Program Administrator 3"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "21-024020",
+            "title": "DHSES Program Administrator 3",
+            "deadline": "June 24, 2026",
+            "salary": "$96,336",
+            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-024020.cfm"
+          }
+        ]
+      },
+      "records": [],
+      "exam_titles": [],
+      "dates": [],
       "keywords_found": [
         "exam",
+        "examination",
+        "schedule",
+        "eligible list",
+        "civil service",
         "announcement"
       ],
       "links": [
@@ -416,16 +472,7 @@
           "href": "https://www.cs.ny.gov/ccg/"
         }
       ],
-      "record_fields_present": [
-        "exam_number",
-        "title",
-        "detail_url",
-        "salary",
-        "deadline",
-        "fee",
-        "salary_text",
-        "salary_min"
-      ]
+      "record_fields_present": []
     },
     {
       "source_id": "usajobs",
@@ -435,7 +482,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-24T10:24:31Z",
+      "fetched_at": "2026-06-25T10:16:31Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -453,13 +500,68 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "9ea632627685c252",
-      "fetched_at": "2026-06-24T10:24:33Z",
+      "changed": true,
+      "content_hash": "4e3ce306fe6877a0",
+      "fetched_at": "2026-06-25T10:16:33Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": null,
+      "record_diff": {
+        "added_count": 2,
+        "removed_count": 2,
+        "added_titles": [
+          "CUSTODIAN",
+          "ASSISTANT LIBRARY DIRECTOR"
+        ],
+        "removed_titles": [
+          "CUSTODIAN",
+          "ASSISTANT LIBRARY DIRECTOR"
+        ],
+        "added_records": [
+          {
+            "source_record_id": "5338780",
+            "job_id": "5338780",
+            "title": "CUSTODIAN",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 6 days",
+            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+          },
+          {
+            "source_record_id": "5349269",
+            "job_id": "5349269",
+            "title": "ASSISTANT LIBRARY DIRECTOR",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 6 days",
+            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+          }
+        ],
+        "removed_records": [
+          {
+            "source_record_id": "5338780",
+            "job_id": "5338780",
+            "title": "CUSTODIAN",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 1 week",
+            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+          },
+          {
+            "source_record_id": "5349269",
+            "job_id": "5349269",
+            "title": "ASSISTANT LIBRARY DIRECTOR",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 1 week",
+            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+          }
+        ]
+      },
       "records": [
         {
           "source_record_id": "5349269",
@@ -468,8 +570,8 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "posted_text": "Posted 1 week ago",
-          "closing_text": "Closes in 1 week",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 6 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
           "type": "Open Competitive",
           "salary_text": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
@@ -483,8 +585,8 @@
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "posted_text": "Posted 1 week ago",
-          "closing_text": "Closes in 1 week",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 6 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
           "type": "Open Competitive",
           "salary_text": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
@@ -706,7 +808,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-24T10:24:35Z",
+      "fetched_at": "2026-06-25T10:16:36Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -721,7 +823,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "23da74e9ce3c275f",
-      "fetched_at": "2026-06-24T10:24:38Z",
+      "fetched_at": "2026-06-25T10:16:38Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
@@ -827,7 +929,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-24T10:24:41Z",
+      "fetched_at": "2026-06-25T10:16:41Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -842,7 +944,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-24T10:24:43Z",
+      "fetched_at": "2026-06-25T10:16:43Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -983,7 +1085,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-24T10:24:46Z",
+      "fetched_at": "2026-06-25T10:16:46Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1035,7 +1137,7 @@
           "href": "https://www.nycourts.gov/public-information"
         },
         {
-          "text": "Job Seeker",
+          "text": "Job Seeker (Careers)",
           "href": "https://www.nycourts.gov/careers/current-job-opportunities"
         }
       ],
@@ -1049,7 +1151,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-24T10:24:50Z",
+      "fetched_at": "2026-06-25T10:16:49Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
