@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-27",
-  "generated_at": "2026-06-27T09:30:56Z",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T10:05:45Z",
   "total_sources": 10,
-  "changed_count": 3,
+  "changed_count": 2,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 3,
-    "unchanged": 7,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -20,48 +20,16 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 3,
       "summary_note": "",
-      "added_count": 1,
-      "removed_count": 13,
-      "added_records": [
-        {
-          "exam_number": "6329 (pdf)",
-          "title": "Police Communications Technician",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
-        }
-      ],
-      "removed_records": [
-        {
-          "exam_number": "6004 (pdf)",
-          "title": "Administrative Energy Conservation Specialist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
-        },
-        {
-          "exam_number": "6020 (pdf)",
-          "title": "Associate Inspector (Electrical)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
-        },
-        {
-          "exam_number": "6036 (pdf)",
-          "title": "City Assessor",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
-        },
-        {
-          "exam_number": "6055 (pdf)",
-          "title": "Energy Conservation Specialist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
-        },
-        {
-          "exam_number": "6056 (pdf)",
-          "title": "Environmental Engineer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "nys_civil_service",
@@ -115,7 +83,7 @@
           "title": "CUSTODIAN",
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "type": "Open Competitive",
-          "closing_text": "Closes in 4 days",
+          "closing_text": "Closes in 3 days",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
         },
@@ -125,7 +93,7 @@
           "title": "ASSISTANT LIBRARY DIRECTOR",
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 4 days",
+          "closing_text": "Closes in 3 days",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
         }
@@ -137,7 +105,7 @@
           "title": "CUSTODIAN",
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
         },
@@ -147,7 +115,7 @@
           "title": "ASSISTANT LIBRARY DIRECTOR",
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
         }
@@ -269,60 +237,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "6b649d4add3bfb47",
-      "fetched_at": "2026-06-27T09:30:31Z",
+      "fetched_at": "2026-06-28T10:05:22Z",
       "error": null,
       "summary_note": "",
       "record_count": 3,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 13,
-        "added_titles": [
-          "Police Communications Technician"
-        ],
-        "removed_titles": [
-          "Administrative Energy Conservation Specialist",
-          "Associate Inspector (Electrical)",
-          "City Assessor",
-          "Energy Conservation Specialist",
-          "Environmental Engineer"
-        ],
-        "added_records": [
-          {
-            "exam_number": "6329 (pdf)",
-            "title": "Police Communications Technician",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
-          }
-        ],
-        "removed_records": [
-          {
-            "exam_number": "6004 (pdf)",
-            "title": "Administrative Energy Conservation Specialist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266004000.pdf"
-          },
-          {
-            "exam_number": "6020 (pdf)",
-            "title": "Associate Inspector (Electrical)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266020000.pdf"
-          },
-          {
-            "exam_number": "6036 (pdf)",
-            "title": "City Assessor",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266036000.pdf"
-          },
-          {
-            "exam_number": "6055 (pdf)",
-            "title": "Energy Conservation Specialist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266055000.pdf"
-          },
-          {
-            "exam_number": "6056 (pdf)",
-            "title": "Environmental Engineer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266056000.pdf"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "title": "Emergency Medical Specialist",
@@ -413,8 +334,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "ab66c137c7a53263",
-      "fetched_at": "2026-06-27T09:30:33Z",
+      "content_hash": "3d870e46027a6e06",
+      "fetched_at": "2026-06-28T10:05:24Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -482,7 +403,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-06-27T09:30:36Z",
+      "fetched_at": "2026-06-28T10:05:26Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -501,8 +422,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "5fff2203293c6a70",
-      "fetched_at": "2026-06-27T09:30:38Z",
+      "content_hash": "d44d23133b197d0c",
+      "fetched_at": "2026-06-28T10:05:28Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -524,7 +445,7 @@
             "title": "CUSTODIAN",
             "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
             "type": "Open Competitive",
-            "closing_text": "Closes in 4 days",
+            "closing_text": "Closes in 3 days",
             "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
           },
@@ -534,7 +455,7 @@
             "title": "ASSISTANT LIBRARY DIRECTOR",
             "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 4 days",
+            "closing_text": "Closes in 3 days",
             "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
           }
@@ -546,7 +467,7 @@
             "title": "CUSTODIAN",
             "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
           },
@@ -556,7 +477,7 @@
             "title": "ASSISTANT LIBRARY DIRECTOR",
             "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
           }
@@ -571,7 +492,7 @@
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 4 days",
+          "closing_text": "Closes in 3 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
           "type": "Open Competitive",
           "salary_text": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
@@ -586,7 +507,7 @@
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 4 days",
+          "closing_text": "Closes in 3 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
           "type": "Open Competitive",
           "salary_text": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
@@ -808,7 +729,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-27T09:30:41Z",
+      "fetched_at": "2026-06-28T10:05:31Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -823,7 +744,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "23da74e9ce3c275f",
-      "fetched_at": "2026-06-27T09:30:43Z",
+      "fetched_at": "2026-06-28T10:05:33Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
@@ -929,7 +850,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-06-27T09:30:46Z",
+      "fetched_at": "2026-06-28T10:05:36Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -944,7 +865,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-06-27T09:30:48Z",
+      "fetched_at": "2026-06-28T10:05:38Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1085,7 +1006,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "227a3efd2eed7c7f",
-      "fetched_at": "2026-06-27T09:30:51Z",
+      "fetched_at": "2026-06-28T10:05:41Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -1151,7 +1072,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-06-27T09:30:54Z",
+      "fetched_at": "2026-06-28T10:05:44Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
