@@ -1,0 +1,504 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T10:33:50Z",
+  "total_sources": 10,
+  "changed_count": 1,
+  "sources": [
+    {
+      "source_id": "nyc_dcas",
+      "name": "NYC DCAS",
+      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "6b649d4add3bfb47",
+      "fetched_at": "2026-06-30T10:32:55Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 3,
+      "records": [
+        {
+          "title": "Emergency Medical Specialist",
+          "exam_number": "6125 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf",
+          "application_period": "6/15/2026 – 8/7/2026"
+        },
+        {
+          "title": "Emergency Medical Specialist Trainee",
+          "exam_number": "6126 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf",
+          "application_period": "6/15/2026 – 8/7/2026"
+        },
+        {
+          "title": "Police Communications Technician",
+          "exam_number": "6329 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
+          "application_period": "5/7/2026 – 7/17/2026"
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "nys_civil_service",
+      "name": "NYS Civil Service",
+      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
+      "status": "error",
+      "status_detail": "timeout",
+      "error": "HTTPSConnectionPool(host='www.cs.ny.gov', port=443): Read timed out. (read timeout=30)",
+      "content_hash": "",
+      "fetched_at": "2026-06-30T10:32:57Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "usajobs",
+      "name": "USAJOBS",
+      "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "7438a1348daa0d1a",
+      "fetched_at": "2026-06-30T10:33:29Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "No matching USAJOBS listings found for the current search.",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "nassau_county",
+      "name": "Nassau County Civil Service",
+      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "2a1a347f5650fd7c",
+      "fetched_at": "2026-06-30T10:33:32Z",
+      "changed": true,
+      "diff": null,
+      "summary_note": "10 Nassau County open competitive announcements currently listed.",
+      "record_count": 10,
+      "records": [
+        {
+          "source_record_id": "5349269",
+          "job_id": "5349269",
+          "title": "ASSISTANT LIBRARY DIRECTOR",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 1 day",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
+          "type": "Open Competitive",
+          "salary_text": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+          "salary_min": 92856,
+          "salary_max": 95678
+        },
+        {
+          "source_record_id": "5338780",
+          "job_id": "5338780",
+          "title": "CUSTODIAN",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "posted_text": "Posted 2 weeks ago",
+          "closing_text": "Closes in 1 day",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
+          "type": "Open Competitive",
+          "salary_text": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+          "salary_min": 57821,
+          "salary_max": 78500
+        },
+        {
+          "source_record_id": "3413083",
+          "job_id": "3413083",
+          "title": "CYTOTECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$74,114 - $99,744",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $74,114 - $99,744 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$74,114 - $99,744",
+          "salary_min": 74114,
+          "salary_max": 99744
+        },
+        {
+          "source_record_id": "3415116",
+          "job_id": "3415116",
+          "title": "CYTOTECHNOLOGIST II",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$83,915 - $118,479",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $83,915 - $118,479 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$83,915 - $118,479",
+          "salary_min": 83915,
+          "salary_max": 118479
+        },
+        {
+          "source_record_id": "3415142",
+          "job_id": "3415142",
+          "title": "CYTOTECHNOLOGIST III",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$106,880 - $144,480",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $106,880 - $144,480 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$106,880 - $144,480",
+          "salary_min": 106880,
+          "salary_max": 144480
+        },
+        {
+          "source_record_id": "3416204",
+          "job_id": "3416204",
+          "title": "LIBRARIAN I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3416233",
+          "job_id": "3416233",
+          "title": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "salary": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below.",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained in...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below."
+        },
+        {
+          "source_record_id": "3412898",
+          "job_id": "3412898",
+          "title": "MEDICAL TECHNOLOGIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$79,212 - $91,619",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $79,212 - $91,619 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$79,212 - $91,619",
+          "salary_min": 79212,
+          "salary_max": 91619
+        },
+        {
+          "source_record_id": "3413138",
+          "job_id": "3413138",
+          "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+          "announcement_text": "EXAMINATION NO. 9016CR(D) - NURSE PRACTITIONER I (ACUTE CARE) EXAMINATION NO. 9017CR(D) - NURSE PRACTITIONER I (ADULT HEALTH) EXAMINATION NO. 9018CR(D) - NURSE PRACTITIONER I (COMMUNITY HEALTH) EXAMINATION NO. 9019CR(D) - NURSE PRACTITIONER I (FAMILY HEALTH) EXAMINATION NO. 9020CR(D) - NURSE PRACTITIONER I (GERONTOLOGY) EXAMINATION NO. 9021CR(D) - NURSE PRACTITIONER I (NEONATOLOGY) EXAMINATION NO. 9022CR(D) - NURSE PRACTITIONER I (OBSTETRICS/GYNECOLOGY) EXAMINATION NO. 9023CR(D) - NURSE PRACTITIONER I (ONCOLOGY) EXAMINATION NO. 9024CR(D) - NURSE PRACTITIONER I (PALLIATIVE CARE) EXAMINATION NO. 9025CR(D) - NURSE PRACTITIONER I (PEDIATRICS) EXAMINATION NO....",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below",
+          "type": "Open Competitive",
+          "status": "continuous"
+        },
+        {
+          "source_record_id": "3412730",
+          "job_id": "3412730",
+          "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+          "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise SALARY: SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "salary_min": 43176,
+          "salary_max": 81760
+        }
+      ],
+      "record_diff": {
+        "added_count": 2,
+        "removed_count": 2,
+        "added_titles": [
+          "CUSTODIAN",
+          "ASSISTANT LIBRARY DIRECTOR"
+        ],
+        "removed_titles": [
+          "CUSTODIAN",
+          "ASSISTANT LIBRARY DIRECTOR"
+        ],
+        "added_records": [
+          {
+            "source_record_id": "5338780",
+            "job_id": "5338780",
+            "title": "CUSTODIAN",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 1 day",
+            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+          },
+          {
+            "source_record_id": "5349269",
+            "job_id": "5349269",
+            "title": "ASSISTANT LIBRARY DIRECTOR",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 1 day",
+            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+          }
+        ],
+        "removed_records": [
+          {
+            "source_record_id": "5338780",
+            "job_id": "5338780",
+            "title": "CUSTODIAN",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 2 days",
+            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+          },
+          {
+            "source_record_id": "5349269",
+            "job_id": "5349269",
+            "title": "ASSISTANT LIBRARY DIRECTOR",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 2 days",
+            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "suffolk_county",
+      "name": "Suffolk County Civil Service",
+      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
+      "status": "error",
+      "status_detail": "bot_blocked",
+      "error": "403 response returned from source URL",
+      "content_hash": "",
+      "fetched_at": "2026-06-30T10:33:34Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "westchester_county",
+      "name": "Westchester County Civil Service",
+      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "23da74e9ce3c275f",
+      "fetched_at": "2026-06-30T10:33:37Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 2,
+      "records": [
+        {
+          "exam_number": "60-067310",
+          "agency": "Towns, Villages, Cities of Peekskill and Rye",
+          "title": "Assistant Civil Engineer",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "Varies with jurisdiction",
+          "fee": "$50.00",
+          "salary_text": "Varies with jurisdiction"
+        },
+        {
+          "exam_number": "60-057470",
+          "agency": "Westchester County",
+          "title": "Associate Engineer (Construction)",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm",
+          "deadline": "07/08/2026",
+          "exam_date": "09/19/2026",
+          "salary": "$110,705 - $144,365",
+          "fee": "$50.00",
+          "salary_text": "$110,705 - $144,365",
+          "salary_min": 110705,
+          "salary_max": 144365
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "rockland_county",
+      "name": "Rockland County Civil Service",
+      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
+      "status": "error",
+      "status_detail": "forbidden",
+      "error": "403 response returned from source URL",
+      "content_hash": "",
+      "fetched_at": "2026-06-30T10:33:40Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "orange_county",
+      "name": "Orange County Civil Service",
+      "url": "https://orange-portal.mycivilservice.com/post/exams",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "b057c42cca8eb6aa",
+      "fetched_at": "2026-06-30T10:33:42Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "Open competitive and continuous recruitment exam listings.",
+      "record_count": 25,
+      "records": [
+        {
+          "exam_number": "61438",
+          "title": "Athletic Trainer",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60048720",
+          "title": "CORRECTION OFFICER",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "6108",
+          "title": "DATA ENTRY OPERATOR II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "002",
+          "title": "Emergency Medical Technician",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "60030070",
+          "title": "Librarian I Trainee",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63404010",
+          "title": "Librarian I",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63426010",
+          "title": "Librarian II",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "63430010",
+          "title": "Librarian II (Children's Services)",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "64270010",
+          "title": "Librarian III",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "86874",
+          "title": "LIBRARY ASSISTANT",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
+      "record_diff": null
+    },
+    {
+      "source_id": "ny_courts",
+      "name": "NY Courts",
+      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "227a3efd2eed7c7f",
+      "fetched_at": "2026-06-30T10:33:45Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "",
+      "record_count": 0,
+      "records": [],
+      "record_diff": null
+    },
+    {
+      "source_id": "mta",
+      "name": "MTA",
+      "url": "https://new.mta.info/careers",
+      "status": "ok",
+      "status_detail": "ok",
+      "error": null,
+      "content_hash": "8317c1592724480b",
+      "fetched_at": "2026-06-30T10:33:49Z",
+      "changed": false,
+      "diff": null,
+      "summary_note": "Career center links and exam-specific entry points.",
+      "record_count": 5,
+      "records": [
+        {
+          "title": "Job listings",
+          "detail": "See all open MTA positions.",
+          "detail_url": "https://careers.mta.org/"
+        },
+        {
+          "title": "Exam information",
+          "detail": "Find out more about upcoming exams.",
+          "detail_url": "https://www.mta.info/careers/mta-exams"
+        },
+        {
+          "title": "Police officer process",
+          "detail": "Find out more about becoming a police officer",
+          "detail_url": "https://www.mta.info/careers/become-a-police-officer"
+        },
+        {
+          "title": "Skilled trades",
+          "detail": "See current skilled trade jobs",
+          "detail_url": "https://new.mta.info/careers/skilled-trades-positions"
+        },
+        {
+          "title": "Internships",
+          "detail": "MTA Careers site",
+          "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
+        }
+      ],
+      "record_diff": null
+    }
+  ]
+}
