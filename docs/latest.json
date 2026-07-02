@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-01",
-  "generated_at": "2026-07-01T10:44:15Z",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T10:11:57Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 3,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 2,
-    "unchanged": 8,
+    "changed": 3,
+    "unchanged": 7,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -20,16 +20,42 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 3,
+      "changed": true,
+      "record_count": 11,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 8,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "7006 (pdf)",
+          "title": "Assistant Civil Engineer",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
+        },
+        {
+          "exam_number": "7007 (pdf)",
+          "title": "Assistant Electrical Engineer",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277007000.pdf"
+        },
+        {
+          "exam_number": "7013 (pdf)",
+          "title": "Automotive Service Worker",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
+        },
+        {
+          "exam_number": "7016 (pdf)",
+          "title": "Caseworker",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf"
+        },
+        {
+          "exam_number": "7018 (pdf)",
+          "title": "Caseworker (NYC Health + Hospitals)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
@@ -78,24 +104,24 @@
       "removed_count": 2,
       "added_records": [
         {
-          "source_record_id": "5338780",
-          "job_id": "5338780",
-          "title": "CUSTODIAN",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 17 hours",
-          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+          "closing_text": "Continuous",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         },
         {
-          "source_record_id": "5349269",
-          "job_id": "5349269",
-          "title": "ASSISTANT LIBRARY DIRECTOR",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 17 hours",
-          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+          "closing_text": "Continuous",
+          "salary": "$102,320 - $128,481",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "removed_records": [
@@ -105,7 +131,7 @@
           "title": "CUSTODIAN",
           "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 17 hours",
           "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
         },
@@ -115,7 +141,7 @@
           "title": "ASSISTANT LIBRARY DIRECTOR",
           "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 17 hours",
           "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
         }
@@ -237,14 +263,83 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "6b649d4add3bfb47",
-      "fetched_at": "2026-07-01T10:43:51Z",
+      "changed": true,
+      "content_hash": "920bf0c395e9cd04",
+      "fetched_at": "2026-07-02T10:11:35Z",
       "error": null,
       "summary_note": "",
-      "record_count": 3,
-      "record_diff": null,
+      "record_count": 11,
+      "record_diff": {
+        "added_count": 8,
+        "removed_count": 0,
+        "added_titles": [
+          "Assistant Civil Engineer",
+          "Assistant Electrical Engineer",
+          "Automotive Service Worker",
+          "Caseworker",
+          "Caseworker (NYC Health + Hospitals)"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "7006 (pdf)",
+            "title": "Assistant Civil Engineer",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
+          },
+          {
+            "exam_number": "7007 (pdf)",
+            "title": "Assistant Electrical Engineer",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277007000.pdf"
+          },
+          {
+            "exam_number": "7013 (pdf)",
+            "title": "Automotive Service Worker",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
+          },
+          {
+            "exam_number": "7016 (pdf)",
+            "title": "Caseworker",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf"
+          },
+          {
+            "exam_number": "7018 (pdf)",
+            "title": "Caseworker (NYC Health + Hospitals)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
+        {
+          "title": "Assistant Civil Engineer",
+          "exam_number": "7006 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf",
+          "application_period": "7/1/2026 – 7/21/2026"
+        },
+        {
+          "title": "Assistant Electrical Engineer",
+          "exam_number": "7007 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277007000.pdf",
+          "application_period": "7/1/2026 – 7/21/2026"
+        },
+        {
+          "title": "Automotive Service Worker",
+          "exam_number": "7013 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf",
+          "application_period": "7/1/2026 – 7/21/2026"
+        },
+        {
+          "title": "Caseworker",
+          "exam_number": "7016 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf",
+          "application_period": "7/1/2026 – 8/25/2026"
+        },
+        {
+          "title": "Caseworker (NYC Health + Hospitals)",
+          "exam_number": "7018 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf",
+          "application_period": "7/1/2026 – 8/25/2026"
+        },
         {
           "title": "Emergency Medical Specialist",
           "exam_number": "6125 (pdf)",
@@ -262,20 +357,43 @@
           "exam_number": "6329 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf",
           "application_period": "5/7/2026 – 7/17/2026"
+        },
+        {
+          "title": "Police Officer",
+          "exam_number": "7311 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277311000.pdf",
+          "application_period": "7/1/2026 – 7/14/2026"
+        },
+        {
+          "title": "School Safety Agent",
+          "exam_number": "7323 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf",
+          "application_period": "7/1/2026 – 8/25/2026"
         }
       ],
       "exam_titles": [
+        "Assistant Civil Engineer",
+        "Assistant Electrical Engineer",
+        "Automotive Service Worker",
+        "Caseworker",
+        "Caseworker (NYC Health + Hospitals)",
         "Emergency Medical Specialist",
         "Emergency Medical Specialist Trainee",
-        "Police Communications Technician"
+        "Police Communications Technician",
+        "Police Officer",
+        "School Safety Agent"
       ],
       "dates": [
+        "7/1/2026 – 7/21/2026",
+        "7/1/2026 – 8/25/2026",
         "6/15/2026 – 8/7/2026",
         "5/7/2026 – 7/17/2026",
+        "7/1/2026 – 7/14/2026",
+        "7/1/2026",
+        "7/21/2026",
+        "8/25/2026",
         "6/15/2026",
-        "8/7/2026",
-        "5/7/2026",
-        "7/17/2026"
+        "8/7/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -334,8 +452,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "f3b4761be1def26a",
-      "fetched_at": "2026-07-01T10:43:54Z",
+      "content_hash": "1592711a71d942c6",
+      "fetched_at": "2026-07-02T10:11:37Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -403,7 +521,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-07-01T10:43:56Z",
+      "fetched_at": "2026-07-02T10:11:39Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -422,8 +540,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "74f9f6f31779696e",
-      "fetched_at": "2026-07-01T10:43:59Z",
+      "content_hash": "82d9103947e1b074",
+      "fetched_at": "2026-07-02T10:11:41Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -431,8 +549,8 @@
         "added_count": 2,
         "removed_count": 2,
         "added_titles": [
-          "CUSTODIAN",
-          "ASSISTANT LIBRARY DIRECTOR"
+          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "PHARMACIST I"
         ],
         "removed_titles": [
           "CUSTODIAN",
@@ -440,24 +558,24 @@
         ],
         "added_records": [
           {
-            "source_record_id": "5338780",
-            "job_id": "5338780",
-            "title": "CUSTODIAN",
-            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
+            "source_record_id": "3412822",
+            "job_id": "3412822",
+            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 17 hours",
-            "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
+            "closing_text": "Continuous",
+            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
           },
           {
-            "source_record_id": "5349269",
-            "job_id": "5349269",
-            "title": "ASSISTANT LIBRARY DIRECTOR",
-            "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
+            "source_record_id": "3413191",
+            "job_id": "3413191",
+            "title": "PHARMACIST I",
+            "agency": "NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 17 hours",
-            "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
+            "closing_text": "Continuous",
+            "salary": "$102,320 - $128,481",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
           }
         ],
         "removed_records": [
@@ -467,7 +585,7 @@
             "title": "CUSTODIAN",
             "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 17 hours",
             "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
           },
@@ -477,43 +595,13 @@
             "title": "ASSISTANT LIBRARY DIRECTOR",
             "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 17 hours",
             "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
           }
         ]
       },
       "records": [
-        {
-          "source_record_id": "5349269",
-          "job_id": "5349269",
-          "title": "ASSISTANT LIBRARY DIRECTOR",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES",
-          "salary": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 17 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director",
-          "type": "Open Competitive",
-          "salary_text": "Varies by Jurisdiction: Farmingdale Public Library: $92,856 - $95,678",
-          "salary_min": 92856,
-          "salary_max": 95678
-        },
-        {
-          "source_record_id": "5338780",
-          "job_id": "5338780",
-          "title": "CUSTODIAN",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS",
-          "salary": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, SCHOOL DISTRICT LIBRARIES, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, VILLAGES AND SPECIAL DISTRICTS SALARY : Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 17 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian",
-          "type": "Open Competitive",
-          "salary_text": "Varies by Jurisdiction: Uniondale Union Free School District: $57,821 - $78,500",
-          "salary_min": 57821,
-          "salary_max": 78500
-        },
         {
           "source_record_id": "3413083",
           "job_id": "3413083",
@@ -632,11 +720,41 @@
           "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
           "salary_min": 43176,
           "salary_max": 81760
+        },
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "salary_min": 63872,
+          "salary_max": 97339
+        },
+        {
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$102,320 - $128,481",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$102,320 - $128,481",
+          "salary_min": 102320,
+          "salary_max": 128481
         }
       ],
       "exam_titles": [
-        "ASSISTANT LIBRARY DIRECTOR",
-        "CUSTODIAN",
         "CYTOTECHNOLOGIST I",
         "CYTOTECHNOLOGIST II",
         "CYTOTECHNOLOGIST III",
@@ -644,13 +762,16 @@
         "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
         "MEDICAL TECHNOLOGIST I",
         "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-        "OCCUPATIONAL THERAPIST ASSISTANT"
+        "OCCUPATIONAL THERAPIST ASSISTANT",
+        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+        "PHARMACIST I"
       ],
       "dates": [
         "4/29/25",
         "2/13/26",
         "5/23/25",
-        "3/16/23"
+        "3/16/23",
+        "3/27/25"
       ],
       "keywords_found": [
         "exam",
@@ -663,14 +784,6 @@
         "announcement"
       ],
       "links": [
-        {
-          "text": "ASSISTANT LIBRARY DIRECTOR",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5349269/assistant-library-director"
-        },
-        {
-          "text": "CUSTODIAN",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5338780/custodian"
-        },
         {
           "text": "CYTOTECHNOLOGIST I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
@@ -702,6 +815,14 @@
         {
           "text": "OCCUPATIONAL THERAPIST ASSISTANT",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+        },
+        {
+          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+        },
+        {
+          "text": "PHARMACIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "record_fields_present": [
@@ -715,10 +836,10 @@
         "closing_text",
         "detail_url",
         "type",
+        "status",
         "salary_text",
         "salary_min",
-        "salary_max",
-        "status"
+        "salary_max"
       ]
     },
     {
@@ -729,7 +850,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-01T10:44:01Z",
+      "fetched_at": "2026-07-02T10:11:44Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -744,7 +865,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "23da74e9ce3c275f",
-      "fetched_at": "2026-07-01T10:44:03Z",
+      "fetched_at": "2026-07-02T10:11:46Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
@@ -850,7 +971,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-01T10:44:06Z",
+      "fetched_at": "2026-07-02T10:11:49Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -865,7 +986,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b057c42cca8eb6aa",
-      "fetched_at": "2026-07-01T10:44:09Z",
+      "fetched_at": "2026-07-02T10:11:51Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
@@ -1006,7 +1127,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-01T10:44:12Z",
+      "fetched_at": "2026-07-02T10:11:54Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1072,7 +1193,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-07-01T10:44:14Z",
+      "fetched_at": "2026-07-02T10:11:56Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
