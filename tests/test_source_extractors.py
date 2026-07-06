@@ -84,6 +84,55 @@ class SourceExtractorTests(unittest.TestCase):
         self.assertIn("No matching USAJOBS listings found", extracted["summary_note"])
         self.assertEqual(extracted["normalized_text"], extracted["summary_note"])
 
+    def test_usajobs_positive_results_extract_records(self) -> None:
+        extracted = extract_source_data(
+            "usajobs",
+            self.read_fixture("usajobs_positive_results.html"),
+            "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY",
+        )
+
+        self.assertEqual(extracted["record_count"], 2)
+        first = extracted["records"][0]
+        self.assertEqual(first["title"], "Cyber Threat Analyst")
+        self.assertEqual(first["job_id"], "722102800")
+        self.assertEqual(first["source_record_id"], "722102800")
+        self.assertEqual(first["agency"], "Central Intelligence Agency")
+        self.assertEqual(first["department"], "Other Agencies and Independent Organizations")
+        self.assertEqual(first["location"], "Washington, District of Columbia")
+        self.assertEqual(first["salary"], "Starting at $63,940 Per year (GS 8-15)")
+        self.assertEqual(first["deadline"], "9/30/2026")
+        self.assertEqual(first["job_type"], "Permanent; Full-time")
+        self.assertEqual(first["type"], "Federal posting")
+        self.assertTrue(first["detail_url"].startswith("https://www.usajobs.gov/job/"))
+        self.assertEqual(
+            [link["href"] for link in extracted["links"]],
+            [
+                "https://www.usajobs.gov/job/722102800",
+                "https://www.usajobs.gov/job/987654321/program-analyst",
+            ],
+        )
+        self.assertIn("2 USAJOBS federal listings extracted from 8,005", extracted["summary_note"])
+        self.assertIn("Cyber Threat Analyst", extracted["normalized_text"])
+        self.assertNotIn("USAJOBS Help Center", extracted["normalized_text"])
+
+    def test_usajobs_search_payload_extracts_records(self) -> None:
+        extracted = extract_source_data(
+            "usajobs",
+            self.read_fixture("usajobs_search_payload.json"),
+            "https://www.usajobs.gov/Search/Results?hp=public",
+        )
+
+        self.assertEqual(extracted["record_count"], 2)
+        self.assertEqual(extracted["records"][0]["job_id"], "722102800")
+        self.assertEqual(extracted["records"][0]["title"], "Cyber Threat Analyst")
+        self.assertEqual(extracted["records"][0]["deadline"], "09/30/2026")
+        self.assertEqual(extracted["records"][0]["job_type"], "Permanent; Full-time")
+        self.assertEqual(
+            extracted["records"][0]["detail_url"],
+            "https://www.usajobs.gov/job/722102800",
+        )
+        self.assertIn("extracted from 8,005", extracted["summary_note"])
+
     def test_nassau_listing_fixture_extracts_direct_records(self) -> None:
         extracted = extract_source_data(
             "nassau_county",

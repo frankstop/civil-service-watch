@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-07-05  
-**Generated:** 2026-07-05T09:44:02Z  
+**Date:** 2026-07-06  
+**Generated:** 2026-07-06T11:11:15Z  
 **Sources checked:** 10  
 **Changes detected:** 1  
 
@@ -23,7 +23,7 @@
 
 - **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
-- **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
+- **USAJOBS** — records `+100` / `-0` — https://www.usajobs.gov/Search/Results?hp=public
 - **Nassau County Civil Service** — no change — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — bot_blocked — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
@@ -34,8 +34,20 @@
 
 ## 🔔 Changes Detected
 
-### NYS Civil Service
-- **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
+### USAJOBS
+- **URL:** https://www.usajobs.gov/Search/Results?hp=public
+- **Summary:** 100 USAJOBS federal listings extracted from 8,005 currently found for this search.
+- Records added: 100 · removed: 0
+- **Added titles:** Cyber Threat Analyst, Resource Analyst, Accountant, Technical Targeting Analyst, Case Officer
+- Added record: Cyber Threat Analyst — 722102800 — Other Agencies and Independent Organizations — Central Intelligence Agency — 09/30/2026
+- Added record: Resource Analyst — 722317000 — Other Agencies and Independent Organizations — Central Intelligence Agency — 09/30/2026
+- Added record: Accountant — 723111900 — Other Agencies and Independent Organizations — Central Intelligence Agency — 09/30/2026
+- **Top records:**
+  - Cyber Threat Analyst — 09/30/2026
+  - Resource Analyst — 09/30/2026
+  - Accountant — 09/30/2026
+  - Technical Targeting Analyst — 09/30/2026
+  - Case Officer — 09/30/2026
 
 ## ❌ Fetch Errors
 
@@ -46,7 +58,7 @@
 ## ✅ No Changes
 
 - NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
+- NYS Civil Service — https://www.cs.ny.gov/examannouncements/types/oc/
 - Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams

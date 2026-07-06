@@ -3,257 +3,6 @@
   "generated_at": "2026-07-06T11:11:15Z",
   "total_sources": 10,
   "changed_count": 1,
-  "health_summary": {
-    "ok": 7,
-    "error": 3,
-    "changed": 1,
-    "unchanged": 9,
-    "bot_blocked": 1,
-    "forbidden": 1,
-    "not_found": 0,
-    "timeout": 0
-  },
-  "daily_deltas": [
-    {
-      "source_id": "nyc_dcas",
-      "name": "NYC DCAS",
-      "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 11,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "nys_civil_service",
-      "name": "NYS Civil Service",
-      "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "usajobs",
-      "name": "USAJOBS",
-      "url": "https://www.usajobs.gov/Search/Results?hp=public",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": true,
-      "record_count": 100,
-      "summary_note": "100 USAJOBS federal listings extracted from 8,005 currently found for this search.",
-      "added_count": 100,
-      "removed_count": 0,
-      "added_records": [
-        {
-          "source_record_id": "722102800",
-          "job_id": "722102800",
-          "title": "Cyber Threat Analyst",
-          "department": "Other Agencies and Independent Organizations",
-          "agency": "Central Intelligence Agency",
-          "type": "Federal posting",
-          "job_type": "Permanent; Full-time",
-          "deadline": "09/30/2026",
-          "closing_text": "09/30/2026",
-          "salary": "Starting at $63,940 Per year (GS 8-15)",
-          "detail_url": "https://www.usajobs.gov/job/722102800"
-        },
-        {
-          "source_record_id": "722317000",
-          "job_id": "722317000",
-          "title": "Resource Analyst",
-          "department": "Other Agencies and Independent Organizations",
-          "agency": "Central Intelligence Agency",
-          "type": "Federal posting",
-          "job_type": "Permanent; Full-time",
-          "deadline": "09/30/2026",
-          "closing_text": "09/30/2026",
-          "salary": "Starting at $82,396 Per year (GS 9-13)",
-          "detail_url": "https://www.usajobs.gov/job/722317000"
-        },
-        {
-          "source_record_id": "723111900",
-          "job_id": "723111900",
-          "title": "Accountant",
-          "department": "Other Agencies and Independent Organizations",
-          "agency": "Central Intelligence Agency",
-          "type": "Federal posting",
-          "job_type": "Permanent; Full-time",
-          "deadline": "09/30/2026",
-          "closing_text": "09/30/2026",
-          "salary": "Starting at $76,726 Per year (GS 7-12)",
-          "detail_url": "https://www.usajobs.gov/job/723111900"
-        },
-        {
-          "source_record_id": "723123400",
-          "job_id": "723123400",
-          "title": "Technical Targeting Analyst",
-          "department": "Other Agencies and Independent Organizations",
-          "agency": "Central Intelligence Agency",
-          "type": "Federal posting",
-          "job_type": "Permanent; Full-time",
-          "deadline": "09/30/2026",
-          "closing_text": "09/30/2026",
-          "salary": "Starting at $70,623 Per year (GS 9-14)",
-          "detail_url": "https://www.usajobs.gov/job/723123400"
-        },
-        {
-          "source_record_id": "756734700",
-          "job_id": "756734700",
-          "title": "Case Officer",
-          "department": "Other Agencies and Independent Organizations",
-          "agency": "Central Intelligence Agency",
-          "type": "Federal posting",
-          "job_type": "Permanent; Full-time",
-          "deadline": "09/30/2026",
-          "closing_text": "09/30/2026",
-          "salary": "Starting at $72,254 Per year (GS 9-11)",
-          "detail_url": "https://www.usajobs.gov/job/756734700"
-        }
-      ],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "records"
-    },
-    {
-      "source_id": "nassau_county",
-      "name": "Nassau County Civil Service",
-      "url": "https://www.governmentjobs.com/careers/nassaucountyny",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 10,
-      "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "suffolk_county",
-      "name": "Suffolk County Civil Service",
-      "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
-      "status": "error",
-      "status_detail": "bot_blocked",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "westchester_county",
-      "name": "Westchester County Civil Service",
-      "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 2,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "rockland_county",
-      "name": "Rockland County Civil Service",
-      "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
-      "status": "error",
-      "status_detail": "forbidden",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "orange_county",
-      "name": "Orange County Civil Service",
-      "url": "https://orange-portal.mycivilservice.com/post/exams",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 25,
-      "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    },
-    {
-      "source_id": "ny_courts",
-      "name": "NY Courts",
-      "url": "https://ww2.nycourts.gov/careers/exams.shtml",
-      "status": "error",
-      "status_detail": "fetch_failed",
-      "changed": false,
-      "record_count": 0,
-      "summary_note": "",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "restricted"
-    },
-    {
-      "source_id": "mta",
-      "name": "MTA",
-      "url": "https://new.mta.info/careers",
-      "status": "ok",
-      "status_detail": "ok",
-      "changed": false,
-      "record_count": 5,
-      "summary_note": "Career center links and exam-specific entry points.",
-      "added_count": 0,
-      "removed_count": 0,
-      "added_records": [],
-      "removed_records": [],
-      "added_lines": 0,
-      "removed_lines": 0,
-      "delta_kind": "none"
-    }
-  ],
-  "policy_notes": {
-    "restricted_sources": "Blocked or forbidden sources are reported as-is. No alternate endpoints or browser-assisted fetching are used; source links remain for manual follow-up."
-  },
   "sources": [
     {
       "source_id": "nyc_dcas",
@@ -261,13 +10,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "920bf0c395e9cd04",
       "fetched_at": "2026-07-05T09:43:39Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 11,
-      "record_diff": null,
       "records": [
         {
           "title": "Assistant Civil Engineer",
@@ -330,79 +79,7 @@
           "application_period": "7/1/2026 – 8/25/2026"
         }
       ],
-      "exam_titles": [
-        "Assistant Civil Engineer",
-        "Assistant Electrical Engineer",
-        "Automotive Service Worker",
-        "Caseworker",
-        "Caseworker (NYC Health + Hospitals)",
-        "Emergency Medical Specialist",
-        "Emergency Medical Specialist Trainee",
-        "Police Communications Technician",
-        "Police Officer",
-        "School Safety Agent"
-      ],
-      "dates": [
-        "7/1/2026 – 7/21/2026",
-        "7/1/2026 – 8/25/2026",
-        "6/15/2026 – 8/7/2026",
-        "5/7/2026 – 7/17/2026",
-        "7/1/2026 – 7/14/2026",
-        "7/1/2026",
-        "7/21/2026",
-        "8/25/2026",
-        "6/15/2026",
-        "8/7/2026"
-      ],
-      "keywords_found": [],
-      "links": [
-        {
-          "text": "311",
-          "href": "https://www.nyc.gov/311/index.page"
-        },
-        {
-          "text": "Search all NYC.gov websites",
-          "href": "https://www.nyc.gov/home/search/index.page"
-        },
-        {
-          "text": "Menu",
-          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
-        },
-        {
-          "text": "Text-Size",
-          "href": "http://www1.nyc.gov/home/text-size.page"
-        },
-        {
-          "text": "Search",
-          "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page"
-        },
-        {
-          "text": "Home",
-          "href": "https://www.nyc.gov/site/dcas/index.page"
-        },
-        {
-          "text": "About",
-          "href": "https://www.nyc.gov/site/dcas/about/our-mission.page"
-        },
-        {
-          "text": "Employment",
-          "href": "https://www.nyc.gov/site/dcas/employment/why-you-should-work-for-the-city.page"
-        },
-        {
-          "text": "Business",
-          "href": "https://www.nyc.gov/site/dcas/business/conducting-business.page"
-        },
-        {
-          "text": "For City Agencies",
-          "href": "https://www.nyc.gov/site/dcas/agencies/for-city-agencies.page"
-        }
-      ],
-      "record_fields_present": [
-        "title",
-        "exam_number",
-        "detail_url",
-        "application_period"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "nys_civil_service",
@@ -410,67 +87,15 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "ea00f92058ed1549",
       "fetched_at": "2026-07-05T09:43:41Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
       "records": [],
-      "exam_titles": [],
-      "dates": [],
-      "keywords_found": [
-        "exam",
-        "examination",
-        "schedule",
-        "eligible list",
-        "civil service",
-        "announcement"
-      ],
-      "links": [
-        {
-          "text": "Navigation menu",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Department of Civil Service",
-          "href": "https://www.cs.ny.gov"
-        },
-        {
-          "text": "Online Services",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Account Login",
-          "href": "https://www.cs.ny.gov/home/myaccount/"
-        },
-        {
-          "text": "Apply Online",
-          "href": "https://www.cs.ny.gov/jobseeker/onlineapp/ocappinfo.cfm"
-        },
-        {
-          "text": "My Examination Applications",
-          "href": "https://www.cs.ny.gov/examannouncements/confirmation/history/index.cfm"
-        },
-        {
-          "text": "Eligible Lists (ELMS Online)",
-          "href": "https://www.cs.ny.gov/elmspublic/"
-        },
-        {
-          "text": "Job Seekers",
-          "href": "https://www.cs.ny.gov/examannouncements/types/oc/"
-        },
-        {
-          "text": "Hiring for Emergency Limited Placement (HELP) program",
-          "href": "https://www.cs.ny.gov/help/"
-        },
-        {
-          "text": "Centers for Careers in Government (CCG)",
-          "href": "https://www.cs.ny.gov/ccg/"
-        }
-      ],
-      "record_fields_present": []
+      "record_diff": null
     },
     {
       "source_id": "usajobs",
@@ -478,92 +103,13 @@
       "url": "https://www.usajobs.gov/Search/Results?hp=public",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "error": null,
       "content_hash": "ef297a2a897bc82d",
       "fetched_at": "2026-07-06T11:11:06Z",
-      "error": null,
+      "changed": true,
+      "diff": null,
       "summary_note": "100 USAJOBS federal listings extracted from 8,005 currently found for this search.",
       "record_count": 100,
-      "record_diff": {
-        "added_count": 100,
-        "removed_count": 0,
-        "added_titles": [
-          "Cyber Threat Analyst",
-          "Resource Analyst",
-          "Accountant",
-          "Technical Targeting Analyst",
-          "Case Officer"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "source_record_id": "722102800",
-            "job_id": "722102800",
-            "title": "Cyber Threat Analyst",
-            "department": "Other Agencies and Independent Organizations",
-            "agency": "Central Intelligence Agency",
-            "type": "Federal posting",
-            "job_type": "Permanent; Full-time",
-            "deadline": "09/30/2026",
-            "closing_text": "09/30/2026",
-            "salary": "Starting at $63,940 Per year (GS 8-15)",
-            "detail_url": "https://www.usajobs.gov/job/722102800"
-          },
-          {
-            "source_record_id": "722317000",
-            "job_id": "722317000",
-            "title": "Resource Analyst",
-            "department": "Other Agencies and Independent Organizations",
-            "agency": "Central Intelligence Agency",
-            "type": "Federal posting",
-            "job_type": "Permanent; Full-time",
-            "deadline": "09/30/2026",
-            "closing_text": "09/30/2026",
-            "salary": "Starting at $82,396 Per year (GS 9-13)",
-            "detail_url": "https://www.usajobs.gov/job/722317000"
-          },
-          {
-            "source_record_id": "723111900",
-            "job_id": "723111900",
-            "title": "Accountant",
-            "department": "Other Agencies and Independent Organizations",
-            "agency": "Central Intelligence Agency",
-            "type": "Federal posting",
-            "job_type": "Permanent; Full-time",
-            "deadline": "09/30/2026",
-            "closing_text": "09/30/2026",
-            "salary": "Starting at $76,726 Per year (GS 7-12)",
-            "detail_url": "https://www.usajobs.gov/job/723111900"
-          },
-          {
-            "source_record_id": "723123400",
-            "job_id": "723123400",
-            "title": "Technical Targeting Analyst",
-            "department": "Other Agencies and Independent Organizations",
-            "agency": "Central Intelligence Agency",
-            "type": "Federal posting",
-            "job_type": "Permanent; Full-time",
-            "deadline": "09/30/2026",
-            "closing_text": "09/30/2026",
-            "salary": "Starting at $70,623 Per year (GS 9-14)",
-            "detail_url": "https://www.usajobs.gov/job/723123400"
-          },
-          {
-            "source_record_id": "756734700",
-            "job_id": "756734700",
-            "title": "Case Officer",
-            "department": "Other Agencies and Independent Organizations",
-            "agency": "Central Intelligence Agency",
-            "type": "Federal posting",
-            "job_type": "Permanent; Full-time",
-            "deadline": "09/30/2026",
-            "closing_text": "09/30/2026",
-            "salary": "Starting at $72,254 Per year (GS 9-11)",
-            "detail_url": "https://www.usajobs.gov/job/756734700"
-          }
-        ],
-        "removed_records": []
-      },
       "records": [
         {
           "source_record_id": "722102800",
@@ -746,95 +292,86 @@
           "salary_min": 72254
         }
       ],
-      "exam_titles": [
-        "Cyber Threat Analyst",
-        "Resource Analyst",
-        "Accountant",
-        "Technical Targeting Analyst",
-        "Case Officer",
-        "Collection Management Officer",
-        "Language Officer",
-        "Paramilitary Operations Officer",
-        "Staff Operations Officer",
-        "Targeting Officer"
-      ],
-      "dates": [
-        "09/30/2026",
-        "09/29/2026",
-        "05/28/2027",
-        "12/30/2026",
-        "07/27/2026",
-        "07/31/2026",
-        "09/28/2026",
-        "08/29/2026",
-        "07/15/2026",
-        "09/25/2026"
-      ],
-      "keywords_found": [
-        "exam",
-        "schedule",
-        "posting"
-      ],
-      "links": [
-        {
-          "text": "Cyber Threat Analyst",
-          "href": "https://www.usajobs.gov/job/722102800"
-        },
-        {
-          "text": "Resource Analyst",
-          "href": "https://www.usajobs.gov/job/722317000"
-        },
-        {
-          "text": "Accountant",
-          "href": "https://www.usajobs.gov/job/723111900"
-        },
-        {
-          "text": "Technical Targeting Analyst",
-          "href": "https://www.usajobs.gov/job/723123400"
-        },
-        {
-          "text": "Case Officer",
-          "href": "https://www.usajobs.gov/job/756734700"
-        },
-        {
-          "text": "Collection Management Officer",
-          "href": "https://www.usajobs.gov/job/756737500"
-        },
-        {
-          "text": "Language Officer",
-          "href": "https://www.usajobs.gov/job/756770500"
-        },
-        {
-          "text": "Paramilitary Operations Officer",
-          "href": "https://www.usajobs.gov/job/756773100"
-        },
-        {
-          "text": "Staff Operations Officer",
-          "href": "https://www.usajobs.gov/job/756775500"
-        },
-        {
-          "text": "Targeting Officer",
-          "href": "https://www.usajobs.gov/job/756782600"
-        }
-      ],
-      "record_fields_present": [
-        "source_record_id",
-        "job_id",
-        "title",
-        "agency",
-        "department",
-        "location",
-        "salary",
-        "posted_text",
-        "closing_text",
-        "deadline",
-        "job_type",
-        "detail_url",
-        "announcement_text",
-        "type",
-        "salary_text",
-        "salary_min"
-      ]
+      "record_diff": {
+        "added_count": 100,
+        "removed_count": 0,
+        "added_titles": [
+          "Cyber Threat Analyst",
+          "Resource Analyst",
+          "Accountant",
+          "Technical Targeting Analyst",
+          "Case Officer"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "source_record_id": "722102800",
+            "job_id": "722102800",
+            "title": "Cyber Threat Analyst",
+            "department": "Other Agencies and Independent Organizations",
+            "agency": "Central Intelligence Agency",
+            "type": "Federal posting",
+            "job_type": "Permanent; Full-time",
+            "deadline": "09/30/2026",
+            "closing_text": "09/30/2026",
+            "salary": "Starting at $63,940 Per year (GS 8-15)",
+            "detail_url": "https://www.usajobs.gov/job/722102800"
+          },
+          {
+            "source_record_id": "722317000",
+            "job_id": "722317000",
+            "title": "Resource Analyst",
+            "department": "Other Agencies and Independent Organizations",
+            "agency": "Central Intelligence Agency",
+            "type": "Federal posting",
+            "job_type": "Permanent; Full-time",
+            "deadline": "09/30/2026",
+            "closing_text": "09/30/2026",
+            "salary": "Starting at $82,396 Per year (GS 9-13)",
+            "detail_url": "https://www.usajobs.gov/job/722317000"
+          },
+          {
+            "source_record_id": "723111900",
+            "job_id": "723111900",
+            "title": "Accountant",
+            "department": "Other Agencies and Independent Organizations",
+            "agency": "Central Intelligence Agency",
+            "type": "Federal posting",
+            "job_type": "Permanent; Full-time",
+            "deadline": "09/30/2026",
+            "closing_text": "09/30/2026",
+            "salary": "Starting at $76,726 Per year (GS 7-12)",
+            "detail_url": "https://www.usajobs.gov/job/723111900"
+          },
+          {
+            "source_record_id": "723123400",
+            "job_id": "723123400",
+            "title": "Technical Targeting Analyst",
+            "department": "Other Agencies and Independent Organizations",
+            "agency": "Central Intelligence Agency",
+            "type": "Federal posting",
+            "job_type": "Permanent; Full-time",
+            "deadline": "09/30/2026",
+            "closing_text": "09/30/2026",
+            "salary": "Starting at $70,623 Per year (GS 9-14)",
+            "detail_url": "https://www.usajobs.gov/job/723123400"
+          },
+          {
+            "source_record_id": "756734700",
+            "job_id": "756734700",
+            "title": "Case Officer",
+            "department": "Other Agencies and Independent Organizations",
+            "agency": "Central Intelligence Agency",
+            "type": "Federal posting",
+            "job_type": "Permanent; Full-time",
+            "deadline": "09/30/2026",
+            "closing_text": "09/30/2026",
+            "salary": "Starting at $72,254 Per year (GS 9-11)",
+            "detail_url": "https://www.usajobs.gov/job/756734700"
+          }
+        ],
+        "removed_records": []
+      }
     },
     {
       "source_id": "nassau_county",
@@ -842,13 +379,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "82d9103947e1b074",
       "fetched_at": "2026-07-05T09:43:46Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": null,
       "records": [
         {
           "source_record_id": "3413083",
@@ -1002,93 +539,7 @@
           "salary_max": 128481
         }
       ],
-      "exam_titles": [
-        "CYTOTECHNOLOGIST I",
-        "CYTOTECHNOLOGIST II",
-        "CYTOTECHNOLOGIST III",
-        "LIBRARIAN I",
-        "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
-        "MEDICAL TECHNOLOGIST I",
-        "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-        "OCCUPATIONAL THERAPIST ASSISTANT",
-        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-        "PHARMACIST I"
-      ],
-      "dates": [
-        "4/29/25",
-        "2/13/26",
-        "5/23/25",
-        "3/16/23",
-        "3/27/25"
-      ],
-      "keywords_found": [
-        "exam",
-        "examination",
-        "schedule",
-        "filing",
-        "deadline",
-        "open competitive",
-        "eligible list",
-        "announcement"
-      ],
-      "links": [
-        {
-          "text": "CYTOTECHNOLOGIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
-        },
-        {
-          "text": "CYTOTECHNOLOGIST II",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii"
-        },
-        {
-          "text": "CYTOTECHNOLOGIST III",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
-        },
-        {
-          "text": "LIBRARIAN I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
-        },
-        {
-          "text": "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking"
-        },
-        {
-          "text": "MEDICAL TECHNOLOGIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
-        },
-        {
-          "text": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
-        },
-        {
-          "text": "OCCUPATIONAL THERAPIST ASSISTANT",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
-        },
-        {
-          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
-        },
-        {
-          "text": "PHARMACIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
-        }
-      ],
-      "record_fields_present": [
-        "source_record_id",
-        "job_id",
-        "title",
-        "agency",
-        "salary",
-        "announcement_text",
-        "posted_text",
-        "closing_text",
-        "detail_url",
-        "type",
-        "status",
-        "salary_text",
-        "salary_min",
-        "salary_max"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "suffolk_county",
@@ -1096,14 +547,15 @@
       "url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
       "status": "error",
       "status_detail": "bot_blocked",
-      "changed": false,
+      "error": "403 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-07-05T09:43:49Z",
-      "error": "403 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
-      "records": []
+      "records": [],
+      "record_diff": null
     },
     {
       "source_id": "westchester_county",
@@ -1111,13 +563,13 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "23da74e9ce3c275f",
       "fetched_at": "2026-07-05T09:43:51Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 2,
-      "record_diff": null,
       "records": [
         {
           "exam_number": "60-067310",
@@ -1144,72 +596,7 @@
           "salary_max": 144365
         }
       ],
-      "exam_titles": [
-        "Assistant Civil Engineer",
-        "Associate Engineer (Construction)"
-      ],
-      "dates": [
-        "07/08/2026",
-        "09/19/2026"
-      ],
-      "keywords_found": [
-        "exam"
-      ],
-      "links": [
-        {
-          "text": "Skip to main content",
-          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm#exam_content1"
-        },
-        {
-          "text": "Scheduled Exams",
-          "href": "https://exams.westchestergov.com/webexam/PE/scheduledExamsHome.htm"
-        },
-        {
-          "text": "Continuous Recruitment Exams",
-          "href": "https://exams.westchestergov.com/webexam/CR/crExamsHome.htm"
-        },
-        {
-          "text": "Email Subscription",
-          "href": "https://exams.westchestergov.com/webexam/emailSubscription/subscribe.htm"
-        },
-        {
-          "text": "Login/Register",
-          "href": "https://exams.westchestergov.com/webexam/login/login.htm"
-        },
-        {
-          "text": "Home",
-          "href": "https://exams.westchestergov.com/webexam/home/welcome.htm"
-        },
-        {
-          "text": "View Cart",
-          "href": "https://exams.westchestergov.com/webexam/cart/showCart.htm"
-        },
-        {
-          "text": "Open to All",
-          "href": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm"
-        },
-        {
-          "text": "County/WMC Promotional",
-          "href": "https://exams.westchestergov.com/webexam/PE/listCountyWMCPromotionalExams.htm"
-        },
-        {
-          "text": "Local Promotional",
-          "href": "https://exams.westchestergov.com/webexam/PE/listLocalPromotionalExams.htm"
-        }
-      ],
-      "record_fields_present": [
-        "exam_number",
-        "agency",
-        "title",
-        "detail_url",
-        "deadline",
-        "exam_date",
-        "salary",
-        "fee",
-        "salary_text",
-        "salary_min",
-        "salary_max"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "rockland_county",
@@ -1217,14 +604,15 @@
       "url": "https://rocklandcountyny.gov/departments/personnel/civil-service-examinations",
       "status": "error",
       "status_detail": "forbidden",
-      "changed": false,
+      "error": "403 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-07-05T09:43:53Z",
-      "error": "403 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
-      "records": []
+      "records": [],
+      "record_diff": null
     },
     {
       "source_id": "orange_county",
@@ -1232,13 +620,13 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "b057c42cca8eb6aa",
       "fetched_at": "2026-07-05T09:43:55Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 25,
-      "record_diff": null,
       "records": [
         {
           "exam_number": "61438",
@@ -1301,71 +689,7 @@
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         }
       ],
-      "exam_titles": [
-        "Athletic Trainer",
-        "CORRECTION OFFICER",
-        "DATA ENTRY OPERATOR II",
-        "Emergency Medical Technician",
-        "Librarian I Trainee",
-        "Librarian I",
-        "Librarian II",
-        "Librarian II (Children's Services)",
-        "Librarian III",
-        "LIBRARY ASSISTANT"
-      ],
-      "dates": [],
-      "keywords_found": [
-        "exam",
-        "open competitive"
-      ],
-      "links": [
-        {
-          "text": "Human Resources Home",
-          "href": "https://www.orangecountygov.com/1137/Human-Resources"
-        },
-        {
-          "text": "Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "text": "County Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/main/jobs"
-        },
-        {
-          "text": "Municipal Job Specifications",
-          "href": "https://orange-portal.mycivilservice.com/main/munjobs"
-        },
-        {
-          "text": "Municipalities Served",
-          "href": "https://orange-portal.mycivilservice.com/main/munserved"
-        },
-        {
-          "text": "Employment Opportunities",
-          "href": "https://orange-portal.mycivilservice.com/post/jobopps"
-        },
-        {
-          "text": "Current Exams",
-          "href": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "text": "Info on Taking exams",
-          "href": "https://orange-portal.mycivilservice.com/main/faq"
-        },
-        {
-          "text": "Veterans Credit Information",
-          "href": "https://orange-portal.mycivilservice.com/main/vets"
-        },
-        {
-          "text": "Police/Sheriff & Corrections Videos and Info",
-          "href": "https://orange-portal.mycivilservice.com/main/police"
-        }
-      ],
-      "record_fields_present": [
-        "exam_number",
-        "title",
-        "type",
-        "detail_url"
-      ]
+      "record_diff": null
     },
     {
       "source_id": "ny_courts",
@@ -1373,65 +697,15 @@
       "url": "https://ww2.nycourts.gov/careers/exams.shtml",
       "status": "error",
       "status_detail": "fetch_failed",
-      "changed": false,
+      "error": "503 response returned from source URL",
       "content_hash": "",
       "fetched_at": "2026-07-05T09:43:58Z",
-      "error": "503 response returned from source URL",
+      "changed": false,
+      "diff": null,
       "summary_note": "",
       "record_count": 0,
-      "record_diff": null,
       "records": [],
-      "exam_titles": [],
-      "dates": [],
-      "keywords_found": [
-        "exam",
-        "examination",
-        "test",
-        "filing"
-      ],
-      "links": [
-        {
-          "text": "Skip to main content",
-          "href": "https://www.nycourts.gov/careers/exams#main-content"
-        },
-        {
-          "text": "Find a Court",
-          "href": "https://www.nycourts.gov/find-court"
-        },
-        {
-          "text": "Topics A - Z",
-          "href": "https://www.nycourts.gov/topics-a-z"
-        },
-        {
-          "text": "New York State Unified Court System",
-          "href": "https://www.nycourts.gov/"
-        },
-        {
-          "text": "Litigant / Self-Represented",
-          "href": "https://www.nycourts.gov/help/courthelp"
-        },
-        {
-          "text": "Judge",
-          "href": "https://www.nycourts.gov/judges"
-        },
-        {
-          "text": "Legal Professional",
-          "href": "https://www.nycourts.gov/legal-professional"
-        },
-        {
-          "text": "Juror",
-          "href": "https://www.nycourts.gov/juror"
-        },
-        {
-          "text": "Member of the Media",
-          "href": "https://www.nycourts.gov/public-information"
-        },
-        {
-          "text": "Job Seeker (Careers)",
-          "href": "https://www.nycourts.gov/careers/current-job-opportunities"
-        }
-      ],
-      "record_fields_present": []
+      "record_diff": null
     },
     {
       "source_id": "mta",
@@ -1439,13 +713,13 @@
       "url": "https://new.mta.info/careers",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
+      "error": null,
       "content_hash": "8317c1592724480b",
       "fetched_at": "2026-07-05T09:44:01Z",
-      "error": null,
+      "changed": false,
+      "diff": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
-      "record_diff": null,
       "records": [
         {
           "title": "Job listings",
@@ -1473,23 +747,7 @@
           "detail_url": "https://careers.mta.org/search/jobs?cfm2%5b%5d=Interns/Contingents&ns_catname=internship-apprenticeship"
         }
       ],
-      "exam_titles": [
-        "Job listings",
-        "Exam information",
-        "Police officer process",
-        "Skilled trades",
-        "Internships"
-      ],
-      "dates": [],
-      "keywords_found": [
-        "exam"
-      ],
-      "links": [],
-      "record_fields_present": [
-        "title",
-        "detail",
-        "detail_url"
-      ]
+      "record_diff": null
     }
   ]
 }

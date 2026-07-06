@@ -1,0 +1,34 @@
+{
+  "Total": "8005",
+  "Pager": {
+    "CurrentPageIndex": 1,
+    "ItemsPerPage": 25,
+    "NumberOfItems": 8005
+  },
+  "Jobs": [
+    {
+      "Title": "Cyber Threat Analyst",
+      "Agency": "Central Intelligence Agency",
+      "Department": "Other Agencies and Independent Organizations",
+      "SalaryDisplay": "Starting at $63,940 Per year (GS 8-15)",
+      "DocumentID": "722102800",
+      "LocationDisplay": "Washington, District of Columbia",
+      "DateDisplay": "Open 10/01/2025 to 09/30/2026",
+      "WorkSchedule": "Full-time",
+      "WorkType": "Permanent",
+      "PositionURI": "https://www.usajobs.gov:443/job/722102800"
+    },
+    {
+      "Title": "Resource Analyst",
+      "Agency": "Central Intelligence Agency",
+      "Department": "Other Agencies and Independent Organizations",
+      "SalaryDisplay": "Starting at $82,396 Per year (GS 9-13)",
+      "DocumentID": "722317000",
+      "LocationDisplay": "Washington, District of Columbia",
+      "DateDisplay": "Open 10/01/2025 to 09/30/2026",
+      "WorkSchedule": "Full-time",
+      "WorkType": "Permanent",
+      "PositionURI": "https://www.usajobs.gov:443/job/722317000"
+    }
+  ]
+}

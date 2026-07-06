@@ -19,6 +19,7 @@ from utils import (
 def load_html_for_extraction(source_id: str) -> str:
     """Load the preferred raw HTML snapshot for extraction."""
     preferred_paths = [
+        DATA_RAW_DIR / f"{safe_filename(source_id)}_listings.json",
         DATA_RAW_DIR / f"{safe_filename(source_id)}_listings.html",
         DATA_RAW_DIR / f"{safe_filename(source_id)}.html",
     ]

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from urllib.parse import urljoin
 
@@ -373,16 +374,300 @@ def parse_orange_text(text: str, base_url: str) -> list[dict]:
     return records[:100]
 
 
-def parse_usajobs(soup: BeautifulSoup, text: str, base_url: str) -> dict:
-    """Return a compact result for USAJOBS search pages."""
-    summary_note = ""
-    records: list[dict] = []
-    if "No jobs found" in text or "We couldn't find any results." in text:
+def parse_usajobs_json(payload: dict, base_url: str) -> dict:
+    """Extract normalized records from USAJOBS' first-party search payload."""
+    records = []
+    links = []
+    seen = set()
+
+    for job in payload.get("Jobs", []):
+        job_id = clean_text(str(job.get("DocumentID", "")))
+        detail_url = clean_text(job.get("PositionURI", ""))
+        if job_id:
+            detail_url = absolutize(base_url, f"/job/{job_id}")
+        dedupe_key = job_id or detail_url
+        if not dedupe_key or dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+
+        date_text = clean_text(job.get("DateDisplay", ""))
+        dates = find_dates(date_text)
+        posted_text = dates[0] if dates else clean_text(job.get("PositionStartDate", ""))
+        closing_text = dates[-1] if dates else clean_text(job.get("PositionEndDate", ""))
+        job_type = "; ".join(
+            value
+            for value in (
+                clean_text(job.get("WorkType", "")),
+                clean_text(job.get("WorkSchedule", "")),
+            )
+            if value
+        )
+        announcement_text = " | ".join(
+            value
+            for value in (
+                clean_text(job.get("Agency", "")),
+                clean_text(job.get("Department", "")),
+                clean_text(job.get("LocationDisplay", "") or job.get("Location", "")),
+                date_text,
+                clean_text(job.get("SalaryDisplay", "")),
+                job_type,
+            )
+            if value
+        )
+
+        record = normalize_record(
+            {
+                "source_record_id": job_id,
+                "job_id": job_id,
+                "title": job.get("Title", ""),
+                "agency": job.get("Agency", ""),
+                "department": job.get("Department", ""),
+                "location": job.get("LocationDisplay", "") or job.get("Location", ""),
+                "salary": job.get("SalaryDisplay", ""),
+                "posted_text": posted_text,
+                "closing_text": closing_text,
+                "deadline": dates[-1] if dates else closing_text,
+                "job_type": job_type,
+                "detail_url": detail_url,
+                "announcement_text": announcement_text,
+                "type": "Federal posting",
+            }
+        )
+        if not record.get("title"):
+            continue
+
+        records.append(record)
+        links.append({"text": record["title"][:200], "href": detail_url[:500]})
+        if len(records) >= 100:
+            break
+
+    total_results = int(payload.get("Total", 0) or 0)
+    if records and total_results > len(records):
+        summary_note = (
+            f"{len(records)} USAJOBS federal listings extracted from "
+            f"{total_results:,} currently found for this search."
+        )
+    elif records:
+        summary_note = f"{len(records)} USAJOBS federal listings currently found for this search."
+    else:
         summary_note = "No matching USAJOBS listings found for the current search."
+
     return {
         "records": records,
         "summary_note": summary_note,
-        "links": [],
+        "links": links,
+    }
+
+
+def parse_usajobs(soup: BeautifulSoup, text: str, base_url: str) -> dict:
+    """Extract federal job cards from a rendered USAJOBS search page."""
+    no_results_messages = ("No jobs found", "We couldn't find any results.")
+    visible_no_results = False
+    for message in no_results_messages:
+        message_node = soup.find(string=lambda value: value and message in value)
+        if not message_node:
+            continue
+        if not any("hidden" in parent.get("class", []) for parent in message_node.parents):
+            visible_no_results = True
+            break
+    if visible_no_results:
+        return {
+            "records": [],
+            "summary_note": "No matching USAJOBS listings found for the current search.",
+            "links": [],
+        }
+
+    labels = [
+        "Department",
+        "Agency",
+        "Location",
+        "Salary",
+        "Open & closing dates",
+        "Series & Grade",
+        "Job type",
+        "Remote job",
+        "Telework eligible",
+    ]
+    semantic_hints = {
+        "department": ("department",),
+        "agency": ("agency",),
+        "location": ("location",),
+        "salary": ("salary",),
+        "open_closing": ("open-closing", "open_closing", "openclosing"),
+        "job_type": ("job-type", "job_type", "jobtype"),
+    }
+
+    def element_value(element, label: str) -> str:
+        value = clean_text(element.get_text(" ", strip=True))
+        if value.lower().rstrip(":") == label.lower():
+            sibling = element.find_next_sibling()
+            if sibling:
+                return clean_text(sibling.get_text(" ", strip=True))
+            return ""
+        return clean_text(re.sub(rf"^{re.escape(label)}\s*:?\s*", "", value, flags=re.IGNORECASE))
+
+    def semantic_value(card, key: str, label: str) -> str:
+        hints = semantic_hints.get(key, ())
+        for element in card.find_all(True):
+            attributes = " ".join(
+                [
+                    str(element.get("data-test", "")),
+                    str(element.get("data-testid", "")),
+                    str(element.get("aria-label", "")),
+                    str(element.get("id", "")),
+                    " ".join(element.get("class", [])),
+                ]
+            ).lower()
+            if any(hint in attributes for hint in hints):
+                value = element_value(element, label)
+                if value:
+                    return value
+
+        for element in card.find_all(["dt", "span", "div", "p", "strong", "b"]):
+            element_text = clean_text(element.get_text(" ", strip=True))
+            if (
+                element_text.lower().rstrip(":") == label.lower()
+                or re.match(rf"^{re.escape(label)}\s*:", element_text, re.IGNORECASE)
+            ):
+                value = element_value(element, label)
+                if value:
+                    return value
+
+        card_text = clean_text(card.get_text(" ", strip=True))
+        if re.search(rf"\b{re.escape(label)}\s*:", card_text, re.IGNORECASE):
+            return extract_labeled_value(
+                card_text,
+                label,
+                [candidate for candidate in labels if candidate != label],
+            )
+        return ""
+
+    def listing_card(anchor):
+        for parent in anchor.parents:
+            if parent.name in {"body", "html"}:
+                break
+            classes = parent.get("class", [])
+            if "page-section" in classes:
+                return parent
+            attributes = " ".join(
+                [
+                    str(parent.get("data-test", "")),
+                    str(parent.get("data-testid", "")),
+                    " ".join(classes),
+                ]
+            ).lower()
+            if any(token in attributes for token in ("job-result", "search-result", "job-card", "result-card")):
+                return parent
+            if parent.name in {"article", "li"}:
+                return parent
+        return anchor.parent
+
+    records: list[dict] = []
+    links: list[dict] = []
+    seen = set()
+
+    for anchor in soup.find_all("a", href=True):
+        href = anchor.get("href", "")
+        job_match = re.search(r"/job/(\d+)(?:/|$)", href, re.IGNORECASE)
+        if not job_match:
+            continue
+
+        job_id = job_match.group(1)
+        detail_url = absolutize(base_url, href)
+        dedupe_key = job_id or detail_url
+        if dedupe_key in seen:
+            continue
+
+        card = listing_card(anchor)
+        title = clean_text(anchor.get_text(" ", strip=True))
+        if not title:
+            continue
+        seen.add(dedupe_key)
+
+        card_text = clean_text(card.get_text(" ", strip=True))
+        department = semantic_value(card, "department", "Department")
+        agency = semantic_value(card, "agency", "Agency")
+        if not agency:
+            agency_element = card.find("strong") or card.find("h3")
+            agency = clean_text(agency_element.get_text(" ", strip=True)) if agency_element else ""
+            agency_line = (
+                clean_text(agency_element.parent.get_text(" ", strip=True))
+                if agency_element and agency_element.parent
+                else ""
+            )
+            if not department and "•" in agency_line:
+                department = clean_text(agency_line.split("•", 1)[1])
+
+        date_text = semantic_value(card, "open_closing", "Open & closing dates")
+        if not date_text and "Posted" in card_text and "Apply by" in card_text:
+            date_text = card_text
+        dates = find_dates(date_text)
+        posted_text = dates[0] if dates else date_text
+        closing_text = dates[-1] if dates else date_text
+
+        location = semantic_value(card, "location", "Location")
+        if not location:
+            location_icon = card.find(
+                "use",
+                attrs={"xlink:href": re.compile("location_on", re.IGNORECASE)},
+            ) or card.find("use", href=re.compile("location_on", re.IGNORECASE))
+            location_container = location_icon.find_parent("div") if location_icon else None
+            if location_container:
+                location = clean_text(location_container.get_text(" ", strip=True))
+
+        salary = semantic_value(card, "salary", "Salary")
+        badge_values = [
+            clean_text(badge.get_text(" ", strip=True))
+            for badge in card.select("span.badge-secondary")
+        ]
+        if not salary:
+            salary = next((value for value in badge_values if "$" in value), "")
+
+        job_type = semantic_value(card, "job_type", "Job type")
+        if not job_type:
+            job_type_values = [value for value in badge_values if value and value != salary]
+            job_type = "; ".join(job_type_values)
+
+        record = normalize_record(
+            {
+                "source_record_id": job_id,
+                "job_id": job_id,
+                "title": title,
+                "agency": agency,
+                "department": department,
+                "location": location,
+                "salary": salary,
+                "posted_text": posted_text,
+                "closing_text": closing_text,
+                "deadline": dates[-1] if dates else "",
+                "job_type": job_type,
+                "detail_url": detail_url,
+                "announcement_text": card_text,
+                "type": "Federal posting",
+            }
+        )
+        records.append(record)
+        links.append({"text": title[:200], "href": detail_url[:500]})
+
+        if len(records) >= 100:
+            break
+
+    summary_note = ""
+    if records:
+        total_match = re.search(r"\bof\s+([\d,]+)\s+jobs\b", text, re.IGNORECASE)
+        total_results = int(total_match.group(1).replace(",", "")) if total_match else len(records)
+        if total_results > len(records):
+            summary_note = (
+                f"{len(records)} USAJOBS federal listings extracted from "
+                f"{total_results:,} currently found for this search."
+            )
+        else:
+            summary_note = f"{len(records)} USAJOBS federal listings currently found for this search."
+
+    return {
+        "records": records[:100],
+        "summary_note": summary_note,
+        "links": links[:100],
     }
 
 
@@ -512,11 +797,21 @@ def parse_generic_page(soup: BeautifulSoup, text: str, base_url: str) -> dict:
 
 def extract_source_data(source_id: str, html: str, base_url: str) -> dict:
     """Return structured data for a source HTML document."""
-    soup = BeautifulSoup(html, "html.parser")
-    text = soup_text(html)
+    if source_id == "usajobs" and html.lstrip().startswith("{"):
+        try:
+            payload = json.loads(html)
+        except json.JSONDecodeError:
+            payload = {}
+        parsed = parse_usajobs_json(payload, base_url)
+        soup = BeautifulSoup("", "html.parser")
+        text = ""
+    else:
+        soup = BeautifulSoup(html, "html.parser")
+        text = soup_text(html)
 
     if source_id == "usajobs":
-        parsed = parse_usajobs(soup, text, base_url)
+        if not html.lstrip().startswith("{"):
+            parsed = parse_usajobs(soup, text, base_url)
     elif source_id == "mta":
         parsed = parse_mta(soup, text, base_url)
     elif source_id == "nassau_county" and soup.select("li.list-item[data-job-id]"):

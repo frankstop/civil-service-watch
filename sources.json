@@ -18,8 +18,8 @@
   {
     "id": "usajobs",
     "name": "USAJOBS",
-    "url": "https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1",
-    "description": "USAJOBS federal positions in New York",
+    "url": "https://www.usajobs.gov/Search/Results?hp=public",
+    "description": "USAJOBS federal positions open to the public",
     "region": "Federal",
     "tags": ["postings", "federal"]
   },

@@ -19,7 +19,7 @@ import time
 import json
 import logging
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 import requests
 
@@ -106,6 +106,63 @@ def fetch_nassau_listing_html(source_url: str) -> str:
     return response.text
 
 
+def fetch_usajobs_listing_payload(source_url: str) -> dict:
+    """Fetch USAJOBS' first-party search payload for the configured query."""
+    query = parse_qs(urlparse(source_url).query)
+    parameter_map = {
+        "hp": "HiringPath",
+        "j": "JobCategoryCode",
+        "k": "Keyword",
+        "l": "LocationName",
+        "p": "Page",
+        "ws": "PositionScheduleTypeCode",
+        "wt": "PositionOfferingTypeCode",
+    }
+    payload = {}
+    for query_name, payload_name in parameter_map.items():
+        values = query.get(query_name, [])
+        if not values:
+            continue
+        if payload_name == "Page":
+            payload[payload_name] = int(values[-1])
+        elif payload_name == "Keyword":
+            payload[payload_name] = values[-1]
+        else:
+            payload[payload_name] = values
+    payload.setdefault("Page", 1)
+
+    combined_payload = None
+    jobs = []
+    while len(jobs) < 100:
+        response = requests.post(
+            "https://www.usajobs.gov/Search/ExecuteSearch",
+            json=payload,
+            headers={
+                **request_headers("usajobs"),
+                "Content-Type": "application/json; charset=utf-8",
+                "Referer": source_url,
+            },
+            timeout=TIMEOUT,
+        )
+        response.raise_for_status()
+        page_payload = response.json()
+        if combined_payload is None:
+            combined_payload = page_payload
+        jobs.extend(page_payload.get("Jobs", []))
+
+        pager = page_payload.get("Pager", {})
+        if not pager.get("HasNextPage"):
+            break
+        next_page = pager.get("NextPageIndex")
+        if not next_page or next_page == payload.get("Page"):
+            break
+        payload["Page"] = next_page
+
+    combined_payload = combined_payload or {"Total": 0, "Jobs": []}
+    combined_payload["Jobs"] = jobs[:100]
+    return combined_payload
+
+
 def fetch_source(source: dict) -> dict:
     """Fetch a single source and return a normalised record."""
     sid = source["id"]
@@ -147,14 +204,38 @@ def fetch_source(source: dict) -> dict:
             return result
 
         extraction_html = html
-        if sid == "nassau_county":
+        if sid == "usajobs":
+            listing_path = DATA_RAW_DIR / f"{safe_filename(sid)}_listings.json"
+            try:
+                listing_payload = fetch_usajobs_listing_payload(resp.url)
+                extraction_html = json.dumps(listing_payload)
+                listing_path.write_text(
+                    json.dumps(listing_payload, indent=2, ensure_ascii=False),
+                    encoding="utf-8",
+                )
+            except Exception as exc:  # noqa: BLE001
+                log.warning("Unable to fetch USAJOBS listing payload: %s", exc)
+                result["status"] = "error"
+                result["status_detail"] = "listing_payload_failed"
+                result["error"] = str(exc)
+                result["summary_note"] = (
+                    "USAJOBS page loaded, but the listing payload could not be fetched."
+                )
+                return result
+        elif sid == "nassau_county":
             listing_path = DATA_RAW_DIR / f"{safe_filename(sid)}_listings.html"
             try:
                 extraction_html = fetch_nassau_listing_html(resp.url)
                 listing_path.write_text(extraction_html, encoding="utf-8")
             except Exception as exc:  # noqa: BLE001
                 log.warning("Unable to fetch Nassau listing payload: %s", exc)
-                listing_path.write_text("", encoding="utf-8")
+                result["status"] = "error"
+                result["status_detail"] = "listing_payload_failed"
+                result["error"] = str(exc)
+                result["summary_note"] = (
+                    "Nassau County page loaded, but the listing payload could not be fetched."
+                )
+                return result
 
         extracted = extract_source_data(sid, extraction_html, resp.url)
         text = extracted["normalized_text"]
