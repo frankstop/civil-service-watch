@@ -8,14 +8,14 @@
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-07-08T09:27:34Z",
+  "fetched_at": "2026-07-09T10:26:53Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "content_hash": "23da74e9ce3c275f",
-  "text": "60-067310 | Assistant Civil Engineer | 07/08/2026 | 09/19/2026 | Towns, Villages, Cities of Peekskill and Rye | Varies with jurisdiction | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60067310.htm\n60-057470 | Associate Engineer (Construction) | 07/08/2026 | 09/19/2026 | Westchester County | $110,705 - $144,365 | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60057470.htm",
-  "summary_note": "",
-  "record_count": 2,
+  "content_hash": "453facc75df89a03",
+  "text": "Civil service exam information is available on this source page.",
+  "summary_note": "Civil service exam information is available on this source page.",
+  "record_count": 0,
   "error": null
 }
