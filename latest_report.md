@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-07-11  
-**Generated:** 2026-07-11T08:50:17Z  
+**Date:** 2026-07-12  
+**Generated:** 2026-07-12T09:05:29Z  
 **Sources checked:** 10  
 **Changes detected:** 1  
 
