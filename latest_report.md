@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-07-16  
-**Generated:** 2026-07-16T09:18:03Z  
+**Date:** 2026-07-17  
+**Generated:** 2026-07-17T09:11:50Z  
 **Sources checked:** 10  
 **Changes detected:** 2  
 
@@ -24,11 +24,11 @@
 - **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-- **Nassau County Civil Service** — no change — https://www.governmentjobs.com/careers/nassaucountyny
+- **Nassau County Civil Service** — records `+1` / `-1` — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — bot_blocked — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- **Orange County Civil Service** — records `+1` / `-0` — https://orange-portal.mycivilservice.com/post/exams
+- **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — fetch_failed — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
 
@@ -37,18 +37,20 @@
 ### NYS Civil Service
 - **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
 
-### Orange County Civil Service
-- **URL:** https://orange-portal.mycivilservice.com/post/exams
-- **Summary:** Open competitive and continuous recruitment exam listings.
-- Records added: 1 · removed: 0
-- **Added titles:** POLICE OFFICER
-- Added record: POLICE OFFICER — 60065960 — 08/28/2026
+### Nassau County Civil Service
+- **URL:** https://www.governmentjobs.com/careers/nassaucountyny
+- **Summary:** 10 Nassau County open competitive announcements currently listed.
+- Records added: 1 · removed: 1
+- **Added titles:** DEPUTY SHERIFF
+- **Removed titles:** PHARMACIST I
+- Added record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 2 weeks
+- Removed record: PHARMACIST I — 3413191 — NASSAU HEALTH CARE CORPORATION — Continuous
 - **Top records:**
-  - POLICE OFFICER — 60065960 — 08/28/2026 — 10/17/2026
-  - Athletic Trainer — 61438
-  - CORRECTION OFFICER — 60048720
-  - DATA ENTRY OPERATOR II — 6108
-  - Emergency Medical Technician — 002
+  - CYTOTECHNOLOGIST I
+  - CYTOTECHNOLOGIST II
+  - CYTOTECHNOLOGIST III
+  - DEPUTY SHERIFF
+  - LIBRARIAN I
 
 ## ❌ Fetch Errors
 
@@ -60,8 +62,8 @@
 
 - NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-- Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
 
 ---
