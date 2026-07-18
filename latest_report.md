@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-07-17  
-**Generated:** 2026-07-17T09:11:50Z  
+**Date:** 2026-07-18  
+**Generated:** 2026-07-18T08:50:09Z  
 **Sources checked:** 10  
 **Changes detected:** 2  
 
@@ -42,9 +42,9 @@
 - **Summary:** 10 Nassau County open competitive announcements currently listed.
 - Records added: 1 · removed: 1
 - **Added titles:** DEPUTY SHERIFF
-- **Removed titles:** PHARMACIST I
+- **Removed titles:** DEPUTY SHERIFF
 - Added record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 2 weeks
-- Removed record: PHARMACIST I — 3413191 — NASSAU HEALTH CARE CORPORATION — Continuous
+- Removed record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 2 weeks
 - **Top records:**
   - CYTOTECHNOLOGIST I
   - CYTOTECHNOLOGIST II
