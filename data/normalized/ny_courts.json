@@ -8,7 +8,7 @@
     "postings",
     "courts"
   ],
-  "fetched_at": "2026-07-18T08:50:06Z",
+  "fetched_at": "2026-07-19T09:06:52Z",
   "status": "error",
   "status_detail": "fetch_failed",
   "http_status": 503,
