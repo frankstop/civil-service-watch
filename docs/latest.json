@@ -1,13 +1,13 @@
 {
-  "date": "2026-07-23",
-  "generated_at": "2026-07-23T09:27:07Z",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T09:23:11Z",
   "total_sources": 10,
-  "changed_count": 3,
+  "changed_count": 1,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 3,
-    "unchanged": 7,
+    "changed": 1,
+    "unchanged": 9,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -20,53 +20,16 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 8,
       "summary_note": "",
-      "added_count": 2,
-      "removed_count": 5,
-      "added_records": [
-        {
-          "exam_number": "7006 (pdf)",
-          "title": "Assistant Civil Engineer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
-        },
-        {
-          "exam_number": "7013 (pdf)",
-          "title": "Automotive Service Worker",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
-        }
-      ],
-      "removed_records": [
-        {
-          "exam_number": "6329 (pdf)",
-          "title": "Police Communications Technician",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
-        },
-        {
-          "exam_number": "7006 (pdf)",
-          "title": "Assistant Civil Engineer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
-        },
-        {
-          "exam_number": "7007 (pdf)",
-          "title": "Assistant Electrical Engineer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277007000.pdf"
-        },
-        {
-          "exam_number": "7013 (pdf)",
-          "title": "Automotive Service Worker",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
-        },
-        {
-          "exam_number": "7311 (pdf)",
-          "title": "Police Officer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277311000.pdf"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "nys_civil_service",
@@ -108,38 +71,16 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 1,
-      "removed_count": 1,
-      "added_records": [
-        {
-          "source_record_id": "5365913",
-          "job_id": "5365913",
-          "title": "DEPUTY SHERIFF",
-          "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-        }
-      ],
-      "removed_records": [
-        {
-          "source_record_id": "5365913",
-          "job_id": "5365913",
-          "title": "DEPUTY SHERIFF",
-          "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 2 weeks",
-          "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "suffolk_county",
@@ -254,66 +195,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "bff2b93f11a07b73",
-      "fetched_at": "2026-07-23T09:26:42Z",
+      "fetched_at": "2026-07-24T09:22:48Z",
       "error": null,
       "summary_note": "",
       "record_count": 8,
-      "record_diff": {
-        "added_count": 2,
-        "removed_count": 5,
-        "added_titles": [
-          "Assistant Civil Engineer",
-          "Automotive Service Worker"
-        ],
-        "removed_titles": [
-          "Police Communications Technician",
-          "Assistant Civil Engineer",
-          "Assistant Electrical Engineer",
-          "Automotive Service Worker",
-          "Police Officer"
-        ],
-        "added_records": [
-          {
-            "exam_number": "7006 (pdf)",
-            "title": "Assistant Civil Engineer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
-          },
-          {
-            "exam_number": "7013 (pdf)",
-            "title": "Automotive Service Worker",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
-          }
-        ],
-        "removed_records": [
-          {
-            "exam_number": "6329 (pdf)",
-            "title": "Police Communications Technician",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266329000.pdf"
-          },
-          {
-            "exam_number": "7006 (pdf)",
-            "title": "Assistant Civil Engineer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
-          },
-          {
-            "exam_number": "7007 (pdf)",
-            "title": "Assistant Electrical Engineer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277007000.pdf"
-          },
-          {
-            "exam_number": "7013 (pdf)",
-            "title": "Automotive Service Worker",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
-          },
-          {
-            "exam_number": "7311 (pdf)",
-            "title": "Police Officer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277311000.pdf"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "title": "Assistant Civil Engineer",
@@ -439,8 +327,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "78992f84cb7a11c8",
-      "fetched_at": "2026-07-23T09:26:45Z",
+      "content_hash": "b417b5dd9a284459",
+      "fetched_at": "2026-07-24T09:22:50Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -508,7 +396,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-07-23T09:26:47Z",
+      "fetched_at": "2026-07-24T09:22:52Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -526,46 +414,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "da923f1a48fa5f9a",
-      "fetched_at": "2026-07-23T09:26:50Z",
+      "fetched_at": "2026-07-24T09:22:54Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 1,
-        "added_titles": [
-          "DEPUTY SHERIFF"
-        ],
-        "removed_titles": [
-          "DEPUTY SHERIFF"
-        ],
-        "added_records": [
-          {
-            "source_record_id": "5365913",
-            "job_id": "5365913",
-            "title": "DEPUTY SHERIFF",
-            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-          }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5365913",
-            "job_id": "5365913",
-            "title": "DEPUTY SHERIFF",
-            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 2 weeks",
-            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "source_record_id": "3413083",
@@ -814,7 +669,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-23T09:26:52Z",
+      "fetched_at": "2026-07-24T09:22:58Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -829,7 +684,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-07-23T09:26:54Z",
+      "fetched_at": "2026-07-24T09:23:00Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -893,7 +748,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-23T09:26:57Z",
+      "fetched_at": "2026-07-24T09:23:02Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -908,7 +763,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-07-23T09:27:00Z",
+      "fetched_at": "2026-07-24T09:23:04Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -1056,7 +911,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-23T09:27:03Z",
+      "fetched_at": "2026-07-24T09:23:07Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1122,7 +977,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-07-23T09:27:06Z",
+      "fetched_at": "2026-07-24T09:23:10Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
