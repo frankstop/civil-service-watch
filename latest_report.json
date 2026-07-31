@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30T09:33:30Z",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T09:48:05Z",
   "total_sources": 10,
   "changed_count": 2,
   "health_summary": {
@@ -38,15 +38,44 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "record_count": 0,
+      "record_count": 4,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 4,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "21-027020",
+          "title": "Park Police Officer Trainee",
+          "deadline": "September 09, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/police/"
+        },
+        {
+          "exam_number": "21-028020",
+          "title": "Park Police Officer Trainee (Spanish Language)",
+          "deadline": "September 09, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/police/"
+        },
+        {
+          "exam_number": "21-029020",
+          "title": "University Police Officer 1",
+          "deadline": "September 09, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/police/"
+        },
+        {
+          "exam_number": "21-030020",
+          "title": "University Police Officer 1 (Spanish Language)",
+          "deadline": "September 09, 2026",
+          "salary": "See Announcement",
+          "detail_url": "https://www.cs.ny.gov/police/"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "usajobs",
@@ -74,8 +103,8 @@
       "changed": true,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 1,
-      "removed_count": 1,
+      "added_count": 2,
+      "removed_count": 2,
       "added_records": [
         {
           "source_record_id": "5365913",
@@ -83,19 +112,39 @@
           "title": "DEPUTY SHERIFF",
           "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
+        },
+        {
+          "source_record_id": "5419085",
+          "job_id": "5419085",
+          "title": "CIVIL ENGINEER II",
+          "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
+          "type": "Open Competitive",
+          "closing_text": "Closes in 2 weeks",
+          "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
         }
       ],
       "removed_records": [
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "type": "Open Competitive",
+          "closing_text": "Continuous",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+        },
         {
           "source_record_id": "5365913",
           "job_id": "5365913",
           "title": "DEPUTY SHERIFF",
           "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
+          "closing_text": "Closes in 6 days",
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
         }
@@ -219,7 +268,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "bff2b93f11a07b73",
-      "fetched_at": "2026-07-30T09:33:04Z",
+      "fetched_at": "2026-07-31T09:47:43Z",
       "error": null,
       "summary_note": "",
       "record_count": 8,
@@ -349,21 +398,101 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "af1cc2bab7b87728",
-      "fetched_at": "2026-07-30T09:33:07Z",
+      "content_hash": "2016fbc97a2d0a1c",
+      "fetched_at": "2026-07-31T09:47:45Z",
       "error": null,
       "summary_note": "",
-      "record_count": 0,
-      "record_diff": null,
-      "records": [],
-      "exam_titles": [],
-      "dates": [],
+      "record_count": 4,
+      "record_diff": {
+        "added_count": 4,
+        "removed_count": 0,
+        "added_titles": [
+          "Park Police Officer Trainee",
+          "Park Police Officer Trainee (Spanish Language)",
+          "University Police Officer 1",
+          "University Police Officer 1 (Spanish Language)"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "21-027020",
+            "title": "Park Police Officer Trainee",
+            "deadline": "September 09, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/police/"
+          },
+          {
+            "exam_number": "21-028020",
+            "title": "Park Police Officer Trainee (Spanish Language)",
+            "deadline": "September 09, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/police/"
+          },
+          {
+            "exam_number": "21-029020",
+            "title": "University Police Officer 1",
+            "deadline": "September 09, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/police/"
+          },
+          {
+            "exam_number": "21-030020",
+            "title": "University Police Officer 1 (Spanish Language)",
+            "deadline": "September 09, 2026",
+            "salary": "See Announcement",
+            "detail_url": "https://www.cs.ny.gov/police/"
+          }
+        ],
+        "removed_records": []
+      },
+      "records": [
+        {
+          "exam_number": "21-027020",
+          "title": "Park Police Officer Trainee",
+          "detail_url": "https://www.cs.ny.gov/police/",
+          "salary": "See Announcement",
+          "deadline": "September 09, 2026",
+          "fee": "$0",
+          "salary_text": "See Announcement"
+        },
+        {
+          "exam_number": "21-028020",
+          "title": "Park Police Officer Trainee (Spanish Language)",
+          "detail_url": "https://www.cs.ny.gov/police/",
+          "salary": "See Announcement",
+          "deadline": "September 09, 2026",
+          "fee": "$0",
+          "salary_text": "See Announcement"
+        },
+        {
+          "exam_number": "21-029020",
+          "title": "University Police Officer 1",
+          "detail_url": "https://www.cs.ny.gov/police/",
+          "salary": "See Announcement",
+          "deadline": "September 09, 2026",
+          "fee": "$0",
+          "salary_text": "See Announcement"
+        },
+        {
+          "exam_number": "21-030020",
+          "title": "University Police Officer 1 (Spanish Language)",
+          "detail_url": "https://www.cs.ny.gov/police/",
+          "salary": "See Announcement",
+          "deadline": "September 09, 2026",
+          "fee": "$0",
+          "salary_text": "See Announcement"
+        }
+      ],
+      "exam_titles": [
+        "Park Police Officer Trainee",
+        "Park Police Officer Trainee (Spanish Language)",
+        "University Police Officer 1",
+        "University Police Officer 1 (Spanish Language)"
+      ],
+      "dates": [
+        "September 09, 2026"
+      ],
       "keywords_found": [
-        "exam",
-        "examination",
-        "schedule",
-        "eligible list",
-        "civil service",
         "announcement"
       ],
       "links": [
@@ -408,7 +537,15 @@
           "href": "https://www.cs.ny.gov/ccg/"
         }
       ],
-      "record_fields_present": []
+      "record_fields_present": [
+        "exam_number",
+        "title",
+        "detail_url",
+        "salary",
+        "deadline",
+        "fee",
+        "salary_text"
+      ]
     },
     {
       "source_id": "usajobs",
@@ -418,7 +555,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-07-30T09:33:10Z",
+      "fetched_at": "2026-07-31T09:47:47Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -437,21 +574,55 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "ba4fbc1dcb8b3f4a",
-      "fetched_at": "2026-07-30T09:33:12Z",
+      "content_hash": "d0f4c8b95c8587df",
+      "fetched_at": "2026-07-31T09:47:49Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
       "record_diff": {
-        "added_count": 1,
-        "removed_count": 1,
+        "added_count": 2,
+        "removed_count": 2,
         "added_titles": [
-          "DEPUTY SHERIFF"
+          "DEPUTY SHERIFF",
+          "CIVIL ENGINEER II"
         ],
         "removed_titles": [
+          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
           "DEPUTY SHERIFF"
         ],
         "added_records": [
+          {
+            "source_record_id": "5365913",
+            "job_id": "5365913",
+            "title": "DEPUTY SHERIFF",
+            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 5 days",
+            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
+          },
+          {
+            "source_record_id": "5419085",
+            "job_id": "5419085",
+            "title": "CIVIL ENGINEER II",
+            "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
+            "type": "Open Competitive",
+            "closing_text": "Closes in 2 weeks",
+            "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
+          }
+        ],
+        "removed_records": [
+          {
+            "source_record_id": "3412822",
+            "job_id": "3412822",
+            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+            "type": "Open Competitive",
+            "closing_text": "Continuous",
+            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+          },
           {
             "source_record_id": "5365913",
             "job_id": "5365913",
@@ -462,21 +633,24 @@
             "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
           }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5365913",
-            "job_id": "5365913",
-            "title": "DEPUTY SHERIFF",
-            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-          }
         ]
       },
       "records": [
+        {
+          "source_record_id": "5419085",
+          "job_id": "5419085",
+          "title": "CIVIL ENGINEER II",
+          "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
+          "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
+          "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY SALARY : Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
+          "posted_text": "Posted 1 day ago",
+          "closing_text": "Closes in 2 weeks",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii",
+          "type": "Open Competitive",
+          "salary_text": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
+          "salary_min": 62657,
+          "salary_max": 127037
+        },
         {
           "source_record_id": "3413083",
           "job_id": "3413083",
@@ -533,7 +707,7 @@
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF THE SHERIFF, NASSAU COUNTY SALARY : $62,657 - $127,037 (under the current collective bargaining agreement)",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff",
           "type": "Open Competitive",
           "salary_text": "$62,657 - $127,037 (under the current collective bargaining agreement)",
@@ -610,25 +784,10 @@
           "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
           "salary_min": 43176,
           "salary_max": 81760
-        },
-        {
-          "source_record_id": "3412822",
-          "job_id": "3412822",
-          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
-          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
-          "posted_text": "Posted more than 30 days ago",
-          "closing_text": "Continuous",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
-          "type": "Open Competitive",
-          "status": "continuous",
-          "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-          "salary_min": 63872,
-          "salary_max": 97339
         }
       ],
       "exam_titles": [
+        "CIVIL ENGINEER II",
         "CYTOTECHNOLOGIST I",
         "CYTOTECHNOLOGIST II",
         "CYTOTECHNOLOGIST III",
@@ -637,15 +796,13 @@
         "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
         "MEDICAL TECHNOLOGIST I",
         "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-        "OCCUPATIONAL THERAPIST ASSISTANT",
-        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I"
+        "OCCUPATIONAL THERAPIST ASSISTANT"
       ],
       "dates": [
         "4/29/25",
         "2/13/26",
         "5/23/25",
-        "3/16/23",
-        "3/27/25"
+        "3/16/23"
       ],
       "keywords_found": [
         "exam",
@@ -658,6 +815,10 @@
         "announcement"
       ],
       "links": [
+        {
+          "text": "CIVIL ENGINEER II",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
+        },
         {
           "text": "CYTOTECHNOLOGIST I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i"
@@ -693,10 +854,6 @@
         {
           "text": "OCCUPATIONAL THERAPIST ASSISTANT",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
-        },
-        {
-          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         }
       ],
       "record_fields_present": [
@@ -710,10 +867,10 @@
         "closing_text",
         "detail_url",
         "type",
-        "status",
         "salary_text",
         "salary_min",
-        "salary_max"
+        "salary_max",
+        "status"
       ]
     },
     {
@@ -724,7 +881,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-30T09:33:15Z",
+      "fetched_at": "2026-07-31T09:47:52Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -739,7 +896,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-07-30T09:33:17Z",
+      "fetched_at": "2026-07-31T09:47:54Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -803,7 +960,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-30T09:33:21Z",
+      "fetched_at": "2026-07-31T09:47:57Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -818,7 +975,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-07-30T09:33:23Z",
+      "fetched_at": "2026-07-31T09:47:59Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -966,7 +1123,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-07-30T09:33:26Z",
+      "fetched_at": "2026-07-31T09:48:02Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1032,7 +1189,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-07-30T09:33:29Z",
+      "fetched_at": "2026-07-31T09:48:04Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
