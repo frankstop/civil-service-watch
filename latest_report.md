@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-08-02  
-**Generated:** 2026-08-02T09:11:39Z  
+**Date:** 2026-08-03  
+**Generated:** 2026-08-03T10:46:13Z  
 **Sources checked:** 10  
 **Changes detected:** 1  
 
@@ -40,9 +40,9 @@
 - Records added: 2 · removed: 2
 - **Added titles:** DEPUTY SHERIFF, CIVIL ENGINEER II
 - **Removed titles:** DEPUTY SHERIFF, CIVIL ENGINEER II
-- Added record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 3 days
+- Added record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 2 days
 - Added record: CIVIL ENGINEER II — 5419085 — DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY — Closes in 1 week
-- Removed record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 4 days
+- Removed record: DEPUTY SHERIFF — 5365913 — DEPARTMENT OF THE SHERIFF, NASSAU COUNTY — Closes in 3 days
 - Removed record: CIVIL ENGINEER II — 5419085 — DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY — Closes in 1 week
 - **Top records:**
   - CIVIL ENGINEER II
