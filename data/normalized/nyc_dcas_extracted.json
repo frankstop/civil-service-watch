@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-08-03T10:46:12Z",
+  "extracted_at": "2026-08-04T09:40:11Z",
   "links": [
     {
       "text": "311",
@@ -109,6 +109,10 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf"
     },
     {
+      "text": "7312",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf"
+    },
+    {
       "text": "7323",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf"
     },
@@ -211,6 +215,12 @@
       "application_period": "6/15/2026 – 8/7/2026"
     },
     {
+      "title": "Police Officer",
+      "exam_number": "7312 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf",
+      "application_period": "8/3/2026 – 8/17/2026"
+    },
+    {
       "title": "School Safety Agent",
       "exam_number": "7323 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf",
@@ -223,14 +233,14 @@
       "application_period": "7/1/2026 – 8/25/2026"
     }
   ],
-  "record_count": 8,
+  "record_count": 9,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "bff2b93f11a07b73",
+  "record_fingerprint": "412d42a4ec84d382",
   "summary_note": "",
   "exam_titles": [
     "Assistant Civil Engineer",
@@ -239,17 +249,21 @@
     "Caseworker (NYC Health + Hospitals)",
     "Emergency Medical Specialist",
     "Emergency Medical Specialist Trainee",
+    "Police Officer",
     "School Safety Agent",
     "Traffic Enforcement Agent"
   ],
   "dates": [
     "7/1/2026 – 8/25/2026",
     "6/15/2026 – 8/7/2026",
+    "8/3/2026 – 8/17/2026",
     "7/1/2026",
     "8/25/2026",
     "6/15/2026",
-    "8/7/2026"
+    "8/7/2026",
+    "8/3/2026",
+    "8/17/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7013 (pdf) | Automotive Service Worker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf\n7016 (pdf) | Caseworker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf\n7018 (pdf) | Caseworker (NYC Health + Hospitals) | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf\n6125 (pdf) | Emergency Medical Specialist | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf\n6126 (pdf) | Emergency Medical Specialist Trainee | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf\n7323 (pdf) | School Safety Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf\n7331 (pdf) | Traffic Enforcement Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf"
+  "normalized_text": "7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7013 (pdf) | Automotive Service Worker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf\n7016 (pdf) | Caseworker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf\n7018 (pdf) | Caseworker (NYC Health + Hospitals) | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf\n6125 (pdf) | Emergency Medical Specialist | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf\n6126 (pdf) | Emergency Medical Specialist Trainee | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf\n7312 (pdf) | Police Officer | 8/3/2026 – 8/17/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf\n7323 (pdf) | School Safety Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf\n7331 (pdf) | Traffic Enforcement Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf"
 }
