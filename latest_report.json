@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04T09:40:11Z",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T09:38:39Z",
   "total_sources": 10,
-  "changed_count": 3,
+  "changed_count": 2,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 3,
-    "unchanged": 7,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -21,15 +21,35 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "record_count": 9,
+      "record_count": 15,
       "summary_note": "",
-      "added_count": 1,
+      "added_count": 6,
       "removed_count": 0,
       "added_records": [
         {
-          "exam_number": "7312 (pdf)",
-          "title": "Police Officer",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf"
+          "exam_number": "7023 (pdf)",
+          "title": "Contract Specialist",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf"
+        },
+        {
+          "exam_number": "7028 (pdf)",
+          "title": "Electrician's Helper",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf"
+        },
+        {
+          "exam_number": "7029 (pdf)",
+          "title": "Electrician's Helper (CUNY)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf"
+        },
+        {
+          "exam_number": "7033 (pdf)",
+          "title": "Estimator (General Construction)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf"
+        },
+        {
+          "exam_number": "7056 (pdf)",
+          "title": "Plan Examiner (Buildings)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf"
         }
       ],
       "removed_records": [],
@@ -89,7 +109,7 @@
           "title": "DEPUTY SHERIFF",
           "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 18 hours",
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
         },
@@ -111,7 +131,7 @@
           "title": "DEPUTY SHERIFF",
           "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Closes in 2 days",
+          "closing_text": "Closes in 1 day",
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
         },
@@ -153,35 +173,16 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 2,
       "summary_note": "",
-      "added_count": 2,
+      "added_count": 0,
       "removed_count": 0,
-      "added_records": [
-        {
-          "exam_number": "60-055240",
-          "title": "Program Specialist (Contract Management)",
-          "agency": "Westchester County",
-          "deadline": "08/21/2026",
-          "exam_date": "11/07/2026",
-          "salary": "$75,990 - $94,515",
-          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
-        },
-        {
-          "exam_number": "60-062900",
-          "title": "Assistant Court Clerk",
-          "agency": "Towns, Villages, Cities of Peekskill and Rye",
-          "deadline": "08/21/2026",
-          "exam_date": "11/07/2026",
-          "salary": "Varies with jurisdiction",
-          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm"
-        }
-      ],
+      "added_records": [],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "rockland_county",
@@ -263,23 +264,47 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "412d42a4ec84d382",
-      "fetched_at": "2026-08-04T09:39:48Z",
+      "content_hash": "66ef0379a0107b84",
+      "fetched_at": "2026-08-05T09:38:13Z",
       "error": null,
       "summary_note": "",
-      "record_count": 9,
+      "record_count": 15,
       "record_diff": {
-        "added_count": 1,
+        "added_count": 6,
         "removed_count": 0,
         "added_titles": [
-          "Police Officer"
+          "Contract Specialist",
+          "Electrician's Helper",
+          "Electrician's Helper (CUNY)",
+          "Estimator (General Construction)",
+          "Plan Examiner (Buildings)"
         ],
         "removed_titles": [],
         "added_records": [
           {
-            "exam_number": "7312 (pdf)",
-            "title": "Police Officer",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf"
+            "exam_number": "7023 (pdf)",
+            "title": "Contract Specialist",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf"
+          },
+          {
+            "exam_number": "7028 (pdf)",
+            "title": "Electrician's Helper",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf"
+          },
+          {
+            "exam_number": "7029 (pdf)",
+            "title": "Electrician's Helper (CUNY)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf"
+          },
+          {
+            "exam_number": "7033 (pdf)",
+            "title": "Estimator (General Construction)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf"
+          },
+          {
+            "exam_number": "7056 (pdf)",
+            "title": "Plan Examiner (Buildings)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf"
           }
         ],
         "removed_records": []
@@ -310,6 +335,24 @@
           "application_period": "7/1/2026 – 8/25/2026"
         },
         {
+          "title": "Contract Specialist",
+          "exam_number": "7023 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf",
+          "application_period": "8/5/2026 – 8/25/2026"
+        },
+        {
+          "title": "Electrician's Helper",
+          "exam_number": "7028 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf",
+          "application_period": "8/5/2026 – 8/25/2026"
+        },
+        {
+          "title": "Electrician's Helper (CUNY)",
+          "exam_number": "7029 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf",
+          "application_period": "8/5/2026 – 8/25/2026"
+        },
+        {
           "title": "Emergency Medical Specialist",
           "exam_number": "6125 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf",
@@ -322,22 +365,10 @@
           "application_period": "6/15/2026 – 8/7/2026"
         },
         {
-          "title": "Police Officer",
-          "exam_number": "7312 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf",
-          "application_period": "8/3/2026 – 8/17/2026"
-        },
-        {
-          "title": "School Safety Agent",
-          "exam_number": "7323 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf",
-          "application_period": "7/1/2026 – 8/25/2026"
-        },
-        {
-          "title": "Traffic Enforcement Agent",
-          "exam_number": "7331 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf",
-          "application_period": "7/1/2026 – 8/25/2026"
+          "title": "Estimator (General Construction)",
+          "exam_number": "7033 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf",
+          "application_period": "8/5/2026 – 8/25/2026"
         }
       ],
       "exam_titles": [
@@ -345,24 +376,28 @@
         "Automotive Service Worker",
         "Caseworker",
         "Caseworker (NYC Health + Hospitals)",
+        "Contract Specialist",
+        "Electrician's Helper",
+        "Electrician's Helper (CUNY)",
         "Emergency Medical Specialist",
         "Emergency Medical Specialist Trainee",
-        "Police Officer",
-        "School Safety Agent",
-        "Traffic Enforcement Agent"
+        "Estimator (General Construction)"
       ],
       "dates": [
         "7/1/2026 – 8/25/2026",
+        "8/5/2026 – 8/25/2026",
         "6/15/2026 – 8/7/2026",
+        "8/5/2026 – 9/22/2026",
         "8/3/2026 – 8/17/2026",
         "7/1/2026",
         "8/25/2026",
+        "8/5/2026",
         "6/15/2026",
-        "8/7/2026",
-        "8/3/2026",
-        "8/17/2026"
+        "8/7/2026"
       ],
-      "keywords_found": [],
+      "keywords_found": [
+        "exam"
+      ],
       "links": [
         {
           "text": "311",
@@ -420,7 +455,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "2016fbc97a2d0a1c",
-      "fetched_at": "2026-08-04T09:39:50Z",
+      "fetched_at": "2026-08-05T09:38:15Z",
       "error": null,
       "summary_note": "",
       "record_count": 4,
@@ -535,7 +570,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-04T09:39:52Z",
+      "fetched_at": "2026-08-05T09:38:17Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -554,8 +589,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "97f6e885af590c4b",
-      "fetched_at": "2026-08-04T09:39:54Z",
+      "content_hash": "73bfe533724e04c2",
+      "fetched_at": "2026-08-05T09:38:19Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -577,7 +612,7 @@
             "title": "DEPUTY SHERIFF",
             "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 18 hours",
             "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
           },
@@ -599,7 +634,7 @@
             "title": "DEPUTY SHERIFF",
             "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
             "type": "Open Competitive",
-            "closing_text": "Closes in 2 days",
+            "closing_text": "Closes in 1 day",
             "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
           },
@@ -623,7 +658,7 @@
           "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
           "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
           "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY SALARY : Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-          "posted_text": "Posted 5 days ago",
+          "posted_text": "Posted 6 days ago",
           "closing_text": "Closes in 1 week",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii",
           "type": "Open Competitive",
@@ -687,7 +722,7 @@
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF THE SHERIFF, NASSAU COUNTY SALARY : $62,657 - $127,037 (under the current collective bargaining agreement)",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 18 hours",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff",
           "type": "Open Competitive",
           "salary_text": "$62,657 - $127,037 (under the current collective bargaining agreement)",
@@ -861,7 +896,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-04T09:39:57Z",
+      "fetched_at": "2026-08-05T09:38:23Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -874,42 +909,13 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "e3beeb6ac4c76814",
-      "fetched_at": "2026-08-04T09:40:00Z",
+      "fetched_at": "2026-08-05T09:38:25Z",
       "error": null,
       "summary_note": "",
       "record_count": 2,
-      "record_diff": {
-        "added_count": 2,
-        "removed_count": 0,
-        "added_titles": [
-          "Program Specialist (Contract Management)",
-          "Assistant Court Clerk"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "exam_number": "60-055240",
-            "title": "Program Specialist (Contract Management)",
-            "agency": "Westchester County",
-            "deadline": "08/21/2026",
-            "exam_date": "11/07/2026",
-            "salary": "$75,990 - $94,515",
-            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
-          },
-          {
-            "exam_number": "60-062900",
-            "title": "Assistant Court Clerk",
-            "agency": "Towns, Villages, Cities of Peekskill and Rye",
-            "deadline": "08/21/2026",
-            "exam_date": "11/07/2026",
-            "salary": "Varies with jurisdiction",
-            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm"
-          }
-        ],
-        "removed_records": []
-      },
+      "record_diff": null,
       "records": [
         {
           "exam_number": "60-062900",
@@ -1011,7 +1017,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-04T09:40:02Z",
+      "fetched_at": "2026-08-05T09:38:30Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1026,7 +1032,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-08-04T09:40:04Z",
+      "fetched_at": "2026-08-05T09:38:33Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -1174,7 +1180,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-04T09:40:08Z",
+      "fetched_at": "2026-08-05T09:38:36Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1240,7 +1246,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-04T09:40:10Z",
+      "fetched_at": "2026-08-05T09:38:38Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
