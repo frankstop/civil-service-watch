@@ -8,14 +8,14 @@
     "schedule",
     "westchester"
   ],
-  "fetched_at": "2026-08-05T09:38:25Z",
+  "fetched_at": "2026-08-06T09:41:56Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
-  "content_hash": "e3beeb6ac4c76814",
-  "text": "60-062900 | Assistant Court Clerk | 08/21/2026 | 11/07/2026 | Towns, Villages, Cities of Peekskill and Rye | Varies with jurisdiction | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm\n60-055240 | Program Specialist (Contract Management) | 08/21/2026 | 11/07/2026 | Westchester County | $75,990 - $94,515 | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm",
+  "content_hash": "b9a48368813c45ad",
+  "text": "60-062900 | Assistant Court Clerk | 08/21/2026 | 11/07/2026 | Towns, Villages, Cities of Peekskill and Rye | Varies with jurisdiction | $50.00 | https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm",
   "summary_note": "",
-  "record_count": 2,
+  "record_count": 1,
   "error": null
 }

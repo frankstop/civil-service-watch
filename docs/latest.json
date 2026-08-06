@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05T09:38:39Z",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T09:42:08Z",
   "total_sources": 10,
   "changed_count": 2,
   "health_summary": {
@@ -20,42 +20,16 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 15,
       "summary_note": "",
-      "added_count": 6,
+      "added_count": 0,
       "removed_count": 0,
-      "added_records": [
-        {
-          "exam_number": "7023 (pdf)",
-          "title": "Contract Specialist",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf"
-        },
-        {
-          "exam_number": "7028 (pdf)",
-          "title": "Electrician's Helper",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf"
-        },
-        {
-          "exam_number": "7029 (pdf)",
-          "title": "Electrician's Helper (CUNY)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf"
-        },
-        {
-          "exam_number": "7033 (pdf)",
-          "title": "Estimator (General Construction)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf"
-        },
-        {
-          "exam_number": "7056 (pdf)",
-          "title": "Plan Examiner (Buildings)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf"
-        }
-      ],
+      "added_records": [],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "nys_civil_service",
@@ -104,14 +78,14 @@
       "removed_count": 2,
       "added_records": [
         {
-          "source_record_id": "5365913",
-          "job_id": "5365913",
-          "title": "DEPUTY SHERIFF",
-          "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 18 hours",
-          "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
+          "closing_text": "Continuous",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         },
         {
           "source_record_id": "5419085",
@@ -131,7 +105,7 @@
           "title": "DEPUTY SHERIFF",
           "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 18 hours",
           "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
         },
@@ -173,16 +147,26 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 2,
+      "changed": true,
+      "record_count": 1,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "60-055240",
+          "title": "Program Specialist (Contract Management)",
+          "agency": "Westchester County",
+          "deadline": "08/21/2026",
+          "exam_date": "11/07/2026",
+          "salary": "$75,990 - $94,515",
+          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "rockland_county",
@@ -263,52 +247,13 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "66ef0379a0107b84",
-      "fetched_at": "2026-08-05T09:38:13Z",
+      "fetched_at": "2026-08-06T09:41:45Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
-      "record_diff": {
-        "added_count": 6,
-        "removed_count": 0,
-        "added_titles": [
-          "Contract Specialist",
-          "Electrician's Helper",
-          "Electrician's Helper (CUNY)",
-          "Estimator (General Construction)",
-          "Plan Examiner (Buildings)"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "exam_number": "7023 (pdf)",
-            "title": "Contract Specialist",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf"
-          },
-          {
-            "exam_number": "7028 (pdf)",
-            "title": "Electrician's Helper",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf"
-          },
-          {
-            "exam_number": "7029 (pdf)",
-            "title": "Electrician's Helper (CUNY)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf"
-          },
-          {
-            "exam_number": "7033 (pdf)",
-            "title": "Estimator (General Construction)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf"
-          },
-          {
-            "exam_number": "7056 (pdf)",
-            "title": "Plan Examiner (Buildings)",
-            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf"
-          }
-        ],
-        "removed_records": []
-      },
+      "record_diff": null,
       "records": [
         {
           "title": "Assistant Civil Engineer",
@@ -455,7 +400,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "2016fbc97a2d0a1c",
-      "fetched_at": "2026-08-05T09:38:15Z",
+      "fetched_at": "2026-08-06T09:41:47Z",
       "error": null,
       "summary_note": "",
       "record_count": 4,
@@ -570,7 +515,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-05T09:38:17Z",
+      "fetched_at": "2026-08-06T09:41:50Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -589,8 +534,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "73bfe533724e04c2",
-      "fetched_at": "2026-08-05T09:38:19Z",
+      "content_hash": "83c2628a7fb331d1",
+      "fetched_at": "2026-08-06T09:41:52Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -598,7 +543,7 @@
         "added_count": 2,
         "removed_count": 2,
         "added_titles": [
-          "DEPUTY SHERIFF",
+          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
           "CIVIL ENGINEER II"
         ],
         "removed_titles": [
@@ -607,14 +552,14 @@
         ],
         "added_records": [
           {
-            "source_record_id": "5365913",
-            "job_id": "5365913",
-            "title": "DEPUTY SHERIFF",
-            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
+            "source_record_id": "3412822",
+            "job_id": "3412822",
+            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 18 hours",
-            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
+            "closing_text": "Continuous",
+            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
           },
           {
             "source_record_id": "5419085",
@@ -634,7 +579,7 @@
             "title": "DEPUTY SHERIFF",
             "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 18 hours",
             "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
           },
@@ -658,7 +603,7 @@
           "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
           "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
           "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY SALARY : Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-          "posted_text": "Posted 6 days ago",
+          "posted_text": "Posted 1 week ago",
           "closing_text": "Closes in 1 week",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii",
           "type": "Open Competitive",
@@ -713,21 +658,6 @@
           "salary_text": "$106,880 - $144,480",
           "salary_min": 106880,
           "salary_max": 144480
-        },
-        {
-          "source_record_id": "5365913",
-          "job_id": "5365913",
-          "title": "DEPUTY SHERIFF",
-          "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-          "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "announcement_text": "ANNOUNCED FOR: DEPARTMENT OF THE SHERIFF, NASSAU COUNTY SALARY : $62,657 - $127,037 (under the current collective bargaining agreement)",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 18 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff",
-          "type": "Open Competitive",
-          "salary_text": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "salary_min": 62657,
-          "salary_max": 127037
         },
         {
           "source_record_id": "3416204",
@@ -799,6 +729,22 @@
           "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
           "salary_min": 43176,
           "salary_max": 81760
+        },
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "salary_min": 63872,
+          "salary_max": 97339
         }
       ],
       "exam_titles": [
@@ -806,18 +752,19 @@
         "CYTOTECHNOLOGIST I",
         "CYTOTECHNOLOGIST II",
         "CYTOTECHNOLOGIST III",
-        "DEPUTY SHERIFF",
         "LIBRARIAN I",
         "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
         "MEDICAL TECHNOLOGIST I",
         "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
-        "OCCUPATIONAL THERAPIST ASSISTANT"
+        "OCCUPATIONAL THERAPIST ASSISTANT",
+        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I"
       ],
       "dates": [
         "4/29/25",
         "2/13/26",
         "5/23/25",
-        "3/16/23"
+        "3/16/23",
+        "3/27/25"
       ],
       "keywords_found": [
         "exam",
@@ -847,10 +794,6 @@
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
         },
         {
-          "text": "DEPUTY SHERIFF",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-        },
-        {
           "text": "LIBRARIAN I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
         },
@@ -869,6 +812,10 @@
         {
           "text": "OCCUPATIONAL THERAPIST ASSISTANT",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+        },
+        {
+          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         }
       ],
       "record_fields_present": [
@@ -896,7 +843,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-05T09:38:23Z",
+      "fetched_at": "2026-08-06T09:41:54Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -909,13 +856,32 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "e3beeb6ac4c76814",
-      "fetched_at": "2026-08-05T09:38:25Z",
+      "changed": true,
+      "content_hash": "b9a48368813c45ad",
+      "fetched_at": "2026-08-06T09:41:56Z",
       "error": null,
       "summary_note": "",
-      "record_count": 2,
-      "record_diff": null,
+      "record_count": 1,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 1,
+        "added_titles": [],
+        "removed_titles": [
+          "Program Specialist (Contract Management)"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "60-055240",
+            "title": "Program Specialist (Contract Management)",
+            "agency": "Westchester County",
+            "deadline": "08/21/2026",
+            "exam_date": "11/07/2026",
+            "salary": "$75,990 - $94,515",
+            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
+          }
+        ]
+      },
       "records": [
         {
           "exam_number": "60-062900",
@@ -927,24 +893,10 @@
           "salary": "Varies with jurisdiction",
           "fee": "$50.00",
           "salary_text": "Varies with jurisdiction"
-        },
-        {
-          "exam_number": "60-055240",
-          "agency": "Westchester County",
-          "title": "Program Specialist (Contract Management)",
-          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm",
-          "deadline": "08/21/2026",
-          "exam_date": "11/07/2026",
-          "salary": "$75,990 - $94,515",
-          "fee": "$50.00",
-          "salary_text": "$75,990 - $94,515",
-          "salary_min": 75990,
-          "salary_max": 94515
         }
       ],
       "exam_titles": [
-        "Assistant Court Clerk",
-        "Program Specialist (Contract Management)"
+        "Assistant Court Clerk"
       ],
       "dates": [
         "08/21/2026",
@@ -1004,9 +956,7 @@
         "exam_date",
         "salary",
         "fee",
-        "salary_text",
-        "salary_min",
-        "salary_max"
+        "salary_text"
       ]
     },
     {
@@ -1017,7 +967,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-05T09:38:30Z",
+      "fetched_at": "2026-08-06T09:42:00Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1032,7 +982,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-08-05T09:38:33Z",
+      "fetched_at": "2026-08-06T09:42:02Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -1180,7 +1130,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-05T09:38:36Z",
+      "fetched_at": "2026-08-06T09:42:05Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1246,7 +1196,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-05T09:38:38Z",
+      "fetched_at": "2026-08-06T09:42:07Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
