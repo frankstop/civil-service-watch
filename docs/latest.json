@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06T09:42:08Z",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T08:17:04Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 0,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 2,
-    "unchanged": 8,
+    "changed": 0,
+    "unchanged": 10,
     "bot_blocked": 1,
     "forbidden": 1,
     "not_found": 0,
@@ -71,58 +71,16 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 2,
-      "removed_count": 2,
-      "added_records": [
-        {
-          "source_record_id": "3412822",
-          "job_id": "3412822",
-          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
-          "type": "Open Competitive",
-          "closing_text": "Continuous",
-          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
-        },
-        {
-          "source_record_id": "5419085",
-          "job_id": "5419085",
-          "title": "CIVIL ENGINEER II",
-          "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
-        }
-      ],
-      "removed_records": [
-        {
-          "source_record_id": "5365913",
-          "job_id": "5365913",
-          "title": "DEPUTY SHERIFF",
-          "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 18 hours",
-          "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-        },
-        {
-          "source_record_id": "5419085",
-          "job_id": "5419085",
-          "title": "CIVIL ENGINEER II",
-          "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "suffolk_county",
@@ -147,26 +105,16 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 1,
       "summary_note": "",
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "added_records": [],
-      "removed_records": [
-        {
-          "exam_number": "60-055240",
-          "title": "Program Specialist (Contract Management)",
-          "agency": "Westchester County",
-          "deadline": "08/21/2026",
-          "exam_date": "11/07/2026",
-          "salary": "$75,990 - $94,515",
-          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
-        }
-      ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "rockland_county",
@@ -249,7 +197,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "66ef0379a0107b84",
-      "fetched_at": "2026-08-06T09:41:45Z",
+      "fetched_at": "2026-08-07T08:16:39Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
@@ -400,7 +348,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "2016fbc97a2d0a1c",
-      "fetched_at": "2026-08-06T09:41:47Z",
+      "fetched_at": "2026-08-07T08:16:41Z",
       "error": null,
       "summary_note": "",
       "record_count": 4,
@@ -515,7 +463,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-06T09:41:50Z",
+      "fetched_at": "2026-08-07T08:16:44Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -533,68 +481,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "83c2628a7fb331d1",
-      "fetched_at": "2026-08-06T09:41:52Z",
+      "fetched_at": "2026-08-07T08:16:46Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": {
-        "added_count": 2,
-        "removed_count": 2,
-        "added_titles": [
-          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-          "CIVIL ENGINEER II"
-        ],
-        "removed_titles": [
-          "DEPUTY SHERIFF",
-          "CIVIL ENGINEER II"
-        ],
-        "added_records": [
-          {
-            "source_record_id": "3412822",
-            "job_id": "3412822",
-            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
-            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
-            "type": "Open Competitive",
-            "closing_text": "Continuous",
-            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
-          },
-          {
-            "source_record_id": "5419085",
-            "job_id": "5419085",
-            "title": "CIVIL ENGINEER II",
-            "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
-          }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5365913",
-            "job_id": "5365913",
-            "title": "DEPUTY SHERIFF",
-            "agency": "DEPARTMENT OF THE SHERIFF, NASSAU COUNTY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 18 hours",
-            "salary": "$62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5365913/deputy-sheriff"
-          },
-          {
-            "source_record_id": "5419085",
-            "job_id": "5419085",
-            "title": "CIVIL ENGINEER II",
-            "agency": "DEPARTMENT OF PUBLIC WORKS, NASSAU COUNTY AND THE TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "Varies: County: $62,657 - $127,037 (under the current collective bargaining agreement)",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5419085/civil-engineer-ii"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "source_record_id": "5419085",
@@ -843,7 +736,7 @@
       "status_detail": "bot_blocked",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-06T09:41:54Z",
+      "fetched_at": "2026-08-07T08:16:49Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -856,32 +749,13 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "b9a48368813c45ad",
-      "fetched_at": "2026-08-06T09:41:56Z",
+      "fetched_at": "2026-08-07T08:16:51Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
-      "record_diff": {
-        "added_count": 0,
-        "removed_count": 1,
-        "added_titles": [],
-        "removed_titles": [
-          "Program Specialist (Contract Management)"
-        ],
-        "added_records": [],
-        "removed_records": [
-          {
-            "exam_number": "60-055240",
-            "title": "Program Specialist (Contract Management)",
-            "agency": "Westchester County",
-            "deadline": "08/21/2026",
-            "exam_date": "11/07/2026",
-            "salary": "$75,990 - $94,515",
-            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60055240.htm"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "exam_number": "60-062900",
@@ -967,7 +841,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-06T09:42:00Z",
+      "fetched_at": "2026-08-07T08:16:54Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -982,7 +856,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-08-06T09:42:02Z",
+      "fetched_at": "2026-08-07T08:16:57Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -1130,7 +1004,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-06T09:42:05Z",
+      "fetched_at": "2026-08-07T08:17:00Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1196,7 +1070,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-06T09:42:07Z",
+      "fetched_at": "2026-08-07T08:17:03Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
