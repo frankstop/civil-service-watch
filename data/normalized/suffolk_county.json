@@ -8,14 +8,14 @@
     "schedule",
     "suffolk"
   ],
-  "fetched_at": "2026-08-14T08:18:13Z",
-  "status": "error",
-  "status_detail": "bot_blocked",
-  "http_status": 403,
+  "fetched_at": "2026-08-15T07:33:36Z",
+  "status": "ok",
+  "status_detail": "ok",
+  "http_status": 200,
   "resolved_url": "https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations",
-  "content_hash": "",
-  "text": "",
+  "content_hash": "6cb7e3ffd9cc84c2",
+  "text": "Skip to search box\nSkip to main content\nSuffolk County Government\nEdward P. Romaine, County Executive\nText Only Version\nDepartments\n>\nCivil Service\nDepartment of Civil Service\nDepartment of Civil Service\nChristina Blake\nPersonnel Officer\nAddress:\nBldg. 158, William J. Lindsay County Complex\nPO Box 6100\nHauppauge, NY 11788-0099\n(631) 853-5500\nFax:\n(631) 853-4796\nContact Us\nIn Suffolk County, administration of the Civil Service Law is carried out under the direction of the Suffolk County Personnel Director. The Suffolk County Department of Civil Service is responsible for overseeing personnel actions taken by some 241 employing jurisdictions including towns, school districts, villages, library districts, water districts, etc. Collectively, these jurisdictions employ some 40,000 individuals.\nThe majority of all jobs fall within the competitive class, which is characterized by examinations used to ascertain the relative merit and fitness of candidates. Announcements for current examinations are available on this site by clicking on Current List of Exams. Examination announcements are also posted in the Hauppauge Office of the Suffolk County Department of Civil Service.\nThis site contains a section for Frequently Asked Questions. In addition, the Department's Information Unit in Hauppauge is open Monday through Friday from 9:00 AM to 4:00 PM for further information.\nIf you have any comments or suggestions for this site, please submit such suggestions to our Hauppauge office.\nJob Opportunities\nImmediate positions available in the Department of Social Services for Social Services Examiners, Caseworkers and Child Support Specialists. No examinations required. Click below to apply.\nAdditional opportunities are available within Suffolk County Government.\nPlease click\nHERE\nor the link below to review open positions, create your online candidate profile, and complete your application online to be considered for an open position.\nhttps://suffolkcountyny.wd1.myworkdayjobs.com/Suf",
   "summary_note": "",
   "record_count": 0,
-  "error": "403 response returned from source URL"
+  "error": null
 }
