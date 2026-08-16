@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-08-15  
-**Generated:** 2026-08-15T07:33:51Z  
+**Date:** 2026-08-16  
+**Generated:** 2026-08-16T07:33:34Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 1  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 8
 - Sources with fetch errors: 2
-- Sources changed today: 2
-- Sources unchanged today: 8
+- Sources changed today: 1
+- Sources unchanged today: 9
 - Bot-blocked sources: 0
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -23,8 +23,8 @@
 - **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-- **Nassau County Civil Service** — records `+4` / `-4` — https://www.governmentjobs.com/careers/nassaucountyny
-- **Suffolk County Civil Service** — lines `+30` / `-0` — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
+- **Nassau County Civil Service** — records `+3` / `-3` — https://www.governmentjobs.com/careers/nassaucountyny
+- **Suffolk County Civil Service** — no change — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
 - **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
@@ -36,12 +36,12 @@
 ### Nassau County Civil Service
 - **URL:** https://www.governmentjobs.com/careers/nassaucountyny
 - **Summary:** 10 Nassau County open competitive announcements currently listed.
-- Records added: 4 · removed: 4
-- **Added titles:** NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW), INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
-- **Removed titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I, CIVIL ENGINEER II
-- Added record: NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW) — 3413138 — Continuous
+- Records added: 3 · removed: 3
+- **Added titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
+- **Removed titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
 - Added record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - Added record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
+- Added record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - Removed record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - Removed record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
 - Removed record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
@@ -51,17 +51,6 @@
   - CYTOTECHNOLOGIST III
   - INFORMATION TECHNOLOGY AIDE II
   - INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II
-
-### Suffolk County Civil Service
-- **URL:** https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
-- Lines added: 30
-- Lines removed: 0
-- **New content (preview):**
-  - `(631) 853-4796`
-  - `(631) 853-5500`
-  - `>`
-  - `Additional opportunities are available within Suffolk County Government.`
-  - `Address:`
 
 ## ❌ Fetch Errors
 
@@ -73,6 +62,7 @@
 - NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
 - NYS Civil Service — https://www.cs.ny.gov/examannouncements/types/oc/
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
+- Suffolk County Civil Service — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
