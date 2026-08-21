@@ -2,7 +2,7 @@
   "source_id": "nys_civil_service",
   "name": "NYS Civil Service",
   "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "extracted_at": "2026-08-20T07:43:35Z",
+  "extracted_at": "2026-08-21T07:46:17Z",
   "links": [
     {
       "text": "Navigation menu",
@@ -161,6 +161,10 @@
       "href": "https://www.cs.ny.gov/examannouncements/types/oc/appinfo.cfm#Fee"
     },
     {
+      "text": "Industrial Superintendent",
+      "href": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm"
+    },
+    {
       "text": "Park Police Officer Trainee",
       "href": "https://www.cs.ny.gov/police/"
     },
@@ -291,6 +295,16 @@
   ],
   "records": [
     {
+      "exam_number": "21-032020",
+      "title": "Industrial Superintendent",
+      "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm",
+      "salary": "$93,659",
+      "deadline": "September 23, 2026",
+      "fee": "$0",
+      "salary_text": "$93,659",
+      "salary_min": 93659
+    },
+    {
       "exam_number": "21-027020",
       "title": "Park Police Officer Trainee",
       "detail_url": "https://www.cs.ny.gov/police/",
@@ -327,7 +341,7 @@
       "salary_text": "See Announcement"
     }
   ],
-  "record_count": 4,
+  "record_count": 5,
   "record_fields_present": [
     "exam_number",
     "title",
@@ -335,21 +349,25 @@
     "salary",
     "deadline",
     "fee",
-    "salary_text"
+    "salary_text",
+    "salary_min"
   ],
-  "record_fingerprint": "2016fbc97a2d0a1c",
+  "record_fingerprint": "b6a638f85082f8f8",
   "summary_note": "",
   "exam_titles": [
+    "Industrial Superintendent",
     "Park Police Officer Trainee",
     "Park Police Officer Trainee (Spanish Language)",
     "University Police Officer 1",
     "University Police Officer 1 (Spanish Language)"
   ],
   "dates": [
+    "September 23, 2026",
     "September 09, 2026"
   ],
   "keywords_found": [
+    "exam",
     "announcement"
   ],
-  "normalized_text": "21-027020 | Park Police Officer Trainee | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-028020 | Park Police Officer Trainee (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-029020 | University Police Officer 1 | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-030020 | University Police Officer 1 (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/"
+  "normalized_text": "21-032020 | Industrial Superintendent | September 23, 2026 | $93,659 | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm\n21-027020 | Park Police Officer Trainee | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-028020 | Park Police Officer Trainee (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-029020 | University Police Officer 1 | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-030020 | University Police Officer 1 (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/"
 }

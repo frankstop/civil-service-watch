@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-08-20  
-**Generated:** 2026-08-20T07:43:35Z  
+**Date:** 2026-08-21  
+**Generated:** 2026-08-21T07:46:17Z  
 **Sources checked:** 10  
 **Changes detected:** 1  
 
@@ -21,9 +21,9 @@
 ## Daily Deltas
 
 - **NYC DCAS** — no change — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- **NYS Civil Service** — no change — https://www.cs.ny.gov/examannouncements/types/oc/
+- **NYS Civil Service** — records `+1` / `-0` — https://www.cs.ny.gov/examannouncements/types/oc/
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
-- **Nassau County Civil Service** — records `+3` / `-3` — https://www.governmentjobs.com/careers/nassaucountyny
+- **Nassau County Civil Service** — no change — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — no change — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
@@ -33,24 +33,17 @@
 
 ## 🔔 Changes Detected
 
-### Nassau County Civil Service
-- **URL:** https://www.governmentjobs.com/careers/nassaucountyny
-- **Summary:** 10 Nassau County open competitive announcements currently listed.
-- Records added: 3 · removed: 3
-- **Added titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
-- **Removed titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
-- Added record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 1 week
-- Added record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 1 week
-- Added record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 1 week
-- Removed record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
-- Removed record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
-- Removed record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 2 weeks
+### NYS Civil Service
+- **URL:** https://www.cs.ny.gov/examannouncements/types/oc/
+- Records added: 1 · removed: 0
+- **Added titles:** Industrial Superintendent
+- Added record: Industrial Superintendent — 21-032020 — September 23, 2026
 - **Top records:**
-  - CYTOTECHNOLOGIST I
-  - CYTOTECHNOLOGIST II
-  - CYTOTECHNOLOGIST III
-  - INFORMATION TECHNOLOGY AIDE II
-  - INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II
+  - Industrial Superintendent — 21-032020 — September 23, 2026
+  - Park Police Officer Trainee — 21-027020 — September 09, 2026
+  - Park Police Officer Trainee (Spanish Language) — 21-028020 — September 09, 2026
+  - University Police Officer 1 — 21-029020 — September 09, 2026
+  - University Police Officer 1 (Spanish Language) — 21-030020 — September 09, 2026
 
 ## ❌ Fetch Errors
 
@@ -60,8 +53,8 @@
 ## ✅ No Changes
 
 - NYC DCAS — https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page
-- NYS Civil Service — https://www.cs.ny.gov/examannouncements/types/oc/
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
+- Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
 - Suffolk County Civil Service — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams

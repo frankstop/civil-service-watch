@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T07:43:35Z",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T07:46:17Z",
   "total_sources": 10,
   "changed_count": 1,
   "health_summary": {
@@ -37,16 +37,24 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 4,
+      "changed": true,
+      "record_count": 5,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 1,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "21-032020",
+          "title": "Industrial Superintendent",
+          "deadline": "September 23, 2026",
+          "salary": "$93,659",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "usajobs",
@@ -71,78 +79,16 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 10,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
-      "added_count": 3,
-      "removed_count": 3,
-      "added_records": [
-        {
-          "source_record_id": "5369458",
-          "job_id": "5369458",
-          "title": "INFORMATION TECHNOLOGY AIDE II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-        },
-        {
-          "source_record_id": "5376315",
-          "job_id": "5376315",
-          "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-        },
-        {
-          "source_record_id": "5377645",
-          "job_id": "5377645",
-          "title": "NETWORK SPECIALIST I",
-          "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 1 week",
-          "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-        }
-      ],
-      "removed_records": [
-        {
-          "source_record_id": "5369458",
-          "job_id": "5369458",
-          "title": "INFORMATION TECHNOLOGY AIDE II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 2 weeks",
-          "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-        },
-        {
-          "source_record_id": "5376315",
-          "job_id": "5376315",
-          "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 2 weeks",
-          "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-        },
-        {
-          "source_record_id": "5377645",
-          "job_id": "5377645",
-          "title": "NETWORK SPECIALIST I",
-          "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-          "type": "Open Competitive",
-          "closing_text": "Closes in 2 weeks",
-          "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-        }
-      ],
+      "added_count": 0,
+      "removed_count": 0,
+      "added_records": [],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "suffolk_county",
@@ -259,7 +205,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "66ef0379a0107b84",
-      "fetched_at": "2026-08-20T07:43:12Z",
+      "fetched_at": "2026-08-21T07:45:54Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
@@ -408,14 +354,41 @@
       "url": "https://www.cs.ny.gov/examannouncements/types/oc/",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "2016fbc97a2d0a1c",
-      "fetched_at": "2026-08-20T07:43:14Z",
+      "changed": true,
+      "content_hash": "b6a638f85082f8f8",
+      "fetched_at": "2026-08-21T07:45:56Z",
       "error": null,
       "summary_note": "",
-      "record_count": 4,
-      "record_diff": null,
+      "record_count": 5,
+      "record_diff": {
+        "added_count": 1,
+        "removed_count": 0,
+        "added_titles": [
+          "Industrial Superintendent"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "21-032020",
+            "title": "Industrial Superintendent",
+            "deadline": "September 23, 2026",
+            "salary": "$93,659",
+            "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
+        {
+          "exam_number": "21-032020",
+          "title": "Industrial Superintendent",
+          "detail_url": "https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm",
+          "salary": "$93,659",
+          "deadline": "September 23, 2026",
+          "fee": "$0",
+          "salary_text": "$93,659",
+          "salary_min": 93659
+        },
         {
           "exam_number": "21-027020",
           "title": "Park Police Officer Trainee",
@@ -454,15 +427,18 @@
         }
       ],
       "exam_titles": [
+        "Industrial Superintendent",
         "Park Police Officer Trainee",
         "Park Police Officer Trainee (Spanish Language)",
         "University Police Officer 1",
         "University Police Officer 1 (Spanish Language)"
       ],
       "dates": [
+        "September 23, 2026",
         "September 09, 2026"
       ],
       "keywords_found": [
+        "exam",
         "announcement"
       ],
       "links": [
@@ -514,7 +490,8 @@
         "salary",
         "deadline",
         "fee",
-        "salary_text"
+        "salary_text",
+        "salary_min"
       ]
     },
     {
@@ -525,7 +502,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-20T07:43:16Z",
+      "fetched_at": "2026-08-21T07:45:59Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -543,90 +520,13 @@
       "url": "https://www.governmentjobs.com/careers/nassaucountyny",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "8a8ba9de5d0840a7",
-      "fetched_at": "2026-08-20T07:43:19Z",
+      "fetched_at": "2026-08-21T07:46:01Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
-      "record_diff": {
-        "added_count": 3,
-        "removed_count": 3,
-        "added_titles": [
-          "INFORMATION TECHNOLOGY AIDE II",
-          "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "NETWORK SPECIALIST I"
-        ],
-        "removed_titles": [
-          "INFORMATION TECHNOLOGY AIDE II",
-          "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "NETWORK SPECIALIST I"
-        ],
-        "added_records": [
-          {
-            "source_record_id": "5369458",
-            "job_id": "5369458",
-            "title": "INFORMATION TECHNOLOGY AIDE II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-          },
-          {
-            "source_record_id": "5376315",
-            "job_id": "5376315",
-            "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-          },
-          {
-            "source_record_id": "5377645",
-            "job_id": "5377645",
-            "title": "NETWORK SPECIALIST I",
-            "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 1 week",
-            "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-          }
-        ],
-        "removed_records": [
-          {
-            "source_record_id": "5369458",
-            "job_id": "5369458",
-            "title": "INFORMATION TECHNOLOGY AIDE II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 2 weeks",
-            "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-          },
-          {
-            "source_record_id": "5376315",
-            "job_id": "5376315",
-            "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 2 weeks",
-            "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-          },
-          {
-            "source_record_id": "5377645",
-            "job_id": "5377645",
-            "title": "NETWORK SPECIALIST I",
-            "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-            "type": "Open Competitive",
-            "closing_text": "Closes in 2 weeks",
-            "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [
         {
           "source_record_id": "3413083",
@@ -871,7 +771,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "6cb7e3ffd9cc84c2",
-      "fetched_at": "2026-08-20T07:43:22Z",
+      "fetched_at": "2026-08-21T07:46:04Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -937,7 +837,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b9a48368813c45ad",
-      "fetched_at": "2026-08-20T07:43:24Z",
+      "fetched_at": "2026-08-21T07:46:06Z",
       "error": null,
       "summary_note": "",
       "record_count": 1,
@@ -1027,7 +927,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-20T07:43:27Z",
+      "fetched_at": "2026-08-21T07:46:09Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1042,7 +942,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "3440c5e9ecba0235",
-      "fetched_at": "2026-08-20T07:43:29Z",
+      "fetched_at": "2026-08-21T07:46:11Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
@@ -1190,7 +1090,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-20T07:43:32Z",
+      "fetched_at": "2026-08-21T07:46:14Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1256,7 +1156,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-20T07:43:34Z",
+      "fetched_at": "2026-08-21T07:46:16Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,

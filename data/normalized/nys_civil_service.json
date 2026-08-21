@@ -8,14 +8,14 @@
     "schedule",
     "state"
   ],
-  "fetched_at": "2026-08-20T07:43:14Z",
+  "fetched_at": "2026-08-21T07:45:56Z",
   "status": "ok",
   "status_detail": "ok",
   "http_status": 200,
   "resolved_url": "https://www.cs.ny.gov/examannouncements/types/oc/",
-  "content_hash": "2016fbc97a2d0a1c",
-  "text": "21-027020 | Park Police Officer Trainee | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-028020 | Park Police Officer Trainee (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-029020 | University Police Officer 1 | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-030020 | University Police Officer 1 (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/",
+  "content_hash": "b6a638f85082f8f8",
+  "text": "21-032020 | Industrial Superintendent | September 23, 2026 | $93,659 | $0 | https://www.cs.ny.gov/examannouncements/announcements/oc/21-032020.cfm\n21-027020 | Park Police Officer Trainee | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-028020 | Park Police Officer Trainee (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-029020 | University Police Officer 1 | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/\n21-030020 | University Police Officer 1 (Spanish Language) | September 09, 2026 | See Announcement | $0 | https://www.cs.ny.gov/police/",
   "summary_note": "",
-  "record_count": 4,
+  "record_count": 5,
   "error": null
 }
