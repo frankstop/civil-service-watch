@@ -1,9 +1,9 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-08-22  
-**Generated:** 2026-08-22T07:34:31Z  
+**Date:** 2026-08-23  
+**Generated:** 2026-08-23T07:36:01Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 0  
 
 ---
 
@@ -11,8 +11,8 @@
 
 - Accessible sources: 8
 - Sources with fetch errors: 2
-- Sources changed today: 2
-- Sources unchanged today: 8
+- Sources changed today: 0
+- Sources unchanged today: 10
 - Bot-blocked sources: 0
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
@@ -25,33 +25,11 @@
 - **USAJOBS** — no change — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - **Nassau County Civil Service** — no change — https://www.governmentjobs.com/careers/nassaucountyny
 - **Suffolk County Civil Service** — no change — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
-- **Westchester County Civil Service** — records `+0` / `-1` — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- **Orange County Civil Service** — records `+1` / `-0` — https://orange-portal.mycivilservice.com/post/exams
+- **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — fetch_failed — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
-
-## 🔔 Changes Detected
-
-### Westchester County Civil Service
-- **URL:** http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
-- **Summary:** Civil service exam information is available on this source page.
-- Records added: 0 · removed: 1
-- **Removed titles:** Assistant Court Clerk
-- Removed record: Assistant Court Clerk — 60-062900 — Towns, Villages, Cities of Peekskill and Rye — 08/21/2026
-
-### Orange County Civil Service
-- **URL:** https://orange-portal.mycivilservice.com/post/exams
-- **Summary:** Open competitive and continuous recruitment exam listings.
-- Records added: 1 · removed: 0
-- **Added titles:** ATTORNEY FOR RESOURCE, CLE, TRAIN
-- Added record: ATTORNEY FOR RESOURCE, CLE, TRAIN — 62400053 — 09/09/2026
-- **Top records:**
-  - ATTORNEY FOR RESOURCE, CLE, TRAIN — 62400053 — 09/09/2026 — N/A
-  - POLICE OFFICER — 60065960 — 08/28/2026 — 10/17/2026
-  - Athletic Trainer — 61438
-  - CORRECTION OFFICER — 60048720
-  - DATA ENTRY OPERATOR II — 6108
 
 ## ❌ Fetch Errors
 
@@ -65,6 +43,8 @@
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Nassau County Civil Service — https://www.governmentjobs.com/careers/nassaucountyny
 - Suffolk County Civil Service — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
+- Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
 
 ---

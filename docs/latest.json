@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-22",
-  "generated_at": "2026-08-22T07:34:31Z",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T07:36:01Z",
   "total_sources": 10,
-  "changed_count": 2,
+  "changed_count": 0,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 2,
-    "unchanged": 8,
+    "changed": 0,
+    "unchanged": 10,
     "bot_blocked": 0,
     "forbidden": 1,
     "not_found": 0,
@@ -105,26 +105,16 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 0,
       "summary_note": "Civil service exam information is available on this source page.",
       "added_count": 0,
-      "removed_count": 1,
+      "removed_count": 0,
       "added_records": [],
-      "removed_records": [
-        {
-          "exam_number": "60-062900",
-          "title": "Assistant Court Clerk",
-          "agency": "Towns, Villages, Cities of Peekskill and Rye",
-          "deadline": "08/21/2026",
-          "exam_date": "11/07/2026",
-          "salary": "Varies with jurisdiction",
-          "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm"
-        }
-      ],
+      "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "rockland_county",
@@ -149,25 +139,16 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "record_count": 27,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "added_count": 1,
+      "added_count": 0,
       "removed_count": 0,
-      "added_records": [
-        {
-          "exam_number": "62400053",
-          "title": "ATTORNEY FOR RESOURCE, CLE, TRAIN",
-          "type": "OC",
-          "deadline": "09/09/2026",
-          "exam_date": "N/A",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        }
-      ],
+      "added_records": [],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "records"
+      "delta_kind": "none"
     },
     {
       "source_id": "ny_courts",
@@ -216,7 +197,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "66ef0379a0107b84",
-      "fetched_at": "2026-08-22T07:34:08Z",
+      "fetched_at": "2026-08-23T07:35:37Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
@@ -367,7 +348,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b6a638f85082f8f8",
-      "fetched_at": "2026-08-22T07:34:10Z",
+      "fetched_at": "2026-08-23T07:35:39Z",
       "error": null,
       "summary_note": "",
       "record_count": 5,
@@ -496,7 +477,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-22T07:34:12Z",
+      "fetched_at": "2026-08-23T07:35:42Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -516,7 +497,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8a8ba9de5d0840a7",
-      "fetched_at": "2026-08-22T07:34:14Z",
+      "fetched_at": "2026-08-23T07:35:44Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -765,7 +746,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "6cb7e3ffd9cc84c2",
-      "fetched_at": "2026-08-22T07:34:18Z",
+      "fetched_at": "2026-08-23T07:35:47Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -829,32 +810,13 @@
       "url": "http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-08-22T07:34:20Z",
+      "fetched_at": "2026-08-23T07:35:49Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
-      "record_diff": {
-        "added_count": 0,
-        "removed_count": 1,
-        "added_titles": [],
-        "removed_titles": [
-          "Assistant Court Clerk"
-        ],
-        "added_records": [],
-        "removed_records": [
-          {
-            "exam_number": "60-062900",
-            "title": "Assistant Court Clerk",
-            "agency": "Towns, Villages, Cities of Peekskill and Rye",
-            "deadline": "08/21/2026",
-            "exam_date": "11/07/2026",
-            "salary": "Varies with jurisdiction",
-            "detail_url": "https://www.westchestercountyny.gov/hr/onlineexam/PE/OC/60062900.htm"
-          }
-        ]
-      },
+      "record_diff": null,
       "records": [],
       "exam_titles": [],
       "dates": [],
@@ -914,7 +876,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-22T07:34:23Z",
+      "fetched_at": "2026-08-23T07:35:52Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -927,31 +889,13 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": true,
+      "changed": false,
       "content_hash": "ee1d078f3f6863ef",
-      "fetched_at": "2026-08-22T07:34:25Z",
+      "fetched_at": "2026-08-23T07:35:54Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 27,
-      "record_diff": {
-        "added_count": 1,
-        "removed_count": 0,
-        "added_titles": [
-          "ATTORNEY FOR RESOURCE, CLE, TRAIN"
-        ],
-        "removed_titles": [],
-        "added_records": [
-          {
-            "exam_number": "62400053",
-            "title": "ATTORNEY FOR RESOURCE, CLE, TRAIN",
-            "type": "OC",
-            "deadline": "09/09/2026",
-            "exam_date": "N/A",
-            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-          }
-        ],
-        "removed_records": []
-      },
+      "record_diff": null,
       "records": [
         {
           "exam_number": "62400053",
@@ -1099,7 +1043,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-22T07:34:28Z",
+      "fetched_at": "2026-08-23T07:35:57Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1165,7 +1109,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-22T07:34:30Z",
+      "fetched_at": "2026-08-23T07:36:00Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
