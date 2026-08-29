@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T19:19:42Z",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T13:03:44Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 2,
   "health_summary": {
     "ok": 8,
     "error": 2,
-    "changed": 1,
-    "unchanged": 9,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 0,
     "forbidden": 1,
     "not_found": 0,
@@ -83,7 +83,7 @@
           "title": "INFORMATION TECHNOLOGY AIDE II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
         },
@@ -93,7 +93,7 @@
           "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
         },
@@ -103,7 +103,7 @@
           "title": "NETWORK SPECIALIST I",
           "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
         }
@@ -115,7 +115,7 @@
           "title": "INFORMATION TECHNOLOGY AIDE II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
         },
@@ -125,7 +125,7 @@
           "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
         },
@@ -135,7 +135,7 @@
           "title": "NETWORK SPECIALIST I",
           "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 6 days",
+          "closing_text": "Closes in 5 days",
           "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
         }
@@ -201,16 +201,25 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 27,
+      "changed": true,
+      "record_count": 26,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "added_count": 0,
-      "removed_count": 0,
+      "removed_count": 1,
       "added_records": [],
-      "removed_records": [],
+      "removed_records": [
+        {
+          "exam_number": "60065960",
+          "title": "POLICE OFFICER",
+          "type": "OC",
+          "deadline": "08/28/2026",
+          "exam_date": "10/17/2026",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        }
+      ],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "ny_courts",
@@ -259,7 +268,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "66ef0379a0107b84",
-      "fetched_at": "2026-08-28T19:19:20Z",
+      "fetched_at": "2026-08-29T13:03:22Z",
       "error": null,
       "summary_note": "",
       "record_count": 15,
@@ -410,7 +419,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b6a638f85082f8f8",
-      "fetched_at": "2026-08-28T19:19:22Z",
+      "fetched_at": "2026-08-29T13:03:24Z",
       "error": null,
       "summary_note": "",
       "record_count": 5,
@@ -539,7 +548,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-08-28T19:19:24Z",
+      "fetched_at": "2026-08-29T13:03:26Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -558,8 +567,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "da1d8ccfa7e6cc38",
-      "fetched_at": "2026-08-28T19:19:26Z",
+      "content_hash": "5d564f5350ced60b",
+      "fetched_at": "2026-08-29T13:03:28Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -583,7 +592,7 @@
             "title": "INFORMATION TECHNOLOGY AIDE II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
           },
@@ -593,7 +602,7 @@
             "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
           },
@@ -603,7 +612,7 @@
             "title": "NETWORK SPECIALIST I",
             "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 5 days",
+            "closing_text": "Closes in 4 days",
             "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
           }
@@ -615,7 +624,7 @@
             "title": "INFORMATION TECHNOLOGY AIDE II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 6 days",
+            "closing_text": "Closes in 5 days",
             "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
           },
@@ -625,7 +634,7 @@
             "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 6 days",
+            "closing_text": "Closes in 5 days",
             "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
           },
@@ -635,7 +644,7 @@
             "title": "NETWORK SPECIALIST I",
             "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 6 days",
+            "closing_text": "Closes in 5 days",
             "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
           }
@@ -698,7 +707,7 @@
           "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
@@ -713,7 +722,7 @@
           "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
@@ -772,7 +781,7 @@
           "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
           "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
           "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 5 days",
+          "closing_text": "Closes in 4 days",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i",
           "type": "Open Competitive",
           "salary_text": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
@@ -885,7 +894,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "6cb7e3ffd9cc84c2",
-      "fetched_at": "2026-08-28T19:19:30Z",
+      "fetched_at": "2026-08-29T13:03:31Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -951,7 +960,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-08-28T19:19:32Z",
+      "fetched_at": "2026-08-29T13:03:33Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -1015,7 +1024,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-28T19:19:34Z",
+      "fetched_at": "2026-08-29T13:03:36Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1028,13 +1037,31 @@
       "url": "https://orange-portal.mycivilservice.com/post/exams",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "ee1d078f3f6863ef",
-      "fetched_at": "2026-08-28T19:19:37Z",
+      "changed": true,
+      "content_hash": "0b4772cc4e7d4ff2",
+      "fetched_at": "2026-08-29T13:03:38Z",
       "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
-      "record_count": 27,
-      "record_diff": null,
+      "record_count": 26,
+      "record_diff": {
+        "added_count": 0,
+        "removed_count": 1,
+        "added_titles": [],
+        "removed_titles": [
+          "POLICE OFFICER"
+        ],
+        "added_records": [],
+        "removed_records": [
+          {
+            "exam_number": "60065960",
+            "title": "POLICE OFFICER",
+            "type": "OC",
+            "deadline": "08/28/2026",
+            "exam_date": "10/17/2026",
+            "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+          }
+        ]
+      },
       "records": [
         {
           "exam_number": "62400053",
@@ -1042,14 +1069,6 @@
           "type": "OC",
           "deadline": "09/09/2026",
           "exam_date": "N/A",
-          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
-        },
-        {
-          "exam_number": "60065960",
-          "title": "POLICE OFFICER",
-          "type": "OC",
-          "deadline": "08/28/2026",
-          "exam_date": "10/17/2026",
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         },
         {
@@ -1099,11 +1118,16 @@
           "title": "Librarian II (Children's Services)",
           "type": "CR",
           "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
+        },
+        {
+          "exam_number": "64270010",
+          "title": "Librarian III",
+          "type": "CR",
+          "detail_url": "https://orange-portal.mycivilservice.com/post/exams"
         }
       ],
       "exam_titles": [
         "ATTORNEY FOR RESOURCE, CLE, TRAIN",
-        "POLICE OFFICER",
         "Athletic Trainer",
         "CORRECTION OFFICER",
         "DATA ENTRY OPERATOR II",
@@ -1111,13 +1135,12 @@
         "Librarian I Trainee",
         "Librarian I",
         "Librarian II",
-        "Librarian II (Children's Services)"
+        "Librarian II (Children's Services)",
+        "Librarian III"
       ],
       "dates": [
         "09/09/2026",
-        "N/A",
-        "08/28/2026",
-        "10/17/2026"
+        "N/A"
       ],
       "keywords_found": [
         "exam",
@@ -1182,7 +1205,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-08-28T19:19:39Z",
+      "fetched_at": "2026-08-29T13:03:41Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1248,7 +1271,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-08-28T19:19:42Z",
+      "fetched_at": "2026-08-29T13:03:43Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
