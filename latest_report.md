@@ -1,22 +1,23 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-08-29  
-**Generated:** 2026-08-29T13:03:44Z  
+**Date:** 2026-08-30  
+**Generated:** 2026-08-30T12:40:58Z  
 **Sources checked:** 10  
-**Changes detected:** 2  
+**Changes detected:** 1  
 
 ---
 
 ## Source Health
 
-- Accessible sources: 8
-- Sources with fetch errors: 2
-- Sources changed today: 2
-- Sources unchanged today: 8
+- Accessible sources: 7
+- Sources with fetch errors: 3
+- Sources changed today: 1
+- Sources unchanged today: 9
 - Bot-blocked sources: 0
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
 - Rockland County Civil Service — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
+- Orange County Civil Service — timeout — https://orange-portal.mycivilservice.com/post/exams
 
 ## Daily Deltas
 
@@ -27,7 +28,7 @@
 - **Suffolk County Civil Service** — no change — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- **Orange County Civil Service** — records `+0` / `-1` — https://orange-portal.mycivilservice.com/post/exams
+- **Orange County Civil Service** — timeout — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — fetch_failed — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
 
@@ -39,12 +40,12 @@
 - Records added: 3 · removed: 3
 - **Added titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
 - **Removed titles:** INFORMATION TECHNOLOGY AIDE II, INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II, NETWORK SPECIALIST I
-- Added record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
-- Added record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
-- Added record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
-- Removed record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 5 days
-- Removed record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 5 days
-- Removed record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 5 days
+- Added record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 3 days
+- Added record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 3 days
+- Added record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 3 days
+- Removed record: INFORMATION TECHNOLOGY AIDE II — 5369458 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
+- Removed record: INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II — 5376315 — NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
+- Removed record: NETWORK SPECIALIST I — 5377645 — NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION — Closes in 4 days
 - **Top records:**
   - CYTOTECHNOLOGIST I
   - CYTOTECHNOLOGIST II
@@ -52,22 +53,10 @@
   - INFORMATION TECHNOLOGY AIDE II
   - INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II
 
-### Orange County Civil Service
-- **URL:** https://orange-portal.mycivilservice.com/post/exams
-- **Summary:** Open competitive and continuous recruitment exam listings.
-- Records added: 0 · removed: 1
-- **Removed titles:** POLICE OFFICER
-- Removed record: POLICE OFFICER — 60065960 — 08/28/2026
-- **Top records:**
-  - ATTORNEY FOR RESOURCE, CLE, TRAIN — 62400053 — 09/09/2026 — N/A
-  - Athletic Trainer — 61438
-  - CORRECTION OFFICER — 60048720
-  - DATA ENTRY OPERATOR II — 6108
-  - Emergency Medical Technician — 002
-
 ## ❌ Fetch Errors
 
 - **Rockland County Civil Service** — forbidden: 403 response returned from source URL
+- **Orange County Civil Service** — timeout: HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7f8eefa25640>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))
 - **NY Courts** — fetch_failed: 503 response returned from source URL
 
 ## ✅ No Changes
