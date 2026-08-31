@@ -8,7 +8,7 @@
     "schedule",
     "orange"
   ],
-  "fetched_at": "2026-08-30T12:40:23Z",
+  "fetched_at": "2026-08-31T14:56:16Z",
   "status": "error",
   "status_detail": "timeout",
   "http_status": null,
@@ -17,5 +17,5 @@
   "text": "",
   "summary_note": "",
   "record_count": 0,
-  "error": "HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7f8eefa25640>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))"
+  "error": "HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7fd92a429400>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))"
 }
