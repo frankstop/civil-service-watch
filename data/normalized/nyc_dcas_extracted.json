@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-08-31T14:56:52Z",
+  "extracted_at": "2026-09-01T12:27:08Z",
   "links": [
     {
       "text": "311",
@@ -89,60 +89,12 @@
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
     },
     {
-      "text": "7013",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf"
-    },
-    {
-      "text": "7016",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf"
-    },
-    {
-      "text": "7018",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf"
-    },
-    {
-      "text": "7023",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf"
-    },
-    {
-      "text": "7028",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf"
-    },
-    {
-      "text": "7029",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf"
-    },
-    {
-      "text": "6125",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf"
-    },
-    {
-      "text": "6126",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf"
-    },
-    {
-      "text": "7033",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf"
-    },
-    {
-      "text": "7056",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf"
-    },
-    {
       "text": "7070",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf"
     },
     {
-      "text": "7312",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf"
-    },
-    {
-      "text": "7323",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf"
-    },
-    {
-      "text": "7331",
-      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf"
+      "text": "7313",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -206,67 +158,7 @@
       "title": "Assistant Civil Engineer",
       "exam_number": "7006 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
-    },
-    {
-      "title": "Automotive Service Worker",
-      "exam_number": "7013 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
-    },
-    {
-      "title": "Caseworker",
-      "exam_number": "7016 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
-    },
-    {
-      "title": "Caseworker (NYC Health + Hospitals)",
-      "exam_number": "7018 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
-    },
-    {
-      "title": "Contract Specialist",
-      "exam_number": "7023 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf",
-      "application_period": "8/5/2026 – 8/25/2026"
-    },
-    {
-      "title": "Electrician's Helper",
-      "exam_number": "7028 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf",
-      "application_period": "8/5/2026 – 8/25/2026"
-    },
-    {
-      "title": "Electrician's Helper (CUNY)",
-      "exam_number": "7029 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf",
-      "application_period": "8/5/2026 – 8/25/2026"
-    },
-    {
-      "title": "Emergency Medical Specialist",
-      "exam_number": "6125 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf",
-      "application_period": "6/15/2026 – 8/7/2026"
-    },
-    {
-      "title": "Emergency Medical Specialist Trainee",
-      "exam_number": "6126 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf",
-      "application_period": "6/15/2026 – 8/7/2026"
-    },
-    {
-      "title": "Estimator (General Construction)",
-      "exam_number": "7033 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf",
-      "application_period": "8/5/2026 – 8/25/2026"
-    },
-    {
-      "title": "Plan Examiner (Buildings)",
-      "exam_number": "7056 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf",
-      "application_period": "8/5/2026 – 8/25/2026"
+      "application_period": "7/1/2026 – 9/11/2026"
     },
     {
       "title": "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
@@ -276,66 +168,36 @@
     },
     {
       "title": "Police Officer",
-      "exam_number": "7312 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf",
-      "application_period": "8/3/2026 – 8/17/2026"
-    },
-    {
-      "title": "School Safety Agent",
-      "exam_number": "7323 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
-    },
-    {
-      "title": "Traffic Enforcement Agent",
-      "exam_number": "7331 (pdf)",
-      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf",
-      "application_period": "7/1/2026 – 8/25/2026"
+      "exam_number": "7313 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf",
+      "application_period": "9/1/2026 – 9/14/2026"
     }
   ],
-  "record_count": 15,
+  "record_count": 3,
   "record_fields_present": [
     "title",
     "exam_number",
     "detail_url",
     "application_period"
   ],
-  "record_fingerprint": "66ef0379a0107b84",
+  "record_fingerprint": "85fbc2df2b8e39bd",
   "summary_note": "",
   "exam_titles": [
     "Assistant Civil Engineer",
-    "Automotive Service Worker",
-    "Caseworker",
-    "Caseworker (NYC Health + Hospitals)",
-    "Contract Specialist",
-    "Electrician's Helper",
-    "Electrician's Helper (CUNY)",
-    "Emergency Medical Specialist",
-    "Emergency Medical Specialist Trainee",
-    "Estimator (General Construction)",
-    "Plan Examiner (Buildings)",
     "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
-    "Police Officer",
-    "School Safety Agent",
-    "Traffic Enforcement Agent"
+    "Police Officer"
   ],
   "dates": [
-    "7/1/2026 – 8/25/2026",
-    "8/5/2026 – 8/25/2026",
-    "6/15/2026 – 8/7/2026",
+    "7/1/2026 – 9/11/2026",
     "8/5/2026 – 9/22/2026",
-    "8/3/2026 – 8/17/2026",
+    "9/1/2026 – 9/14/2026",
     "7/1/2026",
-    "8/25/2026",
+    "9/11/2026",
     "8/5/2026",
-    "6/15/2026",
-    "8/7/2026",
     "9/22/2026",
-    "8/3/2026",
-    "8/17/2026"
+    "9/1/2026",
+    "9/14/2026"
   ],
-  "keywords_found": [
-    "exam"
-  ],
-  "normalized_text": "7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7013 (pdf) | Automotive Service Worker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277013000.pdf\n7016 (pdf) | Caseworker | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277016000.pdf\n7018 (pdf) | Caseworker (NYC Health + Hospitals) | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277018000.pdf\n7023 (pdf) | Contract Specialist | 8/5/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277023000.pdf\n7028 (pdf) | Electrician's Helper | 8/5/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277028000.pdf\n7029 (pdf) | Electrician's Helper (CUNY) | 8/5/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277029000.pdf\n6125 (pdf) | Emergency Medical Specialist | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266125000.pdf\n6126 (pdf) | Emergency Medical Specialist Trainee | 6/15/2026 – 8/7/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20266126000.pdf\n7033 (pdf) | Estimator (General Construction) | 8/5/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277033000.pdf\n7056 (pdf) | Plan Examiner (Buildings) | 8/5/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277056000.pdf\n7070 (pdf) | Plant Maintainer (Hospitals)/Tender (NYC H+H) | 8/5/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf\n7312 (pdf) | Police Officer | 8/3/2026 – 8/17/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277312000.pdf\n7323 (pdf) | School Safety Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277323000.pdf\n7331 (pdf) | Traffic Enforcement Agent | 7/1/2026 – 8/25/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277331000.pdf"
+  "keywords_found": [],
+  "normalized_text": "7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 9/11/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7070 (pdf) | Plant Maintainer (Hospitals)/Tender (NYC H+H) | 8/5/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf\n7313 (pdf) | Police Officer | 9/1/2026 – 9/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf"
 }

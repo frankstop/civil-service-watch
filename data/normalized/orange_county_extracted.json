@@ -2,7 +2,7 @@
   "source_id": "orange_county",
   "name": "Orange County Civil Service",
   "url": "https://orange-portal.mycivilservice.com/post/exams",
-  "extracted_at": "2026-08-29T13:03:44Z",
+  "extracted_at": "2026-09-01T12:27:08Z",
   "links": [
     {
       "text": "Human Resources Home",
@@ -87,10 +87,6 @@
     {
       "text": "Performance Test Waiver (PDF)",
       "href": "https://www.orangecountygov.com/DocumentCenter/View/6340/Performance-Test-Waiver-PDF"
-    },
-    {
-      "text": "civilserviceexams@orangecountygov.com",
-      "href": "mailto:civilserviceexams@orangecountygov.com"
     },
     {
       "text": "ATTORNEY FOR RESOURCE, CLE, TRAIN",
