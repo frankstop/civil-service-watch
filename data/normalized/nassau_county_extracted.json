@@ -2,7 +2,7 @@
   "source_id": "nassau_county",
   "name": "Nassau County Civil Service",
   "url": "https://www.governmentjobs.com/careers/nassaucountyny",
-  "extracted_at": "2026-09-02T12:01:25Z",
+  "extracted_at": "2026-09-03T12:00:22Z",
   "links": [
     {
       "text": "CYTOTECHNOLOGIST I",
@@ -17,14 +17,6 @@
       "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
     },
     {
-      "text": "INFORMATION TECHNOLOGY AIDE II",
-      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-    },
-    {
-      "text": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-    },
-    {
       "text": "LIBRARIAN I",
       "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
     },
@@ -37,12 +29,20 @@
       "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
     },
     {
-      "text": "NETWORK SPECIALIST I",
-      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-    },
-    {
       "text": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
       "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
+    },
+    {
+      "text": "OCCUPATIONAL THERAPIST ASSISTANT",
+      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+    },
+    {
+      "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+    },
+    {
+      "text": "PHARMACIST I",
+      "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
     }
   ],
   "records": [
@@ -95,36 +95,6 @@
       "salary_max": 144480
     },
     {
-      "source_record_id": "5369458",
-      "job_id": "5369458",
-      "title": "INFORMATION TECHNOLOGY AIDE II",
-      "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-      "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-      "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-      "posted_text": "Posted 2 weeks ago",
-      "closing_text": "Closes in 15 hours",
-      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii",
-      "type": "Open Competitive",
-      "salary_text": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-      "salary_min": 42431,
-      "salary_max": 84820
-    },
-    {
-      "source_record_id": "5376315",
-      "job_id": "5376315",
-      "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-      "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-      "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-      "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-      "posted_text": "Posted 2 weeks ago",
-      "closing_text": "Closes in 15 hours",
-      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii",
-      "type": "Open Competitive",
-      "salary_text": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-      "salary_min": 68386,
-      "salary_max": 138666
-    },
-    {
       "source_record_id": "3416204",
       "job_id": "3416204",
       "title": "LIBRARIAN I",
@@ -169,21 +139,6 @@
       "salary_max": 91619
     },
     {
-      "source_record_id": "5377645",
-      "job_id": "5377645",
-      "title": "NETWORK SPECIALIST I",
-      "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-      "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-      "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-      "posted_text": "Posted 2 weeks ago",
-      "closing_text": "Closes in 15 hours",
-      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i",
-      "type": "Open Competitive",
-      "salary_text": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-      "salary_min": 81058,
-      "salary_max": 163637
-    },
-    {
       "source_record_id": "3413138",
       "job_id": "3413138",
       "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
@@ -193,6 +148,54 @@
       "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below",
       "type": "Open Competitive",
       "status": "continuous"
+    },
+    {
+      "source_record_id": "3412730",
+      "job_id": "3412730",
+      "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+      "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+      "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+      "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise SALARY: SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME...",
+      "posted_text": "Posted more than 30 days ago",
+      "closing_text": "Continuous",
+      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant",
+      "type": "Open Competitive",
+      "status": "continuous",
+      "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+      "salary_min": 43176,
+      "salary_max": 81760
+    },
+    {
+      "source_record_id": "3412822",
+      "job_id": "3412822",
+      "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+      "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+      "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+      "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
+      "posted_text": "Posted more than 30 days ago",
+      "closing_text": "Continuous",
+      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
+      "type": "Open Competitive",
+      "status": "continuous",
+      "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+      "salary_min": 63872,
+      "salary_max": 97339
+    },
+    {
+      "source_record_id": "3413191",
+      "job_id": "3413191",
+      "title": "PHARMACIST I",
+      "agency": "NASSAU HEALTH CARE CORPORATION",
+      "salary": "$102,320 - $128,481",
+      "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+      "posted_text": "Posted more than 30 days ago",
+      "closing_text": "Continuous",
+      "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i",
+      "type": "Open Competitive",
+      "status": "continuous",
+      "salary_text": "$102,320 - $128,481",
+      "salary_min": 102320,
+      "salary_max": 128481
     }
   ],
   "record_count": 10,
@@ -212,24 +215,26 @@
     "salary_min",
     "salary_max"
   ],
-  "record_fingerprint": "d6d4ccf954e02fa9",
+  "record_fingerprint": "82d9103947e1b074",
   "summary_note": "10 Nassau County open competitive announcements currently listed.",
   "exam_titles": [
     "CYTOTECHNOLOGIST I",
     "CYTOTECHNOLOGIST II",
     "CYTOTECHNOLOGIST III",
-    "INFORMATION TECHNOLOGY AIDE II",
-    "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
     "LIBRARIAN I",
     "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
     "MEDICAL TECHNOLOGIST I",
-    "NETWORK SPECIALIST I",
-    "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)"
+    "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+    "OCCUPATIONAL THERAPIST ASSISTANT",
+    "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+    "PHARMACIST I"
   ],
   "dates": [
     "4/29/25",
     "2/13/26",
-    "5/23/25"
+    "5/23/25",
+    "3/16/23",
+    "3/27/25"
   ],
   "keywords_found": [
     "exam",
@@ -241,5 +246,5 @@
     "eligible list",
     "announcement"
   ],
-  "normalized_text": "3413083 | CYTOTECHNOLOGIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $74,114 - $99,744 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $74,114 - $99,744 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i\n3415116 | CYTOTECHNOLOGIST II | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $83,915 - $118,479 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $83,915 - $118,479 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii\n3415142 | CYTOTECHNOLOGIST III | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $106,880 - $144,480 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $106,880 - $144,480 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii\n5369458 | INFORMATION TECHNOLOGY AIDE II | Open Competitive | Closes in 15 hours | Posted 2 weeks ago | NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION | Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600 | ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600 | https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii\n5376315 | INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II | Open Competitive | Closes in 15 hours | Posted 2 weeks ago | NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION | Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858 | ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858 | https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii\n3416204 | LIBRARIAN I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES | Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i\n3416233 | LIBRARIAN I, BILINGUAL (SPANISH SPEAKING) | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES | Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained in... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking\n3412898 | MEDICAL TECHNOLOGIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $79,212 - $91,619 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $79,212 - $91,619 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i\n5377645 | NETWORK SPECIALIST I | Open Competitive | Closes in 15 hours | Posted 2 weeks ago | NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION | Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480 | ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480 | https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i\n3413138 | NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW) | Open Competitive | Continuous | Posted more than 30 days ago | continuous | EXAMINATION NO. 9016CR(D) - NURSE PRACTITIONER I (ACUTE CARE) EXAMINATION NO. 9017CR(D) - NURSE PRACTITIONER I (ADULT HEALTH) EXAMINATION NO. 9018CR(D) - NURSE PRACTITIONER I (COMMUNITY HEALTH) EXAMINATION NO. 9019CR(D) - NURSE PRACTITIONER I (FAMILY HEALTH) EXAMINATION NO. 9020CR(D) - NURSE PRACTITIONER I (GERONTOLOGY) EXAMINATION NO. 9021CR(D) - NURSE PRACTITIONER I (NEONATOLOGY) EXAMINATION NO. 9022CR(D) - NURSE PRACTITIONER I (OBSTETRICS/GYNECOLOGY) EXAMINATION NO. 9023CR(D) - NURSE PRACTITIONER I (ONCOLOGY) EXAMINATION NO. 9024CR(D) - NURSE PRACTITIONER I (PALLIATIVE CARE) EXAMINATION NO. 9025CR(D) - NURSE PRACTITIONER I (PEDIATRICS) EXAMINATION NO.... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
+  "normalized_text": "3413083 | CYTOTECHNOLOGIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $74,114 - $99,744 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $74,114 - $99,744 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413083/cytotechnologist-i\n3415116 | CYTOTECHNOLOGIST II | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $83,915 - $118,479 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $83,915 - $118,479 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415116/cytotechnologist-ii\n3415142 | CYTOTECHNOLOGIST III | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $106,880 - $144,480 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $106,880 - $144,480 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii\n3416204 | LIBRARIAN I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES | Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 4/29/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i\n3416233 | LIBRARIAN I, BILINGUAL (SPANISH SPEAKING) | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES | Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICT LIBRARIES, VILLAGE LIBRARIES, AND SPECIAL DISTRICT LIBRARIES SALARY : Varies according to jurisdiction. Announcement amended on 5/23/25. Please see RESIDENCY section for note. Announcement amended on 2/13/26 to revise MINIMUM QUALIFICATIONS. Please see below. REISSUED ANNOUNCEMENT Applications will be accepted year-round. However, applications will be reviewed in groups, and passing candidates will be added to the continuous recruitment eligible list twice a year based on a process to commence subsequent to the filing deadlines of the last business day of July and the last business day of January . NOTE : This process is explained in... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416233/librarian-i-bilingual-spanish-speaking\n3412898 | MEDICAL TECHNOLOGIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $79,212 - $91,619 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $79,212 - $91,619 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i\n3413138 | NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW) | Open Competitive | Continuous | Posted more than 30 days ago | continuous | EXAMINATION NO. 9016CR(D) - NURSE PRACTITIONER I (ACUTE CARE) EXAMINATION NO. 9017CR(D) - NURSE PRACTITIONER I (ADULT HEALTH) EXAMINATION NO. 9018CR(D) - NURSE PRACTITIONER I (COMMUNITY HEALTH) EXAMINATION NO. 9019CR(D) - NURSE PRACTITIONER I (FAMILY HEALTH) EXAMINATION NO. 9020CR(D) - NURSE PRACTITIONER I (GERONTOLOGY) EXAMINATION NO. 9021CR(D) - NURSE PRACTITIONER I (NEONATOLOGY) EXAMINATION NO. 9022CR(D) - NURSE PRACTITIONER I (OBSTETRICS/GYNECOLOGY) EXAMINATION NO. 9023CR(D) - NURSE PRACTITIONER I (ONCOLOGY) EXAMINATION NO. 9024CR(D) - NURSE PRACTITIONER I (PALLIATIVE CARE) EXAMINATION NO. 9025CR(D) - NURSE PRACTITIONER I (PEDIATRICS) EXAMINATION NO.... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below\n3412730 | OCCUPATIONAL THERAPIST ASSISTANT | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise | SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise SALARY: SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant\n3412822 | OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES | Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 | continuous | ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART... | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i\n3413191 | PHARMACIST I | Open Competitive | Continuous | Posted more than 30 days ago | NASSAU HEALTH CARE CORPORATION | $102,320 - $128,481 | continuous | ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST. | https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
 }

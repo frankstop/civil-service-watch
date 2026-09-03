@@ -2,7 +2,7 @@
   "source_id": "nyc_dcas",
   "name": "NYC DCAS",
   "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
-  "extracted_at": "2026-09-02T12:01:25Z",
+  "extracted_at": "2026-09-03T12:00:22Z",
   "links": [
     {
       "text": "311",
@@ -85,16 +85,56 @@
       "href": "https://www.nyc.gov/site/dcas/employment/exam-schedules-exams-questions-contact-us.page"
     },
     {
+      "text": "7003",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf"
+    },
+    {
       "text": "7006",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf"
+    },
+    {
+      "text": "7302",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277302000.pdf"
+    },
+    {
+      "text": "7034",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf"
+    },
+    {
+      "text": "7035",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf"
+    },
+    {
+      "text": "7036",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf"
+    },
+    {
+      "text": "7041",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277041000.pdf"
     },
     {
       "text": "7070",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf"
     },
     {
+      "text": "7307",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277307000.pdf"
+    },
+    {
       "text": "7313",
       "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf"
+    },
+    {
+      "text": "7065",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277065000.pdf"
+    },
+    {
+      "text": "7327",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277327000.pdf"
+    },
+    {
+      "text": "7329",
+      "href": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277329000.pdf"
     },
     {
       "text": "nyc.gov home",
@@ -155,10 +195,51 @@
   ],
   "records": [
     {
+      "title": "Administrative Housing Development Specialist",
+      "exam_number": "7002",
+      "application_period": "Canceled"
+    },
+    {
+      "title": "Administrative Labor Relations Analyst",
+      "exam_number": "7003 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
       "title": "Assistant Civil Engineer",
       "exam_number": "7006 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf",
       "application_period": "7/1/2026 – 9/11/2026"
+    },
+    {
+      "title": "Correction Officer",
+      "exam_number": "7302 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277302000.pdf",
+      "application_period": "9/2/2026 – 10/27/2026"
+    },
+    {
+      "title": "Exterminator",
+      "exam_number": "7034 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
+      "title": "Exterminator (CUNY)",
+      "exam_number": "7035 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
+      "title": "Forester",
+      "exam_number": "7036 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
+      "title": "Inspector (Electrical)",
+      "exam_number": "7041 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277041000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
     },
     {
       "title": "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
@@ -167,37 +248,79 @@
       "application_period": "8/5/2026 – 9/22/2026"
     },
     {
+      "title": "Police Communications Technician",
+      "exam_number": "7307 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277307000.pdf",
+      "application_period": "9/2/2026 – 10/13/2026"
+    },
+    {
       "title": "Police Officer",
       "exam_number": "7313 (pdf)",
       "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf",
       "application_period": "9/1/2026 – 9/14/2026"
+    },
+    {
+      "title": "Scientist (Water Ecology)",
+      "exam_number": "7065 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277065000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
+      "title": "Special Officer",
+      "exam_number": "7327 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277327000.pdf",
+      "application_period": "9/2/2026 – 9/22/2026"
+    },
+    {
+      "title": "Special Officer (NYC H+H)",
+      "exam_number": "7329 (pdf)",
+      "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277329000.pdf",
+      "application_period": "9/2/2026 – 10/27/2026"
     }
   ],
-  "record_count": 3,
+  "record_count": 14,
   "record_fields_present": [
     "title",
     "exam_number",
-    "detail_url",
-    "application_period"
+    "application_period",
+    "detail_url"
   ],
-  "record_fingerprint": "85fbc2df2b8e39bd",
+  "record_fingerprint": "7c80cbf64402a089",
   "summary_note": "",
   "exam_titles": [
+    "Administrative Housing Development Specialist",
+    "Administrative Labor Relations Analyst",
     "Assistant Civil Engineer",
+    "Correction Officer",
+    "Exterminator",
+    "Exterminator (CUNY)",
+    "Forester",
+    "Inspector (Electrical)",
     "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
-    "Police Officer"
+    "Police Communications Technician",
+    "Police Officer",
+    "Scientist (Water Ecology)",
+    "Special Officer",
+    "Special Officer (NYC H+H)"
   ],
   "dates": [
+    "Canceled",
+    "9/2/2026 – 9/22/2026",
     "7/1/2026 – 9/11/2026",
+    "9/2/2026 – 10/27/2026",
     "8/5/2026 – 9/22/2026",
+    "9/2/2026 – 10/13/2026",
     "9/1/2026 – 9/14/2026",
+    "9/2/2026",
+    "9/22/2026",
     "7/1/2026",
     "9/11/2026",
+    "10/27/2026",
     "8/5/2026",
-    "9/22/2026",
+    "10/13/2026",
     "9/1/2026",
     "9/14/2026"
   ],
   "keywords_found": [],
-  "normalized_text": "7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 9/11/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7070 (pdf) | Plant Maintainer (Hospitals)/Tender (NYC H+H) | 8/5/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf\n7313 (pdf) | Police Officer | 9/1/2026 – 9/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf"
+  "normalized_text": "7002 | Administrative Housing Development Specialist | Canceled\n7003 (pdf) | Administrative Labor Relations Analyst | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf\n7006 (pdf) | Assistant Civil Engineer | 7/1/2026 – 9/11/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf\n7302 (pdf) | Correction Officer | 9/2/2026 – 10/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277302000.pdf\n7034 (pdf) | Exterminator | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf\n7035 (pdf) | Exterminator (CUNY) | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf\n7036 (pdf) | Forester | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf\n7041 (pdf) | Inspector (Electrical) | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277041000.pdf\n7070 (pdf) | Plant Maintainer (Hospitals)/Tender (NYC H+H) | 8/5/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277070000.pdf\n7307 (pdf) | Police Communications Technician | 9/2/2026 – 10/13/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277307000.pdf\n7313 (pdf) | Police Officer | 9/1/2026 – 9/14/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf\n7065 (pdf) | Scientist (Water Ecology) | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277065000.pdf\n7327 (pdf) | Special Officer | 9/2/2026 – 9/22/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277327000.pdf\n7329 (pdf) | Special Officer (NYC H+H) | 9/2/2026 – 10/27/2026 | https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277329000.pdf"
 }

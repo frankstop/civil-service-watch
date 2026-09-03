@@ -1,13 +1,13 @@
 {
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02T12:01:25Z",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T12:00:22Z",
   "total_sources": 10,
-  "changed_count": 1,
+  "changed_count": 2,
   "health_summary": {
     "ok": 7,
     "error": 3,
-    "changed": 1,
-    "unchanged": 9,
+    "changed": 2,
+    "unchanged": 8,
     "bot_blocked": 0,
     "forbidden": 1,
     "not_found": 0,
@@ -20,16 +20,41 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "record_count": 3,
+      "changed": true,
+      "record_count": 14,
       "summary_note": "",
-      "added_count": 0,
+      "added_count": 11,
       "removed_count": 0,
-      "added_records": [],
+      "added_records": [
+        {
+          "exam_number": "7002",
+          "title": "Administrative Housing Development Specialist"
+        },
+        {
+          "exam_number": "7003 (pdf)",
+          "title": "Administrative Labor Relations Analyst",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf"
+        },
+        {
+          "exam_number": "7034 (pdf)",
+          "title": "Exterminator",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf"
+        },
+        {
+          "exam_number": "7035 (pdf)",
+          "title": "Exterminator (CUNY)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf"
+        },
+        {
+          "exam_number": "7036 (pdf)",
+          "title": "Forester",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf"
+        }
+      ],
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "none"
+      "delta_kind": "records"
     },
     {
       "source_id": "nys_civil_service",
@@ -78,34 +103,34 @@
       "removed_count": 3,
       "added_records": [
         {
-          "source_record_id": "5369458",
-          "job_id": "5369458",
-          "title": "INFORMATION TECHNOLOGY AIDE II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "3412730",
+          "job_id": "3412730",
+          "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
           "type": "Open Competitive",
-          "closing_text": "Closes in 15 hours",
-          "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
+          "closing_text": "Continuous",
+          "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
         },
         {
-          "source_record_id": "5376315",
-          "job_id": "5376315",
-          "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
           "type": "Open Competitive",
-          "closing_text": "Closes in 15 hours",
-          "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
+          "closing_text": "Continuous",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
         },
         {
-          "source_record_id": "5377645",
-          "job_id": "5377645",
-          "title": "NETWORK SPECIALIST I",
-          "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 15 hours",
-          "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
+          "closing_text": "Continuous",
+          "salary": "$102,320 - $128,481",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "removed_records": [
@@ -115,7 +140,7 @@
           "title": "INFORMATION TECHNOLOGY AIDE II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
         },
@@ -125,7 +150,7 @@
           "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
           "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
         },
@@ -135,7 +160,7 @@
           "title": "NETWORK SPECIALIST I",
           "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
           "type": "Open Competitive",
-          "closing_text": "Closes in 1 day",
+          "closing_text": "Closes in 15 hours",
           "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
         }
@@ -257,19 +282,98 @@
       "url": "https://www.nyc.gov/site/dcas/employment/exam-schedules-open-competitive-exams.page",
       "status": "ok",
       "status_detail": "ok",
-      "changed": false,
-      "content_hash": "85fbc2df2b8e39bd",
-      "fetched_at": "2026-09-02T12:00:30Z",
+      "changed": true,
+      "content_hash": "7c80cbf64402a089",
+      "fetched_at": "2026-09-03T11:59:29Z",
       "error": null,
       "summary_note": "",
-      "record_count": 3,
-      "record_diff": null,
+      "record_count": 14,
+      "record_diff": {
+        "added_count": 11,
+        "removed_count": 0,
+        "added_titles": [
+          "Administrative Housing Development Specialist",
+          "Administrative Labor Relations Analyst",
+          "Exterminator",
+          "Exterminator (CUNY)",
+          "Forester"
+        ],
+        "removed_titles": [],
+        "added_records": [
+          {
+            "exam_number": "7002",
+            "title": "Administrative Housing Development Specialist"
+          },
+          {
+            "exam_number": "7003 (pdf)",
+            "title": "Administrative Labor Relations Analyst",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf"
+          },
+          {
+            "exam_number": "7034 (pdf)",
+            "title": "Exterminator",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf"
+          },
+          {
+            "exam_number": "7035 (pdf)",
+            "title": "Exterminator (CUNY)",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf"
+          },
+          {
+            "exam_number": "7036 (pdf)",
+            "title": "Forester",
+            "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf"
+          }
+        ],
+        "removed_records": []
+      },
       "records": [
+        {
+          "title": "Administrative Housing Development Specialist",
+          "exam_number": "7002",
+          "application_period": "Canceled"
+        },
+        {
+          "title": "Administrative Labor Relations Analyst",
+          "exam_number": "7003 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277003000.pdf",
+          "application_period": "9/2/2026 – 9/22/2026"
+        },
         {
           "title": "Assistant Civil Engineer",
           "exam_number": "7006 (pdf)",
           "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277006000.pdf",
           "application_period": "7/1/2026 – 9/11/2026"
+        },
+        {
+          "title": "Correction Officer",
+          "exam_number": "7302 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277302000.pdf",
+          "application_period": "9/2/2026 – 10/27/2026"
+        },
+        {
+          "title": "Exterminator",
+          "exam_number": "7034 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277034000.pdf",
+          "application_period": "9/2/2026 – 9/22/2026"
+        },
+        {
+          "title": "Exterminator (CUNY)",
+          "exam_number": "7035 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277035000.pdf",
+          "application_period": "9/2/2026 – 9/22/2026"
+        },
+        {
+          "title": "Forester",
+          "exam_number": "7036 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277036000.pdf",
+          "application_period": "9/2/2026 – 9/22/2026"
+        },
+        {
+          "title": "Inspector (Electrical)",
+          "exam_number": "7041 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277041000.pdf",
+          "application_period": "9/2/2026 – 9/22/2026"
         },
         {
           "title": "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
@@ -278,27 +382,35 @@
           "application_period": "8/5/2026 – 9/22/2026"
         },
         {
-          "title": "Police Officer",
-          "exam_number": "7313 (pdf)",
-          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277313000.pdf",
-          "application_period": "9/1/2026 – 9/14/2026"
+          "title": "Police Communications Technician",
+          "exam_number": "7307 (pdf)",
+          "detail_url": "https://www.nyc.gov/assets/dcas/downloads/pdf/noes/20277307000.pdf",
+          "application_period": "9/2/2026 – 10/13/2026"
         }
       ],
       "exam_titles": [
+        "Administrative Housing Development Specialist",
+        "Administrative Labor Relations Analyst",
         "Assistant Civil Engineer",
+        "Correction Officer",
+        "Exterminator",
+        "Exterminator (CUNY)",
+        "Forester",
+        "Inspector (Electrical)",
         "Plant Maintainer (Hospitals)/Tender (NYC H+H)",
-        "Police Officer"
+        "Police Communications Technician"
       ],
       "dates": [
+        "Canceled",
+        "9/2/2026 – 9/22/2026",
         "7/1/2026 – 9/11/2026",
+        "9/2/2026 – 10/27/2026",
         "8/5/2026 – 9/22/2026",
+        "9/2/2026 – 10/13/2026",
         "9/1/2026 – 9/14/2026",
-        "7/1/2026",
-        "9/11/2026",
-        "8/5/2026",
+        "9/2/2026",
         "9/22/2026",
-        "9/1/2026",
-        "9/14/2026"
+        "7/1/2026"
       ],
       "keywords_found": [],
       "links": [
@@ -346,8 +458,8 @@
       "record_fields_present": [
         "title",
         "exam_number",
-        "detail_url",
-        "application_period"
+        "application_period",
+        "detail_url"
       ]
     },
     {
@@ -358,7 +470,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b6a638f85082f8f8",
-      "fetched_at": "2026-09-02T12:00:32Z",
+      "fetched_at": "2026-09-03T11:59:32Z",
       "error": null,
       "summary_note": "",
       "record_count": 5,
@@ -487,7 +599,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-09-02T12:00:35Z",
+      "fetched_at": "2026-09-03T11:59:34Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -506,8 +618,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "d6d4ccf954e02fa9",
-      "fetched_at": "2026-09-02T12:00:37Z",
+      "content_hash": "82d9103947e1b074",
+      "fetched_at": "2026-09-03T11:59:36Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -515,9 +627,9 @@
         "added_count": 3,
         "removed_count": 3,
         "added_titles": [
-          "INFORMATION TECHNOLOGY AIDE II",
-          "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "NETWORK SPECIALIST I"
+          "OCCUPATIONAL THERAPIST ASSISTANT",
+          "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "PHARMACIST I"
         ],
         "removed_titles": [
           "INFORMATION TECHNOLOGY AIDE II",
@@ -526,34 +638,34 @@
         ],
         "added_records": [
           {
-            "source_record_id": "5369458",
-            "job_id": "5369458",
-            "title": "INFORMATION TECHNOLOGY AIDE II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
+            "source_record_id": "3412730",
+            "job_id": "3412730",
+            "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
             "type": "Open Competitive",
-            "closing_text": "Closes in 15 hours",
-            "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
+            "closing_text": "Continuous",
+            "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
           },
           {
-            "source_record_id": "5376315",
-            "job_id": "5376315",
-            "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-            "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
+            "source_record_id": "3412822",
+            "job_id": "3412822",
+            "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+            "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
             "type": "Open Competitive",
-            "closing_text": "Closes in 15 hours",
-            "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
+            "closing_text": "Continuous",
+            "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
           },
           {
-            "source_record_id": "5377645",
-            "job_id": "5377645",
-            "title": "NETWORK SPECIALIST I",
-            "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
+            "source_record_id": "3413191",
+            "job_id": "3413191",
+            "title": "PHARMACIST I",
+            "agency": "NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 15 hours",
-            "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
+            "closing_text": "Continuous",
+            "salary": "$102,320 - $128,481",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
           }
         ],
         "removed_records": [
@@ -563,7 +675,7 @@
             "title": "INFORMATION TECHNOLOGY AIDE II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 15 hours",
             "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
           },
@@ -573,7 +685,7 @@
             "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
             "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 15 hours",
             "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
           },
@@ -583,7 +695,7 @@
             "title": "NETWORK SPECIALIST I",
             "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
             "type": "Open Competitive",
-            "closing_text": "Closes in 1 day",
+            "closing_text": "Closes in 15 hours",
             "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
             "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
           }
@@ -639,36 +751,6 @@
           "salary_max": 144480
         },
         {
-          "source_record_id": "5369458",
-          "job_id": "5369458",
-          "title": "INFORMATION TECHNOLOGY AIDE II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION",
-          "salary": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, LIBRARIES, VILLAGES, SPECIAL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, TOWNS OF NORTH HEMPSTEAD AND OYSTER BAY AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 15 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii",
-          "type": "Open Competitive",
-          "salary_text": "Varies: County: $42,431 - $84,820 (under the current collective bargaining agreement) NHCC: $48,027 - $66,600",
-          "salary_min": 42431,
-          "salary_max": 84820
-        },
-        {
-          "source_record_id": "5376315",
-          "job_id": "5376315",
-          "title": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "agency": "NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION",
-          "salary": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS, SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 15 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii",
-          "type": "Open Competitive",
-          "salary_text": "Varies: County: $68,386 - $138,666 (under the current collective bargaining agreement) NHCC: $99,061 - $138,858",
-          "salary_min": 68386,
-          "salary_max": 138666
-        },
-        {
           "source_record_id": "3416204",
           "job_id": "3416204",
           "title": "LIBRARIAN I",
@@ -713,21 +795,6 @@
           "salary_max": 91619
         },
         {
-          "source_record_id": "5377645",
-          "job_id": "5377645",
-          "title": "NETWORK SPECIALIST I",
-          "agency": "NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION",
-          "salary": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY DEPARTMENTS AND NASSAU HEALTH CARE CORPORATION SALARY : Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "posted_text": "Posted 2 weeks ago",
-          "closing_text": "Closes in 15 hours",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i",
-          "type": "Open Competitive",
-          "salary_text": "Varies: County: $81,058 - $163,637 (under the current collective bargaining agreement) NHCC: $106,880 - $144,480",
-          "salary_min": 81058,
-          "salary_max": 163637
-        },
-        {
           "source_record_id": "3413138",
           "job_id": "3413138",
           "title": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
@@ -737,24 +804,74 @@
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below",
           "type": "Open Competitive",
           "status": "continuous"
+        },
+        {
+          "source_record_id": "3412730",
+          "job_id": "3412730",
+          "title": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise",
+          "salary": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/16/23 to revise SALARY: SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "SALARY : Varies: BOCES: $43,176 - $81,760 NHCC: $55,373 - $78,048",
+          "salary_min": 43176,
+          "salary_max": 81760
+        },
+        {
+          "source_record_id": "3412822",
+          "job_id": "3412822",
+          "title": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "agency": "NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES",
+          "salary": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "announcement_text": "ANNOUNCED FOR: NASSAU COUNTY SCHOOL DISTRICTS, BOARD OF COOPERATIVE EDUCATIONAL SERVICES, AND NASSAU HEALTH CARE CORPORATION Announcement amended on 3/27/25 to revise DUTIES: SALARY : Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART...",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "Varies: BOCES: $63,872 - $97,339 NHCC: $77,054 - $108,876",
+          "salary_min": 63872,
+          "salary_max": 97339
+        },
+        {
+          "source_record_id": "3413191",
+          "job_id": "3413191",
+          "title": "PHARMACIST I",
+          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "salary": "$102,320 - $128,481",
+          "announcement_text": "ANNOUNCED FOR: NASSAU HEALTH CARE CORPORATION SALARY : $102,320 - $128,481 REISSUED ANNOUNCEMENT THIS EXAMINATION WILL BE HELD ON A CONTINUOUS RECRUITMENT BASIS. APPLICATIONS WILL BE SCHEDULED FOR REVIEW ACCORDING TO THE DATE ON WHICH THE APPLICATION IS RECEIVED. NAMES OF SUCCESSFUL CANDIDATES WILL BE CERTIFIED ON THE ELIGIBLE LIST IN SCORE ORDER, REGARDLESS OF THE DATE ON WHICH APPLICATION WAS FILED. NAMES OF SUCCESSFUL CANDIDATES WILL BE REMOVED FROM THE ELIGIBLE LIST AT THE TIME OF APPOINTMENT TO A FULL OR A PART TIME POSITION OR ONE YEAR AFTER BEING PLACED ON THE LIST. CANDIDATES MAY REFILE FOR THIS EXAMINATION NINE MONTHS AFTER BEING PLACED ON THE LIST.",
+          "posted_text": "Posted more than 30 days ago",
+          "closing_text": "Continuous",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i",
+          "type": "Open Competitive",
+          "status": "continuous",
+          "salary_text": "$102,320 - $128,481",
+          "salary_min": 102320,
+          "salary_max": 128481
         }
       ],
       "exam_titles": [
         "CYTOTECHNOLOGIST I",
         "CYTOTECHNOLOGIST II",
         "CYTOTECHNOLOGIST III",
-        "INFORMATION TECHNOLOGY AIDE II",
-        "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
         "LIBRARIAN I",
         "LIBRARIAN I, BILINGUAL (SPANISH SPEAKING)",
         "MEDICAL TECHNOLOGIST I",
-        "NETWORK SPECIALIST I",
-        "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)"
+        "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
+        "OCCUPATIONAL THERAPIST ASSISTANT",
+        "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+        "PHARMACIST I"
       ],
       "dates": [
         "4/29/25",
         "2/13/26",
-        "5/23/25"
+        "5/23/25",
+        "3/16/23",
+        "3/27/25"
       ],
       "keywords_found": [
         "exam",
@@ -780,14 +897,6 @@
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3415142/cytotechnologist-iii"
         },
         {
-          "text": "INFORMATION TECHNOLOGY AIDE II",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5369458/information-technology-aide-ii"
-        },
-        {
-          "text": "INFORMATION TECHNOLOGY APPLICATIONS SPECIALIST II",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5376315/information-technology-applications-specialist-ii"
-        },
-        {
           "text": "LIBRARIAN I",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3416204/librarian-i"
         },
@@ -800,12 +909,20 @@
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412898/medical-technologist-i"
         },
         {
-          "text": "NETWORK SPECIALIST I",
-          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5377645/network-specialist-i"
-        },
-        {
           "text": "NURSE PRACTITIONER I (VARIOUS SPECIALTIES AS STATED BELOW)",
           "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413138/nurse-practitioner-i-various-specialties-as-stated-below"
+        },
+        {
+          "text": "OCCUPATIONAL THERAPIST ASSISTANT",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412730/occupational-therapist-assistant"
+        },
+        {
+          "text": "OCCUPATIONAL THERAPIST/OCCUPATIONAL THERAPIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3412822/occupational-therapist-occupational-therapist-i"
+        },
+        {
+          "text": "PHARMACIST I",
+          "href": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
         }
       ],
       "record_fields_present": [
@@ -833,7 +950,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "6cb7e3ffd9cc84c2",
-      "fetched_at": "2026-09-02T12:00:40Z",
+      "fetched_at": "2026-09-03T11:59:40Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -899,7 +1016,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-09-02T12:00:42Z",
+      "fetched_at": "2026-09-03T11:59:42Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -963,7 +1080,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-09-02T12:00:44Z",
+      "fetched_at": "2026-09-03T11:59:44Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -978,8 +1095,8 @@
       "status_detail": "timeout",
       "changed": false,
       "content_hash": "0b4772cc4e7d4ff2",
-      "fetched_at": "2026-09-02T12:00:49Z",
-      "error": "HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7fe841d97b60>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-09-03T11:59:47Z",
+      "error": "HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7f29c93cbec0>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))",
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
       "record_diff": null,
@@ -1126,7 +1243,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-09-02T12:01:21Z",
+      "fetched_at": "2026-09-03T12:00:19Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1192,7 +1309,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-09-02T12:01:24Z",
+      "fetched_at": "2026-09-03T12:00:21Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,
