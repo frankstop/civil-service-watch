@@ -1,17 +1,17 @@
 {
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04T12:02:30Z",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T11:11:21Z",
   "total_sources": 10,
   "changed_count": 1,
   "health_summary": {
-    "ok": 7,
-    "error": 3,
+    "ok": 8,
+    "error": 2,
     "changed": 1,
     "unchanged": 9,
     "bot_blocked": 0,
     "forbidden": 1,
     "not_found": 0,
-    "timeout": 1
+    "timeout": 0
   },
   "daily_deltas": [
     {
@@ -90,14 +90,14 @@
       ],
       "removed_records": [
         {
-          "source_record_id": "3413191",
-          "job_id": "3413191",
-          "title": "PHARMACIST I",
-          "agency": "NASSAU HEALTH CARE CORPORATION",
+          "source_record_id": "5464814",
+          "job_id": "5464814",
+          "title": "CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST",
+          "agency": "CIVIL SERVICE COMMISSION, NASSAU COUNTY",
           "type": "Open Competitive",
-          "closing_text": "Continuous",
-          "salary": "$102,320 - $128,481",
-          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
+          "closing_text": "Closes in 2 weeks",
+          "salary": "$49,000 - $99,399 (under the current collective bargaining agreement)",
+          "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5464814/civil-service-information-technology-specialist"
         }
       ],
       "added_lines": 0,
@@ -159,8 +159,8 @@
       "source_id": "orange_county",
       "name": "Orange County Civil Service",
       "url": "https://orange-portal.mycivilservice.com/post/exams",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "record_count": 26,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
@@ -170,7 +170,7 @@
       "removed_records": [],
       "added_lines": 0,
       "removed_lines": 0,
-      "delta_kind": "restricted"
+      "delta_kind": "none"
     },
     {
       "source_id": "ny_courts",
@@ -219,7 +219,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7c80cbf64402a089",
-      "fetched_at": "2026-09-04T12:01:37Z",
+      "fetched_at": "2026-09-05T11:10:58Z",
       "error": null,
       "summary_note": "",
       "record_count": 14,
@@ -367,7 +367,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "b6a638f85082f8f8",
-      "fetched_at": "2026-09-04T12:01:39Z",
+      "fetched_at": "2026-09-05T11:11:01Z",
       "error": null,
       "summary_note": "",
       "record_count": 5,
@@ -496,7 +496,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "7438a1348daa0d1a",
-      "fetched_at": "2026-09-04T12:01:41Z",
+      "fetched_at": "2026-09-05T11:11:03Z",
       "error": null,
       "summary_note": "No matching USAJOBS listings found for the current search.",
       "record_count": 0,
@@ -515,8 +515,8 @@
       "status": "ok",
       "status_detail": "ok",
       "changed": true,
-      "content_hash": "1f486e105e0c94a2",
-      "fetched_at": "2026-09-04T12:01:44Z",
+      "content_hash": "2706aafe5f7b2fe4",
+      "fetched_at": "2026-09-05T11:11:05Z",
       "error": null,
       "summary_note": "10 Nassau County open competitive announcements currently listed.",
       "record_count": 10,
@@ -527,7 +527,7 @@
           "CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST"
         ],
         "removed_titles": [
-          "PHARMACIST I"
+          "CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST"
         ],
         "added_records": [
           {
@@ -543,14 +543,14 @@
         ],
         "removed_records": [
           {
-            "source_record_id": "3413191",
-            "job_id": "3413191",
-            "title": "PHARMACIST I",
-            "agency": "NASSAU HEALTH CARE CORPORATION",
+            "source_record_id": "5464814",
+            "job_id": "5464814",
+            "title": "CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST",
+            "agency": "CIVIL SERVICE COMMISSION, NASSAU COUNTY",
             "type": "Open Competitive",
-            "closing_text": "Continuous",
-            "salary": "$102,320 - $128,481",
-            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/3413191/pharmacist-i"
+            "closing_text": "Closes in 2 weeks",
+            "salary": "$49,000 - $99,399 (under the current collective bargaining agreement)",
+            "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5464814/civil-service-information-technology-specialist"
           }
         ]
       },
@@ -562,7 +562,7 @@
           "agency": "CIVIL SERVICE COMMISSION, NASSAU COUNTY",
           "salary": "$49,000 - $99,399 (under the current collective bargaining agreement)",
           "announcement_text": "ANNOUNCED FOR: CIVIL SERVICE COMMISSION, NASSAU COUNTY SALARY : $49,000 - $99,399 (under the current collective bargaining agreement)",
-          "posted_text": "Posted 1 day ago",
+          "posted_text": "Posted 2 days ago",
           "closing_text": "Closes in 2 weeks",
           "detail_url": "https://www.governmentjobs.com/careers/nassaucountyny/jobs/5464814/civil-service-information-technology-specialist",
           "type": "Open Competitive",
@@ -803,7 +803,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "6cb7e3ffd9cc84c2",
-      "fetched_at": "2026-09-04T12:01:47Z",
+      "fetched_at": "2026-09-05T11:11:08Z",
       "error": null,
       "summary_note": "",
       "record_count": 0,
@@ -869,7 +869,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "453facc75df89a03",
-      "fetched_at": "2026-09-04T12:01:49Z",
+      "fetched_at": "2026-09-05T11:11:10Z",
       "error": null,
       "summary_note": "Civil service exam information is available on this source page.",
       "record_count": 0,
@@ -933,7 +933,7 @@
       "status_detail": "forbidden",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-09-04T12:01:52Z",
+      "fetched_at": "2026-09-05T11:11:13Z",
       "error": "403 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -944,12 +944,12 @@
       "source_id": "orange_county",
       "name": "Orange County Civil Service",
       "url": "https://orange-portal.mycivilservice.com/post/exams",
-      "status": "error",
-      "status_detail": "timeout",
+      "status": "ok",
+      "status_detail": "ok",
       "changed": false,
       "content_hash": "0b4772cc4e7d4ff2",
-      "fetched_at": "2026-09-04T12:01:54Z",
-      "error": "HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7f23dcd854c0>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-09-05T11:11:15Z",
+      "error": null,
       "summary_note": "Open competitive and continuous recruitment exam listings.",
       "record_count": 26,
       "record_diff": null,
@@ -1096,7 +1096,7 @@
       "status_detail": "fetch_failed",
       "changed": false,
       "content_hash": "",
-      "fetched_at": "2026-09-04T12:02:27Z",
+      "fetched_at": "2026-09-05T11:11:18Z",
       "error": "503 response returned from source URL",
       "summary_note": "",
       "record_count": 0,
@@ -1162,7 +1162,7 @@
       "status_detail": "ok",
       "changed": false,
       "content_hash": "8317c1592724480b",
-      "fetched_at": "2026-09-04T12:02:29Z",
+      "fetched_at": "2026-09-05T11:11:21Z",
       "error": null,
       "summary_note": "Career center links and exam-specific entry points.",
       "record_count": 5,

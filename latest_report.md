@@ -1,7 +1,7 @@
 # Civil Service Watch — Daily Report
 
-**Date:** 2026-09-04  
-**Generated:** 2026-09-04T12:02:30Z  
+**Date:** 2026-09-05  
+**Generated:** 2026-09-05T11:11:21Z  
 **Sources checked:** 10  
 **Changes detected:** 1  
 
@@ -9,15 +9,14 @@
 
 ## Source Health
 
-- Accessible sources: 7
-- Sources with fetch errors: 3
+- Accessible sources: 8
+- Sources with fetch errors: 2
 - Sources changed today: 1
 - Sources unchanged today: 9
 - Bot-blocked sources: 0
 - Forbidden sources: 1
 - Blocked or restricted sources are reported as-is. We do not recover them with alternate endpoints or browser-assisted fetching; the official links stay in the report for human follow-up.
 - Rockland County Civil Service — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- Orange County Civil Service — timeout — https://orange-portal.mycivilservice.com/post/exams
 
 ## Daily Deltas
 
@@ -28,7 +27,7 @@
 - **Suffolk County Civil Service** — no change — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - **Westchester County Civil Service** — no change — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
 - **Rockland County Civil Service** — forbidden — https://rocklandcountyny.gov/departments/personnel/civil-service-examinations
-- **Orange County Civil Service** — timeout — https://orange-portal.mycivilservice.com/post/exams
+- **Orange County Civil Service** — no change — https://orange-portal.mycivilservice.com/post/exams
 - **NY Courts** — fetch_failed — https://ww2.nycourts.gov/careers/exams.shtml
 - **MTA** — no change — https://new.mta.info/careers
 
@@ -39,9 +38,9 @@
 - **Summary:** 10 Nassau County open competitive announcements currently listed.
 - Records added: 1 · removed: 1
 - **Added titles:** CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST
-- **Removed titles:** PHARMACIST I
+- **Removed titles:** CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST
 - Added record: CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST — 5464814 — CIVIL SERVICE COMMISSION, NASSAU COUNTY — Closes in 2 weeks
-- Removed record: PHARMACIST I — 3413191 — NASSAU HEALTH CARE CORPORATION — Continuous
+- Removed record: CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST — 5464814 — CIVIL SERVICE COMMISSION, NASSAU COUNTY — Closes in 2 weeks
 - **Top records:**
   - CIVIL SERVICE INFORMATION TECHNOLOGY SPECIALIST
   - CYTOTECHNOLOGIST I
@@ -52,7 +51,6 @@
 ## ❌ Fetch Errors
 
 - **Rockland County Civil Service** — forbidden: 403 response returned from source URL
-- **Orange County Civil Service** — timeout: HTTPSConnectionPool(host='orange-portal.mycivilservice.com', port=443): Max retries exceeded with url: /post/exams (Caused by ConnectTimeoutError(<HTTPSConnection(host='orange-portal.mycivilservice.com', port=443) at 0x7f23dcd854c0>, 'Connection to orange-portal.mycivilservice.com timed out. (connect timeout=30)'))
 - **NY Courts** — fetch_failed: 503 response returned from source URL
 
 ## ✅ No Changes
@@ -62,6 +60,7 @@
 - USAJOBS — https://www.usajobs.gov/Search/Results?l=New+York%2C+NY&j=0301&j=0343&j=0501&j=1811&p=1
 - Suffolk County Civil Service — https://www.suffolkcountyny.gov/Departments/Civil-Service/Examinations
 - Westchester County Civil Service — http://exams.westchestergov.com/webexam/PE/listOpenToAllExams.htm
+- Orange County Civil Service — https://orange-portal.mycivilservice.com/post/exams
 - MTA — https://new.mta.info/careers
 
 ---
